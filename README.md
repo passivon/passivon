@@ -25,7 +25,17 @@ Bổ sung tiếng Trung Phổ Thông (tiếng Bắc Kinh)
 ## Giai đoạn 4
 Cho phép bạn lựa chọn danh sách các ngôn ngữ mà bạn muốn học
 
+# Sơ đồ
+
+## Cách hoạt động
 ```mermaid
 graph TD
 google_spreadsheet --> android_software --> bluetooth_speaker --> you_and_the_kids
 ```
+
+## Cách lắp đặt
+1. Bạn mua 1 chiếc điện thoại có thể root được, ví dụ Note9
+2. Root chiếc điện thoại của bạn
+3. Cài đặt termux
+4. Chạy script để cài passive-english agent vào điện thoại của bạn
+5. Kết nối với load bluetooth để hàng ngày nó "tắm" bạn và gia đình với 1 từ tiếng Anh mới
