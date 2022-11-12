@@ -3,6 +3,67 @@
 require "fileutils"
 require "timeout"
 require "csv"
+require("byebug") if RUBY_PLATFORM.include?("darwin")
+require "shellwords"
+
+class AudioPlayer
+  attr_reader :url
+
+  def initialize(url)
+    @url = url
+  end
+
+  def perform
+    puts "Playing #{url}"
+    download_audio unless audio_downloaded?
+    play_audio
+  end
+
+  def play_audio
+    puts "playing #{audio_filename}"
+    if mac?
+      system "afplay #{Shellwords.escape(audio_filename)}"
+    else
+      system "play #{Shellwords.escape(audio_filename)}"
+    end
+  end
+
+  def mac?
+    RUBY_PLATFORM.include?("darwin")
+  end
+
+  def cached_folder
+    File.expand_path("./today/audio", __dir__).tap do |path|
+      FileUtils.mkdir_p(path)
+    end
+  end
+
+  def audio_filename
+    File.expand_path(File.basename(url), cached_folder)
+  end
+
+  def randomized_tmp_filename
+    File.expand_path("./rnd-#{rand(10000)}.tmp", cached_folder)
+  end
+
+  def download_audio
+    tmp_filename = randomized_tmp_filename
+    puts "Downloading audio to #{tmp_filename}..."
+    cmd = "wget '#{url}' -O '#{tmp_filename}'"
+    puts "=" * 80
+    puts cmd
+    puts "=" * 80
+    if system(cmd)
+      FileUtils.mv(tmp_filename, audio_filename)
+    else
+      puts "Download failed"
+    end
+  end
+
+  def audio_downloaded?
+    File.exists?(audio_filename)
+  end
+end
 
 class Player
   def packages
@@ -13,15 +74,105 @@ class Player
     packages.include?("package:" + name)
   end
 
+  def perform_in_loop
+    loop do
+      if in_the_right_moment?
+        perform
+      end
+
+      sleep 3
+    end
+  end
+
+  RIGHT_MOMENT_STARTED_AT = 6 * 60 + 30
+  RIGHT_MOMENT_ENDED_AT = 7 * 60 + 30
+
+  def in_the_right_moment
+    moment = Time.now.hour * 60 + Time.now.minute
+    return false if moment < RIGHT_MOMENT_STARTED_AT
+    return false if moment > RIGHT_MOMENT_ENDED_AT
+  end
+
   def perform
-    puts "=" * 80
     puts "PLAYING"
-    puts fetch_spreadsheet_content
+    rotate_today_if_necessary
+    today_playlist.each do |url|
+      AudioPlayer.new(url).perform
+    end
     puts "=" * 80
+  end
+
+  def today_playlist
+    content = fetch_spreadsheet_content
+    return [] if content.empty?
+    content[today_index % content.length]
+  end
+
+  def today_index
+    unless File.exists?(index_filename)
+      index =
+        if File.exists?(yesterday_index_filename)
+          index = File.read(yesterday_index_filename).strip.to_i + 1
+        else
+          0
+        end
+      File.write(index_filename, index.to_s)
+    end
+
+    File.read(index_filename).to_i
   end
 
   def spreadsheet_content
     @spreadsheet_content ||= fetch_spreadsheet_content
+  end
+
+  def rotate_today_if_necessary
+    if File.exists?(today_folder)
+      if read_today_from_folder != today
+        rename_today_to_yesterday
+        create_today_folder
+      end
+    else
+      create_today_folder
+    end
+  end
+
+  def today
+    Time.now.strftime("%Y-%m-%d")
+  end
+
+  def date_filename
+    File.expand_path("./date", today_folder)
+  end
+
+  def index_filename
+    File.expand_path("./index", today_folder)
+  end
+
+  def yesterday_index_filename
+    File.expand_path("./index", yesterday_folder)
+  end
+
+  def create_today_folder
+    FileUtils.mkdir_p(today_folder)
+    File.write(date_filename, today)
+  end
+
+  def read_today_from_folder
+    File.read(date_filename)
+  end
+
+  def today_folder
+    File.expand_path("./today", __dir__)
+  end
+
+  def yesterday_folder
+    File.expand_path("./yesterday", __dir__)
+  end
+
+  def rename_today_to_yesterday
+    FileUtils.rm_rf(yesterday_folder)
+    FileUtils.mv(today_folder, yesterday_folder)
   end
 
   def fetch_spreadsheet_content

@@ -1,0 +1,89 @@
+#!/usr/bin/env ruby
+
+require "fileutils"
+
+class SshClient
+  def packages
+    @packages ||= `adb shell pm list packages`.split("\n")
+  end
+
+  def package_installed?(name)
+    packages.include?("package:" + name)
+  end
+
+  def perform
+    require_internet
+    install_termux unless package_installed?("com.termux")
+    launch_termux
+    launch_sshd
+    require_superuser
+    authorize_ssh
+  end
+
+  def perform_sync
+    cmd = "scp -P 8022 play-from-spreadsheet #{ssh_user}@#{device_ip}:play-from-spreadsheet"
+    exec(cmd)
+  end
+
+  def require_internet
+    print "Please connect the device to Wifi and press ENTER"
+    STDIN.gets
+  end
+
+  def install_termux
+    download_termux
+    system "adb install -r ./tmp/com.termux_95.apk"
+  end
+
+  def launch_termux
+    system "adb shell monkey -p com.termux -c android.intent.category.LAUNCHER 1"
+    print "Please wait until termux is up and run and press ENTER"
+    STDIN.gets
+  end
+
+  def launch_sshd
+    system %{adb shell input text "pkg%supdate"}
+    system %{adb shell input keyevent 74}
+    system %{adb shell input text "pkg%sinstall%s-y%sopenssh"}
+    system %{adb shell input keyevent 74}
+    system %{adb shell input text "sshd"}
+    system %{adb shell input keyevent 66}
+    print "Please wait until openssh is finished installing and launching then press ENTER"
+    STDIN.gets
+  end
+
+  def require_superuser
+    print "Please grant superuser permission on device then press ENTER"
+    system %{adb shell input text "su"}
+    system %{adb shell input keyevent 66}
+    STDIN.gets
+    system %{adb shell input text "exit"}
+    system %{adb shell input keyevent 66}
+  end
+
+  def authorize_ssh
+    system %{adb push ~/.ssh/id_rsa.pub /data/local/tmp/authorized_keys}
+    system %{adb shell su -c "chown #{ssh_user}:#{ssh_user} /data/local/tmp/authorized_keys"}
+    system %{adb shell su -c "rm /data/data/com.termux/files/home/.ssh/authorized_keys"}
+    system %{adb shell su -c "mv /data/local/tmp/authorized_keys /data/data/com.termux/files/home/.ssh/"}
+    system %{adb shell su -c "chmod 400 /data/data/com.termux/files/home/.ssh/authorized_keys"}
+    puts "Please sign in using:\nssh -p 8022 #{ssh_user}@#{device_ip}"
+  end
+
+  def device_ip
+    @device_ip ||= `adb shell ip addr show  wlan0 | grep "inet " | awk '{print $2}'`.split("/")[0]
+  end
+
+  def ssh_user
+    @ssh_user ||= `adb shell su -c "ls -l /data/data/com.termux/files/" | grep home | awk '{ print $3 }'`.strip
+  end
+
+  def download_termux
+    FileUtils.mkdir_p("./tmp")
+    unless File.exist?("./tmp/com.termux_95.apk")
+      system "wget https://f-droid.org/repo/com.termux_95.apk -P ./tmp"
+    end
+  end
+end
+
+SshClient.new.perform_sync
