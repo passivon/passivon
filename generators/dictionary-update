@@ -83,18 +83,29 @@ class DictionaryUpdator
   end
 
   def perform
+    # first use parallel to trigger parallel translation
+    # this won't change the result, perhaps due to parallel forking processes
     Parallel.each(top1000_defs.each) do |d|
-      lemma = d["LEMMA"]
-      inflections = d["INFLECTIONS"]
-      pos = d["POS"]
-      frequency = d["FREQUENCY"]
-      dict[lemma] = {
-        "pos" => pos, "frequency" => frequency, "inflections" => inflections,
-        "vietnamese" => Translator.new(lemma).vietnamese
-      }
+      perform_on_single_word(d)
+    end
+
+    # then translate again to use the result
+    top1000_defs.each do |d|
+      perform_on_single_word(d)
     end
 
     File.write(dict_filename, dict.to_yaml)
+  end
+
+  def perform_on_single_word(d)
+    lemma = d["LEMMA"]
+    inflections = d["INFLECTIONS"]
+    pos = d["POS"]
+    frequency = d["FREQUENCY"]
+    dict[lemma] = {
+      "pos" => pos, "frequency" => frequency, "inflections" => inflections,
+      "vietnamese" => Translator.new(lemma).vietnamese
+    }
   end
 end
 
