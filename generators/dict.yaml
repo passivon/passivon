@@ -1,1610 +1,1932 @@
 ---
 be:
+  english: be
   pos: v
   frequency: 318018
   inflections: be, am, are, been, being, is, was, were
   vietnamese: thì là ở
 I:
+  english: I
   pos: fw
   frequency: 267578
   inflections: I
   vietnamese: Tôi
 you:
+  english: you
   pos: fw
   frequency: 248266
   inflections: you
   vietnamese: bạn
 the:
+  english: the
   pos: fw
   frequency: 176446
   inflections: the
   vietnamese: các
 a:
+  english: a
   pos: fw
   frequency: 152598
   inflections: a, an
   vietnamese: một
 to:
+  english: to
   pos: fw
   frequency: 151270
   inflections: to
   vietnamese: đến
 it:
+  english: it
   pos: fw
   frequency: 117091
   inflections: it
   vietnamese: nó
 not:
+  english: not
   pos: fw
   frequency: 109143
   inflections: not
   vietnamese: không phải
 that:
+  english: that
   pos: fw
   frequency: 95271
   inflections: that, those
   vietnamese: cái đó
 and:
+  english: and
   pos: fw
   frequency: 90049
   inflections: and
   vietnamese: và
 of:
+  english: of
   pos: fw
   frequency: 70505
   inflections: of
   vietnamese: của
 do:
+  english: do
   pos: v
   frequency: 67643
   inflections: do, did, does, doing, done
   vietnamese: làm
 have:
+  english: have
   pos: v
   frequency: 62828
   inflections: have, had, has, having
   vietnamese: có
 what:
+  english: what
   pos: fw
   frequency: 62015
   inflections: what
   vietnamese: Gì
 we:
+  english: we
   pos: fw
   frequency: 61381
   inflections: we
   vietnamese: chúng tôi
 in:
+  english: in
   pos: fw
   frequency: 58486
   inflections: in
   vietnamese: Trong
 get:
+  english: get
   pos: v
   frequency: 56906
   inflections: get, gets, getting, got, gotten
   vietnamese: lấy
 this:
+  english: this
   pos: fw
   frequency: 56116
   inflections: this, these
   vietnamese: đây
 my:
+  english: my
   pos: fw
   frequency: 53316
   inflections: my, mine
   vietnamese: của tôi
 me:
+  english: me
   pos: fw
   frequency: 51927
   inflections: me
   vietnamese: tôi
 go:
+  english: go
   pos: v
   frequency: 51445
   inflections: go, goes, going, gone, went
   vietnamese: đi
 oh:
+  english: oh
   pos: u
   frequency: 48348
   inflections: oh
   vietnamese: Oh
 can:
+  english: can
   pos: v
   frequency: 46947
   inflections: can, could, cannot
   vietnamese: có thể
 'no':
+  english: 'no'
   pos: fw
   frequency: 43447
   inflections: 'no'
   vietnamese: không
 'on':
+  english: 'on'
   pos: fw
   frequency: 43007
   inflections: 'on'
   vietnamese: trên
 for:
+  english: for
   pos: fw
   frequency: 42850
   inflections: for
   vietnamese: vì
 know:
+  english: know
   pos: v
   frequency: 40007
   inflections: know, knew, knowing, known, knows
   vietnamese: biết
 just:
+  english: just
   pos: r
   frequency: 39366
   inflections: just
   vietnamese: chỉ
 your:
+  english: your
   pos: fw
   frequency: 39164
   inflections: your
   vietnamese: của bạn
 "'s":
+  english: "'s"
   pos: fw
   frequency: 37343
   inflections: "'s, '"
   vietnamese: "&#39;S"
 all:
+  english: all
   pos: fw
   frequency: 35728
   inflections: all
   vietnamese: tất cả các
 so:
+  english: so
   pos: r
   frequency: 35491
   inflections: so
   vietnamese: vì thế
 with:
+  english: with
   pos: fw
   frequency: 34115
   inflections: with
   vietnamese: với
 he:
+  english: he
   pos: fw
   frequency: 33653
   inflections: he
   vietnamese: anh ta
 but:
+  english: but
   pos: fw
   frequency: 30070
   inflections: but
   vietnamese: nhưng
 yeah:
+  english: yeah
   pos: r
   frequency: 28499
   inflections: yeah
   vietnamese: vâng
 well:
+  english: well
   pos: r
   frequency: 28025
   inflections: well
   vietnamese: Tốt
 think:
+  english: think
   pos: v
   frequency: 25894
   inflections: think, thinking, thinks, thought
   vietnamese: nghĩ
 here:
+  english: here
   pos: r
   frequency: 25170
   inflections: here
   vietnamese: nơi đây
 want:
+  english: want
   pos: v
   frequency: 24829
   inflections: want, wanted, wanting, wants
   vietnamese: muốn
 out:
+  english: out
   pos: r
   frequency: 24533
   inflections: out
   vietnamese: ngoài
 about:
+  english: about
   pos: fw
   frequency: 23244
   inflections: about
   vietnamese: Về
 good:
+  english: good
   pos: j
   frequency: 22907
   inflections: good, better, best
   vietnamese: tốt
 come:
+  english: come
   pos: v
   frequency: 22535
   inflections: come, came, comes, coming
   vietnamese: đến
 up:
+  english: up
   pos: r
   frequency: 22171
   inflections: up
   vietnamese: lên
 say:
+  english: say
   pos: v
   frequency: 21603
   inflections: say, said, saying, says
   vietnamese: Nói
 now:
+  english: now
   pos: r
   frequency: 21312
   inflections: now
   vietnamese: bây giờ
 at:
+  english: at
   pos: fw
   frequency: 21243
   inflections: at
   vietnamese: tại
 one:
+  english: one
   pos: m
   frequency: 21176
   inflections: one, ones
   vietnamese: một
 hey:
+  english: hey
   pos: u
   frequency: 21166
   inflections: hey
   vietnamese: này
 they:
+  english: they
   pos: fw
   frequency: 21051
   inflections: they
   vietnamese: họ
 see:
+  english: see
   pos: v
   frequency: 20925
   inflections: see, saw, seeing, seen, sees
   vietnamese: hiểu
 if:
+  english: if
   pos: fw
   frequency: 19770
   inflections: if
   vietnamese: nếu
 how:
+  english: how
   pos: r
   frequency: 19474
   inflections: how
   vietnamese: thế nào
 like:
+  english: like
   pos: r
   frequency: 11556
   inflections: like
   vietnamese: giống
 she:
+  english: she
   pos: fw
   frequency: 19043
   inflections: she
   vietnamese: cô ấy
 look:
+  english: look
   pos: n
   frequency: 1332
   inflections: look, looked, looking, looks
   vietnamese: nhìn
 make:
+  english: make
   pos: v
   frequency: 17038
   inflections: make, made, makes, making
   vietnamese: làm
 right:
+  english: right
   pos: n
   frequency: 389
   inflections: right, rights
   vietnamese: bên phải
 guy:
+  english: guy
   pos: n
   frequency: 15738
   inflections: guy, guys
   vietnamese: chàng
 take:
+  english: take
   pos: v
   frequency: 15582
   inflections: take, taken, takes, taking, took
   vietnamese: cầm lấy
 let:
+  english: let
   pos: v
   frequency: 15257
   inflections: let, lets, letting
   vietnamese: để cho
 really:
+  english: really
   pos: r
   frequency: 15209
   inflections: really
   vietnamese: thật sự
 okay:
+  english: okay
   pos: j
   frequency: 9098
   inflections: okay, OK
   vietnamese: Được chứ
 her:
+  english: her
   pos: fw
   frequency: 14759
   inflections: her
   vietnamese: cô ấy
 uh:
+  english: uh
   pos: u
   frequency: 14667
   inflections: uh, um
   vietnamese: uh
 tell:
+  english: tell
   pos: v
   frequency: 14661
   inflections: tell, telling, tells, told
   vietnamese: kể
 him:
+  english: him
   pos: fw
   frequency: 14270
   inflections: him
   vietnamese: anh ta
 why:
+  english: why
   pos: r
   frequency: 14194
   inflections: why
   vietnamese: tại sao
 there:
+  english: there
   pos: fw
   frequency: 11044
   inflections: there
   vietnamese: ở đó
 who:
+  english: who
   pos: fw
   frequency: 13916
   inflections: who
   vietnamese: ai
 time:
+  english: time
   pos: n
   frequency: 13834
   inflections: time, times
   vietnamese: thời gian
 thing:
+  english: thing
   pos: n
   frequency: 12547
   inflections: thing, things
   vietnamese: Điều
 from:
+  english: from
   pos: fw
   frequency: 12409
   inflections: from
   vietnamese: từ
 will:
+  english: will
   pos: v
   frequency: 11923
   inflections: will, willing, would
   vietnamese: sẽ
 when:
+  english: when
   pos: r
   frequency: 11544
   inflections: when
   vietnamese: khi nào
 as:
+  english: as
   pos: fw
   frequency: 11415
   inflections: as
   vietnamese: như
 because:
+  english: because
   pos: fw
   frequency: 11396
   inflections: because
   vietnamese: tại vì
 some:
+  english: some
   pos: fw
   frequency: 11370
   inflections: some
   vietnamese: một số
 our:
+  english: our
   pos: fw
   frequency: 11333
   inflections: our
   vietnamese: của chúng tôi
 'yes':
+  english: 'yes'
   pos: r
   frequency: 11118
   inflections: 'yes'
   vietnamese: Vâng
 back:
+  english: back
   pos: n
   frequency: 1126
   inflections: back, backs
   vietnamese: mặt sau
 mean:
+  english: mean
   pos: v
   frequency: 10833
   inflections: mean, meaning, means, meant
   vietnamese: bần tiện
 man:
+  english: man
   pos: n
   frequency: 10340
   inflections: man, men
   vietnamese: Đàn ông
 little:
+  english: little
   pos: fw
   frequency: 1148
   inflections: little
   vietnamese: nhỏ bé
 give:
+  english: give
   pos: v
   frequency: 10173
   inflections: give, gave, given, gives, giving
   vietnamese: cho
 his:
+  english: his
   pos: fw
   frequency: 10145
   inflections: his
   vietnamese: của anh
 us:
+  english: us
   pos: fw
   frequency: 10058
   inflections: us
   vietnamese: chúng ta
 them:
+  english: them
   pos: fw
   frequency: 9857
   inflections: them
   vietnamese: họ
 need:
+  english: need
   pos: n
   frequency: 820
   inflections: need, needs
   vietnamese: cần
 then:
+  english: then
   pos: r
   frequency: 9584
   inflections: then
   vietnamese: sau đó
 shall:
+  english: shall
   pos: v
   frequency: 9411
   inflections: shall, should
   vietnamese: nên
 or:
+  english: or
   pos: fw
   frequency: 9272
   inflections: or
   vietnamese: hoặc
 talk:
+  english: talk
   pos: v
   frequency: 9197
   inflections: talk, talked, talking, talks
   vietnamese: nói chuyện
 something:
+  english: something
   pos: fw
   frequency: 9075
   inflections: something
   vietnamese: thứ gì đó
 where:
+  english: where
   pos: r
   frequency: 8941
   inflections: where
   vietnamese: ở đâu
 great:
+  english: great
   pos: j
   frequency: 8778
   inflections: great, greater, greatest
   vietnamese: Tuyệt
 way:
+  english: way
   pos: n
   frequency: 8759
   inflections: way, ways
   vietnamese: đường
 never:
+  english: never
   pos: r
   frequency: 8620
   inflections: never
   vietnamese: không bao giờ
 call:
+  english: call
   pos: n
   frequency: 595
   inflections: call, calls
   vietnamese: cuộc gọi
 too:
+  english: too
   pos: r
   frequency: 8300
   inflections: too
   vietnamese: cũng vậy
 by:
+  english: by
   pos: fw
   frequency: 8133
   inflections: by
   vietnamese: qua
 sorry:
+  english: sorry
   pos: u
   frequency: 1127
   inflections: sorry
   vietnamese: lấy làm tiếc
 over:
+  english: over
   pos: fw
   frequency: 8041
   inflections: over
   vietnamese: kết thúc
 love:
+  english: love
   pos: n
   frequency: 1364
   inflections: love, loves
   vietnamese: yêu và quý
 wait:
+  english: wait
   pos: v
   frequency: 7947
   inflections: wait, waited, waiting, waits
   vietnamese: Chờ đã
 more:
+  english: more
   pos: fw
   frequency: 7922
   inflections: more
   vietnamese: hơn
 down:
+  english: down
   pos: r
   frequency: 7782
   inflections: down
   vietnamese: xuống
 day:
+  english: day
   pos: n
   frequency: 7704
   inflections: day, days
   vietnamese: ngày
 two:
+  english: two
   pos: m
   frequency: 7221
   inflections: two, twos
   vietnamese: hai
 people:
+  english: people
   pos: n
   frequency: 7104
   inflections: people
   vietnamese: Mọi người
 God:
+  english: God
   pos: K
   frequency: 2362
   inflections: God
   vietnamese: Chúa
 very:
+  english: very
   pos: r
   frequency: 6974
   inflections: very
   vietnamese: rất
 'off':
+  english: 'off'
   pos: fw
   frequency: 6967
   inflections: 'off'
   vietnamese: tắt
 work:
+  english: work
   pos: n
   frequency: 1441
   inflections: work, works
   vietnamese: công việc
 thank:
+  english: thank
   pos: v
   frequency: 6716
   inflections: thank, thanked, thanking, thanks
   vietnamese: cảm tạ
 big:
+  english: big
   pos: j
   frequency: 6674
   inflections: big, bigger, biggest
   vietnamese: to lớn
 try:
+  english: try
   pos: v
   frequency: 6611
   inflections: try, tried, tries, trying
   vietnamese: thử
 dad:
+  english: dad
   pos: n
   frequency: 6596
   inflections: dad, dads
   vietnamese: bố
 maybe:
+  english: maybe
   pos: r
   frequency: 6499
   inflections: maybe
   vietnamese: có lẽ
 feel:
+  english: feel
   pos: v
   frequency: 6479
   inflections: feel, feeling, feels, felt
   vietnamese: cảm thấy
 friend:
+  english: friend
   pos: n
   frequency: 6447
   inflections: friend, friends
   vietnamese: bạn bè
 even:
+  english: even
   pos: r
   frequency: 6221
   inflections: even
   vietnamese: thậm chí
 sure:
+  english: sure
   pos: r
   frequency: 779
   inflections: sure
   vietnamese: chắc chắn rồi
 find:
+  english: find
   pos: v
   frequency: 6172
   inflections: find, finding, finds, found
   vietnamese: tìm thấy
 kid:
+  english: kid
   pos: v
   frequency: 1432
   inflections: kid, kids, kidding, kidded
   vietnamese: đứa trẻ
 these:
+  english: these
   pos: fw
   frequency: 5950
   inflections: these
   vietnamese: này
 boy:
+  english: boy
   pos: n
   frequency: 5937
   inflections: boy, boys
   vietnamese: Chàng trai
 put:
+  english: put
   pos: v
   frequency: 5863
   inflections: put, puts, putting
   vietnamese: đặt
 please:
+  english: please
   pos: r
   frequency: 5856
   inflections: please
   vietnamese: làm ơn
 happen:
+  english: happen
   pos: v
   frequency: 5854
   inflections: happen, happened, happening, happens
   vietnamese: xảy ra
 much:
+  english: much
   pos: fw
   frequency: 5811
   inflections: much
   vietnamese: nhiều
 stop:
+  english: stop
   pos: v
   frequency: 5799
   inflections: stop, stopped, stopping, stops
   vietnamese: dừng lại
 night:
+  english: night
   pos: n
   frequency: 5761
   inflections: night, nights
   vietnamese: đêm
 bad:
+  english: bad
   pos: j
   frequency: 5716
   inflections: bad, worse, worst
   vietnamese: xấu
 into:
+  english: into
   pos: fw
   frequency: 5686
   inflections: into
   vietnamese: vào trong
 those:
+  english: those
   pos: fw
   frequency: 5686
   inflections: those
   vietnamese: những thứ kia
 any:
+  english: any
   pos: fw
   frequency: 5626
   inflections: any
   vietnamese: không tí nào
 first:
+  english: first
   pos: m
   frequency: 5605
   inflections: first
   vietnamese: Đầu tiên
 leave:
+  english: leave
   pos: v
   frequency: 5529
   inflections: leave, leaves, leaving, left
   vietnamese: rời bỏ
 year:
+  english: year
   pos: n
   frequency: 5520
   inflections: year, years
   vietnamese: năm
 hear:
+  english: hear
   pos: v
   frequency: 5517
   inflections: hear, heard, hearing, hears
   vietnamese: Nghe
 ever:
+  english: ever
   pos: r
   frequency: 5259
   inflections: ever
   vietnamese: bao giờ
 Mr:
+  english: Mr
   pos: n
   frequency: 5256
   inflections: Mr., Messrs.
   vietnamese: Ông
 again:
+  english: again
   pos: r
   frequency: 5254
   inflections: again
   vietnamese: lại
 use:
+  english: use
   pos: v
   frequency: 5245
   inflections: use, used, uses, using
   vietnamese: sử dụng
 mom:
+  english: mom
   pos: n
   frequency: 5205
   inflections: mom, moms
   vietnamese: mẹ
 may:
+  english: may
   pos: v
   frequency: 5180
   inflections: may, might
   vietnamese: có thể
 hi:
+  english: hi
   pos: u
   frequency: 5173
   inflections: hi
   vietnamese: Chào
 life:
+  english: life
   pos: n
   frequency: 5169
   inflections: life, lives
   vietnamese: đời sống
 nice:
+  english: nice
   pos: j
   frequency: 5059
   inflections: nice, nicer, nicest
   vietnamese: đẹp
 new:
+  english: new
   pos: j
   frequency: 5055
   inflections: new, newer, newest
   vietnamese: Mới
 still:
+  english: still
   pos: r
   frequency: 5024
   inflections: still
   vietnamese: còn
 kind:
+  english: kind
   pos: n
   frequency: 4928
   inflections: kind, kinds
   vietnamese: tốt bụng
 anything:
+  english: anything
   pos: fw
   frequency: 4714
   inflections: anything
   vietnamese: bất cứ điều gì
 only:
+  english: only
   pos: j
   frequency: 1539
   inflections: only
   vietnamese: chỉ có
 baby:
+  english: baby
   pos: n
   frequency: 4676
   inflections: baby, babies
   vietnamese: đứa bé
 than:
+  english: than
   pos: fw
   frequency: 4671
   inflections: than
   vietnamese: hơn
 fine:
+  english: fine
   pos: j
   frequency: 4571
   inflections: fine, finer, finest
   vietnamese: khỏe
 hello:
+  english: hello
   pos: u
   frequency: 4554
   inflections: hello
   vietnamese: xin chào
 keep:
+  english: keep
   pos: v
   frequency: 4549
   inflections: keep, keeping, keeps, kept
   vietnamese: giữ cho
 girl:
+  english: girl
   pos: n
   frequency: 4526
   inflections: girl, girls
   vietnamese: con gái
 help:
+  english: help
   pos: n
   frequency: 854
   inflections: help
   vietnamese: Cứu giúp
 believe:
+  english: believe
   pos: v
   frequency: 4502
   inflections: believe, believed, believes, believing
   vietnamese: tin
 woman:
+  english: woman
   pos: n
   frequency: 4444
   inflections: woman, women
   vietnamese: người đàn bà
 lot:
+  english: lot
   pos: n
   frequency: 4408
   inflections: lot, lots
   vietnamese: rất nhiều
 play:
+  english: play
   pos: v
   frequency: 4377
   inflections: play, played, playing, plays
   vietnamese: chơi
 ask:
+  english: ask
   pos: v
   frequency: 4367
   inflections: ask, asked, asking, asks
   vietnamese: hỏi
 start:
+  english: start
   pos: v
   frequency: 4363
   inflections: start, started, starting, starts
   vietnamese: bắt đầu
 home:
+  english: home
   pos: n
   frequency: 4348
   inflections: home, homes
   vietnamese: Trang Chủ
 nothing:
+  english: nothing
   pos: fw
   frequency: 4330
   inflections: nothing
   vietnamese: Không có gì
 hmm:
+  english: hmm
   pos: u
   frequency: 4242
   inflections: hmm, hm
   vietnamese: hmm
 their:
+  english: their
   pos: fw
   frequency: 4191
   inflections: their, theirs
   vietnamese: của chúng
 meet:
+  english: meet
   pos: v
   frequency: 4185
   inflections: meet, meeting, meets, met
   vietnamese: gặp
 huh:
+  english: huh
   pos: u
   frequency: 4127
   inflections: huh
   vietnamese: Huh
 show:
+  english: show
   pos: n
   frequency: 1081
   inflections: show, shows
   vietnamese: buổi bieu diễn
 around:
+  english: around
   pos: fw
   frequency: 4013
   inflections: around
   vietnamese: vòng quanh
 guess:
+  english: guess
   pos: v
   frequency: 3988
   inflections: guess, guessed, guesses, guessing
   vietnamese: đoán
 old:
+  english: old
   pos: j
   frequency: 3955
   inflections: old, older, oldest
   vietnamese: cũ
 hell:
+  english: hell
   pos: n
   frequency: 3890
   inflections: hell
   vietnamese: Địa ngục
 before:
+  english: before
   pos: fw
   frequency: 3883
   inflections: before
   vietnamese: trước
 always:
+  english: always
   pos: r
   frequency: 3868
   inflections: always
   vietnamese: luôn luôn
 three:
+  english: three
   pos: m
   frequency: 3861
   inflections: three, threes
   vietnamese: số ba
 wow:
+  english: wow
   pos: u
   frequency: 3758
   inflections: wow
   vietnamese: ồ
 listen:
+  english: listen
   pos: v
   frequency: 3744
   inflections: listen, listened, listening, listens
   vietnamese: nghe
 thanks:
+  english: thanks
   pos: u
   frequency: 3726
   inflections: thanks
   vietnamese: cảm ơn
 minute:
+  english: minute
   pos: n
   frequency: 3718
   inflections: minute, minutes
   vietnamese: phút
 actually:
+  english: actually
   pos: r
   frequency: 3706
   inflections: actually
   vietnamese: thực ra
 eat:
+  english: eat
   pos: v
   frequency: 3701
   inflections: eat, ate, eaten, eating, eats
   vietnamese: ăn
 place:
+  english: place
   pos: n
   frequency: 3620
   inflections: place, places
   vietnamese: nơi
 live:
+  english: live
   pos: v
   frequency: 3571
   inflections: live, lived, lives, living
   vietnamese: trực tiếp
 away:
+  english: away
   pos: r
   frequency: 3498
   inflections: away
   vietnamese: xa
 after:
+  english: after
   pos: fw
   frequency: 3483
   inflections: after
   vietnamese: sau
 bring:
+  english: bring
   pos: v
   frequency: 3469
   inflections: bring, bringing, brings, brought
   vietnamese: cung cấp
 every:
+  english: every
   pos: fw
   frequency: 3463
   inflections: every
   vietnamese: mọi
 everything:
+  english: everything
   pos: fw
   frequency: 3375
   inflections: everything
   vietnamese: mọi điều
 money:
+  english: money
   pos: n
   frequency: 3352
   inflections: money
   vietnamese: tiền bạc
 person:
+  english: person
   pos: n
   frequency: 3351
   inflections: person, people, persons
   vietnamese: người
 watch:
+  english: watch
   pos: v
   frequency: 3351
   inflections: watch, watched, watches, watching
   vietnamese: đồng hồ
 other:
+  english: other
   pos: n
   frequency: 1426
   inflections: other, others
   vietnamese: khác
 remember:
+  english: remember
   pos: v
   frequency: 3344
   inflections: remember, remembered, remembering, remembers
   vietnamese: nhớ
 house:
+  english: house
   pos: n
   frequency: 3327
   inflections: house, houses
   vietnamese: nhà ở
 wrong:
+  english: wrong
   pos: j
   frequency: 3294
   inflections: wrong
   vietnamese: Sai lầm
 kill:
+  english: kill
   pos: v
   frequency: 3278
   inflections: kill, killed, killing, kills
   vietnamese: giết chết
 school:
+  english: school
   pos: n
   frequency: 3243
   inflections: school, schools
   vietnamese: trường học
 everyone:
+  english: everyone
   pos: fw
   frequency: 3242
   inflections: everyone
   vietnamese: tất cả mọi người
 run:
+  english: run
   pos: v
   frequency: 3229
   inflections: run, ran, running, runs
   vietnamese: chạy
 late:
+  english: late
   pos: j
   frequency: 3221
   inflections: late, later, latest
   vietnamese: muộn
 care:
+  english: care
   pos: v
   frequency: 3199
   inflections: care, cared, cares, caring
   vietnamese: quan tâm
 car:
+  english: car
   pos: n
   frequency: 3191
   inflections: car, cars
   vietnamese: xe hơi
 move:
+  english: move
   pos: v
   frequency: 3187
   inflections: move, moved, moves, moving
   vietnamese: di chuyển
 ah:
+  english: ah
   pos: u
   frequency: 3158
   inflections: ah, aah
   vietnamese: Ah
 idea:
+  english: idea
   pos: n
   frequency: 3136
   inflections: idea, ideas
   vietnamese: ý kiến
 another:
+  english: another
   pos: fw
   frequency: 3083
   inflections: another
   vietnamese: nữa
 someone:
+  english: someone
   pos: fw
   frequency: 3080
   inflections: someone
   vietnamese: người nào
 today:
+  english: today
   pos: r
   frequency: 3055
   inflections: today
   vietnamese: hôm nay
 turn:
+  english: turn
   pos: v
   frequency: 3042
   inflections: turn, turned, turning, turns
   vietnamese: xoay
 real:
+  english: real
   pos: j
   frequency: 3008
   inflections: real
   vietnamese: có thật
 happy:
+  english: happy
   pos: j
   frequency: 2995
   inflections: happy, happier, happiest
   vietnamese: vui mừng
 whole:
+  english: whole
   pos: j
   frequency: 2956
   inflections: whole
   vietnamese: trọn
 week:
+  english: week
   pos: n
   frequency: 2954
   inflections: week, weeks
   vietnamese: tuần
 job:
+  english: job
   pos: n
   frequency: 2948
   inflections: job, jobs
   vietnamese: Công việc
 fun:
+  english: fun
   pos: n
   frequency: 2933
   inflections: fun
   vietnamese: vui vẻ
 problem:
+  english: problem
   pos: n
   frequency: 2931
   inflections: problem, problems
   vietnamese: vấn đề
 break:
+  english: break
   pos: v
   frequency: 2921
   inflections: break, breaking, breaks, broke, broken
   vietnamese: phá vỡ
 world:
+  english: world
   pos: n
   frequency: 2910
   inflections: world, worlds
   vietnamese: thế giới
 which:
+  english: which
   pos: fw
   frequency: 2903
   inflections: which
   vietnamese: cái mà
 must:
+  english: must
   pos: v
   frequency: 2891
   inflections: must
   vietnamese: phải
 party:
+  english: party
   pos: n
   frequency: 2855
   inflections: party, parties
   vietnamese: bữa tiệc
 buy:
+  english: buy
   pos: v
   frequency: 2827
   inflections: buy, bought, buying, buys
   vietnamese: mua
 through:
+  english: through
   pos: fw
   frequency: 2810
   inflections: through
   vietnamese: xuyên qua
 together:
+  english: together
   pos: r
   frequency: 2796
   inflections: together
   vietnamese: cùng với nhau
 room:
+  english: room
   pos: n
   frequency: 2789
   inflections: room, rooms
   vietnamese: phòng
 family:
+  english: family
   pos: n
   frequency: 2785
   inflections: family, families
   vietnamese: gia đình
 stay:
+  english: stay
   pos: v
   frequency: 2781
   inflections: stay, stayed, staying, stays
   vietnamese: ở lại
 lose:
+  english: lose
   pos: v
   frequency: 2710
   inflections: lose, loses, losing, lost
   vietnamese: mất
 stuff:
+  english: stuff
   pos: n
   frequency: 2710
   inflections: stuff
   vietnamese: đồ đạc
 son:
+  english: son
   pos: n
   frequency: 2692
   inflections: son, sons
   vietnamese: Con trai
 stupid:
+  english: stupid
   pos: j
   frequency: 2687
   inflections: stupid, stupider, stupidest
   vietnamese: ngu
 name:
+  english: name
   pos: v
   frequency: 1833
   inflections: name, named, naming, names
   vietnamese: Tên
 everybody:
+  english: everybody
   pos: fw
   frequency: 2644
   inflections: everybody
   vietnamese: mọi người
 last:
+  english: last
   pos: m
   frequency: 1942
   inflections: last
   vietnamese: Cuối cùng
 long:
+  english: long
   pos: j
   frequency: 1395
   inflections: long, longer, longest
   vietnamese: Dài
 tonight:
+  english: tonight
   pos: r
   frequency: 2608
   inflections: tonight
   vietnamese: đêm nay
 child:
+  english: child
   pos: n
   frequency: 2602
   inflections: child, children
   vietnamese: đứa trẻ
 sit:
+  english: sit
   pos: v
   frequency: 2600
   inflections: sit, sat, sits, sitting
   vietnamese: ngồi
 course:
+  english: course
   pos: n
   frequency: 2585
   inflections: course, courses
   vietnamese: khóa học
 pretty:
+  english: pretty
   pos: r
   frequency: 585
   inflections: pretty
   vietnamese: đẹp
 hold:
+  english: hold
   pos: v
   frequency: 2574
   inflections: hold, held, holding, holds
   vietnamese: tổ chức
 game:
+  english: game
   pos: n
   frequency: 2534
   inflections: game, games
   vietnamese: trò chơi
 forget:
+  english: forget
   pos: v
   frequency: 2519
   inflections: forget, forgets, forgetting, forgot, forgotten
   vietnamese: quên đi
 else:
+  english: else
   pos: r
   frequency: 2504
   inflections: else
   vietnamese: khác
 own:
+  english: own
   pos: j
   frequency: 2501
   inflections: own
   vietnamese: riêng
 five:
+  english: five
   pos: m
   frequency: 2493
   inflections: five, fives
   vietnamese: năm
 second:
+  english: second
   pos: n
   frequency: 425
   inflections: second, seconds
   vietnamese: thứ hai
 doctor:
+  english: doctor
   pos: n
   frequency: 2486
   inflections: doctor, doctors
   vietnamese: Bác sĩ
 dollar:
+  english: dollar
   pos: n
   frequency: 2485
   inflections: dollar, dollars
   vietnamese: đô la
 enough:
+  english: enough
   pos: fw
   frequency: 2484
   inflections: enough
   vietnamese: đầy đủ
 dog:
+  english: dog
   pos: n
   frequency: 2442
   inflections: dog, dogs
   vietnamese: chú chó
 funny:
+  english: funny
   pos: j
   frequency: 2438
   inflections: funny, funnier, funniest
   vietnamese: vui
 wear:
+  english: wear
   pos: v
   frequency: 2436
   inflections: wear, wearing, wears, wore, worn
   vietnamese: mặc
 die:
+  english: die
   pos: v
   frequency: 2426
   inflections: die, died, dies, dying
   vietnamese: chết
 sir:
+  english: sir
   pos: n
   frequency: 2425
   inflections: sir, sirs
   vietnamese: quý ngài
 hard:
+  english: hard
   pos: j
   frequency: 2422
   inflections: hard, harder, hardest
   vietnamese: cứng
 honey:
+  english: honey
   pos: n
   frequency: 2414
   inflections: honey
   vietnamese: em yêu
 sound:
+  english: sound
   pos: v
   frequency: 2411
   inflections: sound, sounded, sounding, sounds
   vietnamese: âm thanh
 sex:
+  english: sex
   pos: n
   frequency: 2388
   inflections: sex, sexes
   vietnamese: tình dục
 hate:
+  english: hate
   pos: v
   frequency: 2369
   inflections: hate, hated, hates, hating
   vietnamese: ghét bỏ
 suppose:
+  english: suppose
   pos: v
   frequency: 2368
   inflections: suppose, supposed, supposes, supposing
   vietnamese: giả sử
 head:
+  english: head
   pos: v
   frequency: 520
   inflections: head, heads, heading, headed
   vietnamese: cái đầu
 understand:
+  english: understand
   pos: v
   frequency: 2360
   inflections: understand, understanding, understands, understood
   vietnamese: hiểu biết
 whoa:
+  english: whoa
   pos: u
   frequency: 2341
   inflections: whoa
   vietnamese: Ái chà
 movie:
+  english: movie
   pos: n
   frequency: 2340
   inflections: movie, movies
   vietnamese: bộ phim
 worry:
+  english: worry
   pos: v
   frequency: 2329
   inflections: worry, worried, worries, worrying
   vietnamese: lo
 cool:
+  english: cool
   pos: u
   frequency: 617
   inflections: cool
   vietnamese: mát mẻ
 marry:
+  english: marry
   pos: v
   frequency: 2323
   inflections: marry, married, marries, marrying
   vietnamese: kết hôn
 miss:
+  english: miss
   pos: v
   frequency: 2318
   inflections: miss, missed, misses, missing
   vietnamese: bỏ lỡ
 pay:
+  english: pay
   pos: v
   frequency: 2314
   inflections: pay, paid, paying, pays
   vietnamese: trả tiền
 hour:
+  english: hour
   pos: n
   frequency: 2313
   inflections: hour, hours
   vietnamese: giờ
 crazy:
+  english: crazy
   pos: j
   frequency: 2291
   inflections: crazy, crazier, craziest
   vietnamese: khùng
 change:
+  english: change
   pos: v
   frequency: 2256
   inflections: change, changed, changes, changing
   vietnamese: biến đổi
 hot:
+  english: hot
   pos: j
   frequency: 2256
   inflections: hot, hotter, hottest
   vietnamese: nóng
 most:
+  english: most
   pos: fw
   frequency: 2244
   inflections: most
   vietnamese: phần lớn
 excuse:
+  english: excuse
   pos: v
   frequency: 2232
   inflections: excuse, excused, excuses, excusing
   vietnamese: thứ lỗi
 mother:
+  english: mother
   pos: n
   frequency: 2219
   inflections: mother, mothers
   vietnamese: mẹ
 check:
+  english: check
   pos: n
   frequency: 389
   inflections: check, checks
   vietnamese: kiểm tra
 pick:
+  english: pick
   pos: v
   frequency: 2207
   inflections: pick, picked, picking, picks
   vietnamese: nhặt
 word:
+  english: word
   pos: n
   frequency: 2207
   inflections: word, words
   vietnamese: từ
 same:
+  english: same
   pos: j
   frequency: 2200
   inflections: same, sameness
   vietnamese: tương tự
 yourself:
+  english: yourself
   pos: fw
   frequency: 2188
   inflections: yourself, yourselves
   vietnamese: chính bạn
 ready:
+  english: ready
   pos: j
   frequency: 2177
   inflections: ready, readier, readiest
   vietnamese: Sẵn sàng
 seem:
+  english: seem
   pos: v
   frequency: 2165
   inflections: seem, seemed, seeming, seems
   vietnamese: hình như
 win:
+  english: win
   pos: v
   frequency: 2162
   inflections: win, winning, wins, won
   vietnamese: thắng lợi
 walk:
+  english: walk
   pos: v
   frequency: 2131
   inflections: walk, walked, walking, walks
   vietnamese: đi bộ
 father:
+  english: father
   pos: n
   frequency: 2108
   inflections: father, fathers
   vietnamese: cha
 story:
+  english: story
   pos: n
   frequency: 2107
   inflections: story, stories
   vietnamese: câu chuyện
 already:
+  english: already
   pos: r
   frequency: 2077
   inflections: already
   vietnamese: đã sẵn sàng
 hope:
+  english: hope
   pos: v
   frequency: 2077
   inflections: hope, hoped, hopes, hoping
   vietnamese: mong
 part:
+  english: part
   pos: n
   frequency: 2062
   inflections: part, parts
   vietnamese: phần
 open:
+  english: open
   pos: v
   frequency: 2059
   inflections: open, opened, opening, opens
   vietnamese: mở
 lady:
+  english: lady
   pos: n
   frequency: 2056
   inflections: lady, ladies
   vietnamese: quý bà
 read:
+  english: read
   pos: v
   frequency: 2046
   inflections: read, reading, reads
   vietnamese: đọc
 drink:
+  english: drink
   pos: n
   frequency: 672
   inflections: drink, drinks
   vietnamese: uống
 sleep:
+  english: sleep
   pos: v
   frequency: 2030
   inflections: sleep, sleeping, sleeps, slept
   vietnamese: ngủ
 number:
+  english: number
   pos: n
   frequency: 2005
   inflections: number, numbers
   vietnamese: con số
 write:
+  english: write
   pos: v
   frequency: 2001
   inflections: write, writes, writing, written, wrote
   vietnamese: viết
 morning:
+  english: morning
   pos: n
   frequency: 1985
   inflections: morning, mornings
   vietnamese: buổi sáng
 tomorrow:
+  english: tomorrow
   pos: n
   frequency: 1964
   inflections: tomorrow, tomorrows
   vietnamese: ngày mai
 next:
+  english: next
   pos: fw
   frequency: 808
   inflections: next
   vietnamese: tiếp theo
 phone:
+  english: phone
   pos: n
   frequency: 1945
   inflections: phone, phones, telephone, telephones
   vietnamese: điện thoại
 four:
+  english: four
   pos: m
   frequency: 1943
   inflections: four, fours
   vietnamese: bốn
 once:
+  english: once
   pos: r
   frequency: 1937
   inflections: once
   vietnamese: Một lần
 somebody:
+  english: somebody
   pos: fw
   frequency: 1936
   inflections: somebody
   vietnamese: có ai
 probably:
+  english: probably
   pos: r
   frequency: 1916
   inflections: probably
   vietnamese: có thể
 without:
+  english: without
   pos: fw
   frequency: 1910
   inflections: without
   vietnamese: không có
 many:
+  english: many
   pos: fw
   frequency: 1904
   inflections: many
   vietnamese: nhiều
 such:
+  english: such
   pos: fw
   frequency: 1901
   inflections: such
   vietnamese: như là
 eye:
+  english: eye
   pos: n
   frequency: 1896
   inflections: eye, eyes
   vietnamese: con mắt
 drive:
+  english: drive
   pos: v
   frequency: 1890
   inflections: drive, driven, drives, driving, drove
   vietnamese: lái xe
 wife:
+  english: wife
   pos: n
   frequency: 1885
   inflections: wife, wives
   vietnamese: người vợ
 book:
+  english: book
   pos: n
   frequency: 1879
   inflections: book, books
   vietnamese: sách
 hang:
+  english: hang
   pos: v
   frequency: 1860
   inflections: hang, hanged, hanging, hangs, hung
@@ -1612,3111 +1934,3733 @@ hang:
 
     '
 since:
+  english: since
   pos: fw
   frequency: 1859
   inflections: since
   vietnamese: từ
 throw:
+  english: throw
   pos: v
   frequency: 1839
   inflections: throw, threw, throwing, thrown, throws
   vietnamese: ném
 dead:
+  english: dead
   pos: j
   frequency: 1821
   inflections: dead
   vietnamese: chết
 stand:
+  english: stand
   pos: v
   frequency: 1815
   inflections: stand, standing, stands, stood
   vietnamese: đứng
 myself:
+  english: myself
   pos: fw
   frequency: 1799
   inflections: myself
   vietnamese: riêng tôi
 aw:
+  english: aw
   pos: u
   frequency: 1794
   inflections: aw
   vietnamese: aw
 dinner:
+  english: dinner
   pos: n
   frequency: 1787
   inflections: dinner, dinners
   vietnamese: bữa tối
 anyone:
+  english: anyone
   pos: fw
   frequency: 1772
   inflections: anyone
   vietnamese: bất cứ ai
 hand:
+  english: hand
   pos: v
   frequency: 935
   inflections: hand, hands, handing, handed
   vietnamese: tay
 each:
+  english: each
   pos: fw
   frequency: 1739
   inflections: each
   vietnamese: mỗi
 anyway:
+  english: anyway
   pos: r
   frequency: 1723
   inflections: anyway
   vietnamese: dù sao
 television:
+  english: television
   pos: n
   frequency: 1716
   inflections: television, televisions
   vietnamese: Tivi
 learn:
+  english: learn
   pos: v
   frequency: 1715
   inflections: learn, learned, learning, learns
   vietnamese: học
 shut:
+  english: shut
   pos: v
   frequency: 1709
   inflections: shut, shuts, shutting
   vietnamese: đóng cửa
 town:
+  english: town
   pos: n
   frequency: 1709
   inflections: town, towns
   vietnamese: thị trấn
 beautiful:
+  english: beautiful
   pos: j
   frequency: 1707
   inflections: beautiful
   vietnamese: xinh đẹp
 both:
+  english: both
   pos: fw
   frequency: 1687
   inflections: both
   vietnamese: cả hai
 date:
+  english: date
   pos: v
   frequency: 1050
   inflections: date, dated, dates, dating
   vietnamese: ngày
 spend:
+  english: spend
   pos: v
   frequency: 1680
   inflections: spend, spending, spends, spent
   vietnamese: dùng
 office:
+  english: office
   pos: n
   frequency: 1673
   inflections: office, offices
   vietnamese: văn phòng
 hit:
+  english: hit
   pos: v
   frequency: 1668
   inflections: hit, hits, hitting
   vietnamese: đánh
 yet:
+  english: yet
   pos: fw
   frequency: 1658
   inflections: yet
   vietnamese: nhưng
 save:
+  english: save
   pos: v
   frequency: 1656
   inflections: save, saved, saves, saving
   vietnamese: tiết kiệm
 'true':
+  english: 'true'
   pos: j
   frequency: 1653
   inflections: true, truer, truest
   vietnamese: thật
 sweet:
+  english: sweet
   pos: j
   frequency: 1649
   inflections: sweet, sweeter, sweetest
   vietnamese: ngọt
 until:
+  english: until
   pos: fw
   frequency: 1642
   inflections: until
   vietnamese: cho đến khi
 food:
+  english: food
   pos: n
   frequency: 1628
   inflections: food, foods
   vietnamese: món ăn
 while:
+  english: while
   pos: n
   frequency: 688
   inflections: while, whiles
   vietnamese: trong khi
 send:
+  english: send
   pos: v
   frequency: 1617
   inflections: send, sending, sends, sent
   vietnamese: gửi
 high:
+  english: high
   pos: j
   frequency: 1602
   inflections: high, higher, highest
   vietnamese: cao
 anymore:
+  english: anymore
   pos: r
   frequency: 1596
   inflections: anymore
   vietnamese: nữa không
 also:
+  english: also
   pos: r
   frequency: 1590
   inflections: also
   vietnamese: cũng
 news:
+  english: news
   pos: n
   frequency: 1572
   inflections: news
   vietnamese: Tin tức
 Christmas:
+  english: Christmas
   pos: K
   frequency: 1561
   inflections: Christmas
   vietnamese: Giáng sinh
 ten:
+  english: ten
   pos: m
   frequency: 1560
   inflections: ten
   vietnamese: mười
 ass:
+  english: ass
   pos: n
   frequency: 1548
   inflections: ass, asses
   vietnamese: mông
 business:
+  english: business
   pos: n
   frequency: 1542
   inflections: business, businesses
   vietnamese: việc kinh doanh
 couple:
+  english: couple
   pos: n
   frequency: 1534
   inflections: couple, couples
   vietnamese: cặp đôi
 totally:
+  english: totally
   pos: r
   frequency: 1532
   inflections: totally
   vietnamese: Tổng cộng
 door:
+  english: door
   pos: n
   frequency: 1528
   inflections: door, doors
   vietnamese: cửa
 gay:
+  english: gay
   pos: j
   frequency: 1525
   inflections: gay, gayer, gayest
   vietnamese: gay
 exactly:
+  english: exactly
   pos: r
   frequency: 1523
   inflections: exactly
   vietnamese: một cách chính xác
 parent:
+  english: parent
   pos: n
   frequency: 1521
   inflections: parent, parents
   vietnamese: cha mẹ
 few:
+  english: few
   pos: fw
   frequency: 1516
   inflections: few, fewer, fewest
   vietnamese: vài
 month:
+  english: month
   pos: n
   frequency: 1514
   inflections: month, months
   vietnamese: tháng
 easy:
+  english: easy
   pos: j
   frequency: 1508
   inflections: easy, easier, easiest
   vietnamese: dễ
 deal:
+  english: deal
   pos: v
   frequency: 499
   inflections: deal, deals, dealing, dealt
   vietnamese: thỏa thuận
 ow:
+  english: ow
   pos: u
   frequency: 1503
   inflections: ow, ouch, yow
   vietnamese: nợ
 hurt:
+  english: hurt
   pos: v
   frequency: 1495
   inflections: hurt, hurting, hurts
   vietnamese: đau
 nobody:
+  english: nobody
   pos: fw
   frequency: 1495
   inflections: nobody
   vietnamese: không ai
 OK:
+  english: OK
   pos: r
   frequency: 1480
   inflections: OK
   vietnamese: ĐƯỢC RỒI
 perfect:
+  english: perfect
   pos: j
   frequency: 1477
   inflections: perfect
   vietnamese: hoàn hảo
 lie:
+  english: lie
   pos: v
   frequency: 1474
   inflections: lie, lay, lied, lies, lying
   vietnamese: nói dối
 free:
+  english: free
   pos: j
   frequency: 1473
   inflections: free, freer, freest
   vietnamese: tự do
 young:
+  english: young
   pos: j
   frequency: 1471
   inflections: young, younger, youngest
   vietnamese: trẻ tuổi
 weird:
+  english: weird
   pos: j
   frequency: 1465
   inflections: weird, weirder, weirdest
   vietnamese: kỳ dị
 whatever:
+  english: whatever
   pos: fw
   frequency: 1452
   inflections: whatever
   vietnamese: sao cũng được
 brother:
+  english: brother
   pos: n
   frequency: 1441
   inflections: brother, brothers
   vietnamese: Anh trai
 ago:
+  english: ago
   pos: r
   frequency: 1431
   inflections: ago
   vietnamese: trước kia
 end:
+  english: end
   pos: n
   frequency: 864
   inflections: end, ends
   vietnamese: chấm dứt
 ball:
+  english: ball
   pos: n
   frequency: 1413
   inflections: ball, balls
   vietnamese: trái bóng
 finally:
+  english: finally
   pos: r
   frequency: 1413
   inflections: finally
   vietnamese: cuối cùng
 line:
+  english: line
   pos: n
   frequency: 1406
   inflections: line, lines
   vietnamese: hàng
 its:
+  english: its
   pos: fw
   frequency: 1403
   inflections: its
   vietnamese: nó là
 ha:
+  english: ha
   pos: u
   frequency: 1401
   inflections: ha, hah
   vietnamese: ha
 important:
+  english: important
   pos: j
   frequency: 1401
   inflections: important
   vietnamese: quan trọng
 fall:
+  english: fall
   pos: v
   frequency: 1400
   inflections: fall, fallen, falling, falls, fell
   vietnamese: rơi
 heart:
+  english: heart
   pos: n
   frequency: 1396
   inflections: heart, hearts
   vietnamese: trái tim
 fat:
+  english: fat
   pos: j
   frequency: 1393
   inflections: fat, fatter, fattest
   vietnamese: mập mạp
 class:
+  english: class
   pos: n
   frequency: 1388
   inflections: class, classes
   vietnamese: lớp
 shoot:
+  english: shoot
   pos: v
   frequency: 1377
   inflections: shoot, shooting, shoots, shot
   vietnamese: bắn
 picture:
+  english: picture
   pos: n
   frequency: 1370
   inflections: picture, pictures
   vietnamese: hình ảnh
 sell:
+  english: sell
   pos: v
   frequency: 1369
   inflections: sell, sells, selling, sold
   vietnamese: bán
 side:
+  english: side
   pos: n
   frequency: 1366
   inflections: side, sides
   vietnamese: cạnh
 wish:
+  english: wish
   pos: v
   frequency: 1365
   inflections: wish, wished, wishes, wishing
   vietnamese: điều ước
 mind:
+  english: mind
   pos: v
   frequency: 1076
   inflections: mind, minded, minding, minds
   vietnamese: tâm trí
 hair:
+  english: hair
   pos: n
   frequency: 1359
   inflections: hair, hairs
   vietnamese: tóc
 cut:
+  english: cut
   pos: v
   frequency: 1347
   inflections: cut, cuts, cutting
   vietnamese: cắt
 wedding:
+  english: wedding
   pos: n
   frequency: 1342
   inflections: wedding, weddings
   vietnamese: lễ cưới
 reason:
+  english: reason
   pos: n
   frequency: 1339
   inflections: reason, reasons
   vietnamese: lý do
 become:
+  english: become
   pos: v
   frequency: 1335
   inflections: become, became, becomes, becoming
   vietnamese: trở thành
 least:
+  english: least
   pos: fw
   frequency: 1335
   inflections: least
   vietnamese: ít nhất
 bite:
+  english: bite
   pos: v
   frequency: 1331
   inflections: bite, bites, biting, bit, bitten
   vietnamese: cắn
 fuck:
+  english: fuck
   pos: v
   frequency: 1318
   inflections: fuck, fucked, fucking, fucks
   vietnamese: đụ
 under:
+  english: under
   pos: fw
   frequency: 1311
   inflections: under
   vietnamese: Dưới
 bed:
+  english: bed
   pos: n
   frequency: 1309
   inflections: bed, beds
   vietnamese: Giường
 paper:
+  english: paper
   pos: n
   frequency: 1308
   inflections: paper, papers
   vietnamese: giấy
 different:
+  english: different
   pos: j
   frequency: 1307
   inflections: different
   vietnamese: khác nhau
 catch:
+  english: catch
   pos: v
   frequency: 1290
   inflections: catch, catches, catching, caught
   vietnamese: chụp lấy
 mine:
+  english: mine
   pos: fw
   frequency: 1289
   inflections: mine
   vietnamese: của tôi
 six:
+  english: six
   pos: m
   frequency: 1289
   inflections: six
   vietnamese: sáu
 set:
+  english: set
   pos: v
   frequency: 1280
   inflections: set, sets, setting
   vietnamese: bộ
 face:
+  english: face
   pos: v
   frequency: 1103
   inflections: face, faces, facing, faced
   vietnamese: đối mặt
 speak:
+  english: speak
   pos: v
   frequency: 1268
   inflections: speak, speaks, speaking, spoke, spoken
   vietnamese: nói
 suck:
+  english: suck
   pos: v
   frequency: 1260
   inflections: suck, sucks, sucking, sucked
   vietnamese: hút
 sometimes:
+  english: sometimes
   pos: r
   frequency: 1258
   inflections: sometimes
   vietnamese: thỉnh thoảng
 city:
+  english: city
   pos: n
   frequency: 1243
   inflections: city, cities
   vietnamese: thành phố
 special:
+  english: special
   pos: j
   frequency: 1234
   inflections: special
   vietnamese: đặc biệt
 stick:
+  english: stick
   pos: v
   frequency: 1225
   inflections: stick, sticks, sticking, stuck
   vietnamese: dính vào
 question:
+  english: question
   pos: v
   frequency: 883
   inflections: question, questions, questioning, questioned
   vietnamese: câu hỏi
 dude:
+  english: dude
   pos: n
   frequency: 1215
   inflections: dude, dudes
   vietnamese: anh bạn
 realize:
+  english: realize
   pos: v
   frequency: 1212
   inflections: realize, realized, realizes, realizing
   vietnamese: nhận ra
 birthday:
+  english: birthday
   pos: n
   frequency: 1209
   inflections: birthday, birthdays
   vietnamese: ngày sinh nhật
 point:
+  english: point
   pos: v
   frequency: 934
   inflections: point, points, pointing, pointed
   vietnamese: điểm
 enjoy:
+  english: enjoy
   pos: v
   frequency: 1206
   inflections: enjoy, enjoyed, enjoying, enjoys
   vietnamese: vui thích
 fact:
+  english: fact
   pos: n
   frequency: 1201
   inflections: fact, facts
   vietnamese: thực tế
 dance:
+  english: dance
   pos: v
   frequency: 1195
   inflections: dance, danced, dances, dancing
   vietnamese: nhảy
 soon:
+  english: soon
   pos: r
   frequency: 1191
   inflections: soon
   vietnamese: Sớm
 bar:
+  english: bar
   pos: n
   frequency: 1185
   inflections: bar, bars
   vietnamese: quán ba
 wonder:
+  english: wonder
   pos: v
   frequency: 1182
   inflections: wonder, wondered, wondering, wonders
   vietnamese: ngạc nhiên
 joke:
+  english: joke
   pos: n
   frequency: 1179
   inflections: joke, jokes
   vietnamese: câu nói đùa
 relationship:
+  english: relationship
   pos: n
   frequency: 1179
   inflections: relationship, relationships
   vietnamese: mối quan hệ
 chance:
+  english: chance
   pos: n
   frequency: 1175
   inflections: chance, chances
   vietnamese: cơ hội
 black:
+  english: black
   pos: j
   frequency: 1170
   inflections: black, blacker, blackest
   vietnamese: màu đen
 almost:
+  english: almost
   pos: r
   frequency: 1168
   inflections: almost
   vietnamese: hầu hết
 fight:
+  english: fight
   pos: n
   frequency: 661
   inflections: fight, fights
   vietnamese: Đánh nhau
 card:
+  english: card
   pos: n
   frequency: 1154
   inflections: card, cards
   vietnamese: Thẻ
 song:
+  english: song
   pos: n
   frequency: 1154
   inflections: song, songs
   vietnamese: bài hát
 bye:
+  english: bye
   pos: u
   frequency: 1147
   inflections: bye, bye
   vietnamese: từ biệt
 coffee:
+  english: coffee
   pos: n
   frequency: 1147
   inflections: coffee, coffees
   vietnamese: cà phê
 awesome:
+  english: awesome
   pos: j
   frequency: 1133
   inflections: awesome
   vietnamese: đáng kinh ngạc
 sick:
+  english: sick
   pos: j
   frequency: 1133
   inflections: sick, sicker, sickest
   vietnamese: bị ốm
 apartment:
+  english: apartment
   pos: n
   frequency: 1132
   inflections: apartment, apartments
   vietnamese: căn hộ, chung cư
 figure:
+  english: figure
   pos: v
   frequency: 1121
   inflections: figure, figured, figures, figuring
   vietnamese: nhân vật
 pull:
+  english: pull
   pos: v
   frequency: 1118
   inflections: pull, pulled, pulling, pulls
   vietnamese: sự lôi kéo
 box:
+  english: box
   pos: n
   frequency: 1111
   inflections: box, boxes
   vietnamese: hộp
 dream:
+  english: dream
   pos: n
   frequency: 1110
   inflections: dream, dreams
   vietnamese: mơ ước
 water:
+  english: water
   pos: n
   frequency: 1110
   inflections: water, waters
   vietnamese: nước
 decide:
+  english: decide
   pos: v
   frequency: 1109
   inflections: decide, decided, decides, deciding
   vietnamese: quyết định
 store:
+  english: store
   pos: n
   frequency: 1107
   inflections: store, stores
   vietnamese: cửa hàng
 bet:
+  english: bet
   pos: v
   frequency: 1106
   inflections: bet, bets, betting
   vietnamese: cá cược
 lunch:
+  english: lunch
   pos: n
   frequency: 1105
   inflections: lunch, lunches
   vietnamese: Bữa trưa
 anybody:
+  english: anybody
   pos: fw
   frequency: 1101
   inflections: anybody
   vietnamese: bất kỳ ai
 afraid:
+  english: afraid
   pos: j
   frequency: 1096
   inflections: afraid
   vietnamese: sợ
 buddy:
+  english: buddy
   pos: n
   frequency: 1096
   inflections: buddy, buddies
   vietnamese: Bạn bè
 cute:
+  english: cute
   pos: j
   frequency: 1090
   inflections: cute, cuter, cutest
   vietnamese: dễ thương
 close:
+  english: close
   pos: v
   frequency: 753
   inflections: close, closes, closing, closed
   vietnamese: gần
 bathroom:
+  english: bathroom
   pos: n
   frequency: 1082
   inflections: bathroom, bathrooms
   vietnamese: phòng tắm
 steal:
+  english: steal
   pos: v
   frequency: 1073
   inflections: steal, steals, stealing, stole, stolen
   vietnamese: ăn cắp
 full:
+  english: full
   pos: j
   frequency: 1070
   inflections: full, fuller, fullest
   vietnamese: đầy
 company:
+  english: company
   pos: n
   frequency: 1061
   inflections: company, companies
   vietnamese: Công ty
 front:
+  english: front
   pos: n
   frequency: 1061
   inflections: front, fronts
   vietnamese: đổi diện
 ahead:
+  english: ahead
   pos: r
   frequency: 1059
   inflections: ahead
   vietnamese: phía trước
 moment:
+  english: moment
   pos: n
   frequency: 1058
   inflections: moment, moments
   vietnamese: khoảng khăc
 case:
+  english: case
   pos: n
   frequency: 1056
   inflections: case, cases
   vietnamese: trường hợp
 though:
+  english: though
   pos: fw
   frequency: 1050
   inflections: though, tho
   vietnamese: Tuy nhiên
 body:
+  english: body
   pos: n
   frequency: 1043
   inflections: body, bodies
   vietnamese: thân hình
 Mrs:
+  english: Mrs
   pos: n
   frequency: 1040
   inflections: Mrs., Mmes.
   vietnamese: Bà
 pants:
+  english: pants
   pos: n
   frequency: 1040
   inflections: pants
   vietnamese: quần dài
 bitch:
+  english: bitch
   pos: n
   frequency: 1039
   inflections: bitch, bitches
   vietnamese: chó cái
 promise:
+  english: promise
   pos: v
   frequency: 1039
   inflections: promise, promises, promising, promised
   vietnamese: hứa
 glad:
+  english: glad
   pos: j
   frequency: 1037
   inflections: glad, gladder, gladdest
   vietnamese: vui vẻ
 kiss:
+  english: kiss
   pos: n
   frequency: 397
   inflections: kiss, kisses
   vietnamese: hôn
 either:
+  english: either
   pos: fw
   frequency: 1023
   inflections: either
   vietnamese: một trong hai
 fire:
+  english: fire
   pos: n
   frequency: 895
   inflections: fire, fires
   vietnamese: Cháy
 grow:
+  english: grow
   pos: v
   frequency: 1021
   inflections: grow, grows, growing, grew, grown
   vietnamese: lớn lên
 build:
+  english: build
   pos: v
   frequency: 1019
   inflections: build, builds, building, built
   vietnamese: xây dựng
 table:
+  english: table
   pos: n
   frequency: 1010
   inflections: table, tables
   vietnamese: bàn
 ticket:
+  english: ticket
   pos: n
   frequency: 1006
   inflections: ticket, tickets
   vietnamese: vé
 matter:
+  english: matter
   pos: n
   frequency: 783
   inflections: matter, matters
   vietnamese: vấn đề
 teach:
+  english: teach
   pos: v
   frequency: 1002
   inflections: teach, teaches, teaching, taught
   vietnamese: dạy
 cat:
+  english: cat
   pos: n
   frequency: 997
   inflections: cat, cats
   vietnamese: con mèo
 sister:
+  english: sister
   pos: n
   frequency: 997
   inflections: sister, sisters
   vietnamese: chị gái
 girlfriend:
+  english: girlfriend
   pos: n
   frequency: 993
   inflections: girlfriend, girlfriends
   vietnamese: bạn gái
 hat:
+  english: hat
   pos: n
   frequency: 991
   inflections: hat, hats
   vietnamese: mũ
 touch:
+  english: touch
   pos: v
   frequency: 991
   inflections: touch, touches, touching, touched
   vietnamese: chạm
 terrible:
+  english: terrible
   pos: j
   frequency: 990
   inflections: terrible
   vietnamese: kinh khủng
 beer:
+  english: beer
   pos: n
   frequency: 985
   inflections: beer, beers
   vietnamese: bia
 damn:
+  english: damn
   pos: j
   frequency: 456
   inflections: damn
   vietnamese: chết tiệt
 mm-hmm:
+  english: mm-hmm
   pos: u
   frequency: 983
   inflections: mm-hmm
   vietnamese: mm-hmm
 club:
+  english: club
   pos: n
   frequency: 979
   inflections: club, clubs
   vietnamese: câu lạc bộ
 amaze:
+  english: amaze
   pos: v
   frequency: 978
   inflections: amaze, amazes, amazing, amazed
   vietnamese: kinh ngạc
 smell:
+  english: smell
   pos: v
   frequency: 978
   inflections: smell, smells, smelling, smelled, smelt
   vietnamese: đánh hơi
 gift:
+  english: gift
   pos: n
   frequency: 974
   inflections: gift, gifts
   vietnamese: quà tặng
 serious:
+  english: serious
   pos: j
   frequency: 974
   inflections: serious
   vietnamese: nghiêm túc
 plan:
+  english: plan
   pos: n
   frequency: 773
   inflections: plan, plans
   vietnamese: kế hoạch
 street:
+  english: street
   pos: n
   frequency: 970
   inflections: street, streets
   vietnamese: đường phố
 team:
+  english: team
   pos: n
   frequency: 969
   inflections: team, teams
   vietnamese: đội
 order:
+  english: order
   pos: v
   frequency: 966
   inflections: order, orders, ordering, ordered
   vietnamese: gọi món
 cry:
+  english: cry
   pos: v
   frequency: 964
   inflections: cry, cries, crying, cried
   vietnamese: khóc
 zero:
+  english: zero
   pos: m
   frequency: 960
   inflections: zero
   vietnamese: số không
 drop:
+  english: drop
   pos: v
   frequency: 959
   inflections: drop, drops, dropping, dropped
   vietnamese: làm rơi
 act:
+  english: act
   pos: v
   frequency: 958
   inflections: act, acts, acting, acted
   vietnamese: hành động
 alone:
+  english: alone
   pos: j
   frequency: 957
   inflections: alone
   vietnamese: một mình
 seat:
+  english: seat
   pos: n
   frequency: 951
   inflections: seat, seats
   vietnamese: ghế
 eh:
+  english: eh
   pos: u
   frequency: 949
   inflections: eh
   vietnamese: Hở
 between:
+  english: between
   pos: fw
   frequency: 947
   inflections: between
   vietnamese: giữa
 eight:
+  english: eight
   pos: m
   frequency: 947
   inflections: eight
   vietnamese: tám
 twenty:
+  english: twenty
   pos: m
   frequency: 942
   inflections: twenty
   vietnamese: hai mươi
 foot:
+  english: foot
   pos: n
   frequency: 939
   inflections: foot, feet
   vietnamese: Bàn Chân
 seven:
+  english: seven
   pos: m
   frequency: 939
   inflections: seven
   vietnamese: bảy
 finish:
+  english: finish
   pos: v
   frequency: 937
   inflections: finish, finishes, finishing, finished
   vietnamese: kết thúc
 gentleman:
+  english: gentleman
   pos: n
   frequency: 936
   inflections: gentleman, gentlemen
   vietnamese: quý ông
 blow:
+  english: blow
   pos: v
   frequency: 933
   inflections: blow, blows, blowing, blew, blown
   vietnamese: thổi
 small:
+  english: small
   pos: j
   frequency: 928
   inflections: small, smaller, smallest
   vietnamese: nhỏ bé
 trouble:
+  english: trouble
   pos: n
   frequency: 928
   inflections: trouble, troubles
   vietnamese: rắc rối
 sweetie:
+  english: sweetie
   pos: n
   frequency: 922
   inflections: sweetie, sweeties
   vietnamese: em yêu
 sing:
+  english: sing
   pos: v
   frequency: 917
   inflections: sing, sings, singing, sang, sung
   vietnamese: hát
 pass:
+  english: pass
   pos: v
   frequency: 915
   inflections: pass, passes, passing, passed
   vietnamese: đi qua
 beat:
+  english: beat
   pos: v
   frequency: 914
   inflections: beat, beats, beating, beaten
   vietnamese: đánh đập
 piece:
+  english: piece
   pos: n
   frequency: 913
   inflections: piece, pieces
   vietnamese: mảnh
 shoe:
+  english: shoe
   pos: n
   frequency: 913
   inflections: shoe, shoes
   vietnamese: giày
 welcome:
+  english: welcome
   pos: j
   frequency: 911
   inflections: welcome
   vietnamese: hoan nghênh
 god:
+  english: god
   pos: n
   frequency: 908
   inflections: god, gods
   vietnamese: Chúa
 white:
+  english: white
   pos: j
   frequency: 901
   inflections: white, whiter, whitest
   vietnamese: trắng
 kick:
+  english: kick
   pos: v
   frequency: 900
   inflections: kick, kicks, kicking, kicked
   vietnamese: đá
 bag:
+  english: bag
   pos: n
   frequency: 899
   inflections: bag, bags
   vietnamese: cái túi
 early:
+  english: early
   pos: j
   frequency: 892
   inflections: early, earlier, earliest
   vietnamese: sớm
 excite:
+  english: excite
   pos: v
   frequency: 892
   inflections: excite, excites, exciting, excited
   vietnamese: kích thích
 wonderful:
+  english: wonderful
   pos: j
   frequency: 890
   inflections: wonderful
   vietnamese: Tuyệt vời
 seriously:
+  english: seriously
   pos: r
   frequency: 885
   inflections: seriously
   vietnamese: nghiêm túc
 country:
+  english: country
   pos: n
   frequency: 883
   inflections: country, countries
   vietnamese: quốc gia
 mouth:
+  english: mouth
   pos: n
   frequency: 883
   inflections: mouth, mouths
   vietnamese: miệng
 dear:
+  english: dear
   pos: j
   frequency: 879
   inflections: dear, dearer, dearest
   vietnamese: kính thưa
 quite:
+  english: quite
   pos: r
   frequency: 879
   inflections: quite
   vietnamese: hoàn toàn
 smart:
+  english: smart
   pos: j
   frequency: 876
   inflections: smart, smarter, smartest
   vietnamese: thông minh
 husband:
+  english: husband
   pos: n
   frequency: 875
   inflections: husband, husbands
   vietnamese: người chồng
 shh:
+  english: shh
   pos: u
   frequency: 874
   inflections: shh, sh, shhh
   vietnamese: suỵt
 invite:
+  english: invite
   pos: v
   frequency: 873
   inflections: invite, invites, inviting, invited
   vietnamese: mời
 rest:
+  english: rest
   pos: n
   frequency: 871
   inflections: rest, rests
   vietnamese: Lên đỉnh
 yours:
+  english: yours
   pos: fw
   frequency: 871
   inflections: yours
   vietnamese: của bạn
 behind:
+  english: behind
   pos: fw
   frequency: 866
   inflections: behind
   vietnamese: phía sau
 key:
+  english: key
   pos: n
   frequency: 865
   inflections: key, keys
   vietnamese: Chìa khóa
 dress:
+  english: dress
   pos: v
   frequency: 860
   inflections: dress, dresses, dressing, dressed
   vietnamese: mặc quần áo
 red:
+  english: red
   pos: j
   frequency: 859
   inflections: red, redder, reddest
   vietnamese: màu đỏ
 laugh:
+  english: laugh
   pos: v
   frequency: 858
   inflections: laugh, laughs, laughing, laughed
   vietnamese: cười
 agree:
+  english: agree
   pos: v
   frequency: 853
   inflections: agree, agrees, agreeing, agreed
   vietnamese: đồng ý
 machine:
+  english: machine
   pos: n
   frequency: 853
   inflections: machine, machines
   vietnamese: cỗ máy
 yep:
+  english: yep
   pos: r
   frequency: 850
   inflections: yep
   vietnamese: Vâng
 return:
+  english: return
   pos: v
   frequency: 847
   inflections: return, returns, returning, returned
   vietnamese: trở về
 space:
+  english: space
   pos: n
   frequency: 844
   inflections: space, spaces
   vietnamese: không gian
 mad:
+  english: mad
   pos: j
   frequency: 841
   inflections: mad, madder, maddest
   vietnamese: điên
 truth:
+  english: truth
   pos: n
   frequency: 837
   inflections: truth, truths
   vietnamese: sự thật
 ice:
+  english: ice
   pos: n
   frequency: 834
   inflections: ice, ices
   vietnamese: Nước đá
 follow:
+  english: follow
   pos: v
   frequency: 833
   inflections: follow, follows, following, followed
   vietnamese: theo dõi
 outside:
+  english: outside
   pos: fw
   frequency: 828
   inflections: outside
   vietnamese: ngoài
 idiot:
+  english: idiot
   pos: n
   frequency: 827
   inflections: idiot, idiots
   vietnamese: thằng ngốc
 rule:
+  english: rule
   pos: n
   frequency: 826
   inflections: rule, rules
   vietnamese: qui định
 absolutely:
+  english: absolutely
   pos: r
   frequency: 825
   inflections: absolutely
   vietnamese: chắc chắn rồi
 against:
+  english: against
   pos: fw
   frequency: 821
   inflections: against
   vietnamese: chống lại
 American:
+  english: American
   pos: K
   frequency: 821
   inflections: American, Americans
   vietnamese: Người Mỹ
 scare:
+  english: scare
   pos: v
   frequency: 819
   inflections: scare, scares, scaring, scared
   vietnamese: sự sợ hãi
 notice:
+  english: notice
   pos: v
   frequency: 812
   inflections: notice, notices, noticing, noticed
   vietnamese: để ý
 chicken:
+  english: chicken
   pos: n
   frequency: 811
   inflections: chicken, chickens
   vietnamese: Gà
 ride:
+  english: ride
   pos: v
   frequency: 811
   inflections: ride, rides, riding, rode, ridden
   vietnamese: dap xe
 music:
+  english: music
   pos: n
   frequency: 809
   inflections: music
   vietnamese: Âm nhạc
 join:
+  english: join
   pos: v
   frequency: 808
   inflections: join, joins, joining, joined
   vietnamese: tham gia
 good-bye:
+  english: good-bye
   pos: u
   frequency: 806
   inflections: good-bye, goodbye
   vietnamese: Tạm biệt
 ruin:
+  english: ruin
   pos: v
   frequency: 806
   inflections: ruin, ruins, ruining, ruined
   vietnamese: sự đổ nát
 war:
+  english: war
   pos: n
   frequency: 801
   inflections: war, wars
   vietnamese: chiến tranh
 screw:
+  english: screw
   pos: v
   frequency: 800
   inflections: screw, screws, screwing, screwed
   vietnamese: Đinh ốc
 light:
+  english: light
   pos: n
   frequency: 797
   inflections: light, lights
   vietnamese: nhẹ
 along:
+  english: along
   pos: fw
   frequency: 790
   inflections: along
   vietnamese: dọc theo
 poor:
+  english: poor
   pos: j
   frequency: 790
   inflections: poor, poorer, poorest
   vietnamese: nghèo
 sense:
+  english: sense
   pos: n
   frequency: 789
   inflections: sense, senses
   vietnamese: ý nghĩa
 able:
+  english: able
   pos: j
   frequency: 788
   inflections: able, abler, ablest
   vietnamese: có thể
 secret:
+  english: secret
   pos: n
   frequency: 783
   inflections: secret, secrets
   vietnamese: bí mật
 fly:
+  english: fly
   pos: v
   frequency: 780
   inflections: fly, flies, flying, flew, flown
   vietnamese: ruồi
 top:
+  english: top
   pos: n
   frequency: 780
   inflections: top, tops
   vietnamese: đứng đầu
 fair:
+  english: fair
   pos: j
   frequency: 777
   inflections: fair, fairer, fairest
   vietnamese: công bằng
 relax:
+  english: relax
   pos: v
   frequency: 776
   inflections: relax, relaxes, relaxing, relaxed
   vietnamese: thư giãn
 boyfriend:
+  english: boyfriend
   pos: n
   frequency: 774
   inflections: boyfriend, boyfriends
   vietnamese: bạn trai
 mistake:
+  english: mistake
   pos: n
   frequency: 771
   inflections: mistake, mistakes
   vietnamese: sai lầm, điều sai, ngộ nhận
 luck:
+  english: luck
   pos: n
   frequency: 769
   inflections: luck
   vietnamese: may mắn
 group:
+  english: group
   pos: n
   frequency: 766
   inflections: group, groups
   vietnamese: tập đoàn
 daughter:
+  english: daughter
   pos: n
   frequency: 759
   inflections: daughter, daughterly, daughters
   vietnamese: Con gái
 college:
+  english: college
   pos: n
   frequency: 757
   inflections: college, colleges
   vietnamese: trường đại học
 president:
+  english: president
   pos: n
   frequency: 757
   inflections: president, presidents
   vietnamese: chủ tịch
 far:
+  english: far
   pos: r
   frequency: 754
   inflections: far, farther, further, farthest, furthest
   vietnamese: xa
 sign:
+  english: sign
   pos: n
   frequency: 597
   inflections: sign, signs
   vietnamese: dấu hiệu
 message:
+  english: message
   pos: n
   frequency: 748
   inflections: message, messages
   vietnamese: thông điệp
 freak:
+  english: freak
   pos: v
   frequency: 747
   inflections: freak, freaks, freaking, freaked
   vietnamese: quái đản
 fault:
+  english: fault
   pos: n
   frequency: 745
   inflections: fault, faulted, faulting, faultless, faultlessly, faultlessness, faults
   vietnamese: lỗi
 quick:
+  english: quick
   pos: j
   frequency: 744
   inflections: quick, quicker, quickest
   vietnamese: nhanh
 till:
+  english: till
   pos: fw
   frequency: 742
   inflections: till
   vietnamese: cho đến khi
 except:
+  english: except
   pos: fw
   frequency: 738
   inflections: except
   vietnamese: ngoại trừ
 single:
+  english: single
   pos: j
   frequency: 734
   inflections: single
   vietnamese: Độc thân
 shirt:
+  english: shirt
   pos: n
   frequency: 733
   inflections: shirt, shirts
   vietnamese: áo sơ mi
 choice:
+  english: choice
   pos: n
   frequency: 732
   inflections: choice, choices
   vietnamese: sự lựa chọn
 attention:
+  english: attention
   pos: n
   frequency: 730
   inflections: attention
   vietnamese: chú ý
 power:
+  english: power
   pos: n
   frequency: 730
   inflections: power, powers
   vietnamese: sức mạnh
 quit:
+  english: quit
   pos: v
   frequency: 729
   inflections: quit, quits, quitting, quitted
   vietnamese: từ bỏ
 answer:
+  english: answer
   pos: v
   frequency: 592
   inflections: answer, answers, answering, answered
   vietnamese: câu trả lời
 trust:
+  english: trust
   pos: v
   frequency: 727
   inflections: trust, trusts, trusting, trusted
   vietnamese: Lòng tin
 fifty:
+  english: fifty
   pos: m
   frequency: 725
   inflections: fifty, fifties
   vietnamese: năm mươi
 leg:
+  english: leg
   pos: n
   frequency: 725
   inflections: leg, legs
   vietnamese: Chân
 wake:
+  english: wake
   pos: v
   frequency: 723
   inflections: wake, wakes, waking, waked, woke, woken
   vietnamese: thức dậy
 human:
+  english: human
   pos: j
   frequency: 717
   inflections: human
   vietnamese: Nhân loại
 star:
+  english: star
   pos: n
   frequency: 715
   inflections: star, stars
   vietnamese: ngôi sao
 student:
+  english: student
   pos: n
   frequency: 713
   inflections: student, students
   vietnamese: sinh viên
 air:
+  english: air
   pos: n
   frequency: 703
   inflections: air, airs
   vietnamese: hàng không
 chair:
+  english: chair
   pos: n
   frequency: 700
   inflections: chair, chairs
   vietnamese: cái ghế
 gun:
+  english: gun
   pos: n
   frequency: 699
   inflections: gun, guns
   vietnamese: súng
 begin:
+  english: begin
   pos: v
   frequency: 692
   inflections: begin, begins, beginning, began, begun
   vietnamese: bắt đầu
 death:
+  english: death
   pos: n
   frequency: 692
   inflections: death, deaths
   vietnamese: cái chết
 tree:
+  english: tree
   pos: n
   frequency: 692
   inflections: tree, trees
   vietnamese: cây
 boss:
+  english: boss
   pos: n
   frequency: 689
   inflections: boss, bosses
   vietnamese: trùm
 present:
+  english: present
   pos: n
   frequency: 687
   inflections: present, presents
   vietnamese: hiện nay
 instead:
+  english: instead
   pos: r
   frequency: 686
   inflections: instead
   vietnamese: thay vì
 lucky:
+  english: lucky
   pos: j
   frequency: 682
   inflections: lucky, luckier, luckiest
   vietnamese: may mắn
 safe:
+  english: safe
   pos: j
   frequency: 681
   inflections: safe, safer, safest
   vietnamese: an toàn
 cold:
+  english: cold
   pos: j
   frequency: 678
   inflections: cold, colder, coldest
   vietnamese: lạnh
 ahh:
+  english: ahh
   pos: u
   frequency: 677
   inflections: ahh
   vietnamese: àh
 explain:
+  english: explain
   pos: v
   frequency: 676
   inflections: explain, explains, explaining, explained
   vietnamese: giải thích
 video:
+  english: video
   pos: n
   frequency: 676
   inflections: video, videos
   vietnamese: video
 brain:
+  english: brain
   pos: n
   frequency: 675
   inflections: brain, brains
   vietnamese: não
 completely:
+  english: completely
   pos: r
   frequency: 673
   inflections: completely
   vietnamese: hoàn toàn
 voice:
+  english: voice
   pos: n
   frequency: 673
   inflections: voice, voices
   vietnamese: tiếng nói
 cake:
+  english: cake
   pos: n
   frequency: 672
   inflections: cake, cakes
   vietnamese: bánh
 trip:
+  english: trip
   pos: n
   frequency: 671
   inflections: trip, trips
   vietnamese: chuyến đi
 monkey:
+  english: monkey
   pos: n
   frequency: 670
   inflections: monkey, monkeys
   vietnamese: con khỉ
 hundred:
+  english: hundred
   pos: m
   frequency: 669
   inflections: hundred, hundreds
   vietnamese: trăm
 fix:
+  english: fix
   pos: v
   frequency: 668
   inflections: fix, fixes, fixing, fixed
   vietnamese: sửa chữa
 entire:
+  english: entire
   pos: j
   frequency: 667
   inflections: entire
   vietnamese: toàn bộ
 expect:
+  english: expect
   pos: v
   frequency: 667
   inflections: expect, expected, expecting, expects
   vietnamese: chờ đợi
 million:
+  english: million
   pos: m
   frequency: 667
   inflections: million, millions
   vietnamese: triệu
 allow:
+  english: allow
   pos: v
   frequency: 666
   inflections: allow, allows, allowing, allowed
   vietnamese: cho phép
 forever:
+  english: forever
   pos: r
   frequency: 666
   inflections: forever
   vietnamese: mãi mãi
 ugh:
+  english: ugh
   pos: u
   frequency: 664
   inflections: ugh
   vietnamese: ugh
 hide:
+  english: hide
   pos: v
   frequency: 662
   inflections: hide, hides, hiding, hid, hidden
   vietnamese: ẩn giấu
 huge:
+  english: huge
   pos: j
   frequency: 662
   inflections: huge, huger, hugest
   vietnamese: to lớn
 interesting:
+  english: interesting
   pos: j
   frequency: 662
   inflections: interesting
   vietnamese: thú vị
 roll:
+  english: roll
   pos: v
   frequency: 661
   inflections: roll, rolls, rolling, rolled
   vietnamese: cuộn
 clothes:
+  english: clothes
   pos: n
   frequency: 658
   inflections: clothes
   vietnamese: quần áo
 fast:
+  english: fast
   pos: r
   frequency: 657
   inflections: fast, faster, fastest
   vietnamese: Nhanh
 grab:
+  english: grab
   pos: v
   frequency: 657
   inflections: grab, grabs, grabbing, grabbed
   vietnamese: vồ lấy
 teacher:
+  english: teacher
   pos: n
   frequency: 657
   inflections: teacher, teachers
   vietnamese: giáo viên
 crap:
+  english: crap
   pos: u
   frequency: 414
   inflections: crap, craps, crapping, crapped
   vietnamese: tào lao
 animal:
+  english: animal
   pos: n
   frequency: 655
   inflections: animal, animals
   vietnamese: động vật
 burn:
+  english: burn
   pos: v
   frequency: 654
   inflections: burn, burns, burning, burned, burnt
   vietnamese: đốt cháy
 tough:
+  english: tough
   pos: j
   frequency: 654
   inflections: tough, tougher, toughest
   vietnamese: khó
 restaurant:
+  english: restaurant
   pos: n
   frequency: 652
   inflections: restaurant, restaurants
   vietnamese: quán ăn
 sort:
+  english: sort
   pos: n
   frequency: 652
   inflections: sort, sorts
   vietnamese: loại
 tooth:
+  english: tooth
   pos: n
   frequency: 651
   inflections: tooth, teeth
   vietnamese: răng
 marriage:
+  english: marriage
   pos: n
   frequency: 649
   inflections: marriage, marriages
   vietnamese: hôn nhân
 proud:
+  english: proud
   pos: j
   frequency: 649
   inflections: proud, prouder, proudest
   vietnamese: hãnh diện
 uncle:
+  english: uncle
   pos: n
   frequency: 647
   inflections: uncle, uncles
   vietnamese: Chú
 push:
+  english: push
   pos: v
   frequency: 646
   inflections: push, pushes, pushing, pushed
   vietnamese: đẩy
 butt:
+  english: butt
   pos: n
   frequency: 643
   inflections: butt, butts
   vietnamese: mông
 offer:
+  english: offer
   pos: v
   frequency: 643
   inflections: offer, offers, offering, offered
   vietnamese: lời đề nghị
 lord:
+  english: lord
   pos: n
   frequency: 640
   inflections: lord, lords
   vietnamese: Chúa tể
 unless:
+  english: unless
   pos: fw
   frequency: 639
   inflections: unless
   vietnamese: trừ khi
 feeling:
+  english: feeling
   pos: n
   frequency: 638
   inflections: feeling, feelings
   vietnamese: cảm giác
 suit:
+  english: suit
   pos: n
   frequency: 636
   inflections: suit, suits
   vietnamese: bộ đồ
 uh-huh:
+  english: uh-huh
   pos: u
   frequency: 635
   inflections: uh-huh
   vietnamese: uh-huh
 floor:
+  english: floor
   pos: n
   frequency: 634
   inflections: floor, floors
   vietnamese: sàn nhà
 cream:
+  english: cream
   pos: n
   frequency: 629
   inflections: cream, creams
   vietnamese: kem
 favorite:
+  english: favorite
   pos: j
   frequency: 629
   inflections: favorite
   vietnamese: yêu thích
 naked:
+  english: naked
   pos: j
   frequency: 628
   inflections: naked
   vietnamese: khỏa thân
 list:
+  english: list
   pos: n
   frequency: 627
   inflections: list, lists
   vietnamese: danh sách
 ring:
+  english: ring
   pos: n
   frequency: 625
   inflections: ring, rings
   vietnamese: vòng
 clean:
+  english: clean
   pos: j
   frequency: 426
   inflections: clean, cleaner, cleanest
   vietnamese: lau dọn
 apologize:
+  english: apologize
   pos: v
   frequency: 620
   inflections: apologize, apologizing, apologizes, apologized
   vietnamese: xin lỗi
 clear:
+  english: clear
   pos: j
   frequency: 620
   inflections: clear, clearer, clearest
   vietnamese: xa lạ
 Earth:
+  english: Earth
   pos: K
   frequency: 620
   inflections: Earth, earth
   vietnamese: Trái đất
 share:
+  english: share
   pos: v
   frequency: 620
   inflections: share, shares, sharing, shared
   vietnamese: đăng lại
 fill:
+  english: fill
   pos: v
   frequency: 619
   inflections: fill, fills, filling, filled
   vietnamese: lấp đầy
 pizza:
+  english: pizza
   pos: n
   frequency: 612
   inflections: pizza, pizzas
   vietnamese: pizza
 ridiculous:
+  english: ridiculous
   pos: j
   frequency: 612
   inflections: ridiculous
   vietnamese: lố bịch
 alive:
+  english: alive
   pos: j
   frequency: 609
   inflections: alive
   vietnamese: còn sống
 pretend:
+  english: pretend
   pos: v
   frequency: 608
   inflections: pretend, pretends, pretending, pretended
   vietnamese: giả vờ
 hospital:
+  english: hospital
   pos: n
   frequency: 604
   inflections: hospital, hospitals
   vietnamese: bệnh viện
 sad:
+  english: sad
   pos: j
   frequency: 603
   inflections: sad, sadder, saddest
   vietnamese: buồn
 bunch:
+  english: bunch
   pos: n
   frequency: 602
   inflections: bunch, bunches
   vietnamese: bó lại
 half:
+  english: half
   pos: m
   frequency: 438
   inflections: half, halves
   vietnamese: một nửa
 police:
+  english: police
   pos: n
   frequency: 602
   inflections: police
   vietnamese: cảnh sát viên
 fish:
+  english: fish
   pos: n
   frequency: 600
   inflections: fish, fishes
   vietnamese: cá
 window:
+  english: window
   pos: n
   frequency: 599
   inflections: window, windows
   vietnamese: cửa sổ
 busy:
+  english: busy
   pos: j
   frequency: 597
   inflections: busy, busier, busiest
   vietnamese: bận
 pie:
+  english: pie
   pos: n
   frequency: 594
   inflections: pie, pies
   vietnamese: bánh
 raise:
+  english: raise
   pos: v
   frequency: 592
   inflections: raise, raises, raising, raised
   vietnamese: nuôi
 somewhere:
+  english: somewhere
   pos: r
   frequency: 592
   inflections: somewhere
   vietnamese: một vài nơi
 sandwich:
+  english: sandwich
   pos: n
   frequency: 590
   inflections: sandwich, sandwiches
   vietnamese: bánh mì sandwich
 thirty:
+  english: thirty
   pos: m
   frequency: 590
   inflections: thirty, thirties
   vietnamese: ba mươi
 sale:
+  english: sale
   pos: n
   frequency: 589
   inflections: sale, sales
   vietnamese: doanh thu
 choose:
+  english: choose
   pos: v
   frequency: 588
   inflections: choose, chooses, choosing, chose, chosen
   vietnamese: chọn
 definitely:
+  english: definitely
   pos: r
   frequency: 588
   inflections: definitely
   vietnamese: chắc chắn
 swear:
+  english: swear
   pos: v
   frequency: 588
   inflections: swear, swears, swearing, swore, sworn
   vietnamese: thề
 boat:
+  english: boat
   pos: n
   frequency: 583
   inflections: boat, boats
   vietnamese: con thuyền
 tired:
+  english: tired
   pos: j
   frequency: 582
   inflections: tired
   vietnamese: mệt mỏi
 ho:
+  english: ho
   pos: u
   frequency: 581
   inflections: ho
   vietnamese: ho
 upset:
+  english: upset
   pos: j
   frequency: 578
   inflections: upset
   vietnamese: khó chịu
 less:
+  english: less
   pos: fw
   frequency: 577
   inflections: less
   vietnamese: ít hơn
 nine:
+  english: nine
   pos: m
   frequency: 576
   inflections: nine, nines
   vietnamese: chín
 thousand:
+  english: thousand
   pos: m
   frequency: 576
   inflections: thousand, thousands
   vietnamese: ngàn
 smoke:
+  english: smoke
   pos: v
   frequency: 574
   inflections: smoke, smokes, smoking, smoked
   vietnamese: Khói
 embarrass:
+  english: embarrass
   pos: v
   frequency: 573
   inflections: embarrass, embarrasses, embarrassing, embarrassed
   vietnamese: lúng túng
 band:
+  english: band
   pos: n
   frequency: 572
   inflections: band, bands
   vietnamese: ban nhạc
 bear:
+  english: bear
   pos: n
   frequency: 514
   inflections: bear, bears
   vietnamese: con gấu
 none:
+  english: none
   pos: fw
   frequency: 571
   inflections: none
   vietnamese: không ai
 Santa:
+  english: Santa
   pos: K
   frequency: 571
   inflections: Santa
   vietnamese: Ông già noel
 strong:
+  english: strong
   pos: j
   frequency: 571
   inflections: strong, stronger, strongest
   vietnamese: mạnh
 law:
+  english: law
   pos: n
   frequency: 570
   inflections: law, laws
   vietnamese: pháp luật
 toilet:
+  english: toilet
   pos: n
   frequency: 570
   inflections: toilet, toilets
   vietnamese: phòng vệ sinh
 jump:
+  english: jump
   pos: v
   frequency: 569
   inflections: jump, jumps, jumping, jumped
   vietnamese: nhảy
 count:
+  english: count
   pos: v
   frequency: 567
   inflections: count, counts, counting, counted
   vietnamese: đếm
 egg:
+  english: egg
   pos: n
   frequency: 566
   inflections: egg, eggs
   vietnamese: trứng
 Saturday:
+  english: Saturday
   pos: K
   frequency: 565
   inflections: Saturday, Saturdays
   vietnamese: Thứ bảy
 blue:
+  english: blue
   pos: j
   frequency: 564
   inflections: blue, bluer, bluest
   vietnamese: màu xanh da trời
 horrible:
+  english: horrible
   pos: j
   frequency: 564
   inflections: horrible
   vietnamese: tệ hại
 shit:
+  english: shit
   pos: n
   frequency: 564
   inflections: shit, shits
   vietnamese: Chết tiệt
 favor:
+  english: favor
   pos: n
   frequency: 563
   inflections: favor, favors
   vietnamese: ủng hộ
 handle:
+  english: handle
   pos: v
   frequency: 563
   inflections: handle, handles, handling, handled
   vietnamese: xử lý
 wall:
+  english: wall
   pos: n
   frequency: 563
   inflections: wall, walls
   vietnamese: Tường
 art:
+  english: art
   pos: n
   frequency: 562
   inflections: art, arts
   vietnamese: Mỹ thuật
 cover:
+  english: cover
   pos: v
   frequency: 562
   inflections: cover, covers, covering, covered
   vietnamese: trải ra
 arm:
+  english: arm
   pos: n
   frequency: 561
   inflections: arm, arms
   vietnamese: cánh tay
 perhaps:
+  english: perhaps
   pos: r
   frequency: 560
   inflections: perhaps
   vietnamese: có lẽ
 simple:
+  english: simple
   pos: j
   frequency: 560
   inflections: simple, simpler, simplest
   vietnamese: giản dị
 bus:
+  english: bus
   pos: n
   frequency: 558
   inflections: bus, buses
   vietnamese: xe buýt
 appreciate:
+  english: appreciate
   pos: v
   frequency: 556
   inflections: appreciate, appreciates, appreciating, appreciated
   vietnamese: đánh giá cao
 himself:
+  english: himself
   pos: fw
   frequency: 556
   inflections: himself
   vietnamese: bản thân anh ấy
 surprise:
+  english: surprise
   pos: n
   frequency: 540
   inflections: surprise, surprises
   vietnamese: bất ngờ
 candy:
+  english: candy
   pos: n
   frequency: 555
   inflections: candy, candies
   vietnamese: cục kẹo
 finger:
+  english: finger
   pos: n
   frequency: 553
   inflections: finger, fingers
   vietnamese: ngón tay
 worth:
+  english: worth
   pos: j
   frequency: 551
   inflections: worth
   vietnamese: đáng giá
 state:
+  english: state
   pos: n
   frequency: 550
   inflections: state, states
   vietnamese: tiểu bang
 possible:
+  english: possible
   pos: j
   frequency: 549
   inflections: possible
   vietnamese: khả thi
 rich:
+  english: rich
   pos: j
   frequency: 548
   inflections: rich, richer, richest
   vietnamese: giàu có
 short:
+  english: short
   pos: j
   frequency: 548
   inflections: short, shorter, shortest
   vietnamese: ngắn
 king:
+  english: king
   pos: n
   frequency: 547
   inflections: king, kings
   vietnamese: nhà vua
 knock:
+  english: knock
   pos: v
   frequency: 547
   inflections: knock, knocks, knocking, knocked
   vietnamese: cú đánh
 cookie:
+  english: cookie
   pos: n
   frequency: 545
   inflections: cookie, cookies
   vietnamese: bánh quy
 penis:
+  english: penis
   pos: n
   frequency: 545
   inflections: penis, penises, penes
   vietnamese: dương vật
 history:
+  english: history
   pos: n
   frequency: 544
   inflections: history, histories
   vietnamese: lịch sử
 imagine:
+  english: imagine
   pos: v
   frequency: 544
   inflections: imagine, imagines, imagining, imagined
   vietnamese: tưởng tượng
 third:
+  english: third
   pos: m
   frequency: 544
   inflections: third, thirds
   vietnamese: ngày thứ ba
 blood:
+  english: blood
   pos: n
   frequency: 542
   inflections: blood, bloods
   vietnamese: máu
 drug:
+  english: drug
   pos: n
   frequency: 542
   inflections: drug, drugs
   vietnamese: thuốc
 future:
+  english: future
   pos: n
   frequency: 541
   inflections: future, futures
   vietnamese: Tương lai
 prove:
+  english: prove
   pos: v
   frequency: 540
   inflections: prove, proves, proving, proved, proven
   vietnamese: chứng tỏ
 alright:
+  english: alright
   pos: r
   frequency: 539
   inflections: alright
   vietnamese: được rồi
 captain:
+  english: captain
   pos: n
   frequency: 539
   inflections: captain, captains
   vietnamese: đội trưởng
 evening:
+  english: evening
   pos: n
   frequency: 539
   inflections: evening, evenings
   vietnamese: tối
 congratulations:
+  english: congratulations
   pos: u
   frequency: 538
   inflections: congratulations
   vietnamese: Xin chúc mừng
 system:
+  english: system
   pos: n
   frequency: 538
   inflections: system, systems
   vietnamese: hệ thống
 record:
+  english: record
   pos: n
   frequency: 534
   inflections: record, records
   vietnamese: ghi lại
 age:
+  english: age
   pos: n
   frequency: 533
   inflections: age, ages
   vietnamese: tuổi tác
 deserve:
+  english: deserve
   pos: v
   frequency: 529
   inflections: deserve, deserves, deserving, deserved
   vietnamese: xứng đáng
 normal:
+  english: normal
   pos: j
   frequency: 528
   inflections: normal
   vietnamese: thông thường
 yesterday:
+  english: yesterday
   pos: n
   frequency: 528
   inflections: yesterday, yesterdays
   vietnamese: hôm qua
 jerk:
+  english: jerk
   pos: n
   frequency: 526
   inflections: jerk, jerks
   vietnamese: cà trớn
 yay:
+  english: yay
   pos: u
   frequency: 526
   inflections: yay
   vietnamese: yay
 bird:
+  english: bird
   pos: n
   frequency: 525
   inflections: bird, birds
   vietnamese: chim
 nose:
+  english: nose
   pos: n
   frequency: 525
   inflections: nose, noses
   vietnamese: mũi
 bother:
+  english: bother
   pos: v
   frequency: 525
   inflections: bother, bothers, bothering, bothered
   vietnamese: làm phiền
 fan:
+  english: fan
   pos: n
   frequency: 523
   inflections: fan, fans
   vietnamese: quạt
 letter:
+  english: letter
   pos: n
   frequency: 523
   inflections: letter, letters
   vietnamese: bức thư
 rather:
+  english: rather
   pos: r
   frequency: 522
   inflections: rather
   vietnamese: hơn là
 interested:
+  english: interested
   pos: j
   frequency: 519
   inflections: interested
   vietnamese: quan tâm đến
 owe:
+  english: owe
   pos: v
   frequency: 519
   inflections: owe, owes, owing, owed
   vietnamese: nợ
 pregnant:
+  english: pregnant
   pos: j
   frequency: 519
   inflections: pregnant
   vietnamese: có thai
 destroy:
+  english: destroy
   pos: v
   frequency: 516
   inflections: destroy, destroys, destroying, destroyed
   vietnamese: hủy hoại
 evil:
+  english: evil
   pos: j
   frequency: 513
   inflections: evil, eviler, eviller, evilest, evillest
   vietnamese: độc ác
 milk:
+  english: milk
   pos: n
   frequency: 512
   inflections: milk, milks
   vietnamese: Sữa
 sport:
+  english: sport
   pos: n
   frequency: 511
   inflections: sport, sports
   vietnamese: thể thao
 admit:
+  english: admit
   pos: v
   frequency: 510
   inflections: admit, admits, admitting, admitted
   vietnamese: thừa nhận
 apparently:
+  english: apparently
   pos: r
   frequency: 510
   inflections: apparently
   vietnamese: rõ ràng
 conversation:
+  english: conversation
   pos: n
   frequency: 509
   inflections: conversation, conversations
   vietnamese: cuộc hội thoại
 obviously:
+  english: obviously
   pos: r
   frequency: 509
   inflections: obviously
   vietnamese: rõ ràng
 uh-oh:
+  english: uh-oh
   pos: u
   frequency: 509
   inflections: uh-oh
   vietnamese: uh-oh
 jacket:
+  english: jacket
   pos: n
   frequency: 508
   inflections: jacket, jackets
   vietnamese: Áo khoác
 during:
+  english: during
   pos: fw
   frequency: 507
   inflections: during
   vietnamese: suốt trong
 accept:
+  english: accept
   pos: v
   frequency: 504
   inflections: accept, accepts, accepting, accepted
   vietnamese: Chấp nhận
 dumb:
+  english: dumb
   pos: j
   frequency: 502
   inflections: dumb, dumber, dumbest
   vietnamese: câm
 bit:
+  english: bit
   pos: n
   frequency: 500
   inflections: bit, bits
   vietnamese: chút
 consider:
+  english: consider
   pos: v
   frequency: 500
   inflections: consider, considers, considering, considered
   vietnamese: xem xét
 mention:
+  english: mention
   pos: v
   frequency: 500
   inflections: mention, mentions, mentioning, mentioned
   vietnamese: đề cập đến
 step:
+  english: step
   pos: n
   frequency: 400
   inflections: step, steps
   vietnamese: bươc
 hungry:
+  english: hungry
   pos: j
   frequency: 499
   inflections: hungry, hungrier, hungriest
   vietnamese: đói bụng
 situation:
+  english: situation
   pos: n
   frequency: 499
   inflections: situation, situations
   vietnamese: tình hình
 lead:
+  english: lead
   pos: v
   frequency: 497
   inflections: lead, leads, leading, leaded, led
   vietnamese: chỉ huy
 twelve:
+  english: twelve
   pos: m
   frequency: 495
   inflections: twelve, twelves
   vietnamese: mười hai
 fantastic:
+  english: fantastic
   pos: j
   frequency: 494
   inflections: fantastic
   vietnamese: tuyệt vời
 hole:
+  english: hole
   pos: n
   frequency: 494
   inflections: hole, holes
   vietnamese: hố
 plus:
+  english: plus
   pos: fw
   frequency: 494
   inflections: plus
   vietnamese: thêm
 note:
+  english: note
   pos: n
   frequency: 492
   inflections: note, notes
   vietnamese: Ghi chú
 test:
+  english: test
   pos: n
   frequency: 492
   inflections: test, tests
   vietnamese: kiểm tra
 honest:
+  english: honest
   pos: j
   frequency: 490
   inflections: honest, honester, honestest
   vietnamese: thật thà
 character:
+  english: character
   pos: n
   frequency: 489
   inflections: character, characters
   vietnamese: tính cách
 holy:
+  english: holy
   pos: j
   frequency: 489
   inflections: holy, holier, holiest
   vietnamese: thánh thiện
 manager:
+  english: manager
   pos: n
   frequency: 489
   inflections: manager, managers
   vietnamese: người quản lý
 lesson:
+  english: lesson
   pos: n
   frequency: 488
   inflections: lesson, lessons
   vietnamese: bài học
 soul:
+  english: soul
   pos: n
   frequency: 488
   inflections: soul, souls
   vietnamese: Linh hồn
 nope:
+  english: nope
   pos: r
   frequency: 487
   inflections: nope
   vietnamese: không
 dark:
+  english: dark
   pos: j
   frequency: 486
   inflections: dark, darker, darkest
   vietnamese: tối
 difference:
+  english: difference
   pos: n
   frequency: 486
   inflections: difference, differences
   vietnamese: Sự khác biệt
 wine:
+  english: wine
   pos: n
   frequency: 485
   inflections: wine, wines
   vietnamese: rượu
 road:
+  english: road
   pos: n
   frequency: 482
   inflections: road, roads
   vietnamese: đường bộ
 calm:
+  english: calm
   pos: v
   frequency: 481
   inflections: calm, calms, calming, calmed
   vietnamese: trấn tĩnh
 personal:
+  english: personal
   pos: j
   frequency: 481
   inflections: personal
   vietnamese: riêng tư
 clown:
+  english: clown
   pos: n
   frequency: 480
   inflections: clown, clowns
   vietnamese: thằng hề
 computer:
+  english: computer
   pos: n
   frequency: 480
   inflections: computer, computers
   vietnamese: máy tính
 horse:
+  english: horse
   pos: n
   frequency: 479
   inflections: horse, horses
   vietnamese: ngựa
 gosh:
+  english: gosh
   pos: u
   frequency: 478
   inflections: gosh
   vietnamese: gosh
 mayor:
+  english: mayor
   pos: n
   frequency: 477
   inflections: mayor, mayors
   vietnamese: thị trưởng
 inside:
+  english: inside
   pos: r
   frequency: 476
   inflections: inside
   vietnamese: nội bộ
 sexy:
+  english: sexy
   pos: j
   frequency: 476
   inflections: sexy, sexier, sexiest
   vietnamese: sexy
 dirty:
+  english: dirty
   pos: j
   frequency: 475
   inflections: dirty, dirtier, dirtiest
   vietnamese: bẩn thỉu
 carry:
+  english: carry
   pos: v
   frequency: 474
   inflections: carry, carries, carrying, carried
   vietnamese: mang
 professor:
+  english: professor
   pos: n
   frequency: 474
   inflections: professor, professors
   vietnamese: giáo sư
 usually:
+  english: usually
   pos: r
   frequency: 474
   inflections: usually
   vietnamese: thường xuyên
 bottle:
+  english: bottle
   pos: n
   frequency: 473
   inflections: bottle, bottles
   vietnamese: chai
 cheese:
+  english: cheese
   pos: n
   frequency: 473
   inflections: cheese, cheeses
   vietnamese: phô mai
 summer:
+  english: summer
   pos: n
   frequency: 473
   inflections: summer, summers
   vietnamese: mùa hè
 remind:
+  english: remind
   pos: v
   frequency: 472
   inflections: remind, reminds, reminding, reminded
   vietnamese: nhắc lại
 afternoon:
+  english: afternoon
   pos: n
   frequency: 471
   inflections: afternoon, afternoons
   vietnamese: buổi chiều
 pee:
+  english: pee
   pos: v
   frequency: 471
   inflections: pee, pees, peeing, peed
   vietnamese: tiểu
 across:
+  english: across
   pos: fw
   frequency: 470
   inflections: across
   vietnamese: băng qua
 angry:
+  english: angry
   pos: j
   frequency: 470
   inflections: angry, angrier, angriest
   vietnamese: tức giận
 fella:
+  english: fella
   pos: n
   frequency: 470
   inflections: fella, fellas
   vietnamese: anh bạn
 film:
+  english: film
   pos: n
   frequency: 470
   inflections: film, films
   vietnamese: phim ảnh
 reach:
+  english: reach
   pos: v
   frequency: 470
   inflections: reach, reaches, reaching, reached
   vietnamese: với tới
 shower:
+  english: shower
   pos: n
   frequency: 469
   inflections: shower, showers
   vietnamese: vòi hoa sen
 cup:
+  english: cup
   pos: n
   frequency: 468
   inflections: cup, cups
   vietnamese: tách
 lawyer:
+  english: lawyer
   pos: n
   frequency: 467
   inflections: lawyer, lawyers
   vietnamese: luật sư
 camera:
+  english: camera
   pos: n
   frequency: 465
   inflections: camera, cameras
   vietnamese: Máy ảnh
 pain:
+  english: pain
   pos: n
   frequency: 465
   inflections: pain, pains
   vietnamese: đau đớn
 hurry:
+  english: hurry
   pos: v
   frequency: 462
   inflections: hurry, hurries, hurrying, hurried
   vietnamese: vội vàng
 desk:
+  english: desk
   pos: n
   frequency: 461
   inflections: desk, desks
   vietnamese: bàn
 monster:
+  english: monster
   pos: n
   frequency: 461
   inflections: monster, monsters
   vietnamese: quái vật
 certainly:
+  english: certainly
   pos: r
   frequency: 460
   inflections: certainly
   vietnamese: chắc chắn
 cop:
+  english: cop
   pos: n
   frequency: 460
   inflections: cop, cops
   vietnamese: cảnh sát
 credit:
+  english: credit
   pos: n
   frequency: 459
   inflections: credit, credits
   vietnamese: tín dụng
 prepare:
+  english: prepare
   pos: v
   frequency: 459
   inflections: prepare, prepares, preparing, prepared
   vietnamese: chuẩn bị các
 anywhere:
+  english: anywhere
   pos: r
   frequency: 458
   inflections: anywhere
   vietnamese: bất cứ nơi nào
 breakfast:
+  english: breakfast
   pos: n
   frequency: 458
   inflections: breakfast, breakfasts
   vietnamese: bữa ăn sáng
 bastard:
+  english: bastard
   pos: n
   frequency: 457
   inflections: bastard, bastards
   vietnamese: đồ khốn
 church:
+  english: church
   pos: n
   frequency: 455
   inflections: church, churches
   vietnamese: nhà thờ
 hire:
+  english: hire
   pos: v
   frequency: 454
   inflections: hire, hires, hiring, hired
   vietnamese: Thuê
 decision:
+  english: decision
   pos: n
   frequency: 452
   inflections: decision, decisions
   vietnamese: quyết định
 Miss:
+  english: Miss
   pos: n
   frequency: 451
   inflections: miss, misses
   vietnamese: bỏ lỡ
 pig:
+  english: pig
   pos: n
   frequency: 448
   inflections: pig, pigs
   vietnamese: lợn
 loser:
+  english: loser
   pos: n
   frequency: 446
   inflections: loser, losers
   vietnamese: kẻ thua cuộc
 robot:
+  english: robot
   pos: n
   frequency: 446
   inflections: robot, robots
   vietnamese: người máy
 deep:
+  english: deep
   pos: j
   frequency: 445
   inflections: deep, deeper, deepest
   vietnamese: sâu
 park:
+  english: park
   pos: n
   frequency: 445
   inflections: park, parks
   vietnamese: công viên
 chocolate:
+  english: chocolate
   pos: n
   frequency: 445
   inflections: chocolate, chocolates
   vietnamese: sô cô la
 service:
+  english: service
   pos: n
   frequency: 443
   inflections: service, services
   vietnamese: Dịch vụ
 Jew:
+  english: Jew
   pos: K
   frequency: 442
   inflections: Jew
   vietnamese: Người do thái
 tape:
+  english: tape
   pos: n
   frequency: 440
   inflections: tape, tapes
   vietnamese: băng
 kitchen:
+  english: kitchen
   pos: n
   frequency: 439
   inflections: kitchen, kitchens
   vietnamese: phòng bếp
 rid:
+  english: rid
   pos: v
   frequency: 438
   inflections: rid, rids, riddings, ridded
   vietnamese: thoát khỏi
 grandpa:
+  english: grandpa
   pos: n
   frequency: 437
   inflections: grandpa, grandpas
   vietnamese: ông nội
 hero:
+  english: hero
   pos: n
   frequency: 437
   inflections: hero, heroes
   vietnamese: anh hùng
 shot:
+  english: shot
   pos: n
   frequency: 437
   inflections: shot, shots
   vietnamese: bắn
 spot:
+  english: spot
   pos: n
   frequency: 437
   inflections: spot, spots
   vietnamese: điểm
 folks:
+  english: folks
   pos: n
   frequency: 436
   inflections: folks
   vietnamese: folks
 yell:
+  english: yell
   pos: v
   frequency: 434
   inflections: yell, yells, yelling, yelled
   vietnamese: la lên
 awful:
+  english: awful
   pos: j
   frequency: 433
   inflections: awful, awfuller, awfullest
   vietnamese: kinh khủng
 scene:
+  english: scene
   pos: n
   frequency: 433
   inflections: scene, scenes
   vietnamese: sân khấu
 trick:
+  english: trick
   pos: n
   frequency: 433
   inflections: trick, tricks
   vietnamese: bí quyết, Thuật, mẹo
 asshole:
+  english: asshole
   pos: n
   frequency: 431
   inflections: asshole, assholes
   vietnamese: lỗ đít
 issue:
+  english: issue
   pos: n
   frequency: 430
   inflections: issue, issues
   vietnamese: vấn đề
 lovely:
+  english: lovely
   pos: j
   frequency: 429
   inflections: lovely, lovelier, loveliest
   vietnamese: đáng yêu
 visit:
+  english: visit
   pos: v
   frequency: 428
   inflections: visit, visits, visiting, visited
   vietnamese: chuyến thăm
 honor:
+  english: honor
   pos: n
   frequency: 428
   inflections: honor, honors
   vietnamese: tôn kính
 chick:
+  english: chick
   pos: n
   frequency: 424
   inflections: chick, chicks
   vietnamese: gà con
 costume:
+  english: costume
   pos: n
   frequency: 424
   inflections: costume, costumes
   vietnamese: trang phục
 Friday:
+  english: Friday
   pos: K
   frequency: 424
   inflections: Friday, Fridays
   vietnamese: Thứ sáu
 hall:
+  english: hall
   pos: n
   frequency: 424
   inflections: hall, halls
   vietnamese: đại sảnh
 Ms:
+  english: Ms
   pos: n
   frequency: 422
   inflections: Ms, Mss, Mses
   vietnamese: Bệnh đa xơ cứng
 fake:
+  english: fake
   pos: j
   frequency: 419
   inflections: fake
   vietnamese: giả mạo
 forgive:
+  english: forgive
   pos: v
   frequency: 419
   inflections: forgive, forgives, forgiving, forgave, forgiven
   vietnamese: tha lỗi
 grade:
+  english: grade
   pos: n
   frequency: 419
   inflections: grade, grades
   vietnamese: lớp
 fifteen:
+  english: fifteen
   pos: m
   frequency: 418
   inflections: fifteen, fifteens
   vietnamese: mười lăm
 ought:
+  english: ought
   pos: v
   frequency: 417
   inflections: ought
   vietnamese: phải
 cheat:
+  english: cheat
   pos: v
   frequency: 416
   inflections: cheat, cheats, cheating, cheated
   vietnamese: lừa đảo
 Chinese:
+  english: Chinese
   pos: K
   frequency: 416
   inflections: Chinese
   vietnamese: người Trung Quốc
 create:
+  english: create
   pos: v
   frequency: 413
   inflections: create, creates, creating, created
   vietnamese: tạo ra
 comfortable:
+  english: comfortable
   pos: j
   frequency: 412
   inflections: comfortable
   vietnamese: Thoải mái
 hotel:
+  english: hotel
   pos: n
   frequency: 411
   inflections: hotel, hotels
   vietnamese: khách sạn
 magazine:
+  english: magazine
   pos: n
   frequency: 411
   inflections: magazine, magazines
   vietnamese: tạp chí
 settle:
+  english: settle
   pos: v
   frequency: 411
   inflections: settle, settles, settling, settled
   vietnamese: ổn định
 accident:
+  english: accident
   pos: n
   frequency: 410
   inflections: accident, accidents
   vietnamese: Tai nạn
 boob:
+  english: boob
   pos: n
   frequency: 409
   inflections: boob, boobs
   vietnamese: boob
 excellent:
+  english: excellent
   pos: j
   frequency: 409
   inflections: excellent
   vietnamese: Xuất sắc
 neighbor:
+  english: neighbor
   pos: n
   frequency: 409
   inflections: neighbor, neighbors
   vietnamese: láng giềng
 train:
+  english: train
   pos: n
   frequency: 409
   inflections: train, trains
   vietnamese: xe lửa
 board:
+  english: board
   pos: n
   frequency: 408
   inflections: board, boards
   vietnamese: Cái bảng
 pop:
+  english: pop
   pos: v
   frequency: 408
   inflections: pop, pops, popping, popped
   vietnamese: nhạc pop
 spirit:
+  english: spirit
   pos: n
   frequency: 408
   inflections: spirit, spirits
   vietnamese: tinh thần
 cow:
+  english: cow
   pos: n
   frequency: 406
   inflections: cow, cows
   vietnamese: con bò
 building:
+  english: building
   pos: n
   frequency: 404
   inflections: building, buildings
   vietnamese: Tòa nhà
 ear:
+  english: ear
   pos: n
   frequency: 404
   inflections: ear, ears
   vietnamese: tai
 giant:
+  english: giant
   pos: j
   frequency: 404
   inflections: giant, giants
   vietnamese: người khổng lồ
 ugly:
+  english: ugly
   pos: j
   frequency: 404
   inflections: ugly, uglier, ugliest
   vietnamese: xấu xí
 toy:
+  english: toy
   pos: n
   frequency: 403
   inflections: toy, toys
   vietnamese: đồ chơi
 cancel:
+  english: cancel
   pos: v
   frequency: 402
   inflections: cancel, cancels, canceling, canceled
   vietnamese: sự hủy bỏ
 Internet:
+  english: Internet
   pos: K
   frequency: 402
   inflections: Internet, Net
   vietnamese: Internet
 strange:
+  english: strange
   pos: j
   frequency: 402
   inflections: strange, stranger, strangest
   vietnamese: lạ lùng
 aunt:
+  english: aunt
   pos: n
   frequency: 401
   inflections: aunt, aunts
   vietnamese: dì
 island:
+  english: island
   pos: n
   frequency: 401
   inflections: island, islands
   vietnamese: Đảo
 extra:
+  english: extra
   pos: j
   frequency: 400
   inflections: extra
   vietnamese: thêm
 fit:
+  english: fit
   pos: v
   frequency: 400
   inflections: fit, fits, fitting, fitted
   vietnamese: Phù hợp
 rock:
+  english: rock
   pos: n
   frequency: 400
   inflections: rock, rocks
   vietnamese: đá
 action:
+  english: action
   pos: n
   frequency: 399
   inflections: action, actions
   vietnamese: hoạt động
 bill:
+  english: bill
   pos: n
   frequency: 397
   inflections: bill, bills
   vietnamese: hóa đơn
 field:
+  english: field
   pos: n
   frequency: 397
   inflections: field, fields
   vietnamese: đồng ruộng
 fresh:
+  english: fresh
   pos: j
   frequency: 395
   inflections: fresh, fresher, freshest
   vietnamese: mới
 level:
+  english: level
   pos: n
   frequency: 395
   inflections: level, levels
   vietnamese: mức độ
 cost:
+  english: cost
   pos: v
   frequency: 394
   inflections: cost, costs, costing, costed
   vietnamese: Giá cả
 size:
+  english: size
   pos: n
   frequency: 394
   inflections: size, sizes
   vietnamese: kích thước
 cell:
+  english: cell
   pos: n
   frequency: 393
   inflections: cell, cells
   vietnamese: tế bào
 serve:
+  english: serve
   pos: v
   frequency: 393
   inflections: serve, serves, serving, served
   vietnamese: phục vụ
 shake:
+  english: shake
   pos: v
   frequency: 393
   inflections: shake, shakes, shaking, shook, shaken
   vietnamese: rung chuyển
 neck:
+  english: neck
   pos: n
   frequency: 392
   inflections: neck, necks
   vietnamese: cái cổ
 bowl:
+  english: bowl
   pos: n
   frequency: 392
   inflections: bowl, bowls
   vietnamese: bát
 control:
+  english: control
   pos: n
   frequency: 391
   inflections: control, controls
   vietnamese: điều khiển
 loud:
+  english: loud
   pos: j
   frequency: 390
   inflections: loud, louder, loudest
   vietnamese: ồn ào
 bedroom:
+  english: bedroom
   pos: n
   frequency: 389
   inflections: bedroom, bedrooms
   vietnamese: phòng ngủ
 heaven:
+  english: heaven
   pos: n
   frequency: 389
   inflections: heaven, heavens
   vietnamese: thiên đường
 commercial:
+  english: commercial
   pos: n
   frequency: 388
   inflections: commercial, commercials
   vietnamese: Quảng cáo
 draw:
+  english: draw
   pos: v
   frequency: 388
   inflections: draw, draws, drawing, drew, drawn
   vietnamese: vẽ tranh
 guest:
+  english: guest
   pos: n
   frequency: 388
   inflections: guest, guests
   vietnamese: khách mời
 insane:
+  english: insane
   pos: j
   frequency: 388
   inflections: insane, insaner, insanest
   vietnamese: điên cuồng
 fail:
+  english: fail
   pos: v
   frequency: 388
   inflections: fail, fails, failing, failed
   vietnamese: Thất bại
 cook:
+  english: cook
   pos: v
   frequency: 387
   inflections: cook, cooks, cooking, cooked
   vietnamese: đầu bếp
 pleasure:
+  english: pleasure
   pos: n
   frequency: 387
   inflections: pleasure, pleasures
   vietnamese: vui lòng
 truck:
+  english: truck
   pos: n
   frequency: 387
   inflections: truck, trucks
   vietnamese: xe tải
 science:
+  english: science
   pos: n
   frequency: 386
   inflections: science, sciences
   vietnamese: khoa học
 careful:
+  english: careful
   pos: j
   frequency: 385
   inflections: careful

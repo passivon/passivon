@@ -101,8 +101,9 @@ class DictionaryUpdator
     lemma = d["LEMMA"]
     inflections = d["INFLECTIONS"]
     pos = d["POS"]
-    frequency = d["FREQUENCY"]
+    frequency = d["FREQUENCY"].to_i
     dict[lemma] = {
+      "english" => lemma,
       "pos" => pos, "frequency" => frequency, "inflections" => inflections,
       "vietnamese" => Translator.new(lemma).vietnamese
     }
