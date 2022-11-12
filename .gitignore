@@ -3,3 +3,5 @@ wget-*
 today/
 yesterday/
 .byebug*
+generators/cache/
+**/.~lock*

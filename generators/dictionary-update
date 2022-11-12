@@ -6,6 +6,56 @@ require "timeout"
 require "csv"
 require("byebug") if RUBY_PLATFORM.include?("darwin")
 require "shellwords"
+require "curl"
+require "json"
+require "google/cloud/translate/v2"
+require "parallel"
+
+class Translator
+  attr_reader :english
+
+  def initialize(english)
+    @english = english
+  end
+
+  def vietnamese
+    translate_with_cache("vi")
+  end
+
+  def google_translate_endpoint
+    api_key = ENV["GOOGLE_TRANSLATE_API_KEY"]
+    "https://translation.googleapis.com/language/translate/v2?key=#{api_key}"
+  end
+
+  def translate(target_locale)
+    puts "TRANSLATING #{english} TO #{target_locale}"
+    client = Google::Cloud::Translate::V2.new
+    res = client.translate(english, from: "en", to: target_locale)
+    res.text
+  end
+
+  def translate_with_cache(target_locale)
+    unless translate_cached?(target_locale)
+      File.write(translate_cache_filename(target_locale), translate(target_locale))
+    end
+    File.read(translate_cache_filename(target_locale))
+  end
+
+  def cached_folder
+    File.expand_path("./cache", __dir__).tap do |path|
+      FileUtils.mkdir_p(path)
+    end
+  end
+
+  def translate_cache_filename(target_locale)
+    File.expand_path("#{english}-#{target_locale}", cached_folder)
+  end
+
+
+  def translate_cached?(target_locale)
+    File.exists?(translate_cache_filename(target_locale))
+  end
+end
 
 class DictionaryUpdator
   def dict
@@ -33,12 +83,15 @@ class DictionaryUpdator
   end
 
   def perform
-    top1000_defs.each do |d|
+    Parallel.each(top1000_defs.each) do |d|
       lemma = d["LEMMA"]
       inflections = d["INFLECTIONS"]
       pos = d["POS"]
       frequency = d["FREQUENCY"]
-      dict[lemma] = { "pos" => pos, "frequency" => frequency, "inflections" => inflections }
+      dict[lemma] = {
+        "pos" => pos, "frequency" => frequency, "inflections" => inflections,
+        "vietnamese" => Translator.new(lemma).vietnamese
+      }
     end
 
     File.write(dict_filename, dict.to_yaml)
