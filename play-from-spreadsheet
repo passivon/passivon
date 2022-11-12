@@ -1,0 +1,97 @@
+#!/usr/bin/env ruby
+
+require "fileutils"
+require "timeout"
+require "csv"
+
+class Player
+  def packages
+    @packages ||= `adb shell pm list packages`.split("\n")
+  end
+
+  def package_installed?(name)
+    packages.include?("package:" + name)
+  end
+
+  def perform
+    puts "=" * 80
+    puts "PLAYING"
+    puts fetch_spreadsheet_content
+    puts "=" * 80
+  end
+
+  def spreadsheet_content
+    @spreadsheet_content ||= fetch_spreadsheet_content
+  end
+
+  def fetch_spreadsheet_content
+    download_spreadsheet_async
+    if spreadsheet_content_cached?
+      read_cached_spreadsheet
+    else
+      wait_for_spreadsheet
+      read_cached_spreadsheet
+    end
+  rescue Timeout::Error
+    empty_spreadsheet
+  end
+
+  def empty_spreadsheet
+    []
+  end
+
+  def read_cached_spreadsheet
+    CSV.read(spreadsheet_filename)
+  end
+
+  def cached_folder
+    File.expand_path("./cached", __dir__).tap do |path|
+      FileUtils.mkdir_p(path)
+    end
+  end
+
+  def spreadsheet_filename
+    File.expand_path("./spreadsheet.csv", cached_folder)
+  end
+
+  def randomized_tmp_filename
+    File.expand_path("./rnd-#{rand(10000)}.csv", cached_folder)
+  end
+
+  def spreadsheet_url
+    "https://docs.google.com/spreadsheets/d/1bxQ3G93ayn_sKLwL5wsWY2Rw4hG0jajjt1RMP2gMxiA/export?format=csv"
+  end
+
+  def download_spreadsheet
+    tmp_filename = randomized_tmp_filename
+    puts "Downloading spreadsheet to #{tmp_filename}..."
+    cmd = "wget '#{spreadsheet_url}' -O '#{tmp_filename}'"
+    puts "=" * 80
+    puts cmd
+    puts "=" * 80
+    if system(cmd)
+      FileUtils.mv(tmp_filename, spreadsheet_filename)
+    else
+      puts "Download failed"
+    end
+  end
+
+  def download_spreadsheet_async
+    Thread.new { download_spreadsheet }
+  end
+
+  def wait_for_spreadsheet
+    Timeout.timeout(10) do
+      loop do
+        break if spreadsheet_content_cached?
+        sleep 1
+      end
+    end
+  end
+
+  def spreadsheet_content_cached?
+    File.exists?(spreadsheet_filename)
+  end
+end
+
+Player.new.perform
