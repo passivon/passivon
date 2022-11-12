@@ -1,0 +1,48 @@
+#!/usr/bin/env ruby
+
+require "fileutils"
+require "yaml"
+require "timeout"
+require "csv"
+require("byebug") if RUBY_PLATFORM.include?("darwin")
+require "shellwords"
+
+class DictionaryUpdator
+  def dict
+    @dict ||= load_dict
+  end
+
+  def dict_filename
+    File.expand_path("./dict.yaml", __dir__)
+  end
+
+  def load_dict
+    if File.exists?(dict_filename)
+      File.open(dict_filename, "r") { |f| YAML::load f }
+    else
+      {}
+    end
+  end
+
+  def top1000_filename
+    File.expand_path("./frequencylist.com-top1000.csv", __dir__)
+  end
+
+  def top1000_defs
+    CSV.read(top1000_filename, headers: true, :col_sep => "\t")
+  end
+
+  def perform
+    top1000_defs.each do |d|
+      lemma = d["LEMMA"]
+      inflections = d["INFLECTIONS"]
+      pos = d["POS"]
+      frequency = d["FREQUENCY"]
+      dict[lemma] = { "pos" => pos, "frequency" => frequency, "inflections" => inflections }
+    end
+
+    File.write(dict_filename, dict.to_yaml)
+  end
+end
+
+DictionaryUpdator.new.perform

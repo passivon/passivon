@@ -1,0 +1,3777 @@
+---
+be:
+  pos: v
+  frequency: '318018'
+  inflections: be, am, are, been, being, is, was, were
+I:
+  pos: fw
+  frequency: '267578'
+  inflections: I
+you:
+  pos: fw
+  frequency: '248266'
+  inflections: you
+the:
+  pos: fw
+  frequency: '176446'
+  inflections: the
+a:
+  pos: fw
+  frequency: '152598'
+  inflections: a, an
+to:
+  pos: fw
+  frequency: '151270'
+  inflections: to
+it:
+  pos: fw
+  frequency: '117091'
+  inflections: it
+not:
+  pos: fw
+  frequency: '109143'
+  inflections: not
+that:
+  pos: fw
+  frequency: '95271'
+  inflections: that, those
+and:
+  pos: fw
+  frequency: '90049'
+  inflections: and
+of:
+  pos: fw
+  frequency: '70505'
+  inflections: of
+do:
+  pos: v
+  frequency: '67643'
+  inflections: do, did, does, doing, done
+have:
+  pos: v
+  frequency: '62828'
+  inflections: have, had, has, having
+what:
+  pos: fw
+  frequency: '62015'
+  inflections: what
+we:
+  pos: fw
+  frequency: '61381'
+  inflections: we
+in:
+  pos: fw
+  frequency: '58486'
+  inflections: in
+get:
+  pos: v
+  frequency: '56906'
+  inflections: get, gets, getting, got, gotten
+this:
+  pos: fw
+  frequency: '56116'
+  inflections: this, these
+my:
+  pos: fw
+  frequency: '53316'
+  inflections: my, mine
+me:
+  pos: fw
+  frequency: '51927'
+  inflections: me
+go:
+  pos: v
+  frequency: '51445'
+  inflections: go, goes, going, gone, went
+oh:
+  pos: u
+  frequency: '48348'
+  inflections: oh
+can:
+  pos: v
+  frequency: '46947'
+  inflections: can, could, cannot
+'no':
+  pos: fw
+  frequency: '43447'
+  inflections: 'no'
+'on':
+  pos: fw
+  frequency: '43007'
+  inflections: 'on'
+for:
+  pos: fw
+  frequency: '42850'
+  inflections: for
+know:
+  pos: v
+  frequency: '40007'
+  inflections: know, knew, knowing, known, knows
+just:
+  pos: r
+  frequency: '39366'
+  inflections: just
+your:
+  pos: fw
+  frequency: '39164'
+  inflections: your
+"'s":
+  pos: fw
+  frequency: '37343'
+  inflections: "'s, '"
+all:
+  pos: fw
+  frequency: '35728'
+  inflections: all
+so:
+  pos: r
+  frequency: '35491'
+  inflections: so
+with:
+  pos: fw
+  frequency: '34115'
+  inflections: with
+he:
+  pos: fw
+  frequency: '33653'
+  inflections: he
+but:
+  pos: fw
+  frequency: '30070'
+  inflections: but
+yeah:
+  pos: r
+  frequency: '28499'
+  inflections: yeah
+well:
+  pos: r
+  frequency: '28025'
+  inflections: well
+think:
+  pos: v
+  frequency: '25894'
+  inflections: think, thinking, thinks, thought
+here:
+  pos: r
+  frequency: '25170'
+  inflections: here
+want:
+  pos: v
+  frequency: '24829'
+  inflections: want, wanted, wanting, wants
+out:
+  pos: r
+  frequency: '24533'
+  inflections: out
+about:
+  pos: fw
+  frequency: '23244'
+  inflections: about
+good:
+  pos: j
+  frequency: '22907'
+  inflections: good, better, best
+come:
+  pos: v
+  frequency: '22535'
+  inflections: come, came, comes, coming
+up:
+  pos: r
+  frequency: '22171'
+  inflections: up
+say:
+  pos: v
+  frequency: '21603'
+  inflections: say, said, saying, says
+now:
+  pos: r
+  frequency: '21312'
+  inflections: now
+at:
+  pos: fw
+  frequency: '21243'
+  inflections: at
+one:
+  pos: m
+  frequency: '21176'
+  inflections: one, ones
+hey:
+  pos: u
+  frequency: '21166'
+  inflections: hey
+they:
+  pos: fw
+  frequency: '21051'
+  inflections: they
+see:
+  pos: v
+  frequency: '20925'
+  inflections: see, saw, seeing, seen, sees
+if:
+  pos: fw
+  frequency: '19770'
+  inflections: if
+how:
+  pos: r
+  frequency: '19474'
+  inflections: how
+like:
+  pos: r
+  frequency: '11556'
+  inflections: like
+she:
+  pos: fw
+  frequency: '19043'
+  inflections: she
+look:
+  pos: n
+  frequency: '1332'
+  inflections: look, looked, looking, looks
+make:
+  pos: v
+  frequency: '17038'
+  inflections: make, made, makes, making
+right:
+  pos: n
+  frequency: '389'
+  inflections: right, rights
+guy:
+  pos: n
+  frequency: '15738'
+  inflections: guy, guys
+take:
+  pos: v
+  frequency: '15582'
+  inflections: take, taken, takes, taking, took
+let:
+  pos: v
+  frequency: '15257'
+  inflections: let, lets, letting
+really:
+  pos: r
+  frequency: '15209'
+  inflections: really
+okay:
+  pos: j
+  frequency: '9098'
+  inflections: okay, OK
+her:
+  pos: fw
+  frequency: '14759'
+  inflections: her
+uh:
+  pos: u
+  frequency: '14667'
+  inflections: uh, um
+tell:
+  pos: v
+  frequency: '14661'
+  inflections: tell, telling, tells, told
+him:
+  pos: fw
+  frequency: '14270'
+  inflections: him
+why:
+  pos: r
+  frequency: '14194'
+  inflections: why
+there:
+  pos: fw
+  frequency: '11044'
+  inflections: there
+who:
+  pos: fw
+  frequency: '13916'
+  inflections: who
+time:
+  pos: n
+  frequency: '13834'
+  inflections: time, times
+thing:
+  pos: n
+  frequency: '12547'
+  inflections: thing, things
+from:
+  pos: fw
+  frequency: '12409'
+  inflections: from
+will:
+  pos: v
+  frequency: '11923'
+  inflections: will, willing, would
+when:
+  pos: r
+  frequency: '11544'
+  inflections: when
+as:
+  pos: fw
+  frequency: '11415'
+  inflections: as
+because:
+  pos: fw
+  frequency: '11396'
+  inflections: because
+some:
+  pos: fw
+  frequency: '11370'
+  inflections: some
+our:
+  pos: fw
+  frequency: '11333'
+  inflections: our
+'yes':
+  pos: r
+  frequency: '11118'
+  inflections: 'yes'
+back:
+  pos: n
+  frequency: '1126'
+  inflections: back, backs
+mean:
+  pos: v
+  frequency: '10833'
+  inflections: mean, meaning, means, meant
+man:
+  pos: n
+  frequency: '10340'
+  inflections: man, men
+little:
+  pos: fw
+  frequency: '1148'
+  inflections: little
+give:
+  pos: v
+  frequency: '10173'
+  inflections: give, gave, given, gives, giving
+his:
+  pos: fw
+  frequency: '10145'
+  inflections: his
+us:
+  pos: fw
+  frequency: '10058'
+  inflections: us
+them:
+  pos: fw
+  frequency: '9857'
+  inflections: them
+need:
+  pos: n
+  frequency: '820'
+  inflections: need, needs
+then:
+  pos: r
+  frequency: '9584'
+  inflections: then
+shall:
+  pos: v
+  frequency: '9411'
+  inflections: shall, should
+or:
+  pos: fw
+  frequency: '9272'
+  inflections: or
+talk:
+  pos: v
+  frequency: '9197'
+  inflections: talk, talked, talking, talks
+something:
+  pos: fw
+  frequency: '9075'
+  inflections: something
+where:
+  pos: r
+  frequency: '8941'
+  inflections: where
+great:
+  pos: j
+  frequency: '8778'
+  inflections: great, greater, greatest
+way:
+  pos: n
+  frequency: '8759'
+  inflections: way, ways
+never:
+  pos: r
+  frequency: '8620'
+  inflections: never
+call:
+  pos: n
+  frequency: '595'
+  inflections: call, calls
+too:
+  pos: r
+  frequency: '8300'
+  inflections: too
+by:
+  pos: fw
+  frequency: '8133'
+  inflections: by
+sorry:
+  pos: u
+  frequency: '1127'
+  inflections: sorry
+over:
+  pos: fw
+  frequency: '8041'
+  inflections: over
+love:
+  pos: n
+  frequency: '1364'
+  inflections: love, loves
+wait:
+  pos: v
+  frequency: '7947'
+  inflections: wait, waited, waiting, waits
+more:
+  pos: fw
+  frequency: '7922'
+  inflections: more
+down:
+  pos: r
+  frequency: '7782'
+  inflections: down
+day:
+  pos: n
+  frequency: '7704'
+  inflections: day, days
+two:
+  pos: m
+  frequency: '7221'
+  inflections: two, twos
+people:
+  pos: n
+  frequency: '7104'
+  inflections: people
+God:
+  pos: K
+  frequency: '2362'
+  inflections: God
+very:
+  pos: r
+  frequency: '6974'
+  inflections: very
+'off':
+  pos: fw
+  frequency: '6967'
+  inflections: 'off'
+work:
+  pos: n
+  frequency: '1441'
+  inflections: work, works
+thank:
+  pos: v
+  frequency: '6716'
+  inflections: thank, thanked, thanking, thanks
+big:
+  pos: j
+  frequency: '6674'
+  inflections: big, bigger, biggest
+try:
+  pos: v
+  frequency: '6611'
+  inflections: try, tried, tries, trying
+dad:
+  pos: n
+  frequency: '6596'
+  inflections: dad, dads
+maybe:
+  pos: r
+  frequency: '6499'
+  inflections: maybe
+feel:
+  pos: v
+  frequency: '6479'
+  inflections: feel, feeling, feels, felt
+friend:
+  pos: n
+  frequency: '6447'
+  inflections: friend, friends
+even:
+  pos: r
+  frequency: '6221'
+  inflections: even
+sure:
+  pos: r
+  frequency: '779'
+  inflections: sure
+find:
+  pos: v
+  frequency: '6172'
+  inflections: find, finding, finds, found
+kid:
+  pos: v
+  frequency: '1432'
+  inflections: kid, kids, kidding, kidded
+these:
+  pos: fw
+  frequency: '5950'
+  inflections: these
+boy:
+  pos: n
+  frequency: '5937'
+  inflections: boy, boys
+put:
+  pos: v
+  frequency: '5863'
+  inflections: put, puts, putting
+please:
+  pos: r
+  frequency: '5856'
+  inflections: please
+happen:
+  pos: v
+  frequency: '5854'
+  inflections: happen, happened, happening, happens
+much:
+  pos: fw
+  frequency: '5811'
+  inflections: much
+stop:
+  pos: v
+  frequency: '5799'
+  inflections: stop, stopped, stopping, stops
+night:
+  pos: n
+  frequency: '5761'
+  inflections: night, nights
+bad:
+  pos: j
+  frequency: '5716'
+  inflections: bad, worse, worst
+into:
+  pos: fw
+  frequency: '5686'
+  inflections: into
+those:
+  pos: fw
+  frequency: '5686'
+  inflections: those
+any:
+  pos: fw
+  frequency: '5626'
+  inflections: any
+first:
+  pos: m
+  frequency: '5605'
+  inflections: first
+leave:
+  pos: v
+  frequency: '5529'
+  inflections: leave, leaves, leaving, left
+year:
+  pos: n
+  frequency: '5520'
+  inflections: year, years
+hear:
+  pos: v
+  frequency: '5517'
+  inflections: hear, heard, hearing, hears
+ever:
+  pos: r
+  frequency: '5259'
+  inflections: ever
+Mr:
+  pos: n
+  frequency: '5256'
+  inflections: Mr., Messrs.
+again:
+  pos: r
+  frequency: '5254'
+  inflections: again
+use:
+  pos: v
+  frequency: '5245'
+  inflections: use, used, uses, using
+mom:
+  pos: n
+  frequency: '5205'
+  inflections: mom, moms
+may:
+  pos: v
+  frequency: '5180'
+  inflections: may, might
+hi:
+  pos: u
+  frequency: '5173'
+  inflections: hi
+life:
+  pos: n
+  frequency: '5169'
+  inflections: life, lives
+nice:
+  pos: j
+  frequency: '5059'
+  inflections: nice, nicer, nicest
+new:
+  pos: j
+  frequency: '5055'
+  inflections: new, newer, newest
+still:
+  pos: r
+  frequency: '5024'
+  inflections: still
+kind:
+  pos: n
+  frequency: '4928'
+  inflections: kind, kinds
+anything:
+  pos: fw
+  frequency: '4714'
+  inflections: anything
+only:
+  pos: j
+  frequency: '1539'
+  inflections: only
+baby:
+  pos: n
+  frequency: '4676'
+  inflections: baby, babies
+than:
+  pos: fw
+  frequency: '4671'
+  inflections: than
+fine:
+  pos: j
+  frequency: '4571'
+  inflections: fine, finer, finest
+hello:
+  pos: u
+  frequency: '4554'
+  inflections: hello
+keep:
+  pos: v
+  frequency: '4549'
+  inflections: keep, keeping, keeps, kept
+girl:
+  pos: n
+  frequency: '4526'
+  inflections: girl, girls
+help:
+  pos: n
+  frequency: '854'
+  inflections: help
+believe:
+  pos: v
+  frequency: '4502'
+  inflections: believe, believed, believes, believing
+woman:
+  pos: n
+  frequency: '4444'
+  inflections: woman, women
+lot:
+  pos: n
+  frequency: '4408'
+  inflections: lot, lots
+play:
+  pos: v
+  frequency: '4377'
+  inflections: play, played, playing, plays
+ask:
+  pos: v
+  frequency: '4367'
+  inflections: ask, asked, asking, asks
+start:
+  pos: v
+  frequency: '4363'
+  inflections: start, started, starting, starts
+home:
+  pos: n
+  frequency: '4348'
+  inflections: home, homes
+nothing:
+  pos: fw
+  frequency: '4330'
+  inflections: nothing
+hmm:
+  pos: u
+  frequency: '4242'
+  inflections: hmm, hm
+their:
+  pos: fw
+  frequency: '4191'
+  inflections: their, theirs
+meet:
+  pos: v
+  frequency: '4185'
+  inflections: meet, meeting, meets, met
+huh:
+  pos: u
+  frequency: '4127'
+  inflections: huh
+show:
+  pos: n
+  frequency: '1081'
+  inflections: show, shows
+around:
+  pos: fw
+  frequency: '4013'
+  inflections: around
+guess:
+  pos: v
+  frequency: '3988'
+  inflections: guess, guessed, guesses, guessing
+old:
+  pos: j
+  frequency: '3955'
+  inflections: old, older, oldest
+hell:
+  pos: n
+  frequency: '3890'
+  inflections: hell
+before:
+  pos: fw
+  frequency: '3883'
+  inflections: before
+always:
+  pos: r
+  frequency: '3868'
+  inflections: always
+three:
+  pos: m
+  frequency: '3861'
+  inflections: three, threes
+wow:
+  pos: u
+  frequency: '3758'
+  inflections: wow
+listen:
+  pos: v
+  frequency: '3744'
+  inflections: listen, listened, listening, listens
+thanks:
+  pos: u
+  frequency: '3726'
+  inflections: thanks
+minute:
+  pos: n
+  frequency: '3718'
+  inflections: minute, minutes
+actually:
+  pos: r
+  frequency: '3706'
+  inflections: actually
+eat:
+  pos: v
+  frequency: '3701'
+  inflections: eat, ate, eaten, eating, eats
+place:
+  pos: n
+  frequency: '3620'
+  inflections: place, places
+live:
+  pos: v
+  frequency: '3571'
+  inflections: live, lived, lives, living
+away:
+  pos: r
+  frequency: '3498'
+  inflections: away
+after:
+  pos: fw
+  frequency: '3483'
+  inflections: after
+bring:
+  pos: v
+  frequency: '3469'
+  inflections: bring, bringing, brings, brought
+every:
+  pos: fw
+  frequency: '3463'
+  inflections: every
+everything:
+  pos: fw
+  frequency: '3375'
+  inflections: everything
+money:
+  pos: n
+  frequency: '3352'
+  inflections: money
+person:
+  pos: n
+  frequency: '3351'
+  inflections: person, people, persons
+watch:
+  pos: v
+  frequency: '3351'
+  inflections: watch, watched, watches, watching
+other:
+  pos: n
+  frequency: '1426'
+  inflections: other, others
+remember:
+  pos: v
+  frequency: '3344'
+  inflections: remember, remembered, remembering, remembers
+house:
+  pos: n
+  frequency: '3327'
+  inflections: house, houses
+wrong:
+  pos: j
+  frequency: '3294'
+  inflections: wrong
+kill:
+  pos: v
+  frequency: '3278'
+  inflections: kill, killed, killing, kills
+school:
+  pos: n
+  frequency: '3243'
+  inflections: school, schools
+everyone:
+  pos: fw
+  frequency: '3242'
+  inflections: everyone
+run:
+  pos: v
+  frequency: '3229'
+  inflections: run, ran, running, runs
+late:
+  pos: j
+  frequency: '3221'
+  inflections: late, later, latest
+care:
+  pos: v
+  frequency: '3199'
+  inflections: care, cared, cares, caring
+car:
+  pos: n
+  frequency: '3191'
+  inflections: car, cars
+move:
+  pos: v
+  frequency: '3187'
+  inflections: move, moved, moves, moving
+ah:
+  pos: u
+  frequency: '3158'
+  inflections: ah, aah
+idea:
+  pos: n
+  frequency: '3136'
+  inflections: idea, ideas
+another:
+  pos: fw
+  frequency: '3083'
+  inflections: another
+someone:
+  pos: fw
+  frequency: '3080'
+  inflections: someone
+today:
+  pos: r
+  frequency: '3055'
+  inflections: today
+turn:
+  pos: v
+  frequency: '3042'
+  inflections: turn, turned, turning, turns
+real:
+  pos: j
+  frequency: '3008'
+  inflections: real
+happy:
+  pos: j
+  frequency: '2995'
+  inflections: happy, happier, happiest
+whole:
+  pos: j
+  frequency: '2956'
+  inflections: whole
+week:
+  pos: n
+  frequency: '2954'
+  inflections: week, weeks
+job:
+  pos: n
+  frequency: '2948'
+  inflections: job, jobs
+fun:
+  pos: n
+  frequency: '2933'
+  inflections: fun
+problem:
+  pos: n
+  frequency: '2931'
+  inflections: problem, problems
+break:
+  pos: v
+  frequency: '2921'
+  inflections: break, breaking, breaks, broke, broken
+world:
+  pos: n
+  frequency: '2910'
+  inflections: world, worlds
+which:
+  pos: fw
+  frequency: '2903'
+  inflections: which
+must:
+  pos: v
+  frequency: '2891'
+  inflections: must
+party:
+  pos: n
+  frequency: '2855'
+  inflections: party, parties
+buy:
+  pos: v
+  frequency: '2827'
+  inflections: buy, bought, buying, buys
+through:
+  pos: fw
+  frequency: '2810'
+  inflections: through
+together:
+  pos: r
+  frequency: '2796'
+  inflections: together
+room:
+  pos: n
+  frequency: '2789'
+  inflections: room, rooms
+family:
+  pos: n
+  frequency: '2785'
+  inflections: family, families
+stay:
+  pos: v
+  frequency: '2781'
+  inflections: stay, stayed, staying, stays
+lose:
+  pos: v
+  frequency: '2710'
+  inflections: lose, loses, losing, lost
+stuff:
+  pos: n
+  frequency: '2710'
+  inflections: stuff
+son:
+  pos: n
+  frequency: '2692'
+  inflections: son, sons
+stupid:
+  pos: j
+  frequency: '2687'
+  inflections: stupid, stupider, stupidest
+name:
+  pos: v
+  frequency: '1833'
+  inflections: name, named, naming, names
+everybody:
+  pos: fw
+  frequency: '2644'
+  inflections: everybody
+last:
+  pos: m
+  frequency: '1942'
+  inflections: last
+long:
+  pos: j
+  frequency: '1395'
+  inflections: long, longer, longest
+tonight:
+  pos: r
+  frequency: '2608'
+  inflections: tonight
+child:
+  pos: n
+  frequency: '2602'
+  inflections: child, children
+sit:
+  pos: v
+  frequency: '2600'
+  inflections: sit, sat, sits, sitting
+course:
+  pos: n
+  frequency: '2585'
+  inflections: course, courses
+pretty:
+  pos: r
+  frequency: '585'
+  inflections: pretty
+hold:
+  pos: v
+  frequency: '2574'
+  inflections: hold, held, holding, holds
+game:
+  pos: n
+  frequency: '2534'
+  inflections: game, games
+forget:
+  pos: v
+  frequency: '2519'
+  inflections: forget, forgets, forgetting, forgot, forgotten
+else:
+  pos: r
+  frequency: '2504'
+  inflections: else
+own:
+  pos: j
+  frequency: '2501'
+  inflections: own
+five:
+  pos: m
+  frequency: '2493'
+  inflections: five, fives
+second:
+  pos: n
+  frequency: '425'
+  inflections: second, seconds
+doctor:
+  pos: n
+  frequency: '2486'
+  inflections: doctor, doctors
+dollar:
+  pos: n
+  frequency: '2485'
+  inflections: dollar, dollars
+enough:
+  pos: fw
+  frequency: '2484'
+  inflections: enough
+dog:
+  pos: n
+  frequency: '2442'
+  inflections: dog, dogs
+funny:
+  pos: j
+  frequency: '2438'
+  inflections: funny, funnier, funniest
+wear:
+  pos: v
+  frequency: '2436'
+  inflections: wear, wearing, wears, wore, worn
+die:
+  pos: v
+  frequency: '2426'
+  inflections: die, died, dies, dying
+sir:
+  pos: n
+  frequency: '2425'
+  inflections: sir, sirs
+hard:
+  pos: j
+  frequency: '2422'
+  inflections: hard, harder, hardest
+honey:
+  pos: n
+  frequency: '2414'
+  inflections: honey
+sound:
+  pos: v
+  frequency: '2411'
+  inflections: sound, sounded, sounding, sounds
+sex:
+  pos: n
+  frequency: '2388'
+  inflections: sex, sexes
+hate:
+  pos: v
+  frequency: '2369'
+  inflections: hate, hated, hates, hating
+suppose:
+  pos: v
+  frequency: '2368'
+  inflections: suppose, supposed, supposes, supposing
+head:
+  pos: v
+  frequency: '520'
+  inflections: head, heads, heading, headed
+understand:
+  pos: v
+  frequency: '2360'
+  inflections: understand, understanding, understands, understood
+whoa:
+  pos: u
+  frequency: '2341'
+  inflections: whoa
+movie:
+  pos: n
+  frequency: '2340'
+  inflections: movie, movies
+worry:
+  pos: v
+  frequency: '2329'
+  inflections: worry, worried, worries, worrying
+cool:
+  pos: u
+  frequency: '617'
+  inflections: cool
+marry:
+  pos: v
+  frequency: '2323'
+  inflections: marry, married, marries, marrying
+miss:
+  pos: v
+  frequency: '2318'
+  inflections: miss, missed, misses, missing
+pay:
+  pos: v
+  frequency: '2314'
+  inflections: pay, paid, paying, pays
+hour:
+  pos: n
+  frequency: '2313'
+  inflections: hour, hours
+crazy:
+  pos: j
+  frequency: '2291'
+  inflections: crazy, crazier, craziest
+change:
+  pos: v
+  frequency: '2256'
+  inflections: change, changed, changes, changing
+hot:
+  pos: j
+  frequency: '2256'
+  inflections: hot, hotter, hottest
+most:
+  pos: fw
+  frequency: '2244'
+  inflections: most
+excuse:
+  pos: v
+  frequency: '2232'
+  inflections: excuse, excused, excuses, excusing
+mother:
+  pos: n
+  frequency: '2219'
+  inflections: mother, mothers
+check:
+  pos: n
+  frequency: '389'
+  inflections: check, checks
+pick:
+  pos: v
+  frequency: '2207'
+  inflections: pick, picked, picking, picks
+word:
+  pos: n
+  frequency: '2207'
+  inflections: word, words
+same:
+  pos: j
+  frequency: '2200'
+  inflections: same, sameness
+yourself:
+  pos: fw
+  frequency: '2188'
+  inflections: yourself, yourselves
+ready:
+  pos: j
+  frequency: '2177'
+  inflections: ready, readier, readiest
+seem:
+  pos: v
+  frequency: '2165'
+  inflections: seem, seemed, seeming, seems
+win:
+  pos: v
+  frequency: '2162'
+  inflections: win, winning, wins, won
+walk:
+  pos: v
+  frequency: '2131'
+  inflections: walk, walked, walking, walks
+father:
+  pos: n
+  frequency: '2108'
+  inflections: father, fathers
+story:
+  pos: n
+  frequency: '2107'
+  inflections: story, stories
+already:
+  pos: r
+  frequency: '2077'
+  inflections: already
+hope:
+  pos: v
+  frequency: '2077'
+  inflections: hope, hoped, hopes, hoping
+part:
+  pos: n
+  frequency: '2062'
+  inflections: part, parts
+open:
+  pos: v
+  frequency: '2059'
+  inflections: open, opened, opening, opens
+lady:
+  pos: n
+  frequency: '2056'
+  inflections: lady, ladies
+read:
+  pos: v
+  frequency: '2046'
+  inflections: read, reading, reads
+drink:
+  pos: n
+  frequency: '672'
+  inflections: drink, drinks
+sleep:
+  pos: v
+  frequency: '2030'
+  inflections: sleep, sleeping, sleeps, slept
+number:
+  pos: n
+  frequency: '2005'
+  inflections: number, numbers
+write:
+  pos: v
+  frequency: '2001'
+  inflections: write, writes, writing, written, wrote
+morning:
+  pos: n
+  frequency: '1985'
+  inflections: morning, mornings
+tomorrow:
+  pos: n
+  frequency: '1964'
+  inflections: tomorrow, tomorrows
+next:
+  pos: fw
+  frequency: '808'
+  inflections: next
+phone:
+  pos: n
+  frequency: '1945'
+  inflections: phone, phones, telephone, telephones
+four:
+  pos: m
+  frequency: '1943'
+  inflections: four, fours
+once:
+  pos: r
+  frequency: '1937'
+  inflections: once
+somebody:
+  pos: fw
+  frequency: '1936'
+  inflections: somebody
+probably:
+  pos: r
+  frequency: '1916'
+  inflections: probably
+without:
+  pos: fw
+  frequency: '1910'
+  inflections: without
+many:
+  pos: fw
+  frequency: '1904'
+  inflections: many
+such:
+  pos: fw
+  frequency: '1901'
+  inflections: such
+eye:
+  pos: n
+  frequency: '1896'
+  inflections: eye, eyes
+drive:
+  pos: v
+  frequency: '1890'
+  inflections: drive, driven, drives, driving, drove
+wife:
+  pos: n
+  frequency: '1885'
+  inflections: wife, wives
+book:
+  pos: n
+  frequency: '1879'
+  inflections: book, books
+hang:
+  pos: v
+  frequency: '1860'
+  inflections: hang, hanged, hanging, hangs, hung
+since:
+  pos: fw
+  frequency: '1859'
+  inflections: since
+throw:
+  pos: v
+  frequency: '1839'
+  inflections: throw, threw, throwing, thrown, throws
+dead:
+  pos: j
+  frequency: '1821'
+  inflections: dead
+stand:
+  pos: v
+  frequency: '1815'
+  inflections: stand, standing, stands, stood
+myself:
+  pos: fw
+  frequency: '1799'
+  inflections: myself
+aw:
+  pos: u
+  frequency: '1794'
+  inflections: aw
+dinner:
+  pos: n
+  frequency: '1787'
+  inflections: dinner, dinners
+anyone:
+  pos: fw
+  frequency: '1772'
+  inflections: anyone
+hand:
+  pos: v
+  frequency: '935'
+  inflections: hand, hands, handing, handed
+each:
+  pos: fw
+  frequency: '1739'
+  inflections: each
+anyway:
+  pos: r
+  frequency: '1723'
+  inflections: anyway
+television:
+  pos: n
+  frequency: '1716'
+  inflections: television, televisions
+learn:
+  pos: v
+  frequency: '1715'
+  inflections: learn, learned, learning, learns
+shut:
+  pos: v
+  frequency: '1709'
+  inflections: shut, shuts, shutting
+town:
+  pos: n
+  frequency: '1709'
+  inflections: town, towns
+beautiful:
+  pos: j
+  frequency: '1707'
+  inflections: beautiful
+both:
+  pos: fw
+  frequency: '1687'
+  inflections: both
+date:
+  pos: v
+  frequency: '1050'
+  inflections: date, dated, dates, dating
+spend:
+  pos: v
+  frequency: '1680'
+  inflections: spend, spending, spends, spent
+office:
+  pos: n
+  frequency: '1673'
+  inflections: office, offices
+hit:
+  pos: v
+  frequency: '1668'
+  inflections: hit, hits, hitting
+yet:
+  pos: fw
+  frequency: '1658'
+  inflections: yet
+save:
+  pos: v
+  frequency: '1656'
+  inflections: save, saved, saves, saving
+'true':
+  pos: j
+  frequency: '1653'
+  inflections: true, truer, truest
+sweet:
+  pos: j
+  frequency: '1649'
+  inflections: sweet, sweeter, sweetest
+until:
+  pos: fw
+  frequency: '1642'
+  inflections: until
+food:
+  pos: n
+  frequency: '1628'
+  inflections: food, foods
+while:
+  pos: n
+  frequency: '688'
+  inflections: while, whiles
+send:
+  pos: v
+  frequency: '1617'
+  inflections: send, sending, sends, sent
+high:
+  pos: j
+  frequency: '1602'
+  inflections: high, higher, highest
+anymore:
+  pos: r
+  frequency: '1596'
+  inflections: anymore
+also:
+  pos: r
+  frequency: '1590'
+  inflections: also
+news:
+  pos: n
+  frequency: '1572'
+  inflections: news
+Christmas:
+  pos: K
+  frequency: '1561'
+  inflections: Christmas
+ten:
+  pos: m
+  frequency: '1560'
+  inflections: ten
+ass:
+  pos: n
+  frequency: '1548'
+  inflections: ass, asses
+business:
+  pos: n
+  frequency: '1542'
+  inflections: business, businesses
+couple:
+  pos: n
+  frequency: '1534'
+  inflections: couple, couples
+totally:
+  pos: r
+  frequency: '1532'
+  inflections: totally
+door:
+  pos: n
+  frequency: '1528'
+  inflections: door, doors
+gay:
+  pos: j
+  frequency: '1525'
+  inflections: gay, gayer, gayest
+exactly:
+  pos: r
+  frequency: '1523'
+  inflections: exactly
+parent:
+  pos: n
+  frequency: '1521'
+  inflections: parent, parents
+few:
+  pos: fw
+  frequency: '1516'
+  inflections: few, fewer, fewest
+month:
+  pos: n
+  frequency: '1514'
+  inflections: month, months
+easy:
+  pos: j
+  frequency: '1508'
+  inflections: easy, easier, easiest
+deal:
+  pos: v
+  frequency: '499'
+  inflections: deal, deals, dealing, dealt
+ow:
+  pos: u
+  frequency: '1503'
+  inflections: ow, ouch, yow
+hurt:
+  pos: v
+  frequency: '1495'
+  inflections: hurt, hurting, hurts
+nobody:
+  pos: fw
+  frequency: '1495'
+  inflections: nobody
+OK:
+  pos: r
+  frequency: '1480'
+  inflections: OK
+perfect:
+  pos: j
+  frequency: '1477'
+  inflections: perfect
+lie:
+  pos: v
+  frequency: '1474'
+  inflections: lie, lay, lied, lies, lying
+free:
+  pos: j
+  frequency: '1473'
+  inflections: free, freer, freest
+young:
+  pos: j
+  frequency: '1471'
+  inflections: young, younger, youngest
+weird:
+  pos: j
+  frequency: '1465'
+  inflections: weird, weirder, weirdest
+whatever:
+  pos: fw
+  frequency: '1452'
+  inflections: whatever
+brother:
+  pos: n
+  frequency: '1441'
+  inflections: brother, brothers
+ago:
+  pos: r
+  frequency: '1431'
+  inflections: ago
+end:
+  pos: n
+  frequency: '864'
+  inflections: end, ends
+ball:
+  pos: n
+  frequency: '1413'
+  inflections: ball, balls
+finally:
+  pos: r
+  frequency: '1413'
+  inflections: finally
+line:
+  pos: n
+  frequency: '1406'
+  inflections: line, lines
+its:
+  pos: fw
+  frequency: '1403'
+  inflections: its
+ha:
+  pos: u
+  frequency: '1401'
+  inflections: ha, hah
+important:
+  pos: j
+  frequency: '1401'
+  inflections: important
+fall:
+  pos: v
+  frequency: '1400'
+  inflections: fall, fallen, falling, falls, fell
+heart:
+  pos: n
+  frequency: '1396'
+  inflections: heart, hearts
+fat:
+  pos: j
+  frequency: '1393'
+  inflections: fat, fatter, fattest
+class:
+  pos: n
+  frequency: '1388'
+  inflections: class, classes
+shoot:
+  pos: v
+  frequency: '1377'
+  inflections: shoot, shooting, shoots, shot
+picture:
+  pos: n
+  frequency: '1370'
+  inflections: picture, pictures
+sell:
+  pos: v
+  frequency: '1369'
+  inflections: sell, sells, selling, sold
+side:
+  pos: n
+  frequency: '1366'
+  inflections: side, sides
+wish:
+  pos: v
+  frequency: '1365'
+  inflections: wish, wished, wishes, wishing
+mind:
+  pos: v
+  frequency: '1076'
+  inflections: mind, minded, minding, minds
+hair:
+  pos: n
+  frequency: '1359'
+  inflections: hair, hairs
+cut:
+  pos: v
+  frequency: '1347'
+  inflections: cut, cuts, cutting
+wedding:
+  pos: n
+  frequency: '1342'
+  inflections: wedding, weddings
+reason:
+  pos: n
+  frequency: '1339'
+  inflections: reason, reasons
+become:
+  pos: v
+  frequency: '1335'
+  inflections: become, became, becomes, becoming
+least:
+  pos: fw
+  frequency: '1335'
+  inflections: least
+bite:
+  pos: v
+  frequency: '1331'
+  inflections: bite, bites, biting, bit, bitten
+fuck:
+  pos: v
+  frequency: '1318'
+  inflections: fuck, fucked, fucking, fucks
+under:
+  pos: fw
+  frequency: '1311'
+  inflections: under
+bed:
+  pos: n
+  frequency: '1309'
+  inflections: bed, beds
+paper:
+  pos: n
+  frequency: '1308'
+  inflections: paper, papers
+different:
+  pos: j
+  frequency: '1307'
+  inflections: different
+catch:
+  pos: v
+  frequency: '1290'
+  inflections: catch, catches, catching, caught
+mine:
+  pos: fw
+  frequency: '1289'
+  inflections: mine
+six:
+  pos: m
+  frequency: '1289'
+  inflections: six
+set:
+  pos: v
+  frequency: '1280'
+  inflections: set, sets, setting
+face:
+  pos: v
+  frequency: '1103'
+  inflections: face, faces, facing, faced
+speak:
+  pos: v
+  frequency: '1268'
+  inflections: speak, speaks, speaking, spoke, spoken
+suck:
+  pos: v
+  frequency: '1260'
+  inflections: suck, sucks, sucking, sucked
+sometimes:
+  pos: r
+  frequency: '1258'
+  inflections: sometimes
+city:
+  pos: n
+  frequency: '1243'
+  inflections: city, cities
+special:
+  pos: j
+  frequency: '1234'
+  inflections: special
+stick:
+  pos: v
+  frequency: '1225'
+  inflections: stick, sticks, sticking, stuck
+question:
+  pos: v
+  frequency: '883'
+  inflections: question, questions, questioning, questioned
+dude:
+  pos: n
+  frequency: '1215'
+  inflections: dude, dudes
+realize:
+  pos: v
+  frequency: '1212'
+  inflections: realize, realized, realizes, realizing
+birthday:
+  pos: n
+  frequency: '1209'
+  inflections: birthday, birthdays
+point:
+  pos: v
+  frequency: '934'
+  inflections: point, points, pointing, pointed
+enjoy:
+  pos: v
+  frequency: '1206'
+  inflections: enjoy, enjoyed, enjoying, enjoys
+fact:
+  pos: n
+  frequency: '1201'
+  inflections: fact, facts
+dance:
+  pos: v
+  frequency: '1195'
+  inflections: dance, danced, dances, dancing
+soon:
+  pos: r
+  frequency: '1191'
+  inflections: soon
+bar:
+  pos: n
+  frequency: '1185'
+  inflections: bar, bars
+wonder:
+  pos: v
+  frequency: '1182'
+  inflections: wonder, wondered, wondering, wonders
+joke:
+  pos: n
+  frequency: '1179'
+  inflections: joke, jokes
+relationship:
+  pos: n
+  frequency: '1179'
+  inflections: relationship, relationships
+chance:
+  pos: n
+  frequency: '1175'
+  inflections: chance, chances
+black:
+  pos: j
+  frequency: '1170'
+  inflections: black, blacker, blackest
+almost:
+  pos: r
+  frequency: '1168'
+  inflections: almost
+fight:
+  pos: n
+  frequency: '661'
+  inflections: fight, fights
+card:
+  pos: n
+  frequency: '1154'
+  inflections: card, cards
+song:
+  pos: n
+  frequency: '1154'
+  inflections: song, songs
+bye:
+  pos: u
+  frequency: '1147'
+  inflections: bye, bye
+coffee:
+  pos: n
+  frequency: '1147'
+  inflections: coffee, coffees
+awesome:
+  pos: j
+  frequency: '1133'
+  inflections: awesome
+sick:
+  pos: j
+  frequency: '1133'
+  inflections: sick, sicker, sickest
+apartment:
+  pos: n
+  frequency: '1132'
+  inflections: apartment, apartments
+figure:
+  pos: v
+  frequency: '1121'
+  inflections: figure, figured, figures, figuring
+pull:
+  pos: v
+  frequency: '1118'
+  inflections: pull, pulled, pulling, pulls
+box:
+  pos: n
+  frequency: '1111'
+  inflections: box, boxes
+dream:
+  pos: n
+  frequency: '1110'
+  inflections: dream, dreams
+water:
+  pos: n
+  frequency: '1110'
+  inflections: water, waters
+decide:
+  pos: v
+  frequency: '1109'
+  inflections: decide, decided, decides, deciding
+store:
+  pos: n
+  frequency: '1107'
+  inflections: store, stores
+bet:
+  pos: v
+  frequency: '1106'
+  inflections: bet, bets, betting
+lunch:
+  pos: n
+  frequency: '1105'
+  inflections: lunch, lunches
+anybody:
+  pos: fw
+  frequency: '1101'
+  inflections: anybody
+afraid:
+  pos: j
+  frequency: '1096'
+  inflections: afraid
+buddy:
+  pos: n
+  frequency: '1096'
+  inflections: buddy, buddies
+cute:
+  pos: j
+  frequency: '1090'
+  inflections: cute, cuter, cutest
+close:
+  pos: v
+  frequency: '753'
+  inflections: close, closes, closing, closed
+bathroom:
+  pos: n
+  frequency: '1082'
+  inflections: bathroom, bathrooms
+steal:
+  pos: v
+  frequency: '1073'
+  inflections: steal, steals, stealing, stole, stolen
+full:
+  pos: j
+  frequency: '1070'
+  inflections: full, fuller, fullest
+company:
+  pos: n
+  frequency: '1061'
+  inflections: company, companies
+front:
+  pos: n
+  frequency: '1061'
+  inflections: front, fronts
+ahead:
+  pos: r
+  frequency: '1059'
+  inflections: ahead
+moment:
+  pos: n
+  frequency: '1058'
+  inflections: moment, moments
+case:
+  pos: n
+  frequency: '1056'
+  inflections: case, cases
+though:
+  pos: fw
+  frequency: '1050'
+  inflections: though, tho
+body:
+  pos: n
+  frequency: '1043'
+  inflections: body, bodies
+Mrs:
+  pos: n
+  frequency: '1040'
+  inflections: Mrs., Mmes.
+pants:
+  pos: n
+  frequency: '1040'
+  inflections: pants
+bitch:
+  pos: n
+  frequency: '1039'
+  inflections: bitch, bitches
+promise:
+  pos: v
+  frequency: '1039'
+  inflections: promise, promises, promising, promised
+glad:
+  pos: j
+  frequency: '1037'
+  inflections: glad, gladder, gladdest
+kiss:
+  pos: n
+  frequency: '397'
+  inflections: kiss, kisses
+either:
+  pos: fw
+  frequency: '1023'
+  inflections: either
+fire:
+  pos: n
+  frequency: '895'
+  inflections: fire, fires
+grow:
+  pos: v
+  frequency: '1021'
+  inflections: grow, grows, growing, grew, grown
+build:
+  pos: v
+  frequency: '1019'
+  inflections: build, builds, building, built
+table:
+  pos: n
+  frequency: '1010'
+  inflections: table, tables
+ticket:
+  pos: n
+  frequency: '1006'
+  inflections: ticket, tickets
+matter:
+  pos: n
+  frequency: '783'
+  inflections: matter, matters
+teach:
+  pos: v
+  frequency: '1002'
+  inflections: teach, teaches, teaching, taught
+cat:
+  pos: n
+  frequency: '997'
+  inflections: cat, cats
+sister:
+  pos: n
+  frequency: '997'
+  inflections: sister, sisters
+girlfriend:
+  pos: n
+  frequency: '993'
+  inflections: girlfriend, girlfriends
+hat:
+  pos: n
+  frequency: '991'
+  inflections: hat, hats
+touch:
+  pos: v
+  frequency: '991'
+  inflections: touch, touches, touching, touched
+terrible:
+  pos: j
+  frequency: '990'
+  inflections: terrible
+beer:
+  pos: n
+  frequency: '985'
+  inflections: beer, beers
+damn:
+  pos: j
+  frequency: '456'
+  inflections: damn
+mm-hmm:
+  pos: u
+  frequency: '983'
+  inflections: mm-hmm
+club:
+  pos: n
+  frequency: '979'
+  inflections: club, clubs
+amaze:
+  pos: v
+  frequency: '978'
+  inflections: amaze, amazes, amazing, amazed
+smell:
+  pos: v
+  frequency: '978'
+  inflections: smell, smells, smelling, smelled, smelt
+gift:
+  pos: n
+  frequency: '974'
+  inflections: gift, gifts
+serious:
+  pos: j
+  frequency: '974'
+  inflections: serious
+plan:
+  pos: n
+  frequency: '773'
+  inflections: plan, plans
+street:
+  pos: n
+  frequency: '970'
+  inflections: street, streets
+team:
+  pos: n
+  frequency: '969'
+  inflections: team, teams
+order:
+  pos: v
+  frequency: '966'
+  inflections: order, orders, ordering, ordered
+cry:
+  pos: v
+  frequency: '964'
+  inflections: cry, cries, crying, cried
+zero:
+  pos: m
+  frequency: '960'
+  inflections: zero
+drop:
+  pos: v
+  frequency: '959'
+  inflections: drop, drops, dropping, dropped
+act:
+  pos: v
+  frequency: '958'
+  inflections: act, acts, acting, acted
+alone:
+  pos: j
+  frequency: '957'
+  inflections: alone
+seat:
+  pos: n
+  frequency: '951'
+  inflections: seat, seats
+eh:
+  pos: u
+  frequency: '949'
+  inflections: eh
+between:
+  pos: fw
+  frequency: '947'
+  inflections: between
+eight:
+  pos: m
+  frequency: '947'
+  inflections: eight
+twenty:
+  pos: m
+  frequency: '942'
+  inflections: twenty
+foot:
+  pos: n
+  frequency: '939'
+  inflections: foot, feet
+seven:
+  pos: m
+  frequency: '939'
+  inflections: seven
+finish:
+  pos: v
+  frequency: '937'
+  inflections: finish, finishes, finishing, finished
+gentleman:
+  pos: n
+  frequency: '936'
+  inflections: gentleman, gentlemen
+blow:
+  pos: v
+  frequency: '933'
+  inflections: blow, blows, blowing, blew, blown
+small:
+  pos: j
+  frequency: '928'
+  inflections: small, smaller, smallest
+trouble:
+  pos: n
+  frequency: '928'
+  inflections: trouble, troubles
+sweetie:
+  pos: n
+  frequency: '922'
+  inflections: sweetie, sweeties
+sing:
+  pos: v
+  frequency: '917'
+  inflections: sing, sings, singing, sang, sung
+pass:
+  pos: v
+  frequency: '915'
+  inflections: pass, passes, passing, passed
+beat:
+  pos: v
+  frequency: '914'
+  inflections: beat, beats, beating, beaten
+piece:
+  pos: n
+  frequency: '913'
+  inflections: piece, pieces
+shoe:
+  pos: n
+  frequency: '913'
+  inflections: shoe, shoes
+welcome:
+  pos: j
+  frequency: '911'
+  inflections: welcome
+god:
+  pos: n
+  frequency: '908'
+  inflections: god, gods
+white:
+  pos: j
+  frequency: '901'
+  inflections: white, whiter, whitest
+kick:
+  pos: v
+  frequency: '900'
+  inflections: kick, kicks, kicking, kicked
+bag:
+  pos: n
+  frequency: '899'
+  inflections: bag, bags
+early:
+  pos: j
+  frequency: '892'
+  inflections: early, earlier, earliest
+excite:
+  pos: v
+  frequency: '892'
+  inflections: excite, excites, exciting, excited
+wonderful:
+  pos: j
+  frequency: '890'
+  inflections: wonderful
+seriously:
+  pos: r
+  frequency: '885'
+  inflections: seriously
+country:
+  pos: n
+  frequency: '883'
+  inflections: country, countries
+mouth:
+  pos: n
+  frequency: '883'
+  inflections: mouth, mouths
+dear:
+  pos: j
+  frequency: '879'
+  inflections: dear, dearer, dearest
+quite:
+  pos: r
+  frequency: '879'
+  inflections: quite
+smart:
+  pos: j
+  frequency: '876'
+  inflections: smart, smarter, smartest
+husband:
+  pos: n
+  frequency: '875'
+  inflections: husband, husbands
+shh:
+  pos: u
+  frequency: '874'
+  inflections: shh, sh, shhh
+invite:
+  pos: v
+  frequency: '873'
+  inflections: invite, invites, inviting, invited
+rest:
+  pos: n
+  frequency: '871'
+  inflections: rest, rests
+yours:
+  pos: fw
+  frequency: '871'
+  inflections: yours
+behind:
+  pos: fw
+  frequency: '866'
+  inflections: behind
+key:
+  pos: n
+  frequency: '865'
+  inflections: key, keys
+dress:
+  pos: v
+  frequency: '860'
+  inflections: dress, dresses, dressing, dressed
+red:
+  pos: j
+  frequency: '859'
+  inflections: red, redder, reddest
+laugh:
+  pos: v
+  frequency: '858'
+  inflections: laugh, laughs, laughing, laughed
+agree:
+  pos: v
+  frequency: '853'
+  inflections: agree, agrees, agreeing, agreed
+machine:
+  pos: n
+  frequency: '853'
+  inflections: machine, machines
+yep:
+  pos: r
+  frequency: '850'
+  inflections: yep
+return:
+  pos: v
+  frequency: '847'
+  inflections: return, returns, returning, returned
+space:
+  pos: n
+  frequency: '844'
+  inflections: space, spaces
+mad:
+  pos: j
+  frequency: '841'
+  inflections: mad, madder, maddest
+truth:
+  pos: n
+  frequency: '837'
+  inflections: truth, truths
+ice:
+  pos: n
+  frequency: '834'
+  inflections: ice, ices
+follow:
+  pos: v
+  frequency: '833'
+  inflections: follow, follows, following, followed
+outside:
+  pos: fw
+  frequency: '828'
+  inflections: outside
+idiot:
+  pos: n
+  frequency: '827'
+  inflections: idiot, idiots
+rule:
+  pos: n
+  frequency: '826'
+  inflections: rule, rules
+absolutely:
+  pos: r
+  frequency: '825'
+  inflections: absolutely
+against:
+  pos: fw
+  frequency: '821'
+  inflections: against
+American:
+  pos: K
+  frequency: '821'
+  inflections: American, Americans
+scare:
+  pos: v
+  frequency: '819'
+  inflections: scare, scares, scaring, scared
+notice:
+  pos: v
+  frequency: '812'
+  inflections: notice, notices, noticing, noticed
+chicken:
+  pos: n
+  frequency: '811'
+  inflections: chicken, chickens
+ride:
+  pos: v
+  frequency: '811'
+  inflections: ride, rides, riding, rode, ridden
+music:
+  pos: n
+  frequency: '809'
+  inflections: music
+join:
+  pos: v
+  frequency: '808'
+  inflections: join, joins, joining, joined
+good-bye:
+  pos: u
+  frequency: '806'
+  inflections: good-bye, goodbye
+ruin:
+  pos: v
+  frequency: '806'
+  inflections: ruin, ruins, ruining, ruined
+war:
+  pos: n
+  frequency: '801'
+  inflections: war, wars
+screw:
+  pos: v
+  frequency: '800'
+  inflections: screw, screws, screwing, screwed
+light:
+  pos: n
+  frequency: '797'
+  inflections: light, lights
+along:
+  pos: fw
+  frequency: '790'
+  inflections: along
+poor:
+  pos: j
+  frequency: '790'
+  inflections: poor, poorer, poorest
+sense:
+  pos: n
+  frequency: '789'
+  inflections: sense, senses
+able:
+  pos: j
+  frequency: '788'
+  inflections: able, abler, ablest
+secret:
+  pos: n
+  frequency: '783'
+  inflections: secret, secrets
+fly:
+  pos: v
+  frequency: '780'
+  inflections: fly, flies, flying, flew, flown
+top:
+  pos: n
+  frequency: '780'
+  inflections: top, tops
+fair:
+  pos: j
+  frequency: '777'
+  inflections: fair, fairer, fairest
+relax:
+  pos: v
+  frequency: '776'
+  inflections: relax, relaxes, relaxing, relaxed
+boyfriend:
+  pos: n
+  frequency: '774'
+  inflections: boyfriend, boyfriends
+mistake:
+  pos: n
+  frequency: '771'
+  inflections: mistake, mistakes
+luck:
+  pos: n
+  frequency: '769'
+  inflections: luck
+group:
+  pos: n
+  frequency: '766'
+  inflections: group, groups
+daughter:
+  pos: n
+  frequency: '759'
+  inflections: daughter, daughterly, daughters
+college:
+  pos: n
+  frequency: '757'
+  inflections: college, colleges
+president:
+  pos: n
+  frequency: '757'
+  inflections: president, presidents
+far:
+  pos: r
+  frequency: '754'
+  inflections: far, farther, further, farthest, furthest
+sign:
+  pos: n
+  frequency: '597'
+  inflections: sign, signs
+message:
+  pos: n
+  frequency: '748'
+  inflections: message, messages
+freak:
+  pos: v
+  frequency: '747'
+  inflections: freak, freaks, freaking, freaked
+fault:
+  pos: n
+  frequency: '745'
+  inflections: fault, faulted, faulting, faultless, faultlessly, faultlessness, faults
+quick:
+  pos: j
+  frequency: '744'
+  inflections: quick, quicker, quickest
+till:
+  pos: fw
+  frequency: '742'
+  inflections: till
+except:
+  pos: fw
+  frequency: '738'
+  inflections: except
+single:
+  pos: j
+  frequency: '734'
+  inflections: single
+shirt:
+  pos: n
+  frequency: '733'
+  inflections: shirt, shirts
+choice:
+  pos: n
+  frequency: '732'
+  inflections: choice, choices
+attention:
+  pos: n
+  frequency: '730'
+  inflections: attention
+power:
+  pos: n
+  frequency: '730'
+  inflections: power, powers
+quit:
+  pos: v
+  frequency: '729'
+  inflections: quit, quits, quitting, quitted
+answer:
+  pos: v
+  frequency: '592'
+  inflections: answer, answers, answering, answered
+trust:
+  pos: v
+  frequency: '727'
+  inflections: trust, trusts, trusting, trusted
+fifty:
+  pos: m
+  frequency: '725'
+  inflections: fifty, fifties
+leg:
+  pos: n
+  frequency: '725'
+  inflections: leg, legs
+wake:
+  pos: v
+  frequency: '723'
+  inflections: wake, wakes, waking, waked, woke, woken
+human:
+  pos: j
+  frequency: '717'
+  inflections: human
+star:
+  pos: n
+  frequency: '715'
+  inflections: star, stars
+student:
+  pos: n
+  frequency: '713'
+  inflections: student, students
+air:
+  pos: n
+  frequency: '703'
+  inflections: air, airs
+chair:
+  pos: n
+  frequency: '700'
+  inflections: chair, chairs
+gun:
+  pos: n
+  frequency: '699'
+  inflections: gun, guns
+begin:
+  pos: v
+  frequency: '692'
+  inflections: begin, begins, beginning, began, begun
+death:
+  pos: n
+  frequency: '692'
+  inflections: death, deaths
+tree:
+  pos: n
+  frequency: '692'
+  inflections: tree, trees
+boss:
+  pos: n
+  frequency: '689'
+  inflections: boss, bosses
+present:
+  pos: n
+  frequency: '687'
+  inflections: present, presents
+instead:
+  pos: r
+  frequency: '686'
+  inflections: instead
+lucky:
+  pos: j
+  frequency: '682'
+  inflections: lucky, luckier, luckiest
+safe:
+  pos: j
+  frequency: '681'
+  inflections: safe, safer, safest
+cold:
+  pos: j
+  frequency: '678'
+  inflections: cold, colder, coldest
+ahh:
+  pos: u
+  frequency: '677'
+  inflections: ahh
+explain:
+  pos: v
+  frequency: '676'
+  inflections: explain, explains, explaining, explained
+video:
+  pos: n
+  frequency: '676'
+  inflections: video, videos
+brain:
+  pos: n
+  frequency: '675'
+  inflections: brain, brains
+completely:
+  pos: r
+  frequency: '673'
+  inflections: completely
+voice:
+  pos: n
+  frequency: '673'
+  inflections: voice, voices
+cake:
+  pos: n
+  frequency: '672'
+  inflections: cake, cakes
+trip:
+  pos: n
+  frequency: '671'
+  inflections: trip, trips
+monkey:
+  pos: n
+  frequency: '670'
+  inflections: monkey, monkeys
+hundred:
+  pos: m
+  frequency: '669'
+  inflections: hundred, hundreds
+fix:
+  pos: v
+  frequency: '668'
+  inflections: fix, fixes, fixing, fixed
+entire:
+  pos: j
+  frequency: '667'
+  inflections: entire
+expect:
+  pos: v
+  frequency: '667'
+  inflections: expect, expected, expecting, expects
+million:
+  pos: m
+  frequency: '667'
+  inflections: million, millions
+allow:
+  pos: v
+  frequency: '666'
+  inflections: allow, allows, allowing, allowed
+forever:
+  pos: r
+  frequency: '666'
+  inflections: forever
+ugh:
+  pos: u
+  frequency: '664'
+  inflections: ugh
+hide:
+  pos: v
+  frequency: '662'
+  inflections: hide, hides, hiding, hid, hidden
+huge:
+  pos: j
+  frequency: '662'
+  inflections: huge, huger, hugest
+interesting:
+  pos: j
+  frequency: '662'
+  inflections: interesting
+roll:
+  pos: v
+  frequency: '661'
+  inflections: roll, rolls, rolling, rolled
+clothes:
+  pos: n
+  frequency: '658'
+  inflections: clothes
+fast:
+  pos: r
+  frequency: '657'
+  inflections: fast, faster, fastest
+grab:
+  pos: v
+  frequency: '657'
+  inflections: grab, grabs, grabbing, grabbed
+teacher:
+  pos: n
+  frequency: '657'
+  inflections: teacher, teachers
+crap:
+  pos: u
+  frequency: '414'
+  inflections: crap, craps, crapping, crapped
+animal:
+  pos: n
+  frequency: '655'
+  inflections: animal, animals
+burn:
+  pos: v
+  frequency: '654'
+  inflections: burn, burns, burning, burned, burnt
+tough:
+  pos: j
+  frequency: '654'
+  inflections: tough, tougher, toughest
+restaurant:
+  pos: n
+  frequency: '652'
+  inflections: restaurant, restaurants
+sort:
+  pos: n
+  frequency: '652'
+  inflections: sort, sorts
+tooth:
+  pos: n
+  frequency: '651'
+  inflections: tooth, teeth
+marriage:
+  pos: n
+  frequency: '649'
+  inflections: marriage, marriages
+proud:
+  pos: j
+  frequency: '649'
+  inflections: proud, prouder, proudest
+uncle:
+  pos: n
+  frequency: '647'
+  inflections: uncle, uncles
+push:
+  pos: v
+  frequency: '646'
+  inflections: push, pushes, pushing, pushed
+butt:
+  pos: n
+  frequency: '643'
+  inflections: butt, butts
+offer:
+  pos: v
+  frequency: '643'
+  inflections: offer, offers, offering, offered
+lord:
+  pos: n
+  frequency: '640'
+  inflections: lord, lords
+unless:
+  pos: fw
+  frequency: '639'
+  inflections: unless
+feeling:
+  pos: n
+  frequency: '638'
+  inflections: feeling, feelings
+suit:
+  pos: n
+  frequency: '636'
+  inflections: suit, suits
+uh-huh:
+  pos: u
+  frequency: '635'
+  inflections: uh-huh
+floor:
+  pos: n
+  frequency: '634'
+  inflections: floor, floors
+cream:
+  pos: n
+  frequency: '629'
+  inflections: cream, creams
+favorite:
+  pos: j
+  frequency: '629'
+  inflections: favorite
+naked:
+  pos: j
+  frequency: '628'
+  inflections: naked
+list:
+  pos: n
+  frequency: '627'
+  inflections: list, lists
+ring:
+  pos: n
+  frequency: '625'
+  inflections: ring, rings
+clean:
+  pos: j
+  frequency: '426'
+  inflections: clean, cleaner, cleanest
+apologize:
+  pos: v
+  frequency: '620'
+  inflections: apologize, apologizing, apologizes, apologized
+clear:
+  pos: j
+  frequency: '620'
+  inflections: clear, clearer, clearest
+Earth:
+  pos: K
+  frequency: '620'
+  inflections: Earth, earth
+share:
+  pos: v
+  frequency: '620'
+  inflections: share, shares, sharing, shared
+fill:
+  pos: v
+  frequency: '619'
+  inflections: fill, fills, filling, filled
+pizza:
+  pos: n
+  frequency: '612'
+  inflections: pizza, pizzas
+ridiculous:
+  pos: j
+  frequency: '612'
+  inflections: ridiculous
+alive:
+  pos: j
+  frequency: '609'
+  inflections: alive
+pretend:
+  pos: v
+  frequency: '608'
+  inflections: pretend, pretends, pretending, pretended
+hospital:
+  pos: n
+  frequency: '604'
+  inflections: hospital, hospitals
+sad:
+  pos: j
+  frequency: '603'
+  inflections: sad, sadder, saddest
+bunch:
+  pos: n
+  frequency: '602'
+  inflections: bunch, bunches
+half:
+  pos: m
+  frequency: '438'
+  inflections: half, halves
+police:
+  pos: n
+  frequency: '602'
+  inflections: police
+fish:
+  pos: n
+  frequency: '600'
+  inflections: fish, fishes
+window:
+  pos: n
+  frequency: '599'
+  inflections: window, windows
+busy:
+  pos: j
+  frequency: '597'
+  inflections: busy, busier, busiest
+pie:
+  pos: n
+  frequency: '594'
+  inflections: pie, pies
+raise:
+  pos: v
+  frequency: '592'
+  inflections: raise, raises, raising, raised
+somewhere:
+  pos: r
+  frequency: '592'
+  inflections: somewhere
+sandwich:
+  pos: n
+  frequency: '590'
+  inflections: sandwich, sandwiches
+thirty:
+  pos: m
+  frequency: '590'
+  inflections: thirty, thirties
+sale:
+  pos: n
+  frequency: '589'
+  inflections: sale, sales
+choose:
+  pos: v
+  frequency: '588'
+  inflections: choose, chooses, choosing, chose, chosen
+definitely:
+  pos: r
+  frequency: '588'
+  inflections: definitely
+swear:
+  pos: v
+  frequency: '588'
+  inflections: swear, swears, swearing, swore, sworn
+boat:
+  pos: n
+  frequency: '583'
+  inflections: boat, boats
+tired:
+  pos: j
+  frequency: '582'
+  inflections: tired
+ho:
+  pos: u
+  frequency: '581'
+  inflections: ho
+upset:
+  pos: j
+  frequency: '578'
+  inflections: upset
+less:
+  pos: fw
+  frequency: '577'
+  inflections: less
+nine:
+  pos: m
+  frequency: '576'
+  inflections: nine, nines
+thousand:
+  pos: m
+  frequency: '576'
+  inflections: thousand, thousands
+smoke:
+  pos: v
+  frequency: '574'
+  inflections: smoke, smokes, smoking, smoked
+embarrass:
+  pos: v
+  frequency: '573'
+  inflections: embarrass, embarrasses, embarrassing, embarrassed
+band:
+  pos: n
+  frequency: '572'
+  inflections: band, bands
+bear:
+  pos: n
+  frequency: '514'
+  inflections: bear, bears
+none:
+  pos: fw
+  frequency: '571'
+  inflections: none
+Santa:
+  pos: K
+  frequency: '571'
+  inflections: Santa
+strong:
+  pos: j
+  frequency: '571'
+  inflections: strong, stronger, strongest
+law:
+  pos: n
+  frequency: '570'
+  inflections: law, laws
+toilet:
+  pos: n
+  frequency: '570'
+  inflections: toilet, toilets
+jump:
+  pos: v
+  frequency: '569'
+  inflections: jump, jumps, jumping, jumped
+count:
+  pos: v
+  frequency: '567'
+  inflections: count, counts, counting, counted
+egg:
+  pos: n
+  frequency: '566'
+  inflections: egg, eggs
+Saturday:
+  pos: K
+  frequency: '565'
+  inflections: Saturday, Saturdays
+blue:
+  pos: j
+  frequency: '564'
+  inflections: blue, bluer, bluest
+horrible:
+  pos: j
+  frequency: '564'
+  inflections: horrible
+shit:
+  pos: n
+  frequency: '564'
+  inflections: shit, shits
+favor:
+  pos: n
+  frequency: '563'
+  inflections: favor, favors
+handle:
+  pos: v
+  frequency: '563'
+  inflections: handle, handles, handling, handled
+wall:
+  pos: n
+  frequency: '563'
+  inflections: wall, walls
+art:
+  pos: n
+  frequency: '562'
+  inflections: art, arts
+cover:
+  pos: v
+  frequency: '562'
+  inflections: cover, covers, covering, covered
+arm:
+  pos: n
+  frequency: '561'
+  inflections: arm, arms
+perhaps:
+  pos: r
+  frequency: '560'
+  inflections: perhaps
+simple:
+  pos: j
+  frequency: '560'
+  inflections: simple, simpler, simplest
+bus:
+  pos: n
+  frequency: '558'
+  inflections: bus, buses
+appreciate:
+  pos: v
+  frequency: '556'
+  inflections: appreciate, appreciates, appreciating, appreciated
+himself:
+  pos: fw
+  frequency: '556'
+  inflections: himself
+surprise:
+  pos: n
+  frequency: '540'
+  inflections: surprise, surprises
+candy:
+  pos: n
+  frequency: '555'
+  inflections: candy, candies
+finger:
+  pos: n
+  frequency: '553'
+  inflections: finger, fingers
+worth:
+  pos: j
+  frequency: '551'
+  inflections: worth
+state:
+  pos: n
+  frequency: '550'
+  inflections: state, states
+possible:
+  pos: j
+  frequency: '549'
+  inflections: possible
+rich:
+  pos: j
+  frequency: '548'
+  inflections: rich, richer, richest
+short:
+  pos: j
+  frequency: '548'
+  inflections: short, shorter, shortest
+king:
+  pos: n
+  frequency: '547'
+  inflections: king, kings
+knock:
+  pos: v
+  frequency: '547'
+  inflections: knock, knocks, knocking, knocked
+cookie:
+  pos: n
+  frequency: '545'
+  inflections: cookie, cookies
+penis:
+  pos: n
+  frequency: '545'
+  inflections: penis, penises, penes
+history:
+  pos: n
+  frequency: '544'
+  inflections: history, histories
+imagine:
+  pos: v
+  frequency: '544'
+  inflections: imagine, imagines, imagining, imagined
+third:
+  pos: m
+  frequency: '544'
+  inflections: third, thirds
+blood:
+  pos: n
+  frequency: '542'
+  inflections: blood, bloods
+drug:
+  pos: n
+  frequency: '542'
+  inflections: drug, drugs
+future:
+  pos: n
+  frequency: '541'
+  inflections: future, futures
+prove:
+  pos: v
+  frequency: '540'
+  inflections: prove, proves, proving, proved, proven
+alright:
+  pos: r
+  frequency: '539'
+  inflections: alright
+captain:
+  pos: n
+  frequency: '539'
+  inflections: captain, captains
+evening:
+  pos: n
+  frequency: '539'
+  inflections: evening, evenings
+congratulations:
+  pos: u
+  frequency: '538'
+  inflections: congratulations
+system:
+  pos: n
+  frequency: '538'
+  inflections: system, systems
+record:
+  pos: n
+  frequency: '534'
+  inflections: record, records
+age:
+  pos: n
+  frequency: '533'
+  inflections: age, ages
+deserve:
+  pos: v
+  frequency: '529'
+  inflections: deserve, deserves, deserving, deserved
+normal:
+  pos: j
+  frequency: '528'
+  inflections: normal
+yesterday:
+  pos: n
+  frequency: '528'
+  inflections: yesterday, yesterdays
+jerk:
+  pos: n
+  frequency: '526'
+  inflections: jerk, jerks
+yay:
+  pos: u
+  frequency: '526'
+  inflections: yay
+bird:
+  pos: n
+  frequency: '525'
+  inflections: bird, birds
+nose:
+  pos: n
+  frequency: '525'
+  inflections: nose, noses
+bother:
+  pos: v
+  frequency: '525'
+  inflections: bother, bothers, bothering, bothered
+fan:
+  pos: n
+  frequency: '523'
+  inflections: fan, fans
+letter:
+  pos: n
+  frequency: '523'
+  inflections: letter, letters
+rather:
+  pos: r
+  frequency: '522'
+  inflections: rather
+interested:
+  pos: j
+  frequency: '519'
+  inflections: interested
+owe:
+  pos: v
+  frequency: '519'
+  inflections: owe, owes, owing, owed
+pregnant:
+  pos: j
+  frequency: '519'
+  inflections: pregnant
+destroy:
+  pos: v
+  frequency: '516'
+  inflections: destroy, destroys, destroying, destroyed
+evil:
+  pos: j
+  frequency: '513'
+  inflections: evil, eviler, eviller, evilest, evillest
+milk:
+  pos: n
+  frequency: '512'
+  inflections: milk, milks
+sport:
+  pos: n
+  frequency: '511'
+  inflections: sport, sports
+admit:
+  pos: v
+  frequency: '510'
+  inflections: admit, admits, admitting, admitted
+apparently:
+  pos: r
+  frequency: '510'
+  inflections: apparently
+conversation:
+  pos: n
+  frequency: '509'
+  inflections: conversation, conversations
+obviously:
+  pos: r
+  frequency: '509'
+  inflections: obviously
+uh-oh:
+  pos: u
+  frequency: '509'
+  inflections: uh-oh
+jacket:
+  pos: n
+  frequency: '508'
+  inflections: jacket, jackets
+during:
+  pos: fw
+  frequency: '507'
+  inflections: during
+accept:
+  pos: v
+  frequency: '504'
+  inflections: accept, accepts, accepting, accepted
+dumb:
+  pos: j
+  frequency: '502'
+  inflections: dumb, dumber, dumbest
+bit:
+  pos: n
+  frequency: '500'
+  inflections: bit, bits
+consider:
+  pos: v
+  frequency: '500'
+  inflections: consider, considers, considering, considered
+mention:
+  pos: v
+  frequency: '500'
+  inflections: mention, mentions, mentioning, mentioned
+step:
+  pos: n
+  frequency: '400'
+  inflections: step, steps
+hungry:
+  pos: j
+  frequency: '499'
+  inflections: hungry, hungrier, hungriest
+situation:
+  pos: n
+  frequency: '499'
+  inflections: situation, situations
+lead:
+  pos: v
+  frequency: '497'
+  inflections: lead, leads, leading, leaded, led
+twelve:
+  pos: m
+  frequency: '495'
+  inflections: twelve, twelves
+fantastic:
+  pos: j
+  frequency: '494'
+  inflections: fantastic
+hole:
+  pos: n
+  frequency: '494'
+  inflections: hole, holes
+plus:
+  pos: fw
+  frequency: '494'
+  inflections: plus
+note:
+  pos: n
+  frequency: '492'
+  inflections: note, notes
+test:
+  pos: n
+  frequency: '492'
+  inflections: test, tests
+honest:
+  pos: j
+  frequency: '490'
+  inflections: honest, honester, honestest
+character:
+  pos: n
+  frequency: '489'
+  inflections: character, characters
+holy:
+  pos: j
+  frequency: '489'
+  inflections: holy, holier, holiest
+manager:
+  pos: n
+  frequency: '489'
+  inflections: manager, managers
+lesson:
+  pos: n
+  frequency: '488'
+  inflections: lesson, lessons
+soul:
+  pos: n
+  frequency: '488'
+  inflections: soul, souls
+nope:
+  pos: r
+  frequency: '487'
+  inflections: nope
+dark:
+  pos: j
+  frequency: '486'
+  inflections: dark, darker, darkest
+difference:
+  pos: n
+  frequency: '486'
+  inflections: difference, differences
+wine:
+  pos: n
+  frequency: '485'
+  inflections: wine, wines
+road:
+  pos: n
+  frequency: '482'
+  inflections: road, roads
+calm:
+  pos: v
+  frequency: '481'
+  inflections: calm, calms, calming, calmed
+personal:
+  pos: j
+  frequency: '481'
+  inflections: personal
+clown:
+  pos: n
+  frequency: '480'
+  inflections: clown, clowns
+computer:
+  pos: n
+  frequency: '480'
+  inflections: computer, computers
+horse:
+  pos: n
+  frequency: '479'
+  inflections: horse, horses
+gosh:
+  pos: u
+  frequency: '478'
+  inflections: gosh
+mayor:
+  pos: n
+  frequency: '477'
+  inflections: mayor, mayors
+inside:
+  pos: r
+  frequency: '476'
+  inflections: inside
+sexy:
+  pos: j
+  frequency: '476'
+  inflections: sexy, sexier, sexiest
+dirty:
+  pos: j
+  frequency: '475'
+  inflections: dirty, dirtier, dirtiest
+carry:
+  pos: v
+  frequency: '474'
+  inflections: carry, carries, carrying, carried
+professor:
+  pos: n
+  frequency: '474'
+  inflections: professor, professors
+usually:
+  pos: r
+  frequency: '474'
+  inflections: usually
+bottle:
+  pos: n
+  frequency: '473'
+  inflections: bottle, bottles
+cheese:
+  pos: n
+  frequency: '473'
+  inflections: cheese, cheeses
+summer:
+  pos: n
+  frequency: '473'
+  inflections: summer, summers
+remind:
+  pos: v
+  frequency: '472'
+  inflections: remind, reminds, reminding, reminded
+afternoon:
+  pos: n
+  frequency: '471'
+  inflections: afternoon, afternoons
+pee:
+  pos: v
+  frequency: '471'
+  inflections: pee, pees, peeing, peed
+across:
+  pos: fw
+  frequency: '470'
+  inflections: across
+angry:
+  pos: j
+  frequency: '470'
+  inflections: angry, angrier, angriest
+fella:
+  pos: n
+  frequency: '470'
+  inflections: fella, fellas
+film:
+  pos: n
+  frequency: '470'
+  inflections: film, films
+reach:
+  pos: v
+  frequency: '470'
+  inflections: reach, reaches, reaching, reached
+shower:
+  pos: n
+  frequency: '469'
+  inflections: shower, showers
+cup:
+  pos: n
+  frequency: '468'
+  inflections: cup, cups
+lawyer:
+  pos: n
+  frequency: '467'
+  inflections: lawyer, lawyers
+camera:
+  pos: n
+  frequency: '465'
+  inflections: camera, cameras
+pain:
+  pos: n
+  frequency: '465'
+  inflections: pain, pains
+hurry:
+  pos: v
+  frequency: '462'
+  inflections: hurry, hurries, hurrying, hurried
+desk:
+  pos: n
+  frequency: '461'
+  inflections: desk, desks
+monster:
+  pos: n
+  frequency: '461'
+  inflections: monster, monsters
+certainly:
+  pos: r
+  frequency: '460'
+  inflections: certainly
+cop:
+  pos: n
+  frequency: '460'
+  inflections: cop, cops
+credit:
+  pos: n
+  frequency: '459'
+  inflections: credit, credits
+prepare:
+  pos: v
+  frequency: '459'
+  inflections: prepare, prepares, preparing, prepared
+anywhere:
+  pos: r
+  frequency: '458'
+  inflections: anywhere
+breakfast:
+  pos: n
+  frequency: '458'
+  inflections: breakfast, breakfasts
+bastard:
+  pos: n
+  frequency: '457'
+  inflections: bastard, bastards
+church:
+  pos: n
+  frequency: '455'
+  inflections: church, churches
+hire:
+  pos: v
+  frequency: '454'
+  inflections: hire, hires, hiring, hired
+decision:
+  pos: n
+  frequency: '452'
+  inflections: decision, decisions
+Miss:
+  pos: n
+  frequency: '451'
+  inflections: miss, misses
+pig:
+  pos: n
+  frequency: '448'
+  inflections: pig, pigs
+loser:
+  pos: n
+  frequency: '446'
+  inflections: loser, losers
+robot:
+  pos: n
+  frequency: '446'
+  inflections: robot, robots
+deep:
+  pos: j
+  frequency: '445'
+  inflections: deep, deeper, deepest
+park:
+  pos: n
+  frequency: '445'
+  inflections: park, parks
+chocolate:
+  pos: n
+  frequency: '445'
+  inflections: chocolate, chocolates
+service:
+  pos: n
+  frequency: '443'
+  inflections: service, services
+Jew:
+  pos: K
+  frequency: '442'
+  inflections: Jew
+tape:
+  pos: n
+  frequency: '440'
+  inflections: tape, tapes
+kitchen:
+  pos: n
+  frequency: '439'
+  inflections: kitchen, kitchens
+rid:
+  pos: v
+  frequency: '438'
+  inflections: rid, rids, riddings, ridded
+grandpa:
+  pos: n
+  frequency: '437'
+  inflections: grandpa, grandpas
+hero:
+  pos: n
+  frequency: '437'
+  inflections: hero, heroes
+shot:
+  pos: n
+  frequency: '437'
+  inflections: shot, shots
+spot:
+  pos: n
+  frequency: '437'
+  inflections: spot, spots
+folks:
+  pos: n
+  frequency: '436'
+  inflections: folks
+yell:
+  pos: v
+  frequency: '434'
+  inflections: yell, yells, yelling, yelled
+awful:
+  pos: j
+  frequency: '433'
+  inflections: awful, awfuller, awfullest
+scene:
+  pos: n
+  frequency: '433'
+  inflections: scene, scenes
+trick:
+  pos: n
+  frequency: '433'
+  inflections: trick, tricks
+asshole:
+  pos: n
+  frequency: '431'
+  inflections: asshole, assholes
+issue:
+  pos: n
+  frequency: '430'
+  inflections: issue, issues
+lovely:
+  pos: j
+  frequency: '429'
+  inflections: lovely, lovelier, loveliest
+visit:
+  pos: v
+  frequency: '428'
+  inflections: visit, visits, visiting, visited
+honor:
+  pos: n
+  frequency: '428'
+  inflections: honor, honors
+chick:
+  pos: n
+  frequency: '424'
+  inflections: chick, chicks
+costume:
+  pos: n
+  frequency: '424'
+  inflections: costume, costumes
+Friday:
+  pos: K
+  frequency: '424'
+  inflections: Friday, Fridays
+hall:
+  pos: n
+  frequency: '424'
+  inflections: hall, halls
+Ms:
+  pos: n
+  frequency: '422'
+  inflections: Ms, Mss, Mses
+fake:
+  pos: j
+  frequency: '419'
+  inflections: fake
+forgive:
+  pos: v
+  frequency: '419'
+  inflections: forgive, forgives, forgiving, forgave, forgiven
+grade:
+  pos: n
+  frequency: '419'
+  inflections: grade, grades
+fifteen:
+  pos: m
+  frequency: '418'
+  inflections: fifteen, fifteens
+ought:
+  pos: v
+  frequency: '417'
+  inflections: ought
+cheat:
+  pos: v
+  frequency: '416'
+  inflections: cheat, cheats, cheating, cheated
+Chinese:
+  pos: K
+  frequency: '416'
+  inflections: Chinese
+create:
+  pos: v
+  frequency: '413'
+  inflections: create, creates, creating, created
+comfortable:
+  pos: j
+  frequency: '412'
+  inflections: comfortable
+hotel:
+  pos: n
+  frequency: '411'
+  inflections: hotel, hotels
+magazine:
+  pos: n
+  frequency: '411'
+  inflections: magazine, magazines
+settle:
+  pos: v
+  frequency: '411'
+  inflections: settle, settles, settling, settled
+accident:
+  pos: n
+  frequency: '410'
+  inflections: accident, accidents
+boob:
+  pos: n
+  frequency: '409'
+  inflections: boob, boobs
+excellent:
+  pos: j
+  frequency: '409'
+  inflections: excellent
+neighbor:
+  pos: n
+  frequency: '409'
+  inflections: neighbor, neighbors
+train:
+  pos: n
+  frequency: '409'
+  inflections: train, trains
+board:
+  pos: n
+  frequency: '408'
+  inflections: board, boards
+pop:
+  pos: v
+  frequency: '408'
+  inflections: pop, pops, popping, popped
+spirit:
+  pos: n
+  frequency: '408'
+  inflections: spirit, spirits
+cow:
+  pos: n
+  frequency: '406'
+  inflections: cow, cows
+building:
+  pos: n
+  frequency: '404'
+  inflections: building, buildings
+ear:
+  pos: n
+  frequency: '404'
+  inflections: ear, ears
+giant:
+  pos: j
+  frequency: '404'
+  inflections: giant, giants
+ugly:
+  pos: j
+  frequency: '404'
+  inflections: ugly, uglier, ugliest
+toy:
+  pos: n
+  frequency: '403'
+  inflections: toy, toys
+cancel:
+  pos: v
+  frequency: '402'
+  inflections: cancel, cancels, canceling, canceled
+Internet:
+  pos: K
+  frequency: '402'
+  inflections: Internet, Net
+strange:
+  pos: j
+  frequency: '402'
+  inflections: strange, stranger, strangest
+aunt:
+  pos: n
+  frequency: '401'
+  inflections: aunt, aunts
+island:
+  pos: n
+  frequency: '401'
+  inflections: island, islands
+extra:
+  pos: j
+  frequency: '400'
+  inflections: extra
+fit:
+  pos: v
+  frequency: '400'
+  inflections: fit, fits, fitting, fitted
+rock:
+  pos: n
+  frequency: '400'
+  inflections: rock, rocks
+action:
+  pos: n
+  frequency: '399'
+  inflections: action, actions
+bill:
+  pos: n
+  frequency: '397'
+  inflections: bill, bills
+field:
+  pos: n
+  frequency: '397'
+  inflections: field, fields
+fresh:
+  pos: j
+  frequency: '395'
+  inflections: fresh, fresher, freshest
+level:
+  pos: n
+  frequency: '395'
+  inflections: level, levels
+cost:
+  pos: v
+  frequency: '394'
+  inflections: cost, costs, costing, costed
+size:
+  pos: n
+  frequency: '394'
+  inflections: size, sizes
+cell:
+  pos: n
+  frequency: '393'
+  inflections: cell, cells
+serve:
+  pos: v
+  frequency: '393'
+  inflections: serve, serves, serving, served
+shake:
+  pos: v
+  frequency: '393'
+  inflections: shake, shakes, shaking, shook, shaken
+neck:
+  pos: n
+  frequency: '392'
+  inflections: neck, necks
+bowl:
+  pos: n
+  frequency: '392'
+  inflections: bowl, bowls
+control:
+  pos: n
+  frequency: '391'
+  inflections: control, controls
+loud:
+  pos: j
+  frequency: '390'
+  inflections: loud, louder, loudest
+bedroom:
+  pos: n
+  frequency: '389'
+  inflections: bedroom, bedrooms
+heaven:
+  pos: n
+  frequency: '389'
+  inflections: heaven, heavens
+commercial:
+  pos: n
+  frequency: '388'
+  inflections: commercial, commercials
+draw:
+  pos: v
+  frequency: '388'
+  inflections: draw, draws, drawing, drew, drawn
+guest:
+  pos: n
+  frequency: '388'
+  inflections: guest, guests
+insane:
+  pos: j
+  frequency: '388'
+  inflections: insane, insaner, insanest
+fail:
+  pos: v
+  frequency: '388'
+  inflections: fail, fails, failing, failed
+cook:
+  pos: v
+  frequency: '387'
+  inflections: cook, cooks, cooking, cooked
+pleasure:
+  pos: n
+  frequency: '387'
+  inflections: pleasure, pleasures
+truck:
+  pos: n
+  frequency: '387'
+  inflections: truck, trucks
+science:
+  pos: n
+  frequency: '386'
+  inflections: science, sciences
+careful:
+  pos: j
+  frequency: '385'
+  inflections: careful
