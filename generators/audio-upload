@@ -4,6 +4,7 @@ class AudioUploader
   def perform
     Dir.chdir(__dir__) do
       system "gsutil -m cp -n -r audio gs://passive-english"
+      system "gsutil -m cp audio/index.csv gs://passive-english/audio/"
     end
   end
 end
