@@ -1,0 +1,120 @@
+#!/usr/bin/env ruby
+
+require "fileutils"
+require "yaml"
+require "timeout"
+require "csv"
+require("byebug") if RUBY_PLATFORM.include?("darwin")
+require "shellwords"
+require "curl"
+require "json"
+require "parallel"
+require "digest"
+
+class VoiceGenerator
+  attr_reader :label, :content, :locale
+
+  def initialize(label:, content:, locale:)
+    @label = label
+    @content = content
+    @locale = locale
+  end
+
+  def digest
+    Digest::MD5.hexdigest(content)[0, 4]
+  end
+
+  def create_voice
+    # for this command to works, you need to set
+    # GOOGLE_APPLICATION_CREDENTIALS
+    # the google application need to have cloud speech api enabled
+    puts "GENERATING VOICE FOR #{content}"
+    system "echo #{Shellwords.escape(content)} | tts #{Shellwords.escape(filename)} --language #{gcp_language} --service gcp --voice #{gcp_profile}"
+  end
+
+  def perform
+    unless File.exists?(filename)
+      create_voice
+    end
+
+    relative_filename
+  end
+
+  def gcp_language
+    case locale
+    when "en" then "en-US"
+    when "vi" then "vi-VN"
+    end
+  end
+
+  def gcp_profile
+    case locale
+    when "en" then "en-US-Neural2-E"
+    when "vi" then "vi-VN-Wavenet-D"
+    end
+  end
+
+  def relative_filename
+    "audio/#{locale}/#{label}-#{digest}.mp3"
+  end
+
+  def filename
+    File.expand_path(relative_filename, __dir__).tap do |name|
+      FileUtils.mkdir_p(File.dirname(name))
+    end
+  end
+end
+
+class AudioUpdator
+  def dict
+    @dict ||= load_dict
+  end
+
+  def dict_filename
+    File.expand_path("./dict.yaml", __dir__)
+  end
+
+  def load_dict
+    if File.exists?(dict_filename)
+      File.open(dict_filename, "r") { |f| YAML::load f }
+    else
+      {}
+    end
+  end
+
+  def sorted_words
+    dict.to_a.sort_by { |english, word| -word["frequency"].to_i }
+  end
+
+  def perform
+    # first use parallel to trigger parallel translation
+    # this won't change the result, perhaps due to parallel forking processes
+    list = Parallel.map(sorted_words) do |_, word|
+      perform_on_single_word(word)
+    end
+
+    CSV.open(audio_csv_filename, "w") do |csv|
+      list.each do |row|
+        csv << row
+      end
+    end
+  end
+
+  def perform_on_single_word(word)
+    english_filename =
+      VoiceGenerator.new(label: word["english"], content: word["english"], locale: "en").perform
+    vietnamese_filename =
+      VoiceGenerator.new(label: word["english"], content: word["english"], locale: "vi").perform
+    # admin need to manually upload the file to google cloud storage for the url to be effective
+    # TODO: automatically upload as the part of the build process. cache already generated word to save cost
+    [english_filename, vietnamese_filename].map do |name|
+      "https://storage.googleapis.com/passive-english/#{name}"
+    end
+  end
+
+  def audio_csv_filename
+    File.expand_path("audio.csv", __dir__)
+  end
+end
+
+AudioUpdator.new.perform

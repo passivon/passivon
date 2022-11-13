@@ -1,0 +1,11 @@
+{
+  "name": "android-passive-english",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:passive-english/passive-english.git",
+  "author": "Phuong Nguyen <phuongnd08@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tts-cli": "^3.0.2"
+  }
+}

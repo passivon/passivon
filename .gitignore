@@ -5,3 +5,6 @@ yesterday/
 .byebug*
 generators/cache/
 **/.~lock*
+node_modules/*
+generators/audio/*
+.DS_Store
