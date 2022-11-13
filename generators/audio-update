@@ -105,9 +105,11 @@ class AudioUpdator
       VoiceGenerator.new(label: word["english"], content: word["english"], locale: "en").perform
     vietnamese_filename =
       VoiceGenerator.new(label: word["english"], content: word["vietnamese"], locale: "vi").perform
+    inflections_filename =
+      VoiceGenerator.new(label: word["english"], content: word["inflections"], locale: "en").perform
     # admin need to manually upload the file to google cloud storage for the url to be effective
     # TODO: automatically upload as the part of the build process. cache already generated word to save cost
-    [english_filename, vietnamese_filename].map do |name|
+    [english_filename, vietnamese_filename, inflections_filename].map do |name|
       "https://storage.googleapis.com/passive-english/#{name}"
     end
   end
