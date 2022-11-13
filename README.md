@@ -5,7 +5,11 @@ Mỗi buổi sáng, sẽ có 1 cái loa phát thanh nhắc đi nhắc lại 1 tr
 # Cài đặt
 1. Chuẩn bị 1 thiết bị android đã được root
 2. Đảm bảo rằng `abd shell` có thể chạy và kiểm soát thiết bị của bạn
-3. Cài termux vào
+3. Download và cài termux
+```
+curl -O -L https://github.com/passive-english/passive-english/raw/main/termux96.apk
+adb install -r termux96.apk
+```
 4. Bật termux
 5. Chạy lệnh sau trên termux:
 ```
