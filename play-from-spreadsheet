@@ -103,7 +103,7 @@ class Player
   end
 
   def today_playlist
-    content = fetch_spreadsheet_content
+    content = fetch_index_content
     return [] if content.empty?
     content[today_index % content.length]
   end
@@ -122,8 +122,8 @@ class Player
     File.read(index_filename).to_i
   end
 
-  def spreadsheet_content
-    @spreadsheet_content ||= fetch_spreadsheet_content
+  def index_content
+    @index_content ||= fetch_index_content
   end
 
   def rotate_today_if_necessary
@@ -175,24 +175,24 @@ class Player
     FileUtils.mv(today_folder, yesterday_folder)
   end
 
-  def fetch_spreadsheet_content
-    download_spreadsheet_async
-    if spreadsheet_content_cached?
-      read_cached_spreadsheet
+  def fetch_index_content
+    download_index_async
+    if index_content_cached?
+      read_cached_index
     else
-      wait_for_spreadsheet
-      read_cached_spreadsheet
+      wait_for_index
+      read_cached_index
     end
   rescue Timeout::Error
-    empty_spreadsheet
+    empty_index
   end
 
-  def empty_spreadsheet
+  def empty_index
     []
   end
 
-  def read_cached_spreadsheet
-    CSV.read(spreadsheet_filename)
+  def read_cached_index
+    CSV.read(index_filename)
   end
 
   def cached_folder
@@ -201,7 +201,7 @@ class Player
     end
   end
 
-  def spreadsheet_filename
+  def index_filename
     File.expand_path("./spreadsheet.csv", cached_folder)
   end
 
@@ -209,39 +209,41 @@ class Player
     File.expand_path("./rnd-#{rand(10000)}.csv", cached_folder)
   end
 
-  def spreadsheet_url
-    "https://docs.google.com/spreadsheets/d/1bxQ3G93ayn_sKLwL5wsWY2Rw4hG0jajjt1RMP2gMxiA/export?format=csv"
+  INDEX_URL = "https://storage.googleapis.com/passive-english/audio/index.csv"
+
+  def index_url
+    INDEX_URL
   end
 
-  def download_spreadsheet
+  def download_index
     tmp_filename = randomized_tmp_filename
     puts "Downloading spreadsheet to #{tmp_filename}..."
-    cmd = "wget '#{spreadsheet_url}' -O '#{tmp_filename}'"
+    cmd = "wget '#{index_url}' -O '#{tmp_filename}'"
     puts "=" * 80
     puts cmd
     puts "=" * 80
     if system(cmd)
-      FileUtils.mv(tmp_filename, spreadsheet_filename)
+      FileUtils.mv(tmp_filename, index_filename)
     else
       puts "Download failed"
     end
   end
 
-  def download_spreadsheet_async
-    Thread.new { download_spreadsheet }
+  def download_index_async
+    Thread.new { download_index }
   end
 
-  def wait_for_spreadsheet
+  def wait_for_index
     Timeout.timeout(10) do
       loop do
-        break if spreadsheet_content_cached?
+        break if index_content_cached?
         sleep 1
       end
     end
   end
 
-  def spreadsheet_content_cached?
-    File.exists?(spreadsheet_filename)
+  def index_content_cached?
+    File.exists?(index_filename)
   end
 end
 

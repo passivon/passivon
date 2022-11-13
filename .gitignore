@@ -8,3 +8,4 @@ generators/cache/
 node_modules/*
 generators/audio/*
 .DS_Store
+!generators/audio/index.csv

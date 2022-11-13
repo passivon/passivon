@@ -104,7 +104,7 @@ class AudioUpdator
     english_filename =
       VoiceGenerator.new(label: word["english"], content: word["english"], locale: "en").perform
     vietnamese_filename =
-      VoiceGenerator.new(label: word["english"], content: word["english"], locale: "vi").perform
+      VoiceGenerator.new(label: word["english"], content: word["vietnamese"], locale: "vi").perform
     # admin need to manually upload the file to google cloud storage for the url to be effective
     # TODO: automatically upload as the part of the build process. cache already generated word to save cost
     [english_filename, vietnamese_filename].map do |name|
@@ -113,7 +113,7 @@ class AudioUpdator
   end
 
   def audio_csv_filename
-    File.expand_path("audio.csv", __dir__)
+    File.expand_path("audio/index.csv", __dir__)
   end
 end
 
