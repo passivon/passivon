@@ -2,6 +2,25 @@
 Giúp bạn và gia đình đơn giản để học khoảng 1000 từ tiếng Anh trong khoảng 3 năm
 Mỗi buổi sáng, sẽ có 1 cái loa phát thanh nhắc đi nhắc lại 1 trong số 1000 từ thông dụng nhất trong tiếng Anh trong khoảng 1 giờ đồng hồ, khi bạn và các bạn nhỏ đang chuẩn bị cho ngày mới. Hoặc có thể là vào buổi tối. Phần mềm sẽ tự động chạy không cần con người phải can thiệp.
 
+# Cài đặt
+1. Chuẩn bị 1 thiết bị android đã được root
+2. Đảm bảo rằng `abd shell` có thể chạy và kiểm soát thiết bị của bạn
+3. Cài termux vào
+4. Bật termux
+5. Chạy lệnh sau trên termux:
+```
+  wget -qO- https://raw.githubusercontent.com/passive-english/passive-english/main/install.sh | bash
+```
+
+Nếu bạn đang dùng adb shell, bạn có thể chạy lệnh sau để từ máy tính gửi lệnh lên termux
+```
+adb shell input text "wget%s-qO-%s"
+adb shell input text "https://raw.githubusercontent.com/passive-english/passive-english/main/install.sh"
+adb shell input text "%s\|%sbash"
+adb shell input keyevent 66
+
+```
+
 # Lộ trình kĩ thuật
 ## Giai đoạn 1
 Giai đoạn này chỉ dành cho những lập trình viên hoặc có năng lực IT đặc biệt, bạn sẽ phải tự root điện thoại Android của mình, đấu nối điện thoại của bạn với nguồn điện, kết nối điện thoại với 1 chiếc loa bluetooth.
@@ -10,7 +29,7 @@ Giai đoạn này chỉ dành cho những lập trình viên hoặc có năng l�
 Giai đoạn này dành cho những người có một chút ít kĩ năng IT cơ bản, bạn sẽ phải tự root điện thoại android của mình, nhưng bạn sẽ được hướng dẫn cách chọn dòng điện thoại phù hợp sẵn có trên thị trường và cách root có thể tự thao tác được hoặc thông qua một nhóm các thợ root có thể tìm thấy qua 1 kênh Telegram do chúng tôi tạo ra. Chúng tôi cũng sẽ quy định là việc root là miễn phí, bạn chỉ cần trả tiền sau khi root xong. Nguyên tắc là sẽ không có ai mất tiền, thợ root không nhất thiết kiếm được tiền.
 
 ## Giai đoạn 3
-Giai đoạn này dành cho hầu hết mọi người, chúng tôi sẽ thay đổi phần mềm để nó chạy không cần root, hoạt động cho cả iPhone lẫn Android 
+Giai đoạn này dành cho hầu hết mọi người, chúng tôi sẽ thay đổi phần mềm để nó chạy không cần root, hoạt động cho cả iPhone lẫn Android
 
 # Lộ trình nội dung
 ## Giai đoạn 1
