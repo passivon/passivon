@@ -209,7 +209,7 @@ class Player
     File.expand_path("./rnd-#{rand(10000)}.csv", cached_folder)
   end
 
-  INDEX_URL = "https://storage.googleapis.com/passive-english/audio/index.csv"
+  INDEX_URL = "https://storage.googleapis.com/passive-english/audio/index.csv?avoidCache=1"
 
   def index_url
     INDEX_URL
