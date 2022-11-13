@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+class AudioUploader
+  def perform
+    Dir.chdir(__dir__) do
+      system "gsutil -m cp -n -r audio gs://passive-english"
+    end
+  end
+end
+
+AudioUploader.new.perform
