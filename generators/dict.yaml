@@ -4,7 +4,7 @@ be:
   pos: v
   frequency: 318018
   inflections: be, am, are, been, being, is, was, were
-  vietnamese: thì là ở
+  vietnamese: là
 I:
   english: I
   pos: fw
@@ -22,7 +22,7 @@ the:
   pos: fw
   frequency: 176446
   inflections: the
-  vietnamese: các
+  vietnamese: cái
 a:
   english: a
   pos: fw
