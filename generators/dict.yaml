@@ -173,12 +173,6 @@ your:
   frequency: 39164
   inflections: your
   vietnamese: của bạn
-"'s":
-  english: "'s"
-  pos: fw
-  frequency: 37343
-  inflections: "'s, '"
-  vietnamese: "&#39;S"
 all:
   english: all
   pos: fw
@@ -5665,3 +5659,9 @@ careful:
   frequency: 385
   inflections: careful
   vietnamese: cẩn thận
+nervous:
+  english: nervous
+  pos: j
+  frequency: 385
+  inflections: nervous
+  vietnamese: thần kinh
