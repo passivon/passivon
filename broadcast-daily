@@ -105,9 +105,17 @@ class Player
         sleep 3
       else
         puts "WAITING FOR RIGHT MOMENT"
-        sleep 60
+        sleep long_sleep_time
       end
     end
+  end
+
+  def long_sleep_time
+    mac? ? 5 : 60
+  end
+
+  def mac?
+    RUBY_PLATFORM.include?("darwin")
   end
 
   def perform_in_blind_loop
