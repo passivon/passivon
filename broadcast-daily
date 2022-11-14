@@ -78,9 +78,10 @@ class Player
     loop do
       if in_the_right_moment?
         perform
+        sleep 3
+      else
+        sleep 60
       end
-
-      sleep 3
     end
   end
 
