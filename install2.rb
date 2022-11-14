@@ -48,7 +48,9 @@ class Installer
   end
 
   def download_loop_script
-    system "wget -O bin-broadcast-daily https://github.com/passive-english/passive-english/blob/main/broadcast-daily"
+    url = "https://raw.githubusercontent.com/passive-english/passive-english/main/broadcast-daily"
+    system "wget -O bin-broadcast-daily #{url}"
+    system "chmod u+x bin-broadcast-daily"
   end
 
   def run_loop_script_on_startup
