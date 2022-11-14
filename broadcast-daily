@@ -80,6 +80,7 @@ class Player
         perform
         sleep 3
       else
+        puts "WAITING FOR RIGHT MOMENT"
         sleep 60
       end
     end
@@ -88,8 +89,8 @@ class Player
   RIGHT_MOMENT_STARTED_AT = 6 * 60 + 30
   RIGHT_MOMENT_ENDED_AT = 7 * 60 + 30
 
-  def in_the_right_moment
-    moment = Time.now.hour * 60 + Time.now.minute
+  def in_the_right_moment?
+    moment = Time.now.hour * 60 + Time.now.min
     return false if moment < RIGHT_MOMENT_STARTED_AT
     return false if moment > RIGHT_MOMENT_ENDED_AT
   end
@@ -248,4 +249,15 @@ class Player
   end
 end
 
-Player.new.perform_in_loop
+require 'optparse'
+options = {}
+OptionParser.new do |opt|
+  opt.on("-t", '--test') { |o| options[:test] = true }
+  opt.on("-r", '--repeat') { |o| options[:repeat] = true }
+end.parse!
+
+if options[:test]
+  Player.new.perform
+elsif options[:repeat]
+  Player.new.perform_in_loop
+end
