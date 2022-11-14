@@ -63,6 +63,9 @@ google_spreadsheet --> android_software --> bluetooth_speaker --> you_and_the_ki
 4. Chạy script để cài passive-english agent vào điện thoại của bạn
 5. Kết nối với load bluetooth để hàng ngày nó "tắm" bạn và gia đình với 1 từ tiếng Anh mới
 
+Hiện tại mã ứng dụng sẽ phát thanh vào 6:30 đến 7:30 hàng ngày. Bạn có
+thể đổi múi giờ để "hack" nó thành giờ phù hợp với bạn.
+
 # Đóng góp
 Đây là 1 sản phẩm open source với mục đích giúp người Việt Nam và xa hơn là các nước học tiếng Anh và các ngôn ngữ phổ biến đó một cách thụ động, qua đó tạo ra nhiều công dân toàn cầu hơn trong tương lai. Chúng tôi chào đón mọi sự đóng góp, đặc biệt là sự đóng góp về mã nguồn và nội dung. Để đóng góp, bạn hãy fork repo này, sau đó sửa và gửi pull request.
 
