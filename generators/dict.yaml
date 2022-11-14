@@ -167,14 +167,6 @@ go:
   vietnamese: đi
   spanish: Vamos
   chinese: 去
-oh:
-  english: oh
-  pos: u
-  frequency: 48348
-  inflections: oh
-  vietnamese: Oh
-  spanish: Oh
-  chinese: 哦
 can:
   english: can
   pos: v
@@ -511,14 +503,6 @@ her:
   vietnamese: cô ấy
   spanish: su
   chinese: 她
-uh:
-  english: uh
-  pos: u
-  frequency: 14667
-  inflections: uh, um
-  vietnamese: uh
-  spanish: oh
-  chinese: 呃
 tell:
   english: tell
   pos: v
@@ -2609,14 +2593,6 @@ myself:
   vietnamese: riêng tôi
   spanish: mí mismo
   chinese: 我
-aw:
-  english: aw
-  pos: u
-  frequency: 1794
-  inflections: aw
-  vietnamese: aw
-  spanish: oh
-  chinese: 啊
 dinner:
   english: dinner
   pos: n
@@ -4305,14 +4281,6 @@ husband:
   vietnamese: người chồng
   spanish: esposo
   chinese: 丈夫
-shh:
-  english: shh
-  pos: u
-  frequency: 874
-  inflections: shh, sh, shhh
-  vietnamese: suỵt
-  spanish: shh
-  chinese: 嘘
 invite:
   english: invite
   pos: v
@@ -6249,14 +6217,6 @@ obviously:
   vietnamese: rõ ràng
   spanish: obviamente
   chinese: 明显地
-uh-oh:
-  english: uh-oh
-  pos: u
-  frequency: 509
-  inflections: uh-oh
-  vietnamese: uh-oh
-  spanish: UH oh
-  chinese: 哦哦
 jacket:
   english: jacket
   pos: n
@@ -7561,3 +7521,43 @@ although:
   vietnamese: Mặc du
   spanish: a pesar de que
   chinese: 虽然
+gas:
+  english: gas
+  pos: n
+  frequency: 384
+  inflections: gas, gases, gasses
+  vietnamese: khí ga
+  spanish: gas
+  chinese: 气体
+partner:
+  english: partner
+  pos: n
+  frequency: 383
+  inflections: partner, partners
+  vietnamese: bạn đồng hành
+  spanish: compañero
+  chinese: 伙伴
+scream:
+  english: scream
+  pos: v
+  frequency: 382
+  inflections: scream, screams, screaming, screamed
+  vietnamese: la hét
+  spanish: grito
+  chinese: 尖叫
+pool:
+  english: pool
+  pos: n
+  frequency: 381
+  inflections: pool, pools
+  vietnamese: hồ bơi
+  spanish: piscina
+  chinese: 水池
+appear:
+  english: appear
+  pos: v
+  frequency: 380
+  inflections: appear, appears, appearing, appeared
+  vietnamese: hiện ra
+  spanish: Aparecer
+  chinese: 出现

@@ -62,7 +62,6 @@ let|v	let	v	15257	let, lets, letting
 really|r	really	r	15209	really
 okay|r	okay	r	14801	okay
 her|fw	her	fw	14759	her
-uh|u	uh	u	14667	uh, um
 tell|v	tell	v	14661	tell, telling, tells, told
 him|fw	him	fw	14270	him
 why|r	why	r	14194	why
@@ -176,7 +175,6 @@ nothing|fw	nothing	fw	4330	nothing
 hmm|u	hmm	u	4242	hmm, hm
 their|fw	their	fw	4191	their, theirs
 meet|v	meet	v	4185	meet, meeting, meets, met
-huh|u	huh	u	4127	huh
 show|v	show	v	4075	show, showed, showing, shown, shows
 around|fw	around	fw	4013	around
 guess|v	guess	v	3988	guess, guessed, guesses, guessing
@@ -332,7 +330,6 @@ name|v	name	v	1833	name, named, naming, names
 dead|j	dead	j	1821	dead
 stand|v	stand	v	1815	stand, standing, stands, stood
 myself|fw	myself	fw	1799	myself
-aw|u	aw	u	1794	aw
 dinner|n	dinner	n	1787	dinner, dinners
 anyone|fw	anyone	fw	1772	anyone
 hand|n	hand	n	1767	hand, hands
@@ -562,7 +559,6 @@ dear|j	dear	j	879	dear, dearer, dearest
 quite|r	quite	r	879	quite
 smart|j	smart	j	876	smart, smarter, smartest
 husband|n	husband	n	875	husband, husbands
-shh|u	shh	u	874	shh, sh, shhh
 invite|v	invite	v	873	invite, invites, inviting, invited
 rest|n	rest	n	871	rest, rests
 yours|fw	yours	fw	871	yours
@@ -701,7 +697,6 @@ lord|n	lord	n	640	lord, lords
 unless|fw	unless	fw	639	unless
 feeling|n	feeling	n	638	feeling, feelings
 suit|n	suit	n	636	suit, suits
-uh-huh|u	uh-huh	u	635	uh-huh
 floor|n	floor	n	634	floor, floors
 cream|n	cream	n	629	cream, creams
 favorite|j	favorite	j	629	favorite
@@ -825,7 +820,6 @@ admit|v	admit	v	510	admit, admits, admitting, admitted
 apparently|r	apparently	r	510	apparently
 conversation|n	conversation	n	509	conversation, conversations
 obviously|r	obviously	r	509	obviously
-uh-oh|u	uh-oh	u	509	uh-oh
 jacket|n	jacket	n	508	jacket, jackets
 during|fw	during	fw	507	during
 accept|v	accept	v	504	accept, accepts, accepting, accepted
@@ -999,3 +993,8 @@ science|n	science	n	386	science, sciences
 careful|j	careful	j	385	careful
 nervous|j	nervous	j	385	nervous
 although|fw	although	fw	384	although, altho
+gas|n	gas	n	384	gas, gases, gasses
+partner|n	partner	n	383	partner, partners
+scream|v	scream	v	382	scream, screams, screaming, screamed
+pool|n	pool	n	381	pool, pools
+appear|v	appear	v	380	appear, appears, appearing, appeared
