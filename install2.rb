@@ -46,6 +46,7 @@ class Installer
     download_loop_script
     run_loop_script_on_startup
     test_broadcast
+    reload_broadcast
   end
 
   def download_loop_script
@@ -64,6 +65,11 @@ class Installer
   def test_broadcast
     cmd = %(#{File.expand_path("bin-broadcast-daily", __dir__)} -t)
     system cmd
+  end
+
+  def reload_broadcast
+    system %(#{File.expand_path("bin-broadcast-daily", __dir__)} -k)
+    system %(#{File.expand_path("bin-broadcast-daily", __dir__)} -m &)
   end
 end
 
