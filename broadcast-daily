@@ -86,6 +86,20 @@ class Player
     end
   end
 
+  def perform_in_blind_loop
+    loop do
+      perform
+      sleep 3
+    end
+  end
+
+  def examine
+    loop do
+      perform
+      rotate_today
+    end
+  end
+
   RIGHT_MOMENT_STARTED_AT = 6 * 60 + 30
   RIGHT_MOMENT_ENDED_AT = 7 * 60 + 30
 
@@ -131,12 +145,16 @@ class Player
   def rotate_today_if_necessary
     if File.exists?(today_folder)
       if read_today_from_folder != today
-        rename_today_to_yesterday
-        create_today_folder
+        rotate_today
       end
     else
       create_today_folder
     end
+  end
+
+  def rotate_today
+    rename_today_to_yesterday
+    create_today_folder
   end
 
   def today
@@ -254,10 +272,16 @@ options = {}
 OptionParser.new do |opt|
   opt.on("-t", '--test') { |o| options[:test] = true }
   opt.on("-r", '--repeat') { |o| options[:repeat] = true }
+  opt.on("-m", '--morning') { |o| options[:morning] = true }
+  opt.on("-e", '--examine') { |o| options[:examine] = true }
 end.parse!
 
 if options[:test]
   Player.new.perform
 elsif options[:repeat]
+  Player.new.perform_in_blind_loop
+elsif options[:morning]
   Player.new.perform_in_loop
+elsif options[:examine]
+  Player.new.examine
 end
