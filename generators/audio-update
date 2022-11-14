@@ -41,9 +41,12 @@ class VoiceGenerator
   end
 
   def gcp_language
+    # https://cloud.google.com/text-to-speech/docs/voices
     case locale
     when "en" then "en-US"
     when "vi" then "vi-VN"
+    when "es" then "es-ES"
+    when "zh-CN" then "zh-CN"
     end
   end
 
@@ -51,6 +54,8 @@ class VoiceGenerator
     case locale
     when "en" then "en-US-Neural2-E"
     when "vi" then "vi-VN-Wavenet-D"
+    when "es" then "es-ES-Wavenet-C"
+    when "zh-CN" then "cmn-CN-Standard-D"
     end
   end
 
@@ -101,15 +106,13 @@ class AudioUpdator
   end
 
   def perform_on_single_word(word)
-    english_filename =
-      VoiceGenerator.new(label: word["english"], content: word["english"], locale: "en").perform
-    vietnamese_filename =
-      VoiceGenerator.new(label: word["english"], content: word["vietnamese"], locale: "vi").perform
-    inflections_filename =
-      VoiceGenerator.new(label: word["english"], content: word["inflections"], locale: "en").perform
-    # admin need to manually upload the file to google cloud storage for the url to be effective
-    # TODO: automatically upload as the part of the build process. cache already generated word to save cost
-    [english_filename, vietnamese_filename, inflections_filename].map do |name|
+    [
+      VoiceGenerator.new(label: word["english"], content: word["english"], locale: "en").perform,
+      VoiceGenerator.new(label: word["english"], content: word["vietnamese"], locale: "vi").perform,
+      VoiceGenerator.new(label: word["english"], content: word["inflections"], locale: "en").perform,
+      VoiceGenerator.new(label: word["english"], content: word["spanish"], locale: "es").perform,
+      VoiceGenerator.new(label: word["english"], content: word["chinese"], locale: "zh-CN").perform
+    ].map do |name|
       "https://storage.googleapis.com/passive-english/#{name}"
     end
   end
