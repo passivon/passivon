@@ -67,5 +67,5 @@ google_spreadsheet --> android_software --> bluetooth_speaker --> you_and_the_ki
 Đây là 1 sản phẩm open source với mục đích giúp người Việt Nam và xa hơn là các nước học tiếng Anh và các ngôn ngữ phổ biến đó một cách thụ động, qua đó tạo ra nhiều công dân toàn cầu hơn trong tương lai. Chúng tôi chào đón mọi sự đóng góp, đặc biệt là sự đóng góp về mã nguồn và nội dung. Để đóng góp, bạn hãy fork repo này, sau đó sửa và gửi pull request.
 
 Các ưu tiên cần hiện nay:
-1. Tạo ra one-liner installation, giả định rằng user đã root được máy và cài sẵn termux
+~1. Tạo ra one-liner installation, giả định rằng user đã root được máy và cài sẵn termux~
 2. Cho phép user có thể cá nhân hoá giờ phát thanh của họ
