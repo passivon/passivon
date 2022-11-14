@@ -5,6 +5,89 @@ require "timeout"
 require "csv"
 require("byebug") if RUBY_PLATFORM.include?("darwin")
 require "shellwords"
+require 'open-uri'
+
+class AutoUpdater
+  BROADCAST_VERSION = 100
+  AUTO_UPDATE_INTERVAL = RUBY_PLATFORM.include?("darwin") ? 3 : 300
+  URL = "https://raw.githubusercontent.com/passive-english/passive-english/main/broadcast-daily"
+
+  def perform_in_loop
+    puts "AUTOUPDATER running in file #{__FILE__}"
+    if current_filename == new_version_filename
+      finish_update
+    else
+      loop do
+        perform
+        sleep AUTO_UPDATE_INTERVAL
+      end
+    end
+  end
+
+  def current_filename
+    File.expand_path(__FILE__)
+  end
+
+  def perform
+    if new_version_available?
+      puts "NEW VERSION AVAILABLE. UPDATE!"
+      initiate_update
+    else
+      puts "SAME VERSION"
+    end
+  end
+
+  def initiate_update
+    download_new_version
+    start_new_version
+  end
+
+  def new_version_available?
+    line = URI.open(URL).each_line.detect { |line| line.include?("BROADCAST_VERSION") }
+    return false if line.nil?
+    version = line.split(" = ").last.to_i
+    version > BROADCAST_VERSION
+  rescue => e
+    p e
+    false
+  end
+
+  def download_new_version
+    system "wget -O #{new_version_filename} #{URL}"
+  end
+
+  def new_version_filename
+    File.expand_path("./new-broadcast-daily", __dir__)
+  end
+
+  def current_version_filename
+    File.expand_path("./bin-broadcast-daily", __dir__)
+  end
+
+  def start_new_version
+    pid = fork do
+      exec(new_version_filename)
+    end
+
+    Process.detach(pid)
+    exit 10
+  end
+
+  def start_current_version
+    pid = fork do
+      exec(current_version_filename)
+    end
+
+    Process.detach(pid)
+    exit 11
+  end
+
+  def finish_update
+    sleep 10
+    system "cp #{Shellwords.escape(new_version_filename)} #{Shellwords.escape(current_version_filename)}"
+    start_current_version
+  end
+end
 
 class AudioPlayer
   attr_reader :url
@@ -65,11 +148,12 @@ class AudioPlayer
   end
 end
 
-class Player
+class MasterPlayer
   attr_reader :started_at
 
   def initialize
     @started_at = Time.now.to_i
+    Thread.new { AutoUpdater.new.perform_in_loop }
   end
 
   def should_I_die?
@@ -311,13 +395,13 @@ OptionParser.new do |opt|
 end.parse!
 
 if options[:test]
-  Player.new.perform
+  MasterPlayer.new.perform
 elsif options[:repeat]
-  Player.new.perform_in_blind_loop
+  MasterPlayer.new.perform_in_blind_loop
 elsif options[:morning]
-  Player.new.perform_in_loop
+  MasterPlayer.new.perform_in_loop
 elsif options[:examine]
-  Player.new.examine
+  MasterPlayer.new.examine
 elsif options[:kill_all]
-  Player.new.kill_all
+  MasterPlayer.new.kill_all
 end
