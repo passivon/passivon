@@ -5,6 +5,7 @@ class AudioUploader
     Dir.chdir(__dir__) do
       system "gsutil -m cp -n -r audio gs://passive-english"
       system "gsutil -m cp audio/index.csv gs://passive-english/audio/"
+      system %{gsutil setmeta -h "Cache-Control:public, max-age=300" gs://passive-english/audio/index.csv}
     end
   end
 end
