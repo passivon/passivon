@@ -247,4 +247,4 @@ class Player
   end
 end
 
-Player.new.perform
+Player.new.perform_in_loop
