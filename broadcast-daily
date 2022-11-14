@@ -8,13 +8,14 @@ require "shellwords"
 require 'open-uri'
 
 class AutoUpdater
-  BROADCAST_VERSION = 100
+  BROADCAST_VERSION = 50
   AUTO_UPDATE_INTERVAL = RUBY_PLATFORM.include?("darwin") ? 3 : 300
   URL = "https://raw.githubusercontent.com/passive-english/passive-english/main/broadcast-daily"
 
   def perform_in_loop
     puts "AUTOUPDATER running in file #{__FILE__}"
     if current_filename == new_version_filename
+      puts "FINISH UPDATE"
       finish_update
     else
       loop do
@@ -29,11 +30,12 @@ class AutoUpdater
   end
 
   def perform
-    if new_version_available?
-      puts "NEW VERSION AVAILABLE. UPDATE!"
+    version, new_version_available = check_new_version
+    if new_version_available
+      puts "NEW VERSION #{version} AVAILABLE. UPDATE!"
       initiate_update
     else
-      puts "SAME VERSION"
+      puts "SAME VERSION #{version}"
     end
   end
 
@@ -42,18 +44,19 @@ class AutoUpdater
     start_new_version
   end
 
-  def new_version_available?
+  def check_new_version
     line = URI.open(URL).each_line.detect { |line| line.include?("BROADCAST_VERSION") }
-    return false if line.nil?
+    return [nil, false] if line.nil?
     version = line.split(" = ").last.to_i
-    version > BROADCAST_VERSION
+    [version, version > BROADCAST_VERSION]
   rescue => e
     p e
-    false
+    [nil, false]
   end
 
   def download_new_version
     system "wget -O #{new_version_filename} #{URL}"
+    system "chmod u+x #{new_version_filename}"
   end
 
   def new_version_filename
@@ -66,7 +69,7 @@ class AutoUpdater
 
   def start_new_version
     pid = fork do
-      exec(new_version_filename)
+      exec("#{new_version_filename} -m")
     end
 
     Process.detach(pid)
@@ -75,7 +78,7 @@ class AutoUpdater
 
   def start_current_version
     pid = fork do
-      exec(current_version_filename)
+      exec("#{current_version_filename} -m")
     end
 
     Process.detach(pid)
@@ -83,8 +86,11 @@ class AutoUpdater
   end
 
   def finish_update
+    puts "SLEEP 10"
     sleep 10
+    puts "OVERWRITE THE OLD VERSION"
     system "cp #{Shellwords.escape(new_version_filename)} #{Shellwords.escape(current_version_filename)}"
+    puts "START CURRENT VERSION"
     start_current_version
   end
 end
@@ -393,6 +399,8 @@ OptionParser.new do |opt|
   opt.on("-e", '--examine') { |o| options[:examine] = true }
   opt.on("-k", '--kill-all') { |o| options[:kill_all] = true }
 end.parse!
+
+puts "OPTIONS = #{options.inspect}"
 
 if options[:test]
   MasterPlayer.new.perform
