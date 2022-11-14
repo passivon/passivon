@@ -107,10 +107,15 @@ class AudioUpdator
 
   def perform_on_single_word(word)
     [
-      VoiceGenerator.new(label: word["english"], content: word["english"], locale: "en").perform,
+      VoiceGenerator.new(label: "vietnamese", content: "tiếng việt", locale: "vi").perform,
       VoiceGenerator.new(label: word["english"], content: word["vietnamese"], locale: "vi").perform,
+      VoiceGenerator.new(label: "english", content: "tiếng anh", locale: "vi").perform,
+      VoiceGenerator.new(label: word["english"], content: word["english"], locale: "en").perform,
+      VoiceGenerator.new(label: "english-forms", content: "các hình thái khác trong tiếng anh", locale: "vi").perform,
       VoiceGenerator.new(label: word["english"], content: word["inflections"], locale: "en").perform,
+      VoiceGenerator.new(label: "spanish", content: "tiếng tây ban nha", locale: "vi").perform,
       VoiceGenerator.new(label: word["english"], content: word["spanish"], locale: "es").perform,
+      VoiceGenerator.new(label: "chinese", content: "tiếng trung quốc", locale: "vi").perform,
       VoiceGenerator.new(label: word["english"], content: word["chinese"], locale: "zh-CN").perform
     ].map do |name|
       "https://storage.googleapis.com/passive-english/#{name}"
