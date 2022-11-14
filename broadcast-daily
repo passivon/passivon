@@ -13,7 +13,7 @@ class AutoUpdater
   URL = "https://raw.githubusercontent.com/passive-english/passive-english/main/broadcast-daily"
 
   def perform_in_loop
-    puts "AUTOUPDATER running in file #{__FILE__}"
+    puts "AUTOUPDATER running in file #{__FILE__}. Current version: #{BROADCAST_VERSION}"
     if current_filename == new_version_filename
       puts "FINISH UPDATE"
       finish_update
