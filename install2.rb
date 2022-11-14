@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
+require 'mkmf'
+require 'byebug' if RUBY_PLATFORM.include?("darwin")
+
 class StartupInstaller
   attr_reader :pattern, :script
 
@@ -43,10 +46,18 @@ end
 class Installer
   def perform
     puts "Installing"
+    install_sox
     download_loop_script
     run_loop_script_on_startup
     test_broadcast
     reload_broadcast
+  end
+
+  def install_sox
+    unless find_executable("play")
+      system "pkg update"
+      system "pkg install -y sox"
+    end
   end
 
   def download_loop_script

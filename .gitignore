@@ -10,3 +10,4 @@ generators/audio/*
 .DS_Store
 .bashrc.sample
 bin-broadcast-daily
+mkmf.log
