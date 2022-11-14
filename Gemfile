@@ -6,3 +6,5 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'google-cloud-translate-v2'
 gem 'parallel'
+gem 'rspec'
+gem 'rspec-mocks'

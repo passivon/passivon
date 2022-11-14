@@ -107,6 +107,7 @@ class Player
     moment = Time.now.hour * 60 + Time.now.min
     return false if moment < RIGHT_MOMENT_STARTED_AT
     return false if moment > RIGHT_MOMENT_ENDED_AT
+    true
   end
 
   def perform
