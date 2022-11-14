@@ -159,7 +159,6 @@ class MasterPlayer
 
   def initialize
     @started_at = Time.now.to_i
-    Thread.new { AutoUpdater.new.perform_in_loop }
   end
 
   def should_I_die?
@@ -189,6 +188,8 @@ class MasterPlayer
   end
 
   def perform_in_loop
+    Thread.new { AutoUpdater.new.perform_in_loop }
+
     loop_until_killed do
       if in_the_right_moment?
         perform
