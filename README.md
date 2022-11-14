@@ -53,7 +53,7 @@ Cho phép bạn lựa chọn danh sách các ngôn ngữ mà bạn muốn học
 ## Cách hoạt động
 ```mermaid
 graph TD
-google_spreadsheet --> android_software --> bluetooth_speaker --> you_and_the_kids
+csv_file_on_google_cloud_storage --> android_script --> bluetooth_speaker --> you_and_the_kids
 ```
 
 ## Cách lắp đặt
