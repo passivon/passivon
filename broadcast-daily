@@ -5,7 +5,6 @@ require "timeout"
 require "csv"
 require("byebug") if RUBY_PLATFORM.include?("darwin")
 require "shellwords"
-require 'open-uri'
 
 class AutoUpdater
   BROADCAST_VERSION = 50
@@ -33,19 +32,15 @@ class AutoUpdater
     version, new_version_available = check_new_version
     if new_version_available
       puts "NEW VERSION #{version} AVAILABLE. UPDATE!"
-      initiate_update
+      start_new_version
     else
       puts "SAME VERSION #{version}"
     end
   end
 
-  def initiate_update
-    download_new_version
-    start_new_version
-  end
-
   def check_new_version
-    line = URI.open(URL).each_line.detect { |line| line.include?("BROADCAST_VERSION") }
+    download_new_version
+    line = File.open(new_version_filename).each_line.detect { |line| line.include?("BROADCAST_VERSION") }
     return [nil, false] if line.nil?
     version = line.split(" = ").last.to_i
     [version, version > BROADCAST_VERSION]
