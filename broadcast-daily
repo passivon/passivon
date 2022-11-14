@@ -66,16 +66,40 @@ class AudioPlayer
 end
 
 class Player
-  def packages
-    @packages ||= `adb shell pm list packages`.split("\n")
+  attr_reader :started_at
+
+  def initialize
+    @started_at = Time.now.to_i
   end
 
-  def package_installed?(name)
-    packages.include?("package:" + name)
+  def should_I_die?
+    started_at < should_die_at
+  end
+
+  def should_die_at_signal_filename
+    File.expand_path("~/.broadcast-daily.die-at.signal")
+  end
+
+  def should_die_at
+    if File.exists?(should_die_at_signal_filename)
+      File.read(should_die_at_signal_filename).to_i
+    else
+      0
+    end
+  end
+
+  def kill_all
+    File.write(should_die_at_signal_filename, Time.now.to_i)
+  end
+
+  def loop_until_killed
+    until should_I_die? do
+      yield
+    end
   end
 
   def perform_in_loop
-    loop do
+    loop_until_killed do
       if in_the_right_moment?
         perform
         sleep 3
@@ -87,14 +111,14 @@ class Player
   end
 
   def perform_in_blind_loop
-    loop do
+    loop_until_killed do
       perform
       sleep 3
     end
   end
 
   def examine
-    loop do
+    loop_until_killed do
       perform
       rotate_today
     end
@@ -275,6 +299,7 @@ OptionParser.new do |opt|
   opt.on("-r", '--repeat') { |o| options[:repeat] = true }
   opt.on("-m", '--morning') { |o| options[:morning] = true }
   opt.on("-e", '--examine') { |o| options[:examine] = true }
+  opt.on("-k", '--kill-all') { |o| options[:kill_all] = true }
 end.parse!
 
 if options[:test]
@@ -285,4 +310,6 @@ elsif options[:morning]
   Player.new.perform_in_loop
 elsif options[:examine]
   Player.new.examine
+elsif options[:kill_all]
+  Player.new.kill_all
 end
