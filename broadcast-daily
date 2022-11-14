@@ -107,21 +107,21 @@ class Player
   def today_playlist
     content = fetch_index_content
     return [] if content.empty?
-    content[today_index % content.length]
+    content[today_counter % content.length]
   end
 
-  def today_index
-    unless File.exists?(index_filename)
+  def today_counter
+    unless File.exists?(today_counter_filename)
       index =
-        if File.exists?(yesterday_index_filename)
-          index = File.read(yesterday_index_filename).strip.to_i + 1
+        if File.exists?(yesterday_counter_filename)
+          index = File.read(yesterday_counter_filename).strip.to_i + 1
         else
           0
         end
-      File.write(index_filename, index.to_s)
+      File.write(today_counter_filename, index.to_s)
     end
 
-    File.read(index_filename).to_i
+    File.read(today_counter_filename).to_i
   end
 
   def index_content
@@ -147,12 +147,12 @@ class Player
     File.expand_path("./date", today_folder)
   end
 
-  def index_filename
-    File.expand_path("./index", today_folder)
+  def today_counter_filename
+    File.expand_path("./counter", today_folder)
   end
 
-  def yesterday_index_filename
-    File.expand_path("./index", yesterday_folder)
+  def yesterday_counter_filename
+    File.expand_path("./counter", yesterday_folder)
   end
 
   def create_today_folder
