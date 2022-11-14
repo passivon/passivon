@@ -22,6 +22,14 @@ class Translator
     translate_with_cache("vi")
   end
 
+  def chinese
+    translate_with_cache("zh-CN")
+  end
+
+  def spanish
+    translate_with_cache("es")
+  end
+
   def google_translate_endpoint
     api_key = ENV["GOOGLE_TRANSLATE_API_KEY"]
     "https://translation.googleapis.com/language/translate/v2?key=#{api_key}"
@@ -50,7 +58,6 @@ class Translator
   def translate_cache_filename(target_locale)
     File.expand_path("#{english}-#{target_locale}", cached_folder)
   end
-
 
   def translate_cached?(target_locale)
     File.exists?(translate_cache_filename(target_locale))
@@ -104,10 +111,37 @@ class DictionaryUpdator
     frequency = d["FREQUENCY"].to_i
     dict[lemma] = {
       "english" => lemma,
-      "pos" => pos, "frequency" => frequency, "inflections" => inflections,
-      "vietnamese" => Translator.new(lemma).vietnamese
+      "pos" => pos, "frequency" => frequency,
+      "inflections" => customized_or_else(lemma, "inflections") { inflections },
+      "vietnamese" => customized_or_else(lemma, "vietnamese") { Translator.new(lemma).vietnamese },
+      "spanish" => customized_or_else(lemma, "spanish") { Translator.new(lemma).spanish },
+      "chinese" => customized_or_else(lemma, "chinese") { Translator.new(lemma).chinese }
     }
   end
+
+  def customized_or_else(lemma, target)
+    if customized_dict.dig(lemma, target)
+      return customized_dict.dig(lemma, target)
+    end
+    return yield
+  end
+
+  def customized_dict
+    @customized_dict ||= load_customized_dict
+  end
+
+  def customized_dict_filename
+    File.expand_path("./customized-dict.yaml", __dir__)
+  end
+
+  def load_customized_dict
+    if File.exists?(customized_dict_filename)
+      File.open(customized_dict_filename, "r") { |f| YAML::load f }
+    else
+      {}
+    end
+  end
+
 end
 
 DictionaryUpdator.new.perform
