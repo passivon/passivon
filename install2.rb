@@ -54,7 +54,7 @@ class Installer
   def run_loop_script_on_startup
     StartupInstaller.new(
       pattern: "broadcast-daily",
-      script: "~/bin-broadcast-daily &"
+      script: %(#{File.expand_path("bin-broadcast-daily", __dir__)} &)
     ).perform
   end
 end
