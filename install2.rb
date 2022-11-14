@@ -13,7 +13,7 @@ class StartupInstaller
       # testing on a dummy file in Mac
       File.expand_path(".bashrc.sample", __dir__)
     else
-      "~/.bashrc"
+      File.expand_path("~/.bashrc")
     end
   end
 
