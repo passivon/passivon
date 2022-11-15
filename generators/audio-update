@@ -95,18 +95,18 @@ class AudioUpdator
     dict.to_a.sort_by { |english, word| -word["frequency"].to_i }
   end
 
-  def parallel_loop(collection, &block)
+  def parallel_map(collection, &block)
     if ENV["DEBUG"]
-      collection.each(&block)
+      collection.map(&block)
     else
-      Parallel.each(collection, &block)
+      Parallel.map(collection, &block)
     end
   end
 
   def perform
     # first use parallel to trigger parallel translation
     # this won't change the result, perhaps due to parallel forking processes
-    list = parallel_loop(sorted_words) do |_, word|
+    list = parallel_map(sorted_words) do |_, word|
       perform_on_single_word(word)
     end
 
