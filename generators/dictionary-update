@@ -12,6 +12,7 @@ require "google/cloud/translate/v2"
 require "parallel"
 require "open-uri"
 require "nokogiri"
+require "digest"
 
 class Translator
   attr_reader :english
@@ -57,8 +58,16 @@ class Translator
     end
   end
 
+  def english_digest
+    Digest::MD5.hexdigest(english)[0, 4]
+  end
+
+  def identifier
+    english.gsub(/[^0-9a-z ]/i, '-')
+  end
+
   def translate_cache_filename(target_locale)
-    File.expand_path("#{english}-#{target_locale}", cached_folder)
+    File.expand_path("#{identifier}-#{target_locale}", cached_folder)
   end
 
   def translate_cached?(target_locale)
@@ -74,18 +83,30 @@ class ExampleGenerator
   end
 
   def example
-    fetch_with_cache
+    smart_select_example(fetch_with_cache)
   end
 
   def fetch
     puts "FETCHING EXAMPLE FOR #{word}"
     response = URI.open(dictionary_url).read
     if response.empty?
-      nil
+      []
     else
       parsed_page = Nokogiri::HTML(response)
-      parsed_page.css(".examp.dexamp").first&.text
+      parsed_page.css(".examp.dexamp").map(&:text)
     end
+  end
+
+  def smart_select_example(examples)
+    examples
+      .select { |ex| ex.split(" ").include?(word) } # contains the exact word
+      .map { |ex| remove_explanation(ex) }
+      .sort_by { |ex| ex.length }
+      .first
+  end
+
+  def remove_explanation(ex)
+    ex.gsub(/\([^\(]+?\)/, "").gsub(/\[[^\[]+?\]/, "").strip
   end
 
   def dictionary_url
@@ -94,9 +115,9 @@ class ExampleGenerator
 
   def fetch_with_cache
     unless example_cached?
-      File.write(example_cache_filename, fetch)
+      File.write(example_cache_filename, fetch.to_yaml)
     end
-    File.read(example_cache_filename)
+    YAML.load(File.open(example_cache_filename))
   end
 
   def cached_folder
@@ -139,11 +160,18 @@ class DictionaryUpdator
     CSV.read(top1000_filename, headers: true, :col_sep => "\t")
   end
 
+  def parallel_loop(collection, &block)
+    if ENV["DEBUG"]
+      collection.each(&block)
+    else
+      Parallel.each(collection, &block)
+    end
+  end
+
   def perform
     # first use parallel to trigger parallel translation
     # this won't change the result, perhaps due to parallel forking processes
-    Parallel.each(top1000_defs.each) do |d|
-    # top1000_defs.each do |d|
+    parallel_loop(top1000_defs.each) do |d|
       perform_on_single_word(d)
     end
 
@@ -160,6 +188,7 @@ class DictionaryUpdator
     inflections = d["INFLECTIONS"]
     pos = d["POS"]
     frequency = d["FREQUENCY"].to_i
+    example_english = customized_or_else(lemma, "example_english") { ExampleGenerator.new(lemma).example }
     dict[lemma] = {
       "english" => lemma,
       "pos" => pos, "frequency" => frequency,
@@ -167,7 +196,10 @@ class DictionaryUpdator
       "vietnamese" => customized_or_else(lemma, "vietnamese") { Translator.new(lemma).vietnamese },
       "spanish" => customized_or_else(lemma, "spanish") { Translator.new(lemma).spanish },
       "chinese" => customized_or_else(lemma, "chinese") { Translator.new(lemma).chinese },
-      "example_english" => customized_or_else(lemma, "example_english") { ExampleGenerator.new(lemma).example },
+      "example_english" =>  example_english,
+      # "example_vietnamese" => Translator.new(example_english).vietnamese,
+      # "example_chinese" => Translator.new(example_english).chinese,
+      # "example_spanish" => Translator.new(example_english).spanish
     }
   end
 
@@ -196,4 +228,6 @@ class DictionaryUpdator
 
 end
 
-DictionaryUpdator.new.perform
+unless Object.const_defined?("RSpec")
+  DictionaryUpdator.new.perform
+end
