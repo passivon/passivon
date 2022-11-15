@@ -6698,15 +6698,6 @@ join:
   example_vietnamese: Tôi đã quyết định tham gia một phòng tập thể dục.
   example_chinese: 我决定加入健身房。
   example_spanish: He decidido apuntarme a un gimnasio.
-good-bye:
-  english: good-bye
-  pos: u
-  frequency: 806
-  inflections: good-bye, goodbye
-  vietnamese: Tạm biệt
-  spanish: adiós
-  chinese: 再见
-  example_english:
 ruin:
   english: ruin
   pos: v
@@ -7847,14 +7838,6 @@ suit:
   example_vietnamese: bộ quần áo tắm
   example_chinese: 泳衣
   example_spanish: un traje de baño
-uh-huh:
-  english: uh-huh
-  pos: u
-  frequency: 635
-  inflections: uh-huh
-  vietnamese: uh-huh
-  spanish: UH Huh
-  chinese: 嗯
 floor:
   english: floor
   pos: n
