@@ -60,7 +60,11 @@ class VoiceGenerator
   end
 
   def relative_filename
-    "audio/#{locale}/#{label}-#{digest}.mp3"
+    "audio/#{locale}/#{identifier}-#{digest}.mp3"
+  end
+
+  def identifier
+    label&.gsub(/[^0-9a-z]/i, '-')
   end
 
   def filename
@@ -91,10 +95,18 @@ class AudioUpdator
     dict.to_a.sort_by { |english, word| -word["frequency"].to_i }
   end
 
+  def parallel_loop(collection, &block)
+    if ENV["DEBUG"]
+      collection.each(&block)
+    else
+      Parallel.each(collection, &block)
+    end
+  end
+
   def perform
     # first use parallel to trigger parallel translation
     # this won't change the result, perhaps due to parallel forking processes
-    list = Parallel.map(sorted_words) do |_, word|
+    list = parallel_loop(sorted_words) do |_, word|
       perform_on_single_word(word)
     end
 
@@ -116,7 +128,12 @@ class AudioUpdator
       VoiceGenerator.new(label: "spanish", content: "tiếng tây ban nha", locale: "vi").perform,
       VoiceGenerator.new(label: word["english"], content: word["spanish"], locale: "es").perform,
       VoiceGenerator.new(label: "chinese", content: "tiếng trung quốc", locale: "vi").perform,
-      VoiceGenerator.new(label: word["english"], content: word["chinese"], locale: "zh-CN").perform
+      VoiceGenerator.new(label: word["english"], content: word["chinese"], locale: "zh-CN").perform,
+      VoiceGenerator.new(label: "example", content: "các ví dụ", locale: "vi").perform,
+      VoiceGenerator.new(label: word["example_english"], content: word["example_vietnamese"], locale: "vi").perform,
+      VoiceGenerator.new(label: word["example_english"], content: word["example_english"], locale: "en").perform,
+      VoiceGenerator.new(label: word["example_english"], content: word["example_spanish"], locale: "es").perform,
+      VoiceGenerator.new(label: word["example_english"], content: word["example_chinese"], locale: "zh-CN").perform,
     ].map do |name|
       "https://storage.googleapis.com/passive-english/#{name}"
     end
