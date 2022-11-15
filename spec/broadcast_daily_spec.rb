@@ -35,7 +35,13 @@ RSpec.describe "broadcast-daily" do
 
   describe "AutoUpdater" do
     it "runs" do
-      AutoUpdater.new.perform_in_loop
+      begin
+        Timeout.timeout(3) do
+          AutoUpdater.new.perform_in_loop
+        end
+      rescue Timeout::Error
+        # it's ok to got timeout error
+      end
     end
   end
 end
