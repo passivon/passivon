@@ -63,7 +63,7 @@ class Translator
   end
 
   def identifier
-    english.gsub(/[^0-9a-z ]/i, '-')
+    english&.gsub(/[^0-9a-z ]/i, '-')
   end
 
   def translate_cache_filename(target_locale)
@@ -92,17 +92,26 @@ class ExampleGenerator
     if response.empty?
       []
     else
-      parsed_page = Nokogiri::HTML(response)
-      parsed_page.css(".examp.dexamp").map(&:text)
+      parse_examples(Nokogiri::HTML(response))
     end
+  end
+
+  def parse_examples(page)
+    res1 = page.css(".examp.dexamp").map(&:text)
+    res2 = page.css(".eg.dexamp").map(&:text)
+    res1 + res2
   end
 
   def smart_select_example(examples)
     examples
-      .select { |ex| ex.split(" ").include?(word) } # contains the exact word
+      .select { |ex| ex.downcase.scan(/\w+/).any? { |form| exact_match?(form: form, bare: word.downcase) } }
       .map { |ex| remove_explanation(ex) }
       .sort_by { |ex| ex.length }
       .first
+  end
+
+  def exact_match?(form:, bare:)
+    [bare, "#{bare}s", "#{bare}es"].include?(form)
   end
 
   def remove_explanation(ex)
@@ -189,6 +198,11 @@ class DictionaryUpdator
     pos = d["POS"]
     frequency = d["FREQUENCY"].to_i
     example_english = customized_or_else(lemma, "example_english") { ExampleGenerator.new(lemma).example }
+    if example_english.nil?
+      puts "NIL example for #{lemma}"
+      debugger
+      customized_or_else(lemma, "example_english") { ExampleGenerator.new(lemma).example }
+    end
     dict[lemma] = {
       "english" => lemma,
       "pos" => pos, "frequency" => frequency,
@@ -197,9 +211,9 @@ class DictionaryUpdator
       "spanish" => customized_or_else(lemma, "spanish") { Translator.new(lemma).spanish },
       "chinese" => customized_or_else(lemma, "chinese") { Translator.new(lemma).chinese },
       "example_english" =>  example_english,
-      # "example_vietnamese" => Translator.new(example_english).vietnamese,
-      # "example_chinese" => Translator.new(example_english).chinese,
-      # "example_spanish" => Translator.new(example_english).spanish
+      "example_vietnamese" => Translator.new(example_english).vietnamese,
+      "example_chinese" => Translator.new(example_english).chinese,
+      "example_spanish" => Translator.new(example_english).spanish
     }
   end
 

@@ -32,7 +32,6 @@ so|r	so	r	35491	so
 with|fw	with	fw	34115	with
 he|fw	he	fw	33653	he
 but|fw	but	fw	30070	but
-yeah|r	yeah	r	28499	yeah
 well|r	well	r	28025	well
 think|v	think	v	25894	think, thinking, thinks, thought
 here|r	here	r	25170	here
@@ -172,7 +171,6 @@ ask|v	ask	v	4367	ask, asked, asking, asks
 start|v	start	v	4363	start, started, starting, starts
 home|n	home	n	4348	home, homes
 nothing|fw	nothing	fw	4330	nothing
-hmm|u	hmm	u	4242	hmm, hm
 their|fw	their	fw	4191	their, theirs
 meet|v	meet	v	4185	meet, meeting, meets, met
 show|v	show	v	4075	show, showed, showing, shown, shows
@@ -211,7 +209,6 @@ late|j	late	j	3221	late, later, latest
 care|v	care	v	3199	care, cared, cares, caring
 car|n	car	n	3191	car, cars
 move|v	move	v	3187	move, moved, moves, moving
-ah|u	ah	u	3158	ah, aah
 idea|n	idea	n	3136	idea, ideas
 another|fw	another	fw	3083	another
 someone|fw	someone	fw	3080	someone
@@ -507,7 +504,6 @@ touch|v	touch	v	991	touch, touches, touching, touched
 terrible|j	terrible	j	990	terrible
 beer|n	beer	n	985	beer, beers
 damn|u	damn	u	984	damn
-mm-hmm|u	mm-hmm	u	983	mm-hmm
 club|n	club	n	979	club, clubs
 amaze|v	amaze	v	978	amaze, amazes, amazing, amazed
 smell|v	smell	v	978	smell, smells, smelling, smelled, smelt
@@ -593,7 +589,7 @@ ride|v	ride	v	811	ride, rides, riding, rode, ridden
 music|n	music	n	809	music
 join|v	join	v	808	join, joins, joining, joined
 next|fw	next	fw	808	next
-good-bye|u	good-bye	u	806	good-bye, goodbye
+goodbye|u	goodbye	u	806	goodbye
 ruin|v	ruin	v	806	ruin, ruins, ruining, ruined
 war|n	war	n	801	war, wars
 screw|v	screw	v	800	screw, screws, screwing, screwed
@@ -653,7 +649,6 @@ instead|r	instead	r	686	instead
 lucky|j	lucky	j	682	lucky, luckier, luckiest
 safe|j	safe	j	681	safe, safer, safest
 cold|j	cold	j	678	cold, colder, coldest
-ahh|u	ahh	u	677	ahh
 explain|v	explain	v	676	explain, explains, explaining, explained
 video|n	video	n	676	video, videos
 brain|n	brain	n	675	brain, brains
