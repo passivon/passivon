@@ -2003,15 +2003,6 @@ nothing:
   example_vietnamese: Cô ấy ngủ mà không mặc gì.
   example_chinese: 她什么都不穿就睡觉。
   example_spanish: Ella duerme sin nada puesto.
-hmm:
-  english: hmm
-  pos: u
-  frequency: 4242
-  inflections: hmm, hm
-  vietnamese: hmm
-  spanish: mmm
-  chinese: 唔
-  example_english:
 their:
   english: their
   pos: fw
@@ -2036,14 +2027,6 @@ meet:
   example_vietnamese: một đường đua đáp ứng
   example_chinese: 田径运动会
   example_spanish: una carrera de atletismo
-huh:
-  english: huh
-  pos: u
-  frequency: 4127
-  inflections: huh
-  vietnamese: Huh
-  spanish: "¿eh?"
-  chinese: 呵呵
 show:
   english: show
   pos: n
@@ -2476,15 +2459,6 @@ move:
   example_vietnamese: Đó là di chuyển của bạn.
   example_chinese: 这是你的举动。
   example_spanish: Es tu jugada.
-ah:
-  english: ah
-  pos: u
-  frequency: 3158
-  inflections: ah, aah
-  vietnamese: Ah
-  spanish: ah
-  chinese: 啊
-  example_english:
 idea:
   english: idea
   pos: n
@@ -5811,15 +5785,6 @@ damn:
   example_vietnamese: Đồ ngốc chết tiệt!
   example_chinese: 傻瓜！
   example_spanish: "¡Maldito tonto!"
-mm-hmm:
-  english: mm-hmm
-  pos: u
-  frequency: 983
-  inflections: mm-hmm
-  vietnamese: mm-hmm
-  spanish: mm-hmm
-  chinese: 嗯嗯
-  example_english:
 club:
   english: club
   pos: n
