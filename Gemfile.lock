@@ -60,9 +60,12 @@ GEM
     memoist (0.16.2)
     multi_json (1.15.0)
     multipart-post (2.2.3)
+    nokogiri (1.13.9-x86_64-darwin)
+      racc (~> 1.4)
     os (1.1.4)
     parallel (1.22.1)
     public_suffix (5.0.0)
+    racc (1.6.0)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
@@ -88,6 +91,7 @@ PLATFORMS
 
 DEPENDENCIES
   google-cloud-translate-v2
+  nokogiri
   parallel
   rspec
   rspec-mocks

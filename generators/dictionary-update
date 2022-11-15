@@ -10,6 +10,8 @@ require "curl"
 require "json"
 require "google/cloud/translate/v2"
 require "parallel"
+require "open-uri"
+require "nokogiri"
 
 class Translator
   attr_reader :english
@@ -64,6 +66,54 @@ class Translator
   end
 end
 
+class ExampleGenerator
+  attr_reader :word
+
+  def initialize(word)
+    @word = word
+  end
+
+  def example
+    fetch_with_cache
+  end
+
+  def fetch
+    puts "FETCHING EXAMPLE FOR #{word}"
+    response = URI.open(dictionary_url).read
+    if response.empty?
+      nil
+    else
+      parsed_page = Nokogiri::HTML(response)
+      parsed_page.css(".examp.dexamp").first&.text
+    end
+  end
+
+  def dictionary_url
+    "https://dictionary.cambridge.org/dictionary/english/#{word}"
+  end
+
+  def fetch_with_cache
+    unless example_cached?
+      File.write(example_cache_filename, fetch)
+    end
+    File.read(example_cache_filename)
+  end
+
+  def cached_folder
+    File.expand_path("./cache", __dir__).tap do |path|
+      FileUtils.mkdir_p(path)
+    end
+  end
+
+  def example_cache_filename
+    File.expand_path("example-#{word}", cached_folder)
+  end
+
+  def example_cached?
+    File.exists?(example_cache_filename)
+  end
+end
+
 class DictionaryUpdator
   def dict
     @dict ||= load_dict
@@ -93,6 +143,7 @@ class DictionaryUpdator
     # first use parallel to trigger parallel translation
     # this won't change the result, perhaps due to parallel forking processes
     Parallel.each(top1000_defs.each) do |d|
+    # top1000_defs.each do |d|
       perform_on_single_word(d)
     end
 
@@ -115,7 +166,8 @@ class DictionaryUpdator
       "inflections" => customized_or_else(lemma, "inflections") { inflections },
       "vietnamese" => customized_or_else(lemma, "vietnamese") { Translator.new(lemma).vietnamese },
       "spanish" => customized_or_else(lemma, "spanish") { Translator.new(lemma).spanish },
-      "chinese" => customized_or_else(lemma, "chinese") { Translator.new(lemma).chinese }
+      "chinese" => customized_or_else(lemma, "chinese") { Translator.new(lemma).chinese },
+      "example_english" => customized_or_else(lemma, "example_english") { ExampleGenerator.new(lemma).example },
     }
   end
 

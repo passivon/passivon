@@ -7,6 +7,7 @@ be:
   vietnamese: là
   spanish: ser
   chinese: 是
+  example_english: He is rich.
 I:
   english: I
   pos: fw
@@ -15,6 +16,7 @@ I:
   vietnamese: Tôi
   spanish: yo
   chinese: 我
+  example_english: I love you.
 you:
   english: you
   pos: fw
@@ -23,6 +25,7 @@ you:
   vietnamese: bạn
   spanish: tú
   chinese: 你
+  example_english: You look nice.
 the:
   english: the
   pos: fw
@@ -31,6 +34,7 @@ the:
   vietnamese: cái
   spanish: la
   chinese: 这
+  example_english: I'll pick you up at the airport.
 a:
   english: a
   pos: fw
@@ -39,6 +43,7 @@ a:
   vietnamese: một
   spanish: a
   chinese: 一个
+  example_english: This concerto is in the key of A major.
 to:
   english: to
   pos: fw
@@ -47,6 +52,7 @@ to:
   vietnamese: đến
   spanish: a
   chinese: 至
+  example_english: She agreed to help.
 it:
   english: it
   pos: fw
@@ -55,6 +61,8 @@ it:
   vietnamese: nó
   spanish: eso
   chinese: 它
+  example_english: '"Where''s my pen? It was on my desk a minute ago." "You left it
+    by the phone."'
 not:
   english: not
   pos: fw
@@ -63,6 +71,7 @@ not:
   vietnamese: không phải
   spanish: 'no'
   chinese: 不是
+  example_english: He's not fat!
 that:
   english: that
   pos: fw
@@ -71,6 +80,7 @@ that:
   vietnamese: cái đó
   spanish: que
   chinese: 那
+  example_english: I've never liked that cousin of hers.
 and:
   english: and
   pos: fw
@@ -79,6 +89,7 @@ and:
   vietnamese: và
   spanish: y
   chinese: 和
+  example_english: Ann and Jim
 of:
   english: of
   pos: fw
@@ -87,6 +98,7 @@ of:
   vietnamese: của
   spanish: de
   chinese: 的
+  example_english: a friend of mine
 do:
   english: do
   pos: v
@@ -95,6 +107,7 @@ do:
   vietnamese: làm
   spanish: hacer
   chinese: 做
+  example_english: Where do you work?
 have:
   english: have
   pos: v
@@ -103,6 +116,7 @@ have:
   vietnamese: có
   spanish: tener
   chinese: 有
+  example_english: I've heard that story before.
 what:
   english: what
   pos: fw
@@ -111,6 +125,7 @@ what:
   vietnamese: Gì
   spanish: qué
   chinese: 什么
+  example_english: What time is it?
 we:
   english: we
   pos: fw
@@ -119,6 +134,7 @@ we:
   vietnamese: chúng tôi
   spanish: nosotros
   chinese: 我们
+  example_english: Can we all go to the swimming pool this afternoon?
 in:
   english: in
   pos: fw
@@ -127,6 +143,7 @@ in:
   vietnamese: Trong
   spanish: en
   chinese: 在
+  example_english: Is Mark still in bed?
 get:
   english: get
   pos: v
@@ -135,6 +152,7 @@ get:
   vietnamese: lấy
   spanish: obtener
   chinese: 得到
+  example_english: He went to the shop to get some milk.
 this:
   english: this
   pos: fw
@@ -143,6 +161,7 @@ this:
   vietnamese: đây
   spanish: este
   chinese: 这个
+  example_english: Can you sign this form here for me?
 my:
   english: my
   pos: fw
@@ -151,6 +170,7 @@ my:
   vietnamese: của tôi
   spanish: mi
   chinese: 我的
+  example_english: my parents
 me:
   english: me
   pos: fw
@@ -159,6 +179,7 @@ me:
   vietnamese: tôi
   spanish: yo
   chinese: 我
+  example_english: Is there one for me?
 go:
   english: go
   pos: v
@@ -167,6 +188,7 @@ go:
   vietnamese: đi
   spanish: Vamos
   chinese: 去
+  example_english: We went into the house.
 can:
   english: can
   pos: v
@@ -175,6 +197,7 @@ can:
   vietnamese: có thể
   spanish: pueden
   chinese: 能够
+  example_english: Can you drive?
 'no':
   english: 'no'
   pos: fw
@@ -183,6 +206,7 @@ can:
   vietnamese: không
   spanish: 'no'
   chinese: 不
+  example_english: There's no butter left.
 'on':
   english: 'on'
   pos: fw
@@ -191,6 +215,7 @@ can:
   vietnamese: trên
   spanish: en
   chinese: 上
+  example_english: Look at all the books on your desk!
 for:
   english: for
   pos: fw
@@ -199,6 +224,7 @@ for:
   vietnamese: vì
   spanish: por
   chinese: 为了
+  example_english: There's a phone message for you.
 know:
   english: know
   pos: v
@@ -207,6 +233,7 @@ know:
   vietnamese: biết
   spanish: saber
   chinese: 知道
+  example_english: '"Where did he go?" "I don''t know."'
 just:
   english: just
   pos: r
@@ -215,6 +242,7 @@ just:
   vietnamese: chỉ
   spanish: sólo
   chinese: 只是
+  example_english: '"Where are you, Jim?" "I''m just coming."'
 your:
   english: your
   pos: fw
@@ -223,6 +251,7 @@ your:
   vietnamese: của bạn
   spanish: su
   chinese: 您的
+  example_english: Is this your bag?
 all:
   english: all
   pos: fw
@@ -231,6 +260,7 @@ all:
   vietnamese: tất cả các
   spanish: todos
   chinese: 全部
+  example_english: All animals have to eat in order to live.
 so:
   english: so
   pos: r
@@ -239,6 +269,7 @@ so:
   vietnamese: vì thế
   spanish: asi que
   chinese: 所以
+  example_english: The house is so beautiful.
 with:
   english: with
   pos: fw
@@ -247,6 +278,7 @@ with:
   vietnamese: với
   spanish: con
   chinese: 和
+  example_english: I was with Sylvia at the time.
 he:
   english: he
   pos: fw
@@ -255,6 +287,7 @@ he:
   vietnamese: anh ta
   spanish: él
   chinese: 他
+  example_english: Don't ask Andrew, he won't know.
 but:
   english: but
   pos: fw
@@ -263,6 +296,7 @@ but:
   vietnamese: nhưng
   spanish: pero
   chinese: 但
+  example_english: She's very hard-working but not very imaginative.
 yeah:
   english: yeah
   pos: r
@@ -271,6 +305,7 @@ yeah:
   vietnamese: vâng
   spanish: sí
   chinese: 是的
+  example_english: '"Do you like your job?" "Yeah, it''s all right I suppose."'
 well:
   english: well
   pos: r
@@ -279,6 +314,7 @@ well:
   vietnamese: Tốt
   spanish: bien
   chinese: 出色地
+  example_english: The documentary presented both sides of the problem very well.
 think:
   english: think
   pos: v
@@ -287,6 +323,7 @@ think:
   vietnamese: nghĩ
   spanish: pensar
   chinese: 思考
+  example_english: "[ + (that) ] I think (that) I've met you before."
 here:
   english: here
   pos: r
@@ -295,6 +332,7 @@ here:
   vietnamese: nơi đây
   spanish: aquí
   chinese: 这里
+  example_english: I've lived here for about two years.
 want:
   english: want
   pos: v
@@ -303,6 +341,7 @@ want:
   vietnamese: muốn
   spanish: desear
   chinese: 想
+  example_english: I want some chocolate.
 out:
   english: out
   pos: r
@@ -311,6 +350,7 @@ out:
   vietnamese: ngoài
   spanish: afuera
   chinese: 出去
+  example_english: She opened the window and stuck her head out.
 about:
   english: about
   pos: fw
@@ -319,6 +359,7 @@ about:
   vietnamese: Về
   spanish: sobre
   chinese: 关于
+  example_english: What's that book about?
 good:
   english: good
   pos: j
@@ -327,6 +368,7 @@ good:
   vietnamese: tốt
   spanish: bueno
   chinese: 好的
+  example_english: a good book
 come:
   english: come
   pos: v
@@ -335,6 +377,7 @@ come:
   vietnamese: đến
   spanish: venir
   chinese: 来
+  example_english: Are you coming with me?
 up:
   english: up
   pos: r
@@ -343,6 +386,7 @@ up:
   vietnamese: lên
   spanish: arriba
   chinese: 向上
+  example_english: Put those books up on the top shelf.
 say:
   english: say
   pos: v
@@ -351,6 +395,7 @@ say:
   vietnamese: Nói
   spanish: decir
   chinese: 说
+  example_english: Small children find it difficult to say long words.
 now:
   english: now
   pos: r
@@ -359,6 +404,7 @@ now:
   vietnamese: bây giờ
   spanish: ahora
   chinese: 现在
+  example_english: She used to be a teacher, but now she works in publishing.
 at:
   english: at
   pos: fw
@@ -367,6 +413,7 @@ at:
   vietnamese: tại
   spanish: a
   chinese: 在
+  example_english: We'll meet you at the entrance.
 one:
   english: one
   pos: m
@@ -375,6 +422,7 @@ one:
   vietnamese: một
   spanish: una
   chinese: 一
+  example_english: He had two slices and I only had one.
 hey:
   english: hey
   pos: u
@@ -383,6 +431,7 @@ hey:
   vietnamese: này
   spanish: Oye
   chinese: 嘿
+  example_english: Hey! What are you doing with my car?
 they:
   english: they
   pos: fw
@@ -391,6 +440,7 @@ they:
   vietnamese: họ
   spanish: ellos
   chinese: 他们
+  example_english: I've known the Browns for a long time. They're very nice people.
 see:
   english: see
   pos: v
@@ -399,6 +449,7 @@ see:
   vietnamese: hiểu
   spanish: ver
   chinese: 看
+  example_english: Turn the light on so I can see.
 if:
   english: if
   pos: fw
@@ -407,6 +458,7 @@ if:
   vietnamese: nếu
   spanish: si
   chinese: 如果
+  example_english: I'll pay you double if you get the work finished by Friday.
 how:
   english: how
   pos: r
@@ -415,6 +467,7 @@ how:
   vietnamese: thế nào
   spanish: cómo
   chinese: 如何
+  example_english: How do we get to the town from here?
 like:
   english: like
   pos: r
@@ -423,6 +476,7 @@ like:
   vietnamese: giống
   spanish: me gusta
   chinese: 喜欢
+  example_english: I like your new haircut.
 she:
   english: she
   pos: fw
@@ -431,6 +485,7 @@ she:
   vietnamese: cô ấy
   spanish: ella
   chinese: 她
+  example_english: I asked my mother if she'd lend me some money, but she said no.
 look:
   english: look
   pos: n
@@ -439,6 +494,7 @@ look:
   vietnamese: nhìn
   spanish: Mira
   chinese: 看
+  example_english: Look! There's grandma.
 make:
   english: make
   pos: v
@@ -447,6 +503,7 @@ make:
   vietnamese: làm
   spanish: hacer
   chinese: 制作
+  example_english: Do you want me to make some coffee?
 right:
   english: right
   pos: n
@@ -455,6 +512,7 @@ right:
   vietnamese: bên phải
   spanish: Correcto
   chinese: 正确的
+  example_english: You got three answers right and two wrong.
 guy:
   english: guy
   pos: n
@@ -463,6 +521,7 @@ guy:
   vietnamese: chàng
   spanish: tipo
   chinese: 家伙
+  example_english: He's a really nice guy.
 take:
   english: take
   pos: v
@@ -471,6 +530,7 @@ take:
   vietnamese: cầm lấy
   spanish: tomar
   chinese: 拿
+  example_english: Has anything been taken (= stolen)?
 let:
   english: let
   pos: v
@@ -479,6 +539,7 @@ let:
   vietnamese: để cho
   spanish: dejar
   chinese: 让
+  example_english: She wanted to go but her parents wouldn't let her.
 really:
   english: really
   pos: r
@@ -487,6 +548,7 @@ really:
   vietnamese: thật sự
   spanish: De Verdad
   chinese: 真的
+  example_english: He isn't really angry - he's just pretending.
 okay:
   english: okay
   pos: j
@@ -495,6 +557,7 @@ okay:
   vietnamese: Được chứ
   spanish: okey
   chinese: 好的
+  example_english: '"I''ll pay you back tomorrow." "OK, no problem."'
 her:
   english: her
   pos: fw
@@ -503,6 +566,7 @@ her:
   vietnamese: cô ấy
   spanish: su
   chinese: 她
+  example_english: If your sister's around, bring her too.
 tell:
   english: tell
   pos: v
@@ -511,6 +575,7 @@ tell:
   vietnamese: kể
   spanish: decir
   chinese: 告诉
+  example_english: Tell me about your holiday then.
 him:
   english: him
   pos: fw
@@ -519,6 +584,7 @@ him:
   vietnamese: anh ta
   spanish: a él
   chinese: 他
+  example_english: If you see Kevin give him my love.
 why:
   english: why
   pos: r
@@ -527,6 +593,7 @@ why:
   vietnamese: tại sao
   spanish: por qué
   chinese: 为什么
+  example_english: '"I''m going home." "Why?"'
 there:
   english: there
   pos: fw
@@ -535,6 +602,7 @@ there:
   vietnamese: ở đó
   spanish: allá
   chinese: 那里
+  example_english: Put the chair there.
 who:
   english: who
   pos: fw
@@ -543,6 +611,7 @@ who:
   vietnamese: ai
   spanish: quién
   chinese: 谁
+  example_english: Who did this?
 time:
   english: time
   pos: n
@@ -551,6 +620,7 @@ time:
   vietnamese: thời gian
   spanish: tiempo
   chinese: 时间
+  example_english: He wants to spend more time with his family.
 thing:
   english: thing
   pos: n
@@ -559,6 +629,7 @@ thing:
   vietnamese: Điều
   spanish: cosa
   chinese: 事物
+  example_english: What's that thing over there?
 from:
   english: from
   pos: fw
@@ -567,6 +638,7 @@ from:
   vietnamese: từ
   spanish: de
   chinese: 从
+  example_english: What time does the flight from Amsterdam arrive?
 will:
   english: will
   pos: v
@@ -575,6 +647,7 @@ will:
   vietnamese: sẽ
   spanish: voluntad
   chinese: 将要
+  example_english: Clare will be five years old next month.
 when:
   english: when
   pos: r
@@ -583,6 +656,7 @@ when:
   vietnamese: khi nào
   spanish: cuando
   chinese: 什么时候
+  example_english: '"I did tell you about it." "When? I don''t remember."'
 as:
   english: as
   pos: fw
@@ -591,6 +665,7 @@ as:
   vietnamese: như
   spanish: como
   chinese: 作为
+  example_english: She'll soon be as tall as her mother.
 because:
   english: because
   pos: fw
@@ -599,6 +674,7 @@ because:
   vietnamese: tại vì
   spanish: porque
   chinese: 因为
+  example_english: '"Why did you do it?" "Because Carlos told me to".'
 some:
   english: some
   pos: fw
@@ -607,6 +683,7 @@ some:
   vietnamese: một số
   spanish: alguno
   chinese: 一些
+  example_english: There's some cake in the kitchen if you'd like it.
 our:
   english: our
   pos: fw
@@ -615,6 +692,7 @@ our:
   vietnamese: của chúng tôi
   spanish: nuestro
   chinese: 我们的
+  example_english: We bought our house several years ago.
 'yes':
   english: 'yes'
   pos: r
@@ -623,6 +701,7 @@ our:
   vietnamese: Vâng
   spanish: sí
   chinese: 是的
+  example_english: '"Would you like a glass of wine?" "Yes, thanks."'
 back:
   english: back
   pos: n
@@ -631,6 +710,7 @@ back:
   vietnamese: mặt sau
   spanish: espalda
   chinese: 背部
+  example_english: When you take the scissors, remember to put them back.
 mean:
   english: mean
   pos: v
@@ -639,6 +719,7 @@ mean:
   vietnamese: bần tiện
   spanish: significar
   chinese: 意思是
+  example_english: What does this word mean?
 man:
   english: man
   pos: n
@@ -647,6 +728,7 @@ man:
   vietnamese: Đàn ông
   spanish: hombre
   chinese: 男人
+  example_english: a young/tall man
 little:
   english: little
   pos: fw
@@ -655,6 +737,7 @@ little:
   vietnamese: nhỏ bé
   spanish: poco
   chinese: 小的
+  example_english: It came in a little box.
 give:
   english: give
   pos: v
@@ -663,6 +746,8 @@ give:
   vietnamese: cho
   spanish: dar
   chinese: 给
+  example_english: "[ + two objects ] She gave us a set of saucepans as a wedding
+    present."
 his:
   english: his
   pos: fw
@@ -671,6 +756,7 @@ his:
   vietnamese: của anh
   spanish: su
   chinese: 他的
+  example_english: '"Jo''s got a new boyfriend." "Oh really? What''s his name?"'
 us:
   english: us
   pos: fw
@@ -679,6 +765,7 @@ us:
   vietnamese: chúng ta
   spanish: a nosotros
   chinese: 我们
+  example_english: Thank you for driving us to the station.
 them:
   english: them
   pos: fw
@@ -687,6 +774,7 @@ them:
   vietnamese: họ
   spanish: a ellos
   chinese: 他们
+  example_english: I've lost my keys. I can't find them anywhere.
 need:
   english: need
   pos: n
@@ -695,6 +783,7 @@ need:
   vietnamese: cần
   spanish: necesitar
   chinese: 需要
+  example_english: Babies need constant care.
 then:
   english: then
   pos: r
@@ -703,6 +792,7 @@ then:
   vietnamese: sau đó
   spanish: después
   chinese: 然后
+  example_english: I was working in the city then.
 shall:
   english: shall
   pos: v
@@ -711,6 +801,7 @@ shall:
   vietnamese: nên
   spanish: deberá
   chinese: 将
+  example_english: If you do that one more time, I shall be very angry.
 or:
   english: or
   pos: fw
@@ -719,6 +810,7 @@ or:
   vietnamese: hoặc
   spanish: o
   chinese: 或者
+  example_english: Is it Tuesday or Wednesday today?
 talk:
   english: talk
   pos: v
@@ -727,6 +819,7 @@ talk:
   vietnamese: nói chuyện
   spanish: hablar
   chinese: 讲话
+  example_english: We were just talking about Gareth's new girlfriend.
 something:
   english: something
   pos: fw
@@ -735,6 +828,7 @@ something:
   vietnamese: thứ gì đó
   spanish: alguna cosa
   chinese: 某物
+  example_english: There's something sharp in my shoe.
 where:
   english: where
   pos: r
@@ -743,6 +837,7 @@ where:
   vietnamese: ở đâu
   spanish: dónde
   chinese: 在哪里
+  example_english: Where does he live?
 great:
   english: great
   pos: j
@@ -751,6 +846,7 @@ great:
   vietnamese: Tuyệt
   spanish: estupendo
   chinese: 伟大的
+  example_english: an enormous great hole
 way:
   english: way
   pos: n
@@ -759,6 +855,7 @@ way:
   vietnamese: đường
   spanish: camino
   chinese: 方法
+  example_english: Do you know the way to the restaurant?
 never:
   english: never
   pos: r
@@ -767,6 +864,7 @@ never:
   vietnamese: không bao giờ
   spanish: nunca
   chinese: 绝不
+  example_english: We've never been to Australia.
 call:
   english: call
   pos: n
@@ -775,6 +873,7 @@ call:
   vietnamese: cuộc gọi
   spanish: llamar
   chinese: 称呼
+  example_english: They've called the twins Edward and Thomas.
 too:
   english: too
   pos: r
@@ -783,6 +882,7 @@ too:
   vietnamese: cũng vậy
   spanish: también
   chinese: 也
+  example_english: I'm too fat.
 by:
   english: by
   pos: fw
@@ -791,6 +891,7 @@ by:
   vietnamese: qua
   spanish: por
   chinese: 经过
+  example_english: The motorcycle was driven by a tiny bald man.
 sorry:
   english: sorry
   pos: u
@@ -799,6 +900,7 @@ sorry:
   vietnamese: lấy làm tiếc
   spanish: perdón
   chinese: 对不起
+  example_english: I'm just sorry about all the trouble I've caused her.
 over:
   english: over
   pos: fw
@@ -807,6 +909,7 @@ over:
   vietnamese: kết thúc
   spanish: sobre
   chinese: 超过
+  example_english: The sign over the door said "Exit".
 love:
   english: love
   pos: n
@@ -815,6 +918,7 @@ love:
   vietnamese: yêu và quý
   spanish: amor
   chinese: 爱
+  example_english: I love you.
 wait:
   english: wait
   pos: v
@@ -823,6 +927,7 @@ wait:
   vietnamese: Chờ đã
   spanish: Espere
   chinese: 等待
+  example_english: I waited for her outside while she went in to see the doctor.
 more:
   english: more
   pos: fw
@@ -831,6 +936,7 @@ more:
   vietnamese: hơn
   spanish: más
   chinese: 更多的
+  example_english: Would you like some more food?
 down:
   english: down
   pos: r
@@ -839,6 +945,7 @@ down:
   vietnamese: xuống
   spanish: abajo
   chinese: 下
+  example_english: Is this lift going down?
 day:
   english: day
   pos: n
@@ -847,6 +954,7 @@ day:
   vietnamese: ngày
   spanish: día
   chinese: 天
+  example_english: January has 31 days.
 two:
   english: two
   pos: m
@@ -855,6 +963,7 @@ two:
   vietnamese: hai
   spanish: dos
   chinese: 二
+  example_english: They have two houses.
 people:
   english: people
   pos: n
@@ -863,6 +972,7 @@ people:
   vietnamese: Mọi người
   spanish: gente
   chinese: 人们
+  example_english: Many people never do any exercise.
 God:
   english: God
   pos: K
@@ -871,6 +981,7 @@ God:
   vietnamese: Chúa
   spanish: Dios
   chinese: 上帝
+  example_english: the ancient Greek gods and goddesses
 very:
   english: very
   pos: r
@@ -879,6 +990,7 @@ very:
   vietnamese: rất
   spanish: muy
   chinese: 非常
+  example_english: The situation is very serious.
 'off':
   english: 'off'
   pos: fw
@@ -887,6 +999,7 @@ very:
   vietnamese: tắt
   spanish: apagado
   chinese: 离开
+  example_english: He drove off at the most incredible speed.
 work:
   english: work
   pos: n
@@ -895,6 +1008,7 @@ work:
   vietnamese: công việc
   spanish: trabajar
   chinese: 工作
+  example_english: I've got so much work to do.
 thank:
   english: thank
   pos: v
@@ -903,6 +1017,7 @@ thank:
   vietnamese: cảm tạ
   spanish: gracias
   chinese: 感谢
+  example_english: He thanked me for taking him home.
 big:
   english: big
   pos: j
@@ -911,6 +1026,7 @@ big:
   vietnamese: to lớn
   spanish: grande
   chinese: 大的
+  example_english: He's a big man.
 try:
   english: try
   pos: v
@@ -919,6 +1035,7 @@ try:
   vietnamese: thử
   spanish: probar
   chinese: 尝试
+  example_english: Keep trying and you'll find a job eventually.
 dad:
   english: dad
   pos: n
@@ -927,6 +1044,8 @@ dad:
   vietnamese: bố
   spanish: papá
   chinese: 爸爸
+  example_english: "[ as form of address ] Can you pick me up from the party tonight,
+    Dad?"
 maybe:
   english: maybe
   pos: r
@@ -935,6 +1054,7 @@ maybe:
   vietnamese: có lẽ
   spanish: quizás
   chinese: 也许
+  example_english: Maybe they'll come tomorrow.
 feel:
   english: feel
   pos: v
@@ -943,6 +1063,8 @@ feel:
   vietnamese: cảm thấy
   spanish: sentir
   chinese: 感觉
+  example_english: '"How are you feeling?" "Not too bad, but I''ve still got a slight
+    headache."'
 friend:
   english: friend
   pos: n
@@ -951,6 +1073,8 @@ friend:
   vietnamese: bạn bè
   spanish: amigo
   chinese: 朋友
+  example_english: She's my best/oldest/closest friend - we've known each other since
+    we were five.
 even:
   english: even
   pos: r
@@ -959,6 +1083,7 @@ even:
   vietnamese: thậm chí
   spanish: incluso
   chinese: 甚至
+  example_english: I don't even know where it is.
 sure:
   english: sure
   pos: r
@@ -967,6 +1092,7 @@ sure:
   vietnamese: chắc chắn rồi
   spanish: Por supuesto
   chinese: 当然
+  example_english: '"What''s wrong with him?" "I''m not really sure."'
 find:
   english: find
   pos: v
@@ -975,6 +1101,7 @@ find:
   vietnamese: tìm thấy
   spanish: encontrar
   chinese: 寻找
+  example_english: I've just found a ten-pound note in my pocket.
 kid:
   english: kid
   pos: v
@@ -983,6 +1110,7 @@ kid:
   vietnamese: đứa trẻ
   spanish: niño
   chinese: 孩子
+  example_english: He took the kids to the park while I was working.
 these:
   english: these
   pos: fw
@@ -991,6 +1119,7 @@ these:
   vietnamese: này
   spanish: estas
   chinese: 这些
+  example_english: ''
 boy:
   english: boy
   pos: n
@@ -999,6 +1128,7 @@ boy:
   vietnamese: Chàng trai
   spanish: chico
   chinese: 男生
+  example_english: a teenage/adolescent boy
 put:
   english: put
   pos: v
@@ -1007,6 +1137,7 @@ put:
   vietnamese: đặt
   spanish: poner
   chinese: 放
+  example_english: Where have you put the keys?
 please:
   english: please
   pos: r
@@ -1015,6 +1146,7 @@ please:
   vietnamese: làm ơn
   spanish: por favor
   chinese: 请
+  example_english: Could I have two coffees and a tea, please?
 happen:
   english: happen
   pos: v
@@ -1023,6 +1155,8 @@ happen:
   vietnamese: xảy ra
   spanish: suceder
   chinese: 发生
+  example_english: No one knows exactly what happened but several people have been
+    hurt.
 much:
   english: much
   pos: fw
@@ -1031,6 +1165,7 @@ much:
   vietnamese: nhiều
   spanish: mucho
   chinese: 很多
+  example_english: I don't earn much money.
 stop:
   english: stop
   pos: v
@@ -1039,6 +1174,7 @@ stop:
   vietnamese: dừng lại
   spanish: deténgase
   chinese: 停止
+  example_english: Once I start eating chocolate, I can't stop.
 night:
   english: night
   pos: n
@@ -1047,6 +1183,7 @@ night:
   vietnamese: đêm
   spanish: noche
   chinese: 夜晚
+  example_english: It gets cold at night.
 bad:
   english: bad
   pos: j
@@ -1055,6 +1192,7 @@ bad:
   vietnamese: xấu
   spanish: malo
   chinese: 坏的
+  example_english: Our holiday was spoiled by bad weather.
 into:
   english: into
   pos: fw
@@ -1063,6 +1201,7 @@ into:
   vietnamese: vào trong
   spanish: dentro
   chinese: 进入
+  example_english: Would you put the jar back into the cupboard for me, please?
 those:
   english: those
   pos: fw
@@ -1071,6 +1210,7 @@ those:
   vietnamese: những thứ kia
   spanish: aquellos
   chinese: 那些
+  example_english: Those of you who would like to come with us should sign up now.
 any:
   english: any
   pos: fw
@@ -1079,6 +1219,7 @@ any:
   vietnamese: không tí nào
   spanish: ningún
   chinese: 任何
+  example_english: Is there any of that lemon cake left?
 first:
   english: first
   pos: m
@@ -1087,6 +1228,7 @@ first:
   vietnamese: Đầu tiên
   spanish: primero
   chinese: 第一的
+  example_english: This is my first visit to New York.
 leave:
   english: leave
   pos: v
@@ -1095,6 +1237,7 @@ leave:
   vietnamese: rời bỏ
   spanish: abandonar
   chinese: 离开
+  example_english: I'll be leaving at five o'clock tomorrow.
 year:
   english: year
   pos: n
@@ -1103,6 +1246,7 @@ year:
   vietnamese: năm
   spanish: año
   chinese: 年
+  example_english: Annette worked in Italy for two years.
 hear:
   english: hear
   pos: v
@@ -1111,6 +1255,7 @@ hear:
   vietnamese: Nghe
   spanish: oír
   chinese: 听到
+  example_english: She heard a noise outside.
 ever:
   english: ever
   pos: r
@@ -1119,6 +1264,7 @@ ever:
   vietnamese: bao giờ
   spanish: alguna vez
   chinese: 曾经
+  example_english: Nothing ever happens here in the evening.
 Mr:
   english: Mr
   pos: n
@@ -1127,6 +1273,7 @@ Mr:
   vietnamese: Ông
   spanish: Señor
   chinese: 先生
+  example_english: Mr Jones/Mr David Jones
 again:
   english: again
   pos: r
@@ -1135,6 +1282,7 @@ again:
   vietnamese: lại
   spanish: otra vez
   chinese: 再次
+  example_english: Could you spell your name again, please?
 use:
   english: use
   pos: v
@@ -1143,6 +1291,7 @@ use:
   vietnamese: sử dụng
   spanish: usar
   chinese: 利用
+  example_english: This glass has been used - could you get me a clean one?
 mom:
   english: mom
   pos: n
@@ -1151,6 +1300,7 @@ mom:
   vietnamese: mẹ
   spanish: mamá
   chinese: 妈妈
+  example_english: I miss my mom and dad a lot.
 may:
   english: may
   pos: v
@@ -1159,6 +1309,7 @@ may:
   vietnamese: có thể
   spanish: mayo
   chinese: 可能
+  example_english: There may be other problems that we don't know about.
 hi:
   english: hi
   pos: u
@@ -1167,6 +1318,7 @@ hi:
   vietnamese: Chào
   spanish: hola
   chinese: 你好
+  example_english: Hi, there!
 life:
   english: life
   pos: n
@@ -1175,6 +1327,7 @@ life:
   vietnamese: đời sống
   spanish: vida
   chinese: 生活
+  example_english: Life's too short to worry about money!
 nice:
   english: nice
   pos: j
@@ -1183,6 +1336,7 @@ nice:
   vietnamese: đẹp
   spanish: bonito
   chinese: 好的
+  example_english: Did you have a nice trip?
 new:
   english: new
   pos: j
@@ -1191,6 +1345,7 @@ new:
   vietnamese: Mới
   spanish: nuevo
   chinese: 新的
+  example_english: a new car
 still:
   english: still
   pos: r
@@ -1199,6 +1354,7 @@ still:
   vietnamese: còn
   spanish: todavía
   chinese: 仍然
+  example_english: I'm still hungry.
 kind:
   english: kind
   pos: n
@@ -1207,6 +1363,7 @@ kind:
   vietnamese: tốt bụng
   spanish: tipo
   chinese: 种类
+  example_english: She's a very kind and thoughtful person.
 anything:
   english: anything
   pos: fw
@@ -1215,6 +1372,7 @@ anything:
   vietnamese: bất cứ điều gì
   spanish: cualquier cosa
   chinese: 任何事物
+  example_english: Is there anything I can do to help?
 only:
   english: only
   pos: j
@@ -1223,6 +1381,7 @@ only:
   vietnamese: chỉ có
   spanish: solamente
   chinese: 只要
+  example_english: I was the only person on the train.
 baby:
   english: baby
   pos: n
@@ -1231,6 +1390,7 @@ baby:
   vietnamese: đứa bé
   spanish: bebé
   chinese: 婴儿
+  example_english: a newborn baby
 than:
   english: than
   pos: fw
@@ -1239,6 +1399,7 @@ than:
   vietnamese: hơn
   spanish: que
   chinese: 比
+  example_english: My son is a lot taller than my daughter.
 fine:
   english: fine
   pos: j
@@ -1247,6 +1408,7 @@ fine:
   vietnamese: khỏe
   spanish: multa
   chinese: 美好的
+  example_english: I felt terrible last night but I feel fine this morning.
 hello:
   english: hello
   pos: u
@@ -1255,6 +1417,7 @@ hello:
   vietnamese: xin chào
   spanish: Hola
   chinese: 你好
+  example_english: Hello, Paul. I haven't seen you for ages.
 keep:
   english: keep
   pos: v
@@ -1263,6 +1426,7 @@ keep:
   vietnamese: giữ cho
   spanish: mantener
   chinese: 保持
+  example_english: Do you want this photograph back or can I keep it?
 girl:
   english: girl
   pos: n
@@ -1271,6 +1435,7 @@ girl:
   vietnamese: con gái
   spanish: chica
   chinese: 女孩
+  example_english: Two girls showed us round the classrooms.
 help:
   english: help
   pos: n
@@ -1279,6 +1444,7 @@ help:
   vietnamese: Cứu giúp
   spanish: ayuda
   chinese: 帮助
+  example_english: How can I help you?
 believe:
   english: believe
   pos: v
@@ -1287,6 +1453,8 @@ believe:
   vietnamese: tin
   spanish: creer
   chinese: 相信
+  example_english: Strangely, no one believed us when we told them we'd been visited
+    by a creature from Mars.
 woman:
   english: woman
   pos: n
@@ -1295,6 +1463,7 @@ woman:
   vietnamese: người đàn bà
   spanish: mujer
   chinese: 女士
+  example_english: She's a really nice woman.
 lot:
   english: lot
   pos: n
@@ -1303,6 +1472,7 @@ lot:
   vietnamese: rất nhiều
   spanish: lote
   chinese: 很多
+  example_english: She eats lots of fruit.
 play:
   english: play
   pos: v
@@ -1311,6 +1481,7 @@ play:
   vietnamese: chơi
   spanish: desempeñar
   chinese: 玩
+  example_english: The children spent the afternoon playing with their new toys.
 ask:
   english: ask
   pos: v
@@ -1319,6 +1490,7 @@ ask:
   vietnamese: hỏi
   spanish: pedir
   chinese: 问
+  example_english: "[ + two objects ] She asked me a question."
 start:
   english: start
   pos: v
@@ -1327,6 +1499,7 @@ start:
   vietnamese: bắt đầu
   spanish: comienzo
   chinese: 开始
+  example_english: When do you start your course/your new job?
 home:
   english: home
   pos: n
@@ -1335,6 +1508,8 @@ home:
   vietnamese: Trang Chủ
   spanish: hogar
   chinese: 家
+  example_english: The senator has two homes - an apartment in Washington and a house
+    in Colorado.
 nothing:
   english: nothing
   pos: fw
@@ -1343,6 +1518,7 @@ nothing:
   vietnamese: Không có gì
   spanish: nada
   chinese: 没有什么
+  example_english: There's nothing in the drawer - I took everything out.
 hmm:
   english: hmm
   pos: u
@@ -1351,6 +1527,7 @@ hmm:
   vietnamese: hmm
   spanish: mmm
   chinese: 唔
+  example_english: '"Which one do you like best?" "Hmm. I''m not sure."'
 their:
   english: their
   pos: fw
@@ -1359,6 +1536,7 @@ their:
   vietnamese: của chúng
   spanish: sus
   chinese: 他们的
+  example_english: He gave them their coats.
 meet:
   english: meet
   pos: v
@@ -1367,6 +1545,7 @@ meet:
   vietnamese: gặp
   spanish: reunir
   chinese: 遇见
+  example_english: They met at work.
 huh:
   english: huh
   pos: u
@@ -1383,6 +1562,7 @@ show:
   vietnamese: buổi bieu diễn
   spanish: mostrar
   chinese: 节目
+  example_english: "[ + two objects ] Let me show you this new book I've just bought."
 around:
   english: around
   pos: fw
@@ -1391,6 +1571,7 @@ around:
   vietnamese: vòng quanh
   spanish: alrededor
   chinese: 大约
+  example_english: We sat around the table.
 guess:
   english: guess
   pos: v
@@ -1399,6 +1580,7 @@ guess:
   vietnamese: đoán
   spanish: adivinar
   chinese: 猜测
+  example_english: I didn't know the answer, so I had to guess.
 old:
   english: old
   pos: j
@@ -1407,6 +1589,7 @@ old:
   vietnamese: cũ
   spanish: antiguo
   chinese: 老的
+  example_english: an old man
 hell:
   english: hell
   pos: n
@@ -1415,6 +1598,7 @@ hell:
   vietnamese: Địa ngục
   spanish: infierno
   chinese: 地狱
+  example_english: Work is sheer hell at the moment.
 before:
   english: before
   pos: fw
@@ -1423,6 +1607,7 @@ before:
   vietnamese: trước
   spanish: antes de
   chinese: 前
+  example_english: You should always wash your hands before meals.
 always:
   english: always
   pos: r
@@ -1431,6 +1616,7 @@ always:
   vietnamese: luôn luôn
   spanish: siempre
   chinese: 总是
+  example_english: It's always cold in this room.
 three:
   english: three
   pos: m
@@ -1439,6 +1625,7 @@ three:
   vietnamese: số ba
   spanish: Tres
   chinese: 三
+  example_english: I've got three sisters.
 wow:
   english: wow
   pos: u
@@ -1447,6 +1634,7 @@ wow:
   vietnamese: ồ
   spanish: guau
   chinese: 哇
+  example_english: Wow! Did you make that cake? It looks delicious!
 listen:
   english: listen
   pos: v
@@ -1455,6 +1643,7 @@ listen:
   vietnamese: nghe
   spanish: escuchar
   chinese: 听
+  example_english: What kind of music do you listen to?
 thanks:
   english: thanks
   pos: u
@@ -1463,6 +1652,7 @@ thanks:
   vietnamese: cảm ơn
   spanish: Gracias
   chinese: 谢谢
+  example_english: '"Shall I do that for you?" "No, thanks."'
 minute:
   english: minute
   pos: n
@@ -1471,6 +1661,7 @@ minute:
   vietnamese: phút
   spanish: minuto
   chinese: 分钟
+  example_english: a 20-minute bus ride
 actually:
   english: actually
   pos: r
@@ -1479,6 +1670,7 @@ actually:
   vietnamese: thực ra
   spanish: Realmente
   chinese: 实际上
+  example_english: I didn't actually see her - I just heard her voice.
 eat:
   english: eat
   pos: v
@@ -1487,6 +1679,7 @@ eat:
   vietnamese: ăn
   spanish: comer
   chinese: 吃
+  example_english: Do you eat meat?
 place:
   english: place
   pos: n
@@ -1495,6 +1688,7 @@ place:
   vietnamese: nơi
   spanish: lugar
   chinese: 地方
+  example_english: Her garden was a cool pleasant place to sit.
 live:
   english: live
   pos: v
@@ -1503,6 +1697,7 @@ live:
   vietnamese: trực tiếp
   spanish: En Vivo
   chinese: 居住
+  example_english: He only lived a few days after the accident.
 away:
   english: away
   pos: r
@@ -1511,6 +1706,7 @@ away:
   vietnamese: xa
   spanish: lejos
   chinese: 离开
+  example_english: Ms Watson is away on holiday until the end of the week.
 after:
   english: after
   pos: fw
@@ -1519,6 +1715,7 @@ after:
   vietnamese: sau
   spanish: después
   chinese: 后
+  example_english: Let's go for a walk after breakfast.
 bring:
   english: bring
   pos: v
@@ -1527,6 +1724,7 @@ bring:
   vietnamese: cung cấp
   spanish: traer
   chinese: 带来
+  example_english: '"Shall I bring anything to the party?" "Oh, just a bottle."'
 every:
   english: every
   pos: fw
@@ -1535,6 +1733,7 @@ every:
   vietnamese: mọi
   spanish: cada
   chinese: 每一个
+  example_english: The police want to interview every employee about the theft.
 everything:
   english: everything
   pos: fw
@@ -1543,6 +1742,7 @@ everything:
   vietnamese: mọi điều
   spanish: todo
   chinese: 一切
+  example_english: You can't blame him for everything.
 money:
   english: money
   pos: n
@@ -1551,6 +1751,8 @@ money:
   vietnamese: tiền bạc
   spanish: dinero
   chinese: 钱
+  example_english: '"How much money do you have on you?" "€100 in notes and a few
+    coins."'
 person:
   english: person
   pos: n
@@ -1559,6 +1761,7 @@ person:
   vietnamese: người
   spanish: persona
   chinese: 人
+  example_english: Who was the first person to swim the English Channel?
 watch:
   english: watch
   pos: v
@@ -1567,6 +1770,7 @@ watch:
   vietnamese: đồng hồ
   spanish: reloj
   chinese: 手表
+  example_english: I had dinner and watched TV for a couple of hours.
 other:
   english: other
   pos: n
@@ -1575,6 +1779,7 @@ other:
   vietnamese: khác
   spanish: otro
   chinese: 其他
+  example_english: The product has many other time-saving features.
 remember:
   english: remember
   pos: v
@@ -1583,6 +1788,7 @@ remember:
   vietnamese: nhớ
   spanish: recuerda
   chinese: 记住
+  example_english: '"Where did you park the car?" "I can''t remember."'
 house:
   english: house
   pos: n
@@ -1591,6 +1797,7 @@ house:
   vietnamese: nhà ở
   spanish: casa
   chinese: 屋
+  example_english: a detached/semi-detached house
 wrong:
   english: wrong
   pos: j
@@ -1599,6 +1806,7 @@ wrong:
   vietnamese: Sai lầm
   spanish: equivocado
   chinese: 错误的
+  example_english: Three of your answers were wrong.
 kill:
   english: kill
   pos: v
@@ -1607,6 +1815,7 @@ kill:
   vietnamese: giết chết
   spanish: matar
   chinese: 杀
+  example_english: Her parents were killed in a plane crash.
 school:
   english: school
   pos: n
@@ -1615,6 +1824,7 @@ school:
   vietnamese: trường học
   spanish: escuela
   chinese: 学校
+  example_english: UK a primary/secondary school
 everyone:
   english: everyone
   pos: fw
@@ -1623,6 +1833,8 @@ everyone:
   vietnamese: tất cả mọi người
   spanish: todo el mundo
   chinese: 每个人
+  example_english: Would everyone who wishes to attend the dinner let me know by Friday
+    afternoon?
 run:
   english: run
   pos: v
@@ -1631,6 +1843,8 @@ run:
   vietnamese: chạy
   spanish: correr
   chinese: 跑
+  example_english: "[ + to infinitive ] The children had to run to keep up with their
+    father."
 late:
   english: late
   pos: j
@@ -1639,6 +1853,7 @@ late:
   vietnamese: muộn
   spanish: tarde
   chinese: 晚的
+  example_english: It was late at night.
 care:
   english: care
   pos: v
@@ -1647,6 +1862,7 @@ care:
   vietnamese: quan tâm
   spanish: cuidado
   chinese: 关心
+  example_english: The standard of care at our local hospital is excellent.
 car:
   english: car
   pos: n
@@ -1655,6 +1871,7 @@ car:
   vietnamese: xe hơi
   spanish: coche
   chinese: 车
+  example_english: They don't have a car.
 move:
   english: move
   pos: v
@@ -1663,6 +1880,7 @@ move:
   vietnamese: di chuyển
   spanish: Muevete
   chinese: 移动
+  example_english: I'm so cold I can't move my fingers.
 ah:
   english: ah
   pos: u
@@ -1671,6 +1889,7 @@ ah:
   vietnamese: Ah
   spanish: ah
   chinese: 啊
+  example_english: Ah, I see.
 idea:
   english: idea
   pos: n
@@ -1679,6 +1898,7 @@ idea:
   vietnamese: ý kiến
   spanish: ocurrencia
   chinese: 主意
+  example_english: I've had an idea - why don't we go to the coast?
 another:
   english: another
   pos: fw
@@ -1687,6 +1907,7 @@ another:
   vietnamese: nữa
   spanish: otro
   chinese: 其他
+  example_english: I'm going to have another piece of cake.
 someone:
   english: someone
   pos: fw
@@ -1695,6 +1916,7 @@ someone:
   vietnamese: người nào
   spanish: alguien
   chinese: 某人
+  example_english: There's someone outside the house.
 today:
   english: today
   pos: r
@@ -1703,6 +1925,7 @@ today:
   vietnamese: hôm nay
   spanish: Este Dia
   chinese: 今天
+  example_english: What's the date today?
 turn:
   english: turn
   pos: v
@@ -1711,6 +1934,7 @@ turn:
   vietnamese: xoay
   spanish: giro
   chinese: 转动
+  example_english: The earth turns on its axis once every 24 hours.
 real:
   english: real
   pos: j
@@ -1719,6 +1943,8 @@ real:
   vietnamese: có thật
   spanish: real
   chinese: 真实的
+  example_english: Assuring the patient that she has a real and not imaginary problem
+    is the first step.
 happy:
   english: happy
   pos: j
@@ -1727,6 +1953,7 @@ happy:
   vietnamese: vui mừng
   spanish: contento
   chinese: 快乐的
+  example_english: a happy marriage/childhood
 whole:
   english: whole
   pos: j
@@ -1735,6 +1962,7 @@ whole:
   vietnamese: trọn
   spanish: entero
   chinese: 所有的
+  example_english: I spent the whole day cleaning.
 week:
   english: week
   pos: n
@@ -1743,6 +1971,7 @@ week:
   vietnamese: tuần
   spanish: semana
   chinese: 星期
+  example_english: last/this/next week
 job:
   english: job
   pos: n
@@ -1751,6 +1980,7 @@ job:
   vietnamese: Công việc
   spanish: trabajo
   chinese: 工作
+  example_english: a temporary/permanent job
 fun:
   english: fun
   pos: n
@@ -1759,6 +1989,7 @@ fun:
   vietnamese: vui vẻ
   spanish: divertida
   chinese: 乐趣
+  example_english: Have fun (= enjoy yourself)!
 problem:
   english: problem
   pos: n
@@ -1767,6 +1998,7 @@ problem:
   vietnamese: vấn đề
   spanish: problema
   chinese: 问题
+  example_english: financial/health problems
 break:
   english: break
   pos: v
@@ -1775,6 +2007,7 @@ break:
   vietnamese: phá vỡ
   spanish: descanso
   chinese: 休息
+  example_english: The dish fell to the floor and broke.
 world:
   english: world
   pos: n
@@ -1783,6 +2016,7 @@ world:
   vietnamese: thế giới
   spanish: mundo
   chinese: 世界
+  example_english: Different parts of the world have very different climatic conditions.
 which:
   english: which
   pos: fw
@@ -1791,6 +2025,7 @@ which:
   vietnamese: cái mà
   spanish: cual
   chinese: 哪个
+  example_english: Which party would you prefer to go to - Anna's or Dan's ?
 must:
   english: must
   pos: v
@@ -1799,6 +2034,7 @@ must:
   vietnamese: phải
   spanish: deber
   chinese: 必须
+  example_english: Meat must be cooked thoroughly.
 party:
   english: party
   pos: n
@@ -1807,6 +2043,7 @@ party:
   vietnamese: bữa tiệc
   spanish: fiesta
   chinese: 派对
+  example_english: a birthday party
 buy:
   english: buy
   pos: v
@@ -1815,6 +2052,7 @@ buy:
   vietnamese: mua
   spanish: comprar
   chinese: 买
+  example_english: Eventually she had saved enough money to buy a small car.
 through:
   english: through
   pos: fw
@@ -1823,6 +2061,7 @@ through:
   vietnamese: xuyên qua
   spanish: mediante
   chinese: 通过
+  example_english: They walked slowly through the woods.
 together:
   english: together
   pos: r
@@ -1831,6 +2070,7 @@ together:
   vietnamese: cùng với nhau
   spanish: juntos
   chinese: 一起
+  example_english: We used to go to yoga together.
 room:
   english: room
   pos: n
@@ -1839,6 +2079,7 @@ room:
   vietnamese: phòng
   spanish: habitación
   chinese: 房间
+  example_english: I like this room - it has plenty of light.
 family:
   english: family
   pos: n
@@ -1847,6 +2088,7 @@ family:
   vietnamese: gia đình
   spanish: familia
   chinese: 家庭
+  example_english: A new family has/have moved in next door.
 stay:
   english: stay
   pos: v
@@ -1855,6 +2097,7 @@ stay:
   vietnamese: ở lại
   spanish: Quédate
   chinese: 停留
+  example_english: They need an assistant who is willing to stay for six months.
 lose:
   english: lose
   pos: v
@@ -1863,6 +2106,7 @@ lose:
   vietnamese: mất
   spanish: perder
   chinese: 失去
+  example_english: I've lost my ticket.
 stuff:
   english: stuff
   pos: n
@@ -1871,6 +2115,7 @@ stuff:
   vietnamese: đồ đạc
   spanish: cosas
   chinese: 东西
+  example_english: There's sticky stuff all over the chair.
 son:
   english: son
   pos: n
@@ -1879,6 +2124,7 @@ son:
   vietnamese: Con trai
   spanish: hijo
   chinese: 儿子
+  example_english: This is our son Raja.
 stupid:
   english: stupid
   pos: j
@@ -1887,6 +2133,7 @@ stupid:
   vietnamese: ngu
   spanish: tonto
   chinese: 愚蠢的
+  example_english: She was really stupid to quit her job like that.
 name:
   english: name
   pos: v
@@ -1895,6 +2142,7 @@ name:
   vietnamese: Tên
   spanish: nombre
   chinese: 姓名
+  example_english: '"Hi, what''s your name?" "My name''s Diane."'
 everybody:
   english: everybody
   pos: fw
@@ -1903,6 +2151,7 @@ everybody:
   vietnamese: mọi người
   spanish: todos
   chinese: 大家
+  example_english: ''
 last:
   english: last
   pos: m
@@ -1911,6 +2160,7 @@ last:
   vietnamese: Cuối cùng
   spanish: ultimo
   chinese: 最后的
+  example_english: "[ + to infinitive ] I hate being the last one to arrive at a meeting."
 long:
   english: long
   pos: j
@@ -1919,6 +2169,7 @@ long:
   vietnamese: Dài
   spanish: largo
   chinese: 长
+  example_english: a long film/meeting
 tonight:
   english: tonight
   pos: r
@@ -1927,6 +2178,7 @@ tonight:
   vietnamese: đêm nay
   spanish: esta noche
   chinese: 今晚
+  example_english: Tonight will be my first chance to meet her.
 child:
   english: child
   pos: n
@@ -1935,6 +2187,7 @@ child:
   vietnamese: đứa trẻ
   spanish: niño
   chinese: 孩子
+  example_english: an eight-year-old child
 sit:
   english: sit
   pos: v
@@ -1943,6 +2196,7 @@ sit:
   vietnamese: ngồi
   spanish: sentar
   chinese: 坐
+  example_english: to sit at a table/desk
 course:
   english: course
   pos: n
@@ -1951,6 +2205,7 @@ course:
   vietnamese: khóa học
   spanish: curso
   chinese: 课程
+  example_english: They're going away on a training course next week.
 pretty:
   english: pretty
   pos: r
@@ -1959,6 +2214,7 @@ pretty:
   vietnamese: đẹp
   spanish: bonita
   chinese: 漂亮的
+  example_english: The house has four bedrooms, so it's pretty big.
 hold:
   english: hold
   pos: v
@@ -1967,6 +2223,7 @@ hold:
   vietnamese: tổ chức
   spanish: mantener
   chinese: 抓住
+  example_english: Can you hold the bag while I open the door?
 game:
   english: game
   pos: n
@@ -1975,6 +2232,7 @@ game:
   vietnamese: trò chơi
   spanish: juego
   chinese: 游戏
+  example_english: a board game
 forget:
   english: forget
   pos: v
@@ -1983,6 +2241,7 @@ forget:
   vietnamese: quên đi
   spanish: olvidar
   chinese: 忘记
+  example_english: I'm sorry, I've forgotten your name.
 else:
   english: else
   pos: r
@@ -1991,6 +2250,8 @@ else:
   vietnamese: khác
   spanish: más
   chinese: 别的
+  example_english: Everybody else has (= all the other people have) agreed except
+    for you.
 own:
   english: own
   pos: j
@@ -1999,6 +2260,7 @@ own:
   vietnamese: riêng
   spanish: propio
   chinese: 自己的
+  example_english: Each neighbourhood in New York has its own characteristics.
 five:
   english: five
   pos: m
@@ -2007,6 +2269,7 @@ five:
   vietnamese: năm
   spanish: cinco
   chinese: 五
+  example_english: Five, four, three, two, one, blast-off!
 second:
   english: second
   pos: n
@@ -2015,6 +2278,7 @@ second:
   vietnamese: thứ hai
   spanish: segundo
   chinese: 第二
+  example_english: Is Carla her first or second child?
 doctor:
   english: doctor
   pos: n
@@ -2023,6 +2287,7 @@ doctor:
   vietnamese: Bác sĩ
   spanish: médico
   chinese: 医生
+  example_english: The doctor prescribed some medication.
 dollar:
   english: dollar
   pos: n
@@ -2031,6 +2296,7 @@ dollar:
   vietnamese: đô la
   spanish: dólar
   chinese: 美元
+  example_english: Can I borrow $10?
 enough:
   english: enough
   pos: fw
@@ -2039,6 +2305,7 @@ enough:
   vietnamese: đầy đủ
   spanish: suficiente
   chinese: 足够的
+  example_english: Is there enough dessert/Are there enough desserts for everyone?
 dog:
   english: dog
   pos: n
@@ -2047,6 +2314,7 @@ dog:
   vietnamese: chú chó
   spanish: perro
   chinese: 狗
+  example_english: my pet dog
 funny:
   english: funny
   pos: j
@@ -2055,6 +2323,7 @@ funny:
   vietnamese: vui
   spanish: gracioso
   chinese: 有趣的
+  example_english: Do you know any funny jokes?
 wear:
   english: wear
   pos: v
@@ -2063,6 +2332,7 @@ wear:
   vietnamese: mặc
   spanish: tener puesto
   chinese: 穿
+  example_english: Tracey is wearing a simple black dress.
 die:
   english: die
   pos: v
@@ -2071,6 +2341,7 @@ die:
   vietnamese: chết
   spanish: morir
   chinese: 死
+  example_english: Twelve people died in the accident.
 sir:
   english: sir
   pos: n
@@ -2079,6 +2350,7 @@ sir:
   vietnamese: quý ngài
   spanish: señor
   chinese: 先生
+  example_english: Would you like to see the menu, sir?
 hard:
   english: hard
   pos: j
@@ -2087,6 +2359,7 @@ hard:
   vietnamese: cứng
   spanish: difícil
   chinese: 难的
+  example_english: a hard surface
 honey:
   english: honey
   pos: n
@@ -2095,6 +2368,7 @@ honey:
   vietnamese: em yêu
   spanish: miel
   chinese: 蜂蜜
+  example_english: UK set honey/runny honey
 sound:
   english: sound
   pos: v
@@ -2103,6 +2377,7 @@ sound:
   vietnamese: âm thanh
   spanish: sonido
   chinese: 声音
+  example_english: They could hear the sound of a bell tolling in the distance.
 sex:
   english: sex
   pos: n
@@ -2111,6 +2386,7 @@ sex:
   vietnamese: tình dục
   spanish: sexo
   chinese: 性别
+  example_english: What sex is your cat?
 hate:
   english: hate
   pos: v
@@ -2119,6 +2395,7 @@ hate:
   vietnamese: ghét bỏ
   spanish: odio
   chinese: 恨
+  example_english: Kelly hates her teacher.
 suppose:
   english: suppose
   pos: v
@@ -2127,6 +2404,8 @@ suppose:
   vietnamese: giả sử
   spanish: suponer
   chinese: 认为
+  example_english: "[ + (that) ] Dan didn't answer his phone, so I suppose (that)
+    he's busy."
 head:
   english: head
   pos: v
@@ -2135,6 +2414,7 @@ head:
   vietnamese: cái đầu
   spanish: cabeza
   chinese: 头
+  example_english: Put this hat on to keep your head warm.
 understand:
   english: understand
   pos: v
@@ -2143,6 +2423,7 @@ understand:
   vietnamese: hiểu biết
   spanish: comprender
   chinese: 理解
+  example_english: She explained the whole idea again, but I still didn't understand.
 whoa:
   english: whoa
   pos: u
@@ -2151,6 +2432,8 @@ whoa:
   vietnamese: Ái chà
   spanish: guau
   chinese: 哇
+  example_english: '"Whoa there, Poppy," he said to his pony, and stopped beside the
+    kerb.'
 movie:
   english: movie
   pos: n
@@ -2159,6 +2442,7 @@ movie:
   vietnamese: bộ phim
   spanish: película
   chinese: 电影
+  example_english: My favourite movie is "Casablanca".
 worry:
   english: worry
   pos: v
@@ -2167,6 +2451,7 @@ worry:
   vietnamese: lo
   spanish: preocuparse
   chinese: 担心
+  example_english: Try not to worry - there's nothing you can do to change the situation.
 cool:
   english: cool
   pos: u
@@ -2175,6 +2460,7 @@ cool:
   vietnamese: mát mẻ
   spanish: Frío
   chinese: 凉爽的
+  example_english: cool water
 marry:
   english: marry
   pos: v
@@ -2183,6 +2469,7 @@ marry:
   vietnamese: kết hôn
   spanish: casar
   chinese: 结婚
+  example_english: Men tend to marry later than women.
 miss:
   english: miss
   pos: v
@@ -2191,6 +2478,7 @@ miss:
   vietnamese: bỏ lỡ
   spanish: señorita
   chinese: 错过
+  example_english: I missed the start of the class because my bus was late.
 pay:
   english: pay
   pos: v
@@ -2199,6 +2487,7 @@ pay:
   vietnamese: trả tiền
   spanish: pagar
   chinese: 支付
+  example_english: How much did you pay for the tickets?
 hour:
   english: hour
   pos: n
@@ -2207,6 +2496,7 @@ hour:
   vietnamese: giờ
   spanish: hora
   chinese: 小时
+  example_english: The exam lasted an hour and a half.
 crazy:
   english: crazy
   pos: j
@@ -2215,6 +2505,7 @@ crazy:
   vietnamese: khùng
   spanish: loca
   chinese: 疯狂的
+  example_english: It's a crazy idea.
 change:
   english: change
   pos: v
@@ -2223,6 +2514,7 @@ change:
   vietnamese: biến đổi
   spanish: cambio
   chinese: 改变
+  example_english: She's just changed jobs.
 hot:
   english: hot
   pos: j
@@ -2231,6 +2523,7 @@ hot:
   vietnamese: nóng
   spanish: caliente
   chinese: 热的
+  example_english: a hot, sunny day
 most:
   english: most
   pos: fw
@@ -2239,6 +2532,7 @@ most:
   vietnamese: phần lớn
   spanish: la mayoría
   chinese: 最多
+  example_english: What's the most you've ever won at poker?
 excuse:
   english: excuse
   pos: v
@@ -2247,6 +2541,7 @@ excuse:
   vietnamese: thứ lỗi
   spanish: disculpar
   chinese: 借口
+  example_english: Please excuse me for arriving late - the bus was delayed.
 mother:
   english: mother
   pos: n
@@ -2255,6 +2550,7 @@ mother:
   vietnamese: mẹ
   spanish: madre
   chinese: 母亲
+  example_english: My mother was 21 when she got married.
 check:
   english: check
   pos: n
@@ -2263,6 +2559,8 @@ check:
   vietnamese: kiểm tra
   spanish: controlar
   chinese: 查看
+  example_english: You should always check your oil, water, and tyres before taking
+    your car on a long trip.
 pick:
   english: pick
   pos: v
@@ -2271,6 +2569,7 @@ pick:
   vietnamese: nhặt
   spanish: elegir
   chinese: 挑选
+  example_english: Pick a card from the pack.
 word:
   english: word
   pos: n
@@ -2279,6 +2578,7 @@ word:
   vietnamese: từ
   spanish: palabra
   chinese: 单词
+  example_english: Your essay should be no more than two thousand words long.
 same:
   english: same
   pos: j
@@ -2287,6 +2587,7 @@ same:
   vietnamese: tương tự
   spanish: mismo
   chinese: 相同的
+  example_english: My twin sister and I have the same nose.
 yourself:
   english: yourself
   pos: fw
@@ -2295,6 +2596,7 @@ yourself:
   vietnamese: chính bạn
   spanish: tú mismo
   chinese: 你自己
+  example_english: Be careful with that knife or you'll cut yourself!
 ready:
   english: ready
   pos: j
@@ -2303,6 +2605,7 @@ ready:
   vietnamese: Sẵn sàng
   spanish: Listo
   chinese: 准备好
+  example_english: "[ + to infinitive ] Are you ready to leave?"
 seem:
   english: seem
   pos: v
@@ -2311,6 +2614,7 @@ seem:
   vietnamese: hình như
   spanish: parecer
   chinese: 似乎
+  example_english: He's 16, but he often seems (to be) younger.
 win:
   english: win
   pos: v
@@ -2319,6 +2623,7 @@ win:
   vietnamese: thắng lợi
   spanish: victoria
   chinese: 赢
+  example_english: Which year was it that Italy won the World Cup?
 walk:
   english: walk
   pos: v
@@ -2327,6 +2632,7 @@ walk:
   vietnamese: đi bộ
   spanish: caminar
   chinese: 走
+  example_english: I walked home.
 father:
   english: father
   pos: n
@@ -2335,6 +2641,7 @@ father:
   vietnamese: cha
   spanish: padre
   chinese: 父亲
+  example_english: My father took me to watch the football every Saturday.
 story:
   english: story
   pos: n
@@ -2343,6 +2650,7 @@ story:
   vietnamese: câu chuyện
   spanish: historia
   chinese: 故事
+  example_english: Will you read/tell me a story, daddy?
 already:
   english: already
   pos: r
@@ -2351,6 +2659,7 @@ already:
   vietnamese: đã sẵn sàng
   spanish: ya
   chinese: 已经
+  example_english: I asked him to come to the exhibition but he'd already seen it.
 hope:
   english: hope
   pos: v
@@ -2359,6 +2668,7 @@ hope:
   vietnamese: mong
   spanish: esperar
   chinese: 希望
+  example_english: I'm hoping for an interview next week.
 part:
   english: part
   pos: n
@@ -2367,6 +2677,7 @@ part:
   vietnamese: phần
   spanish: parte
   chinese: 部分
+  example_english: Part of my steak isn't cooked properly.
 open:
   english: open
   pos: v
@@ -2375,6 +2686,7 @@ open:
   vietnamese: mở
   spanish: abierto
   chinese: 打开
+  example_english: an open door/window
 lady:
   english: lady
   pos: n
@@ -2383,6 +2695,7 @@ lady:
   vietnamese: quý bà
   spanish: dama
   chinese: 淑女
+  example_english: There's a young lady here to see you.
 read:
   english: read
   pos: v
@@ -2391,6 +2704,7 @@ read:
   vietnamese: đọc
   spanish: leer
   chinese: 读
+  example_english: He spent a pleasant afternoon reading (the newspaper/a book).
 drink:
   english: drink
   pos: n
@@ -2399,6 +2713,7 @@ drink:
   vietnamese: uống
   spanish: beber
   chinese: 喝
+  example_english: Would you like a drink of water/tea/juice?
 sleep:
   english: sleep
   pos: v
@@ -2407,6 +2722,7 @@ sleep:
   vietnamese: ngủ
   spanish: dormir
   chinese: 睡觉
+  example_english: I must get some sleep - I'm exhausted.
 number:
   english: number
   pos: n
@@ -2415,6 +2731,7 @@ number:
   vietnamese: con số
   spanish: número
   chinese: 数字
+  example_english: 25, 300, and a billion are all numbers.
 write:
   english: write
   pos: v
@@ -2423,6 +2740,8 @@ write:
   vietnamese: viết
   spanish: escribe
   chinese: 写
+  example_english: When you fill in the form, please write clearly/legibly in black
+    ink.
 morning:
   english: morning
   pos: n
@@ -2431,6 +2750,7 @@ morning:
   vietnamese: buổi sáng
   spanish: Mañana
   chinese: 早晨
+  example_english: a beautiful/sunny/wet morning
 tomorrow:
   english: tomorrow
   pos: n
@@ -2439,6 +2759,7 @@ tomorrow:
   vietnamese: ngày mai
   spanish: mañana
   chinese: 明天
+  example_english: I'm having dinner with Rachel tomorrow night.
 next:
   english: next
   pos: fw
@@ -2447,6 +2768,7 @@ next:
   vietnamese: tiếp theo
   spanish: Siguiente
   chinese: 下一个
+  example_english: Who works in the office next to yours?
 phone:
   english: phone
   pos: n
@@ -2455,6 +2777,7 @@ phone:
   vietnamese: điện thoại
   spanish: teléfono
   chinese: 电话
+  example_english: Just then, his phone rang.
 four:
   english: four
   pos: m
@@ -2463,6 +2786,7 @@ four:
   vietnamese: bốn
   spanish: cuatro
   chinese: 四
+  example_english: Most animals have four legs.
 once:
   english: once
   pos: r
@@ -2471,6 +2795,7 @@ once:
   vietnamese: Một lần
   spanish: una vez
   chinese: 一次
+  example_english: I went sailing once, but I didn't like it.
 somebody:
   english: somebody
   pos: fw
@@ -2479,6 +2804,8 @@ somebody:
   vietnamese: có ai
   spanish: alguien
   chinese: 某人
+  example_english: I’d rather take care of my own kids than let somebody I don’t know
+    raise them.
 probably:
   english: probably
   pos: r
@@ -2487,6 +2814,7 @@ probably:
   vietnamese: có thể
   spanish: probablemente
   chinese: 大概
+  example_english: I'll probably be home by midnight.
 without:
   english: without
   pos: fw
@@ -2495,6 +2823,7 @@ without:
   vietnamese: không có
   spanish: sin que
   chinese: 没有
+  example_english: I left without my umbrella.
 many:
   english: many
   pos: fw
@@ -2503,6 +2832,7 @@ many:
   vietnamese: nhiều
   spanish: muchos
   chinese: 许多
+  example_english: I don't have many clothes.
 such:
   english: such
   pos: fw
@@ -2511,6 +2841,7 @@ such:
   vietnamese: như là
   spanish: tal
   chinese: 这样的
+  example_english: That's such a good film.
 eye:
   english: eye
   pos: n
@@ -2519,6 +2850,7 @@ eye:
   vietnamese: con mắt
   spanish: ojo
   chinese: 眼睛
+  example_english: He has no sight in his left eye.
 drive:
   english: drive
   pos: v
@@ -2527,6 +2859,7 @@ drive:
   vietnamese: lái xe
   spanish: conducir
   chinese: 驾驶
+  example_english: I'm learning to drive.
 wife:
   english: wife
   pos: n
@@ -2535,6 +2868,7 @@ wife:
   vietnamese: người vợ
   spanish: esposa
   chinese: 妻子
+  example_english: I met Greg's wife for the first time.
 book:
   english: book
   pos: n
@@ -2543,6 +2877,7 @@ book:
   vietnamese: sách
   spanish: libro
   chinese: 书
+  example_english: Have you read any good books recently?
 hang:
   english: hang
   pos: v
@@ -2553,6 +2888,7 @@ hang:
     '
   spanish: colgar
   chinese: 悬挂
+  example_english: A heavy gold necklace hung around her neck.
 since:
   english: since
   pos: fw
@@ -2561,6 +2897,8 @@ since:
   vietnamese: từ
   spanish: ya que
   chinese: 自从
+  example_english: Emma went to work in New York a year ago, and we haven't seen her
+    since.
 throw:
   english: throw
   pos: v
@@ -2569,6 +2907,7 @@ throw:
   vietnamese: ném
   spanish: lanzar
   chinese: 扔
+  example_english: My friend threw the ball back over the fence.
 dead:
   english: dead
   pos: j
@@ -2577,6 +2916,7 @@ dead:
   vietnamese: chết
   spanish: muerto
   chinese: 死的
+  example_english: She's been dead for 20 years now.
 stand:
   english: stand
   pos: v
@@ -2585,6 +2925,7 @@ stand:
   vietnamese: đứng
   spanish: pararse
   chinese: 站立
+  example_english: Granny says if she stands for a long time her ankles hurt.
 myself:
   english: myself
   pos: fw
@@ -2593,6 +2934,7 @@ myself:
   vietnamese: riêng tôi
   spanish: mí mismo
   chinese: 我
+  example_english: I bought myself a new coat.
 dinner:
   english: dinner
   pos: n
@@ -2601,6 +2943,7 @@ dinner:
   vietnamese: bữa tối
   spanish: cena
   chinese: 晚餐
+  example_english: We were just having (our) dinner.
 anyone:
   english: anyone
   pos: fw
@@ -2609,6 +2952,7 @@ anyone:
   vietnamese: bất cứ ai
   spanish: cualquiera
   chinese: 任何人
+  example_english: I haven't spoken to anyone all day.
 hand:
   english: hand
   pos: v
@@ -2617,6 +2961,7 @@ hand:
   vietnamese: tay
   spanish: mano
   chinese: 手
+  example_english: All their toys are made by hand.
 each:
   english: each
   pos: fw
@@ -2625,6 +2970,8 @@ each:
   vietnamese: mỗi
   spanish: cada
   chinese: 每个
+  example_english: When you run, each foot leaves the ground before the other comes
+    down.
 anyway:
   english: anyway
   pos: r
@@ -2633,6 +2980,7 @@ anyway:
   vietnamese: dù sao
   spanish: de todos modos
   chinese: 反正
+  example_english: Of course I don't mind taking you home - I'm going that way anyway.
 television:
   english: television
   pos: n
@@ -2641,6 +2989,7 @@ television:
   vietnamese: Tivi
   spanish: televisión
   chinese: 电视
+  example_english: a 3D/an HD television
 learn:
   english: learn
   pos: v
@@ -2649,6 +2998,7 @@ learn:
   vietnamese: học
   spanish: aprender
   chinese: 学
+  example_english: They learn Russian at school.
 shut:
   english: shut
   pos: v
@@ -2657,6 +3007,7 @@ shut:
   vietnamese: đóng cửa
   spanish: cerrado
   chinese: 关闭
+  example_english: Please shut the gate.
 town:
   english: town
   pos: n
@@ -2665,6 +3016,7 @@ town:
   vietnamese: thị trấn
   spanish: pueblo
   chinese: 镇
+  example_english: a seaside/coastal town
 beautiful:
   english: beautiful
   pos: j
@@ -2673,6 +3025,7 @@ beautiful:
   vietnamese: xinh đẹp
   spanish: hermoso
   chinese: 美丽的
+  example_english: a beautiful woman
 both:
   english: both
   pos: fw
@@ -2681,6 +3034,7 @@ both:
   vietnamese: cả hai
   spanish: ambas cosas
   chinese: 两个都
+  example_english: Both my parents are teachers.
 date:
   english: date
   pos: v
@@ -2689,6 +3043,7 @@ date:
   vietnamese: ngày
   spanish: fecha
   chinese: 日期
+  example_english: What's the date (today)?/What date is it?/What's today's date?
 spend:
   english: spend
   pos: v
@@ -2697,6 +3052,7 @@ spend:
   vietnamese: dùng
   spanish: gastar
   chinese: 花费
+  example_english: How much did you spend?
 office:
   english: office
   pos: n
@@ -2705,6 +3061,7 @@ office:
   vietnamese: văn phòng
   spanish: oficina
   chinese: 办公室
+  example_english: the director's office
 hit:
   english: hit
   pos: v
@@ -2713,6 +3070,7 @@ hit:
   vietnamese: đánh
   spanish: pegar
   chinese: 打
+  example_english: Teachers are not allowed to hit their pupils.
 yet:
   english: yet
   pos: fw
@@ -2721,6 +3079,7 @@ yet:
   vietnamese: nhưng
   spanish: aún
   chinese: 然而
+  example_english: I haven't spoken to her yet.
 save:
   english: save
   pos: v
@@ -2729,6 +3088,7 @@ save:
   vietnamese: tiết kiệm
   spanish: ahorrar
   chinese: 节省
+  example_english: Wearing seat belts has saved many lives.
 'true':
   english: 'true'
   pos: j
@@ -2737,6 +3097,7 @@ save:
   vietnamese: thật
   spanish: verdadero
   chinese: 真的
+  example_english: "[ + that ] Is it true that Mariana and Mark are getting married?"
 sweet:
   english: sweet
   pos: j
@@ -2745,6 +3106,7 @@ sweet:
   vietnamese: ngọt
   spanish: dulce
   chinese: 甜的
+  example_english: The pineapple was sweet and juicy.
 until:
   english: until
   pos: fw
@@ -2753,6 +3115,7 @@ until:
   vietnamese: cho đến khi
   spanish: Hasta que
   chinese: 直到
+  example_english: I was up until three o'clock trying to get it finished!
 food:
   english: food
   pos: n
@@ -2761,6 +3124,7 @@ food:
   vietnamese: món ăn
   spanish: alimento
   chinese: 食物
+  example_english: baby food
 while:
   english: while
   pos: n
@@ -2769,6 +3133,7 @@ while:
   vietnamese: trong khi
   spanish: tiempo
   chinese: 尽管
+  example_english: I read it while you were drying your hair.
 send:
   english: send
   pos: v
@@ -2777,6 +3142,8 @@ send:
   vietnamese: gửi
   spanish: enviar
   chinese: 发送
+  example_english: "[ + two objects ] I'll send her a letter/email/parcel/postcard
+    next week."
 high:
   english: high
   pos: j
@@ -2785,6 +3152,7 @@ high:
   vietnamese: cao
   spanish: alto
   chinese: 高的
+  example_english: a high building/mountain
 anymore:
   english: anymore
   pos: r
@@ -2793,6 +3161,7 @@ anymore:
   vietnamese: nữa không
   spanish: más
   chinese: 不再
+  example_english: I don't do yoga anymore.
 also:
   english: also
   pos: r
@@ -2801,6 +3170,7 @@ also:
   vietnamese: cũng
   spanish: además
   chinese: 还
+  example_english: She's a photographer and also writes books.
 news:
   english: news
   pos: n
@@ -2809,6 +3179,7 @@ news:
   vietnamese: Tin tức
   spanish: noticias
   chinese: 消息
+  example_english: That's the best (piece of) news I've heard for a long time!
 Christmas:
   english: Christmas
   pos: K
@@ -2817,6 +3188,7 @@ Christmas:
   vietnamese: Giáng sinh
   spanish: Navidad
   chinese: 圣诞节
+  example_english: We're going to my mother's for Christmas.
 ten:
   english: ten
   pos: m
@@ -2825,6 +3197,7 @@ ten:
   vietnamese: mười
   spanish: diez
   chinese: 十
+  example_english: Her father died ten years ago.
 ass:
   english: ass
   pos: n
@@ -2833,6 +3206,7 @@ ass:
   vietnamese: mông
   spanish: culo
   chinese: 屁股
+  example_english: a pompous ass
 business:
   english: business
   pos: n
@@ -2841,6 +3215,7 @@ business:
   vietnamese: việc kinh doanh
   spanish: negocio
   chinese: 商业
+  example_english: My brother's in business.
 couple:
   english: couple
   pos: n
@@ -2849,6 +3224,7 @@ couple:
   vietnamese: cặp đôi
   spanish: pareja
   chinese: 夫妻
+  example_english: The doctor said my leg should be better in a couple of days.
 totally:
   english: totally
   pos: r
@@ -2857,6 +3233,7 @@ totally:
   vietnamese: Tổng cộng
   spanish: totalmente
   chinese: 完全
+  example_english: Her second husband is totally different from Mark.
 door:
   english: door
   pos: n
@@ -2865,6 +3242,7 @@ door:
   vietnamese: cửa
   spanish: puerta
   chinese: 门
+  example_english: the front door
 gay:
   english: gay
   pos: j
@@ -2873,6 +3251,7 @@ gay:
   vietnamese: gay
   spanish: homosexual
   chinese: 同性恋
+  example_english: My aunt is gay.
 exactly:
   english: exactly
   pos: r
@@ -2881,6 +3260,7 @@ exactly:
   vietnamese: một cách chính xác
   spanish: exactamente
   chinese: 确切地
+  example_english: The journey took exactly three hours.
 parent:
   english: parent
   pos: n
@@ -2889,6 +3269,7 @@ parent:
   vietnamese: cha mẹ
   spanish: padre
   chinese: 父母
+  example_english: I'm going to meet Richard's parents for the first time this weekend.
 few:
   english: few
   pos: fw
@@ -2897,6 +3278,7 @@ few:
   vietnamese: vài
   spanish: pocos
   chinese: 很少
+  example_english: I need to get a few things in town.
 month:
   english: month
   pos: n
@@ -2905,6 +3287,7 @@ month:
   vietnamese: tháng
   spanish: mes
   chinese: 月
+  example_english: I'll be away for a month from mid-June to mid-July.
 easy:
   english: easy
   pos: j
@@ -2913,6 +3296,7 @@ easy:
   vietnamese: dễ
   spanish: fácil
   chinese: 简单的
+  example_english: an easy exam
 deal:
   english: deal
   pos: v
@@ -2921,6 +3305,7 @@ deal:
   vietnamese: thỏa thuận
   spanish: acuerdo
   chinese: 交易
+  example_english: a business deal
 ow:
   english: ow
   pos: u
@@ -2929,6 +3314,7 @@ ow:
   vietnamese: nợ
   spanish: Ay
   chinese: 哦
+  example_english: Ow, stop it, you're hurting me!
 hurt:
   english: hurt
   pos: v
@@ -2937,6 +3323,7 @@ hurt:
   vietnamese: đau
   spanish: herir
   chinese: 伤害
+  example_english: Tell me where it hurts.
 nobody:
   english: nobody
   pos: fw
@@ -2945,6 +3332,7 @@ nobody:
   vietnamese: không ai
   spanish: nadie
   chinese: 没有人
+  example_english: Is there nobody here who can answer my question?
 OK:
   english: OK
   pos: r
@@ -2953,6 +3341,7 @@ OK:
   vietnamese: ĐƯỢC RỒI
   spanish: OK
   chinese: 好的
+  example_english: '"I''ll pay you back tomorrow." "OK, no problem."'
 perfect:
   english: perfect
   pos: j
@@ -2961,6 +3350,7 @@ perfect:
   vietnamese: hoàn hảo
   spanish: Perfecto
   chinese: 完美的
+  example_english: a perfect day
 lie:
   english: lie
   pos: v
@@ -2969,6 +3359,7 @@ lie:
   vietnamese: nói dối
   spanish: mentir
   chinese: 说谎
+  example_english: to lie in bed
 free:
   english: free
   pos: j
@@ -2977,6 +3368,8 @@ free:
   vietnamese: tự do
   spanish: libre
   chinese: 自由的
+  example_english: "[ + to infinitive ] Am I free (= do I have permission) to leave
+    now?"
 young:
   english: young
   pos: j
@@ -2985,6 +3378,7 @@ young:
   vietnamese: trẻ tuổi
   spanish: joven
   chinese: 年轻的
+  example_english: young adults/children
 weird:
   english: weird
   pos: j
@@ -2993,6 +3387,8 @@ weird:
   vietnamese: kỳ dị
   spanish: extraño
   chinese: 诡异的
+  example_english: He was sitting alone by a window with a weird contraption on the
+    table in front of him.
 whatever:
   english: whatever
   pos: fw
@@ -3001,6 +3397,7 @@ whatever:
   vietnamese: sao cũng được
   spanish: lo que sea
   chinese: 任何
+  example_english: We'll go whatever the weather.
 brother:
   english: brother
   pos: n
@@ -3009,6 +3406,7 @@ brother:
   vietnamese: Anh trai
   spanish: hermano
   chinese: 兄弟
+  example_english: Do you have any brothers and sisters?
 ago:
   english: ago
   pos: r
@@ -3017,6 +3415,7 @@ ago:
   vietnamese: trước kia
   spanish: atrás
   chinese: 前
+  example_english: He left the house over an hour ago.
 end:
   english: end
   pos: n
@@ -3025,6 +3424,7 @@ end:
   vietnamese: chấm dứt
   spanish: final
   chinese: 结尾
+  example_english: This cable should have a plug at one end and a socket at the other.
 ball:
   english: ball
   pos: n
@@ -3033,6 +3433,7 @@ ball:
   vietnamese: trái bóng
   spanish: pelota
   chinese: 球
+  example_english: a beach/golf/tennis ball
 finally:
   english: finally
   pos: r
@@ -3041,6 +3442,7 @@ finally:
   vietnamese: cuối cùng
   spanish: finalmente
   chinese: 最后
+  example_english: We finally got home at midnight.
 line:
   english: line
   pos: n
@@ -3049,6 +3451,7 @@ line:
   vietnamese: hàng
   spanish: línea
   chinese: 线
+  example_english: a straight line
 its:
   english: its
   pos: fw
@@ -3057,6 +3460,7 @@ its:
   vietnamese: nó là
   spanish: su
   chinese: 它的
+  example_english: The dog hurt its paw.
 ha:
   english: ha
   pos: u
@@ -3065,6 +3469,8 @@ ha:
   vietnamese: ha
   spanish: decir ah
   chinese: 哈
+  example_english: He left her? Ha! That'll teach her to go chasing other women's
+    husbands!
 important:
   english: important
   pos: j
@@ -3073,6 +3479,7 @@ important:
   vietnamese: quan trọng
   spanish: importante
   chinese: 重要的
+  example_english: I think his career is more important to him than I am.
 fall:
   english: fall
   pos: v
@@ -3081,6 +3488,7 @@ fall:
   vietnamese: rơi
   spanish: otoño
   chinese: 落下
+  example_english: The path's very steep, so be careful you don't fall.
 heart:
   english: heart
   pos: n
@@ -3089,6 +3497,7 @@ heart:
   vietnamese: trái tim
   spanish: corazón
   chinese: 心
+  example_english: He's got a weak/bad heart (= his heart is not healthy).
 fat:
   english: fat
   pos: j
@@ -3097,6 +3506,7 @@ fat:
   vietnamese: mập mạp
   spanish: grasa
   chinese: 胖的
+  example_english: He eats all the time but he never gets fat.
 class:
   english: class
   pos: n
@@ -3105,6 +3515,7 @@ class:
   vietnamese: lớp
   spanish: clase
   chinese: 班级
+  example_english: Which class are you in this year?
 shoot:
   english: shoot
   pos: v
@@ -3113,6 +3524,7 @@ shoot:
   vietnamese: bắn
   spanish: disparar
   chinese: 射击
+  example_english: If he's not armed, don't shoot.
 picture:
   english: picture
   pos: n
@@ -3121,6 +3533,7 @@ picture:
   vietnamese: hình ảnh
   spanish: imagen
   chinese: 图片
+  example_english: Freddy drew/painted a picture of my dog.
 sell:
   english: sell
   pos: v
@@ -3129,6 +3542,7 @@ sell:
   vietnamese: bán
   spanish: vender
   chinese: 卖
+  example_english: "[ + two objects ] I sold him my car/I sold my car to him for $600."
 side:
   english: side
   pos: n
@@ -3137,6 +3551,7 @@ side:
   vietnamese: cạnh
   spanish: lado
   chinese: 边
+  example_english: The names of ships are usually painted on their sides.
 wish:
   english: wish
   pos: v
@@ -3145,6 +3560,7 @@ wish:
   vietnamese: điều ước
   spanish: deseo
   chinese: 希望
+  example_english: I wish (that) I was/were a bit taller.
 mind:
   english: mind
   pos: v
@@ -3153,6 +3569,8 @@ mind:
   vietnamese: tâm trí
   spanish: mente
   chinese: 头脑
+  example_english: Her mind was full of what had happened the night before, and she
+    just wasn't concentrating.
 hair:
   english: hair
   pos: n
@@ -3161,6 +3579,7 @@ hair:
   vietnamese: tóc
   spanish: pelo
   chinese: 头发
+  example_english: He's got short, dark hair.
 cut:
   english: cut
   pos: v
@@ -3169,6 +3588,7 @@ cut:
   vietnamese: cắt
   spanish: Corte
   chinese: 切
+  example_english: to cut a slice of bread
 wedding:
   english: wedding
   pos: n
@@ -3177,6 +3597,7 @@ wedding:
   vietnamese: lễ cưới
   spanish: boda
   chinese: 婚礼
+  example_english: a wedding cake/dress/invitation/present/reception
 reason:
   english: reason
   pos: n
@@ -3185,6 +3606,7 @@ reason:
   vietnamese: lý do
   spanish: razón
   chinese: 原因
+  example_english: The reason for the disaster was engine failure, not human error.
 become:
   english: become
   pos: v
@@ -3193,6 +3615,7 @@ become:
   vietnamese: trở thành
   spanish: convertirse en
   chinese: 变得
+  example_english: I was becoming increasingly suspicious of his motives.
 least:
   english: least
   pos: fw
@@ -3201,6 +3624,7 @@ least:
   vietnamese: ít nhất
   spanish: el menos
   chinese: 至少
+  example_english: This group is the least likely of the four to win.
 bite:
   english: bite
   pos: v
@@ -3209,6 +3633,7 @@ bite:
   vietnamese: cắn
   spanish: morder
   chinese: 咬
+  example_english: He bit into the apple.
 fuck:
   english: fuck
   pos: v
@@ -3217,6 +3642,7 @@ fuck:
   vietnamese: đụ
   spanish: Mierda
   chinese: 他妈的
+  example_english: Fuck - the car won't start!
 under:
   english: under
   pos: fw
@@ -3225,6 +3651,7 @@ under:
   vietnamese: Dưới
   spanish: por debajo
   chinese: 在下面
+  example_english: He hid under the bed.
 bed:
   english: bed
   pos: n
@@ -3233,6 +3660,7 @@ bed:
   vietnamese: Giường
   spanish: cama
   chinese: 床
+  example_english: He lived in a room with only two chairs, a bed, and a table.
 paper:
   english: paper
   pos: n
@@ -3241,6 +3669,7 @@ paper:
   vietnamese: giấy
   spanish: papel
   chinese: 纸
+  example_english: a piece/sheet of paper
 different:
   english: different
   pos: j
@@ -3249,6 +3678,7 @@ different:
   vietnamese: khác nhau
   spanish: diferente
   chinese: 不同的
+  example_english: She seems to wear something different every day.
 catch:
   english: catch
   pos: v
@@ -3257,6 +3687,7 @@ catch:
   vietnamese: chụp lấy
   spanish: captura
   chinese: 抓住
+  example_english: I managed to catch the glass before it hit the ground.
 mine:
   english: mine
   pos: fw
@@ -3265,6 +3696,7 @@ mine:
   vietnamese: của tôi
   spanish: mía
   chinese: 矿
+  example_english: '"Whose bag is this?" "It''s mine."'
 six:
   english: six
   pos: m
@@ -3273,6 +3705,7 @@ six:
   vietnamese: sáu
   spanish: seis
   chinese: 六
+  example_english: Look for a bus with a number six on the front.
 set:
   english: set
   pos: v
@@ -3281,6 +3714,7 @@ set:
   vietnamese: bộ
   spanish: establecer
   chinese: 放
+  example_english: He set a vase of flowers on the table.
 face:
   english: face
   pos: v
@@ -3289,6 +3723,7 @@ face:
   vietnamese: đối mặt
   spanish: cara
   chinese: 脸
+  example_english: She has a long, thin face.
 speak:
   english: speak
   pos: v
@@ -3297,6 +3732,7 @@ speak:
   vietnamese: nói
   spanish: hablar
   chinese: 说话
+  example_english: Would you mind speaking more slowly, please?
 suck:
   english: suck
   pos: v
@@ -3305,6 +3741,7 @@ suck:
   vietnamese: hút
   spanish: chupar
   chinese: 吸
+  example_english: She was sitting on the grass sucking lemonade through a straw.
 sometimes:
   english: sometimes
   pos: r
@@ -3313,6 +3750,8 @@ sometimes:
   vietnamese: thỉnh thoảng
   spanish: algunas veces
   chinese: 有时
+  example_english: Sometimes we take food with us and sometimes we buy food when we're
+    there.
 city:
   english: city
   pos: n
@@ -3321,6 +3760,7 @@ city:
   vietnamese: thành phố
   spanish: ciudad
   chinese: 城市
+  example_english: Many of the world's cities have populations of more than five million.
 special:
   english: special
   pos: j
@@ -3329,6 +3769,7 @@ special:
   vietnamese: đặc biệt
   spanish: especial
   chinese: 特别的
+  example_english: The car has a number of special safety features.
 stick:
   english: stick
   pos: v
@@ -3337,6 +3778,7 @@ stick:
   vietnamese: dính vào
   spanish: palo
   chinese: 戳
+  example_english: The old man was carrying a load of sticks.
 question:
   english: question
   pos: v
@@ -3345,6 +3787,7 @@ question:
   vietnamese: câu hỏi
   spanish: pregunta
   chinese: 问题
+  example_english: The police asked me questions all day.
 dude:
   english: dude
   pos: n
@@ -3353,6 +3796,7 @@ dude:
   vietnamese: anh bạn
   spanish: tipo
   chinese: 老兄
+  example_english: Some dude just asked me if I knew you.
 realize:
   english: realize
   pos: v
@@ -3361,6 +3805,7 @@ realize:
   vietnamese: nhận ra
   spanish: darse cuenta
   chinese: 意识到
+  example_english: They didn't realize the danger they were in.
 birthday:
   english: birthday
   pos: n
@@ -3369,6 +3814,7 @@ birthday:
   vietnamese: ngày sinh nhật
   spanish: cumpleaños
   chinese: 生日
+  example_english: Happy birthday, Flavio!
 point:
   english: point
   pos: v
@@ -3377,6 +3823,7 @@ point:
   vietnamese: điểm
   spanish: punto
   chinese: 观点
+  example_english: I'd like to discuss the first point in your essay.
 enjoy:
   english: enjoy
   pos: v
@@ -3385,6 +3832,7 @@ enjoy:
   vietnamese: vui thích
   spanish: disfrutar
   chinese: 请享用
+  example_english: I really enjoyed that movie/book/concert/party/meal.
 fact:
   english: fact
   pos: n
@@ -3393,6 +3841,7 @@ fact:
   vietnamese: thực tế
   spanish: hecho
   chinese: 事实
+  example_english: No decision will be made until we know all the facts.
 dance:
   english: dance
   pos: v
@@ -3401,6 +3850,7 @@ dance:
   vietnamese: nhảy
   spanish: baile
   chinese: 舞蹈
+  example_english: We danced all night.
 soon:
   english: soon
   pos: r
@@ -3409,6 +3859,7 @@ soon:
   vietnamese: Sớm
   spanish: pronto
   chinese: 很快
+  example_english: She'll soon be here./She'll be here soon.
 bar:
   english: bar
   pos: n
@@ -3417,6 +3868,7 @@ bar:
   vietnamese: quán ba
   spanish: bar
   chinese: 酒吧
+  example_english: They noticed him going into the hotel bar.
 wonder:
   english: wonder
   pos: v
@@ -3425,6 +3877,8 @@ wonder:
   vietnamese: ngạc nhiên
   spanish: preguntarse
   chinese: 想知道
+  example_english: "[ + question word ] Shouldn't you phone home? Your parents will
+    be wondering where you are."
 joke:
   english: joke
   pos: n
@@ -3433,6 +3887,7 @@ joke:
   vietnamese: câu nói đùa
   spanish: broma
   chinese: 玩笑
+  example_english: Did I tell you the joke about the chicken crossing the road?
 relationship:
   english: relationship
   pos: n
@@ -3441,6 +3896,8 @@ relationship:
   vietnamese: mối quan hệ
   spanish: relación
   chinese: 关系
+  example_english: Scientists have established the relationship between lung cancer
+    and smoking.
 chance:
   english: chance
   pos: n
@@ -3449,6 +3906,7 @@ chance:
   vietnamese: cơ hội
   spanish: oportunidad
   chinese: 机会
+  example_english: I didn't get/have a chance to speak to her.
 black:
   english: black
   pos: j
@@ -3457,6 +3915,7 @@ black:
   vietnamese: màu đen
   spanish: negro
   chinese: 黑色的
+  example_english: black shoes
 almost:
   english: almost
   pos: r
@@ -3465,6 +3924,7 @@ almost:
   vietnamese: hầu hết
   spanish: casi
   chinese: 几乎
+  example_english: She's almost 30.
 fight:
   english: fight
   pos: n
@@ -3473,6 +3933,7 @@ fight:
   vietnamese: Đánh nhau
   spanish: lucha
   chinese: 斗争
+  example_english: There were children fighting in the playground.
 card:
   english: card
   pos: n
@@ -3481,6 +3942,8 @@ card:
   vietnamese: Thẻ
   spanish: tarjeta
   chinese: 卡片
+  example_english: I don't have any cash - can I put this on (= pay using) my (credit/charge)
+    card?
 song:
   english: song
   pos: n
@@ -3489,6 +3952,7 @@ song:
   vietnamese: bài hát
   spanish: canción
   chinese: 歌曲
+  example_english: to sing a song
 bye:
   english: bye
   pos: u
@@ -3497,6 +3961,7 @@ bye:
   vietnamese: từ biệt
   spanish: adiós
   chinese: 再见
+  example_english: Bye! See you next week!
 coffee:
   english: coffee
   pos: n
@@ -3505,6 +3970,7 @@ coffee:
   vietnamese: cà phê
   spanish: café
   chinese: 咖啡
+  example_english: decaffeinated coffee
 awesome:
   english: awesome
   pos: j
@@ -3513,6 +3979,7 @@ awesome:
   vietnamese: đáng kinh ngạc
   spanish: increíble
   chinese: 惊人的
+  example_english: An awesome challenge/task lies ahead of them.
 sick:
   english: sick
   pos: j
@@ -3521,6 +3988,7 @@ sick:
   vietnamese: bị ốm
   spanish: enfermo
   chinese: 生病的
+  example_english: a sick child
 apartment:
   english: apartment
   pos: n
@@ -3529,6 +3997,7 @@ apartment:
   vietnamese: căn hộ, chung cư
   spanish: Departamento
   chinese: 公寓
+  example_english: I'll give you the keys to my apartment.
 figure:
   english: figure
   pos: v
@@ -3537,6 +4006,7 @@ figure:
   vietnamese: nhân vật
   spanish: figura
   chinese: 数字
+  example_english: Can you read this figure? Is it a three or an eight?
 pull:
   english: pull
   pos: v
@@ -3545,6 +4015,8 @@ pull:
   vietnamese: sự lôi kéo
   spanish: jalar
   chinese: 拉
+  example_english: Could you help me move this bookcase over there? You pull and I'll
+    push.
 box:
   english: box
   pos: n
@@ -3553,6 +4025,7 @@ box:
   vietnamese: hộp
   spanish: caja
   chinese: 盒子
+  example_english: a cardboard box
 dream:
   english: dream
   pos: n
@@ -3561,6 +4034,7 @@ dream:
   vietnamese: mơ ước
   spanish: sueño
   chinese: 梦
+  example_english: a good/bad dream
 water:
   english: water
   pos: n
@@ -3569,6 +4043,7 @@ water:
   vietnamese: nước
   spanish: agua
   chinese: 水
+  example_english: a bottle/drink/glass of water
 decide:
   english: decide
   pos: v
@@ -3577,6 +4052,7 @@ decide:
   vietnamese: quyết định
   spanish: decidir
   chinese: 决定
+  example_english: They have to decide by next Friday.
 store:
   english: store
   pos: n
@@ -3585,6 +4061,7 @@ store:
   vietnamese: cửa hàng
   spanish: Tienda
   chinese: 店铺
+  example_english: a department store
 bet:
   english: bet
   pos: v
@@ -3593,6 +4070,7 @@ bet:
   vietnamese: cá cược
   spanish: apuesta
   chinese: 赌注
+  example_english: He regularly goes to the races and bets heavily.
 lunch:
   english: lunch
   pos: n
@@ -3601,6 +4079,7 @@ lunch:
   vietnamese: Bữa trưa
   spanish: comida
   chinese: 午餐
+  example_english: What's for lunch?
 anybody:
   english: anybody
   pos: fw
@@ -3609,6 +4088,7 @@ anybody:
   vietnamese: bất kỳ ai
   spanish: cualquiera
   chinese: 任何人
+  example_english: Does anybody have change for a $10 bill?
 afraid:
   english: afraid
   pos: j
@@ -3617,6 +4097,7 @@ afraid:
   vietnamese: sợ
   spanish: atemorizado
   chinese: 害怕
+  example_english: He was/felt suddenly afraid.
 buddy:
   english: buddy
   pos: n
@@ -3625,6 +4106,7 @@ buddy:
   vietnamese: Bạn bè
   spanish: amigo
   chinese: 伙伴
+  example_english: Bob and I have been buddies for years.
 cute:
   english: cute
   pos: j
@@ -3633,6 +4115,7 @@ cute:
   vietnamese: dễ thương
   spanish: lindo
   chinese: 可爱的
+  example_english: His baby brother is really cute.
 close:
   english: close
   pos: v
@@ -3641,6 +4124,7 @@ close:
   vietnamese: gần
   spanish: cerca
   chinese: 关
+  example_english: Could you close the door please?
 bathroom:
   english: bathroom
   pos: n
@@ -3649,6 +4133,7 @@ bathroom:
   vietnamese: phòng tắm
   spanish: baño
   chinese: 浴室
+  example_english: The house has four bedrooms and two bathrooms.
 steal:
   english: steal
   pos: v
@@ -3657,6 +4142,7 @@ steal:
   vietnamese: ăn cắp
   spanish: robar
   chinese: 偷
+  example_english: She admitted stealing the money from her employers.
 full:
   english: full
   pos: j
@@ -3665,6 +4151,7 @@ full:
   vietnamese: đầy
   spanish: completo
   chinese: 满的
+  example_english: This cup is very full so be careful with it.
 company:
   english: company
   pos: n
@@ -3673,6 +4160,7 @@ company:
   vietnamese: Công ty
   spanish: empresa
   chinese: 公司
+  example_english: He works for a software company/a company that makes software.
 front:
   english: front
   pos: n
@@ -3681,6 +4169,7 @@ front:
   vietnamese: đổi diện
   spanish: frente
   chinese: 正面
+  example_english: The front of the museum is very impressive.
 ahead:
   english: ahead
   pos: r
@@ -3689,6 +4178,7 @@ ahead:
   vietnamese: phía trước
   spanish: adelante
   chinese: 先
+  example_english: The road ahead is very busy.
 moment:
   english: moment
   pos: n
@@ -3697,6 +4187,7 @@ moment:
   vietnamese: khoảng khăc
   spanish: momento
   chinese: 片刻
+  example_english: Can you wait a moment?
 case:
   english: case
   pos: n
@@ -3705,6 +4196,7 @@ case:
   vietnamese: trường hợp
   spanish: caso
   chinese: 案子
+  example_english: Over a hundred people were injured, in several cases seriously.
 though:
   english: though
   pos: fw
@@ -3713,6 +4205,7 @@ though:
   vietnamese: Tuy nhiên
   spanish: aunque
   chinese: 尽管
+  example_english: She hasn't called, even though she said she would.
 body:
   english: body
   pos: n
@@ -3721,6 +4214,8 @@ body:
   vietnamese: thân hình
   spanish: cuerpo
   chinese: 身体
+  example_english: A good diet and plenty of exercise will help you to keep your body
+    healthy.
 Mrs:
   english: Mrs
   pos: n
@@ -3729,6 +4224,7 @@ Mrs:
   vietnamese: Bà
   spanish: Sra
   chinese: 太太
+  example_english: Mrs Wood/Mrs Jean Wood
 pants:
   english: pants
   pos: n
@@ -3737,6 +4233,7 @@ pants:
   vietnamese: quần dài
   spanish: pantalones
   chinese: 裤子
+  example_english: a pair of pants
 bitch:
   english: bitch
   pos: n
@@ -3745,6 +4242,7 @@ bitch:
   vietnamese: chó cái
   spanish: perra
   chinese: 婊子
+  example_english: She can be a real bitch.
 promise:
   english: promise
   pos: v
@@ -3753,6 +4251,7 @@ promise:
   vietnamese: hứa
   spanish: promesa
   chinese: 承诺
+  example_english: "[ + to infinitive ] He promised faithfully to call me every week."
 glad:
   english: glad
   pos: j
@@ -3761,6 +4260,7 @@ glad:
   vietnamese: vui vẻ
   spanish: contento
   chinese: 高兴的
+  example_english: We were glad about her success.
 kiss:
   english: kiss
   pos: n
@@ -3769,6 +4269,7 @@ kiss:
   vietnamese: hôn
   spanish: Beso
   chinese: 吻
+  example_english: There was a young couple on the sofa, kissing passionately.
 either:
   english: either
   pos: fw
@@ -3777,6 +4278,7 @@ either:
   vietnamese: một trong hai
   spanish: o
   chinese: 任何一个
+  example_english: I don't eat meat and my husband doesn't either.
 fire:
   english: fire
   pos: n
@@ -3785,6 +4287,7 @@ fire:
   vietnamese: Cháy
   spanish: fuego
   chinese: 火
+  example_english: Animals are usually afraid of fire.
 grow:
   english: grow
   pos: v
@@ -3793,6 +4296,7 @@ grow:
   vietnamese: lớn lên
   spanish: crecer
   chinese: 生长
+  example_english: Children grow so quickly.
 build:
   english: build
   pos: v
@@ -3801,6 +4305,7 @@ build:
   vietnamese: xây dựng
   spanish: construir
   chinese: 建造
+  example_english: They're building new houses by the river.
 table:
   english: table
   pos: n
@@ -3809,6 +4314,8 @@ table:
   vietnamese: bàn
   spanish: mesa
   chinese: 桌子
+  example_english: There was a really noisy table behind us celebrating someone's
+    birthday.
 ticket:
   english: ticket
   pos: n
@@ -3817,6 +4324,7 @@ ticket:
   vietnamese: vé
   spanish: boleto
   chinese: 票
+  example_english: a concert ticket
 matter:
   english: matter
   pos: n
@@ -3825,6 +4333,7 @@ matter:
   vietnamese: vấn đề
   spanish: asunto
   chinese: 事情
+  example_english: Could I talk to you about a personal matter?
 teach:
   english: teach
   pos: v
@@ -3833,6 +4342,7 @@ teach:
   vietnamese: dạy
   spanish: enseñar
   chinese: 教
+  example_english: She taught English to foreign students.
 cat:
   english: cat
   pos: n
@@ -3841,6 +4351,7 @@ cat:
   vietnamese: con mèo
   spanish: gato
   chinese: 猫
+  example_english: 'the cat family '
 sister:
   english: sister
   pos: n
@@ -3849,6 +4360,7 @@ sister:
   vietnamese: chị gái
   spanish: hermana
   chinese: 姐姐
+  example_english: Sophie and Emily are sisters.
 girlfriend:
   english: girlfriend
   pos: n
@@ -3857,6 +4369,7 @@ girlfriend:
   vietnamese: bạn gái
   spanish: Novia
   chinese: 女朋友
+  example_english: I've never met his girlfriend.
 hat:
   english: hat
   pos: n
@@ -3865,6 +4378,7 @@ hat:
   vietnamese: mũ
   spanish: sombrero
   chinese: 帽子
+  example_english: a straw hat
 touch:
   english: touch
   pos: v
@@ -3873,6 +4387,7 @@ touch:
   vietnamese: chạm
   spanish: tocar
   chinese: 触碰
+  example_english: That paint is wet - don't touch (it).
 terrible:
   english: terrible
   pos: j
@@ -3881,6 +4396,7 @@ terrible:
   vietnamese: kinh khủng
   spanish: horrible
   chinese: 糟糕的
+  example_english: The weather was terrible.
 beer:
   english: beer
   pos: n
@@ -3889,6 +4405,7 @@ beer:
   vietnamese: bia
   spanish: cerveza
   chinese: 啤酒
+  example_english: He asked for a pint of beer.
 damn:
   english: damn
   pos: j
@@ -3897,6 +4414,7 @@ damn:
   vietnamese: chết tiệt
   spanish: maldita sea
   chinese: 该死
+  example_english: Damn, I've spilled coffee down my blouse!
 mm-hmm:
   english: mm-hmm
   pos: u
@@ -3905,6 +4423,7 @@ mm-hmm:
   vietnamese: mm-hmm
   spanish: mm-hmm
   chinese: 嗯嗯
+  example_english: ''
 club:
   english: club
   pos: n
@@ -3913,6 +4432,7 @@ club:
   vietnamese: câu lạc bộ
   spanish: club
   chinese: 俱乐部
+  example_english: I've just joined the local golf/squash/tennis club.
 amaze:
   english: amaze
   pos: v
@@ -3921,6 +4441,7 @@ amaze:
   vietnamese: kinh ngạc
   spanish: asombro
   chinese: 惊奇
+  example_english: "[ + question word ] I was amazed by how well he looked."
 smell:
   english: smell
   pos: v
@@ -3929,6 +4450,7 @@ smell:
   vietnamese: đánh hơi
   spanish: oler
   chinese: 闻
+  example_english: My hands smell of onions.
 gift:
   english: gift
   pos: n
@@ -3937,6 +4459,7 @@ gift:
   vietnamese: quà tặng
   spanish: regalo
   chinese: 礼物
+  example_english: a birthday/wedding gift
 serious:
   english: serious
   pos: j
@@ -3945,6 +4468,7 @@ serious:
   vietnamese: nghiêm túc
   spanish: serio
   chinese: 严肃的
+  example_english: a serious illness
 plan:
   english: plan
   pos: n
@@ -3953,6 +4477,7 @@ plan:
   vietnamese: kế hoạch
   spanish: plan
   chinese: 计划
+  example_english: a company's business plan
 street:
   english: street
   pos: n
@@ -3961,6 +4486,7 @@ street:
   vietnamese: đường phố
   spanish: calle
   chinese: 街道
+  example_english: The streets were strewn with rubbish after the parade.
 team:
   english: team
   pos: n
@@ -3969,6 +4495,7 @@ team:
   vietnamese: đội
   spanish: equipo
   chinese: 团队
+  example_english: a basketball/hockey/netball team
 order:
   english: order
   pos: v
@@ -3977,6 +4504,7 @@ order:
   vietnamese: gọi món
   spanish: ordenar
   chinese: 命令
+  example_english: '"Can I take your order now?" said the waiter.'
 cry:
   english: cry
   pos: v
@@ -3985,6 +4513,7 @@ cry:
   vietnamese: khóc
   spanish: llorar
   chinese: 哭
+  example_english: I could hear someone crying in the next room.
 zero:
   english: zero
   pos: m
@@ -3993,6 +4522,7 @@ zero:
   vietnamese: số không
   spanish: cero
   chinese: 零
+  example_english: Five, four, three, two, one, zero.
 drop:
   english: drop
   pos: v
@@ -4001,6 +4531,7 @@ drop:
   vietnamese: làm rơi
   spanish: soltar
   chinese: 降低
+  example_english: She dropped her keys.
 act:
   english: act
   pos: v
@@ -4009,6 +4540,7 @@ act:
   vietnamese: hành động
   spanish: Actuar
   chinese: 行为
+  example_english: Don't be so silly - you're acting like a child!
 alone:
   english: alone
   pos: j
@@ -4017,6 +4549,7 @@ alone:
   vietnamese: một mình
   spanish: solo
   chinese: 独自的
+  example_english: He likes being alone in the house.
 seat:
   english: seat
   pos: n
@@ -4025,6 +4558,7 @@ seat:
   vietnamese: ghế
   spanish: asiento
   chinese: 座位
+  example_english: Chairs, sofas and benches are different types of seat.
 eh:
   english: eh
   pos: u
@@ -4033,6 +4567,7 @@ eh:
   vietnamese: Hở
   spanish: eh
   chinese: 诶
+  example_english: '"Janet''s leaving her husband." "Eh?"'
 between:
   english: between
   pos: fw
@@ -4041,6 +4576,7 @@ between:
   vietnamese: giữa
   spanish: Entre
   chinese: 之间
+  example_english: The town lies halfway between Rome and Florence.
 eight:
   english: eight
   pos: m
@@ -4049,6 +4585,7 @@ eight:
   vietnamese: tám
   spanish: ocho
   chinese: 八
+  example_english: She was eight (years old) when her family moved here.
 twenty:
   english: twenty
   pos: m
@@ -4057,6 +4594,7 @@ twenty:
   vietnamese: hai mươi
   spanish: veinte
   chinese: 二十
+  example_english: nineteen, twenty, twenty-one
 foot:
   english: foot
   pos: n
@@ -4065,6 +4603,7 @@ foot:
   vietnamese: Bàn Chân
   spanish: pie
   chinese: 脚
+  example_english: I've got a blister on my left foot.
 seven:
   english: seven
   pos: m
@@ -4073,6 +4612,7 @@ seven:
   vietnamese: bảy
   spanish: Siete
   chinese: 七
+  example_english: The restaurant opens for dinner at seven (o'clock).
 finish:
   english: finish
   pos: v
@@ -4081,6 +4621,7 @@ finish:
   vietnamese: kết thúc
   spanish: finalizar
   chinese: 结束
+  example_english: I'll call you when I've finished my homework.
 gentleman:
   english: gentleman
   pos: n
@@ -4089,6 +4630,7 @@ gentleman:
   vietnamese: quý ông
   spanish: Caballero
   chinese: 绅士
+  example_english: Ladies and gentlemen, the show is about to begin.
 blow:
   english: blow
   pos: v
@@ -4097,6 +4639,7 @@ blow:
   vietnamese: thổi
   spanish: explotar
   chinese: 吹
+  example_english: The wind was blowing harder every minute.
 small:
   english: small
   pos: j
@@ -4105,6 +4648,7 @@ small:
   vietnamese: nhỏ bé
   spanish: pequeña
   chinese: 小的
+  example_english: a small dog/house/car/country
 trouble:
   english: trouble
   pos: n
@@ -4113,6 +4657,8 @@ trouble:
   vietnamese: rắc rối
   spanish: problema
   chinese: 麻烦
+  example_english: The tax forms were complicated and I had a lot of trouble with
+    them.
 sweetie:
   english: sweetie
   pos: n
@@ -4121,6 +4667,7 @@ sweetie:
   vietnamese: em yêu
   spanish: cariño
   chinese: 甜心
+  example_english: He's a real sweetie.
 sing:
   english: sing
   pos: v
@@ -4129,6 +4676,7 @@ sing:
   vietnamese: hát
   spanish: cantar
   chinese: 唱歌
+  example_english: The children sang two songs by Schubert at the school concert.
 pass:
   english: pass
   pos: v
@@ -4137,6 +4685,7 @@ pass:
   vietnamese: đi qua
   spanish: pasar
   chinese: 经过
+  example_english: I passed him on the stairs this morning.
 beat:
   english: beat
   pos: v
@@ -4145,6 +4694,7 @@ beat:
   vietnamese: đánh đập
   spanish: derrotar
   chinese: 打
+  example_english: Simon always beats me at tennis.
 piece:
   english: piece
   pos: n
@@ -4153,6 +4703,7 @@ piece:
   vietnamese: mảnh
   spanish: pieza
   chinese: 片
+  example_english: a piece of cloth torn from her coat
 shoe:
   english: shoe
   pos: n
@@ -4161,6 +4712,7 @@ shoe:
   vietnamese: giày
   spanish: zapato
   chinese: 鞋子
+  example_english: flat/high-heeled shoes
 welcome:
   english: welcome
   pos: j
@@ -4169,6 +4721,7 @@ welcome:
   vietnamese: hoan nghênh
   spanish: bienvenidos
   chinese: 欢迎
+  example_english: The new appointment has been widely welcomed.
 god:
   english: god
   pos: n
@@ -4177,6 +4730,7 @@ god:
   vietnamese: Chúa
   spanish: Dios
   chinese: 上帝
+  example_english: the ancient Greek gods and goddesses
 white:
   english: white
   pos: j
@@ -4185,6 +4739,7 @@ white:
   vietnamese: trắng
   spanish: blanco
   chinese: 白色的
+  example_english: a white T-shirt
 kick:
   english: kick
   pos: v
@@ -4193,6 +4748,7 @@ kick:
   vietnamese: đá
   spanish: patada
   chinese: 踢
+  example_english: I kicked the ball as hard as I could.
 bag:
   english: bag
   pos: n
@@ -4201,6 +4757,7 @@ bag:
   vietnamese: cái túi
   spanish: bolsa
   chinese: 包
+  example_english: a paper/plastic bag
 early:
   english: early
   pos: j
@@ -4209,6 +4766,7 @@ early:
   vietnamese: sớm
   spanish: temprano
   chinese: 早期的
+  example_english: If you finish early you can go home.
 excite:
   english: excite
   pos: v
@@ -4217,6 +4775,7 @@ excite:
   vietnamese: kích thích
   spanish: excitar
   chinese: 激发
+  example_english: Nothing about my life excites me at present.
 wonderful:
   english: wonderful
   pos: j
@@ -4225,6 +4784,7 @@ wonderful:
   vietnamese: Tuyệt vời
   spanish: maravilloso
   chinese: 精彩的
+  example_english: He's a wonderful cook.
 seriously:
   english: seriously
   pos: r
@@ -4233,6 +4793,7 @@ seriously:
   vietnamese: nghiêm túc
   spanish: en serio
   chinese: 严重地
+  example_english: Badly cooked shellfish can make you seriously ill.
 country:
   english: country
   pos: n
@@ -4241,6 +4802,7 @@ country:
   vietnamese: quốc gia
   spanish: país
   chinese: 国家
+  example_english: What is the largest country in Europe?
 mouth:
   english: mouth
   pos: n
@@ -4249,6 +4811,7 @@ mouth:
   vietnamese: miệng
   spanish: boca
   chinese: 嘴
+  example_english: Open your mouth wide and say "Ah".
 dear:
   english: dear
   pos: j
@@ -4257,6 +4820,7 @@ dear:
   vietnamese: kính thưa
   spanish: Estimado
   chinese: 亲
+  example_english: She was a very dear friend.
 quite:
   english: quite
   pos: r
@@ -4265,6 +4829,7 @@ quite:
   vietnamese: hoàn toàn
   spanish: bastante
   chinese: 相当
+  example_english: The two situations are quite different.
 smart:
   english: smart
   pos: j
@@ -4273,6 +4838,7 @@ smart:
   vietnamese: thông minh
   spanish: inteligente
   chinese: 聪明的
+  example_english: Guy looks very smart in his new suit, doesn't he?
 husband:
   english: husband
   pos: n
@@ -4281,6 +4847,7 @@ husband:
   vietnamese: người chồng
   spanish: esposo
   chinese: 丈夫
+  example_english: I've never met Fiona's husband.
 invite:
   english: invite
   pos: v
@@ -4289,6 +4856,7 @@ invite:
   vietnamese: mời
   spanish: invitar
   chinese: 邀请
+  example_english: We're invited to Lola's party.
 rest:
   english: rest
   pos: n
@@ -4297,6 +4865,7 @@ rest:
   vietnamese: Lên đỉnh
   spanish: descansar
   chinese: 休息
+  example_english: The doctor told him that he should rest for a few days.
 yours:
   english: yours
   pos: fw
@@ -4305,6 +4874,7 @@ yours:
   vietnamese: của bạn
   spanish: tuya
   chinese: 你的
+  example_english: Is this pen yours?
 behind:
   english: behind
   pos: fw
@@ -4313,6 +4883,7 @@ behind:
   vietnamese: phía sau
   spanish: detrás
   chinese: 在后面
+  example_english: Look behind you!
 key:
   english: key
   pos: n
@@ -4321,6 +4892,7 @@ key:
   vietnamese: Chìa khóa
   spanish: llave
   chinese: 钥匙
+  example_english: car/door keys
 dress:
   english: dress
   pos: v
@@ -4329,6 +4901,7 @@ dress:
   vietnamese: mặc quần áo
   spanish: vestir
   chinese: 裙子
+  example_english: a long/short dress
 red:
   english: red
   pos: j
@@ -4337,6 +4910,7 @@ red:
   vietnamese: màu đỏ
   spanish: rojo
   chinese: 红色的
+  example_english: red lipstick
 laugh:
   english: laugh
   pos: v
@@ -4345,6 +4919,7 @@ laugh:
   vietnamese: cười
   spanish: risa
   chinese: 笑
+  example_english: They laughed at her jokes.
 agree:
   english: agree
   pos: v
@@ -4353,6 +4928,7 @@ agree:
   vietnamese: đồng ý
   spanish: aceptar
   chinese: 同意
+  example_english: Ann and I never seem to agree.
 machine:
   english: machine
   pos: n
@@ -4361,6 +4937,7 @@ machine:
   vietnamese: cỗ máy
   spanish: máquina
   chinese: 机器
+  example_english: The different sizes of eggs are sorted by a machine.
 yep:
   english: yep
   pos: r
@@ -4369,6 +4946,7 @@ yep:
   vietnamese: Vâng
   spanish: sí
   chinese: 是的
+  example_english: '"Do I press this button?" "Yep, that''s right."'
 return:
   english: return
   pos: v
@@ -4377,6 +4955,8 @@ return:
   vietnamese: trở về
   spanish: devolver
   chinese: 返回
+  example_english: Odysseus returned home/returned to his home after many years of
+    travelling.
 space:
   english: space
   pos: n
@@ -4385,6 +4965,7 @@ space:
   vietnamese: không gian
   spanish: espacio
   chinese: 空间
+  example_english: Is there any space for my clothes in that cupboard?
 mad:
   english: mad
   pos: j
@@ -4393,6 +4974,8 @@ mad:
   vietnamese: điên
   spanish: enojado
   chinese: 疯狂的
+  example_english: "[ + to infinitive ] You're mad to walk home alone at this time
+    of night."
 truth:
   english: truth
   pos: n
@@ -4401,6 +4984,7 @@ truth:
   vietnamese: sự thật
   spanish: verdad
   chinese: 真相
+  example_english: There would seem to be some truth in what she says.
 ice:
   english: ice
   pos: n
@@ -4409,6 +4993,7 @@ ice:
   vietnamese: Nước đá
   spanish: hielo
   chinese: 冰
+  example_english: The pond was covered in ice all winter.
 follow:
   english: follow
   pos: v
@@ -4417,6 +5002,7 @@ follow:
   vietnamese: theo dõi
   spanish: seguir
   chinese: 跟随
+  example_english: A dog followed us home.
 outside:
   english: outside
   pos: fw
@@ -4425,6 +5011,7 @@ outside:
   vietnamese: ngoài
   spanish: fuera de
   chinese: 外部
+  example_english: It was a sunny day outside.
 idiot:
   english: idiot
   pos: n
@@ -4433,6 +5020,8 @@ idiot:
   vietnamese: thằng ngốc
   spanish: estúpido
   chinese: 笨蛋
+  example_english: Some idiot left the tap running in the bathroom and there's water
+    everywhere.
 rule:
   english: rule
   pos: n
@@ -4441,6 +5030,7 @@ rule:
   vietnamese: qui định
   spanish: regla
   chinese: 规则
+  example_english: A referee must know all the rules of the game.
 absolutely:
   english: absolutely
   pos: r
@@ -4449,6 +5039,7 @@ absolutely:
   vietnamese: chắc chắn rồi
   spanish: absolutamente
   chinese: 绝对地
+  example_english: I believed/trusted him absolutely.
 against:
   english: against
   pos: fw
@@ -4457,6 +5048,7 @@ against:
   vietnamese: chống lại
   spanish: contra
   chinese: 反对
+  example_english: She spoke against the decision to close the college.
 American:
   english: American
   pos: K
@@ -4465,6 +5057,7 @@ American:
   vietnamese: Người Mỹ
   spanish: Americano
   chinese: 美国人
+  example_english: They drive a big American car.
 scare:
   english: scare
   pos: v
@@ -4473,6 +5066,7 @@ scare:
   vietnamese: sự sợ hãi
   spanish: susto
   chinese: 吓
+  example_english: Sudden noises scare her.
 notice:
   english: notice
   pos: v
@@ -4481,6 +5075,7 @@ notice:
   vietnamese: để ý
   spanish: aviso
   chinese: 注意
+  example_english: I noticed a crack in the ceiling.
 chicken:
   english: chicken
   pos: n
@@ -4489,6 +5084,8 @@ chicken:
   vietnamese: Gà
   spanish: pollo
   chinese: 鸡
+  example_english: A male chicken is called a cock and a female chicken is called
+    a hen.
 ride:
   english: ride
   pos: v
@@ -4497,6 +5094,7 @@ ride:
   vietnamese: dap xe
   spanish: conducir
   chinese: 骑
+  example_english: I learned to ride a bike when I was six.
 music:
   english: music
   pos: n
@@ -4505,6 +5103,7 @@ music:
   vietnamese: Âm nhạc
   spanish: música
   chinese: 音乐
+  example_english: classical/pop/dance/rock music
 join:
   english: join
   pos: v
@@ -4513,6 +5112,7 @@ join:
   vietnamese: tham gia
   spanish: unirse
   chinese: 加入
+  example_english: A long suspension bridge joins the two islands.
 good-bye:
   english: good-bye
   pos: u
@@ -4521,6 +5121,7 @@ good-bye:
   vietnamese: Tạm biệt
   spanish: adiós
   chinese: 再见
+  example_english: ''
 ruin:
   english: ruin
   pos: v
@@ -4529,6 +5130,7 @@ ruin:
   vietnamese: sự đổ nát
   spanish: ruina
   chinese: 废墟
+  example_english: Huge modern hotels have ruined this once unspoilt coastline.
 war:
   english: war
   pos: n
@@ -4537,6 +5139,7 @@ war:
   vietnamese: chiến tranh
   spanish: guerra
   chinese: 战争
+  example_english: nuclear war
 screw:
   english: screw
   pos: v
@@ -4545,6 +5148,8 @@ screw:
   vietnamese: Đinh ốc
   spanish: tornillo
   chinese: 拧紧
+  example_english: Give it another screw to make sure the lid doesn't come off while
+    we're travelling.
 light:
   english: light
   pos: n
@@ -4553,6 +5158,7 @@ light:
   vietnamese: nhẹ
   spanish: luz
   chinese: 光
+  example_english: a bright light
 along:
   english: along
   pos: fw
@@ -4561,6 +5167,7 @@ along:
   vietnamese: dọc theo
   spanish: a lo largo de
   chinese: 沿着
+  example_english: a romantic walk along the beach/river
 poor:
   english: poor
   pos: j
@@ -4569,6 +5176,7 @@ poor:
   vietnamese: nghèo
   spanish: pobre
   chinese: 较差的
+  example_english: Most of the world's poorest countries are in Africa.
 sense:
   english: sense
   pos: n
@@ -4577,6 +5185,8 @@ sense:
   vietnamese: ý nghĩa
   spanish: sentido
   chinese: 感觉
+  example_english: With her excellent sense of smell, she could tell if you were a
+    smoker from the other side of the room.
 able:
   english: able
   pos: j
@@ -4585,6 +5195,7 @@ able:
   vietnamese: có thể
   spanish: poder
   chinese: 有能力的
+  example_english: Will she be able to cope with the work?
 secret:
   english: secret
   pos: n
@@ -4593,6 +5204,8 @@ secret:
   vietnamese: bí mật
   spanish: secreto
   chinese: 秘密
+  example_english: Why did you have to go and tell Bob about my illness? You just
+    can't keep a secret, can you?
 fly:
   english: fly
   pos: v
@@ -4601,6 +5214,7 @@ fly:
   vietnamese: ruồi
   spanish: volar
   chinese: 飞
+  example_english: The poor bird couldn't fly because it had a broken wing.
 top:
   english: top
   pos: n
@@ -4609,6 +5223,7 @@ top:
   vietnamese: đứng đầu
   spanish: parte superior
   chinese: 最佳
+  example_english: She waited for me at the top of the stairs.
 fair:
   english: fair
   pos: j
@@ -4617,6 +5232,7 @@ fair:
   vietnamese: công bằng
   spanish: justa
   chinese: 公平的
+  example_english: a fair trial
 relax:
   english: relax
   pos: v
@@ -4625,6 +5241,7 @@ relax:
   vietnamese: thư giãn
   spanish: relax
   chinese: 放松
+  example_english: After work she relaxed with a cup of tea and the newspaper.
 boyfriend:
   english: boyfriend
   pos: n
@@ -4633,6 +5250,7 @@ boyfriend:
   vietnamese: bạn trai
   spanish: novio
   chinese: 男朋友
+  example_english: He's not my boyfriend - we're just good friends!
 mistake:
   english: mistake
   pos: n
@@ -4641,6 +5259,7 @@ mistake:
   vietnamese: sai lầm, điều sai, ngộ nhận
   spanish: error
   chinese: 错误
+  example_english: I'm not blaming you - we all make mistakes.
 luck:
   english: luck
   pos: n
@@ -4649,6 +5268,7 @@ luck:
   vietnamese: may mắn
   spanish: suerte
   chinese: 运气
+  example_english: It was just luck that I asked for a job at the right time.
 group:
   english: group
   pos: n
@@ -4657,6 +5277,7 @@ group:
   vietnamese: tập đoàn
   spanish: grupo
   chinese: 团体
+  example_english: I'm meeting a group of friends for dinner tonight.
 daughter:
   english: daughter
   pos: n
@@ -4665,6 +5286,7 @@ daughter:
   vietnamese: Con gái
   spanish: hija
   chinese: 女儿
+  example_english: Liz and Phil have a daughter and three sons.
 college:
   english: college
   pos: n
@@ -4673,6 +5295,7 @@ college:
   vietnamese: trường đại học
   spanish: colega
   chinese: 大学
+  example_english: I met my husband when we were in college.
 president:
   english: president
   pos: n
@@ -4681,6 +5304,7 @@ president:
   vietnamese: chủ tịch
   spanish: presidente
   chinese: 总统
+  example_english: President Kennedy
 far:
   english: far
   pos: r
@@ -4689,6 +5313,7 @@ far:
   vietnamese: xa
   spanish: lejos
   chinese: 远的
+  example_english: How far is it from Australia to New Zealand?
 sign:
   english: sign
   pos: n
@@ -4697,6 +5322,7 @@ sign:
   vietnamese: dấu hiệu
   spanish: señal
   chinese: 符号
+  example_english: to sign a letter/cheque/contract/lease/agreement
 message:
   english: message
   pos: n
@@ -4705,6 +5331,7 @@ message:
   vietnamese: thông điệp
   spanish: mensaje
   chinese: 信息
+  example_english: If I'm not there when you call, leave a message.
 freak:
   english: freak
   pos: v
@@ -4713,6 +5340,8 @@ freak:
   vietnamese: quái đản
   spanish: fenómeno
   chinese: 怪物
+  example_english: I was born with black hair all over my back, like some sort of
+    freak.
 fault:
   english: fault
   pos: n
@@ -4721,6 +5350,7 @@ fault:
   vietnamese: lỗi
   spanish: culpa
   chinese: 过错
+  example_english: It's not my fault she didn't come!
 quick:
   english: quick
   pos: j
@@ -4729,6 +5359,7 @@ quick:
   vietnamese: nhanh
   spanish: rápido
   chinese: 快的
+  example_english: It's a quick journey.
 till:
   english: till
   pos: fw
@@ -4737,6 +5368,7 @@ till:
   vietnamese: cho đến khi
   spanish: hasta
   chinese: 直到
+  example_english: We waited till six thirty for you.
 except:
   english: except
   pos: fw
@@ -4745,6 +5377,7 @@ except:
   vietnamese: ngoại trừ
   spanish: excepto
   chinese: 除了
+  example_english: The museum is open daily except Monday(s).
 single:
   english: single
   pos: j
@@ -4753,6 +5386,7 @@ single:
   vietnamese: Độc thân
   spanish: único
   chinese: 单身的
+  example_english: He knocked his opponent down with a single blow.
 shirt:
   english: shirt
   pos: n
@@ -4761,6 +5395,7 @@ shirt:
   vietnamese: áo sơ mi
   spanish: camisa
   chinese: 衬衫
+  example_english: a striped/white shirt
 choice:
   english: choice
   pos: n
@@ -4769,6 +5404,8 @@ choice:
   vietnamese: sự lựa chọn
   spanish: elección
   chinese: 选择
+  example_english: If the product doesn't work, you are given the choice of a refund
+    or a replacement.
 attention:
   english: attention
   pos: n
@@ -4777,6 +5414,7 @@ attention:
   vietnamese: chú ý
   spanish: atención
   chinese: 注意力
+  example_english: Ladies and gentlemen, could I have your attention, please?
 power:
   english: power
   pos: n
@@ -4785,6 +5423,7 @@ power:
   vietnamese: sức mạnh
   spanish: energía
   chinese: 力量
+  example_english: I've no power over him - he does what he wants to.
 quit:
   english: quit
   pos: v
@@ -4793,6 +5432,7 @@ quit:
   vietnamese: từ bỏ
   spanish: abandonar
   chinese: 退出
+  example_english: Would you quit your job if you inherited lots of money?
 answer:
   english: answer
   pos: v
@@ -4801,6 +5441,8 @@ answer:
   vietnamese: câu trả lời
   spanish: responder
   chinese: 回答
+  example_english: The minister promised to give a written answer to the MP's detailed
+    question.
 trust:
   english: trust
   pos: v
@@ -4809,6 +5451,7 @@ trust:
   vietnamese: Lòng tin
   spanish: confianza
   chinese: 相信
+  example_english: My sister warned me not to trust him.
 fifty:
   english: fifty
   pos: m
@@ -4817,6 +5460,7 @@ fifty:
   vietnamese: năm mươi
   spanish: cincuenta
   chinese: 五十
+  example_english: forty-nine, fifty, fifty-one
 leg:
   english: leg
   pos: n
@@ -4825,6 +5469,7 @@ leg:
   vietnamese: Chân
   spanish: pierna
   chinese: 腿
+  example_english: My legs were tired after so much walking.
 wake:
   english: wake
   pos: v
@@ -4833,6 +5478,7 @@ wake:
   vietnamese: thức dậy
   spanish: despertarse
   chinese: 唤醒
+  example_english: Did you wake at all during the night?
 human:
   english: human
   pos: j
@@ -4841,6 +5487,7 @@ human:
   vietnamese: Nhân loại
   spanish: humano
   chinese: 人类
+  example_english: The human body is composed of about 60 percent water.
 star:
   english: star
   pos: n
@@ -4849,6 +5496,7 @@ star:
   vietnamese: ngôi sao
   spanish: estrella
   chinese: 星星
+  example_english: Stars twinkled above them as they lay on the hill.
 student:
   english: student
   pos: n
@@ -4857,6 +5505,7 @@ student:
   vietnamese: sinh viên
   spanish: alumno
   chinese: 学生
+  example_english: 'a law/philosophy/medical student '
 air:
   english: air
   pos: n
@@ -4865,6 +5514,7 @@ air:
   vietnamese: hàng không
   spanish: aire
   chinese: 空气
+  example_english: I went outside to get some fresh air.
 chair:
   english: chair
   pos: n
@@ -4873,6 +5523,7 @@ chair:
   vietnamese: cái ghế
   spanish: silla
   chinese: 椅子
+  example_english: Who will take the chair at the next meeting?
 gun:
   english: gun
   pos: n
@@ -4881,6 +5532,7 @@ gun:
   vietnamese: súng
   spanish: pistola
   chinese: 枪
+  example_english: The British police do not carry guns.
 begin:
   english: begin
   pos: v
@@ -4889,6 +5541,7 @@ begin:
   vietnamese: bắt đầu
   spanish: empezar
   chinese: 开始
+  example_english: What time does the concert begin?
 death:
   english: death
   pos: n
@@ -4897,6 +5550,7 @@ death:
   vietnamese: cái chết
   spanish: muerte
   chinese: 死亡
+  example_english: The disease causes thousands of deaths a year.
 tree:
   english: tree
   pos: n
@@ -4905,6 +5559,7 @@ tree:
   vietnamese: cây
   spanish: árbol
   chinese: 树
+  example_english: a plum/apple/chestnut tree
 boss:
   english: boss
   pos: n
@@ -4913,6 +5568,7 @@ boss:
   vietnamese: trùm
   spanish: jefe
   chinese: 老板
+  example_english: She was the boss of a large international company.
 present:
   english: present
   pos: n
@@ -4921,6 +5577,7 @@ present:
   vietnamese: hiện nay
   spanish: presente
   chinese: 当下
+  example_english: a birthday/Christmas/wedding present
 instead:
   english: instead
   pos: r
@@ -4929,6 +5586,7 @@ instead:
   vietnamese: thay vì
   spanish: en cambio
   chinese: 反而
+  example_english: There's no coffee - would you like a cup of tea instead?
 lucky:
   english: lucky
   pos: j
@@ -4937,6 +5595,7 @@ lucky:
   vietnamese: may mắn
   spanish: afortunado
   chinese: 幸运的
+  example_english: '"I''m going to Japan." "Lucky you!"'
 safe:
   english: safe
   pos: j
@@ -4945,6 +5604,7 @@ safe:
   vietnamese: an toàn
   spanish: seguro
   chinese: 安全的
+  example_english: In some cities you don't feel safe going out alone at night.
 cold:
   english: cold
   pos: j
@@ -4953,6 +5613,7 @@ cold:
   vietnamese: lạnh
   spanish: frío
   chinese: 寒冷的
+  example_english: a cold day/house
 ahh:
   english: ahh
   pos: u
@@ -4961,6 +5622,7 @@ ahh:
   vietnamese: àh
   spanish: ah
   chinese: 啊
+  example_english: ''
 explain:
   english: explain
   pos: v
@@ -4969,6 +5631,7 @@ explain:
   vietnamese: giải thích
   spanish: explique
   chinese: 解释
+  example_english: If there's anything you don't understand, I'll be happy to explain.
 video:
   english: video
   pos: n
@@ -4977,6 +5640,7 @@ video:
   vietnamese: video
   spanish: video
   chinese: 视频
+  example_english: My new laptop handles video really well.
 brain:
   english: brain
   pos: n
@@ -4985,6 +5649,7 @@ brain:
   vietnamese: não
   spanish: cerebro
   chinese: 脑
+  example_english: Doctors tried desperately to reduce the swelling in her brain.
 completely:
   english: completely
   pos: r
@@ -4993,6 +5658,7 @@ completely:
   vietnamese: hoàn toàn
   spanish: completamente
   chinese: 完全地
+  example_english: I agree with you completely.
 voice:
   english: voice
   pos: n
@@ -5001,6 +5667,7 @@ voice:
   vietnamese: tiếng nói
   spanish: voz
   chinese: 嗓音
+  example_english: She has a loud/quiet/soft voice.
 cake:
   english: cake
   pos: n
@@ -5009,6 +5676,7 @@ cake:
   vietnamese: bánh
   spanish: pastel
   chinese: 蛋糕
+  example_english: Would you like a piece of/a slice of/some cake?
 trip:
   english: trip
   pos: n
@@ -5017,6 +5685,7 @@ trip:
   vietnamese: chuyến đi
   spanish: viaje
   chinese: 旅行
+  example_english: The trip from York to Newcastle takes about an hour by train.
 monkey:
   english: monkey
   pos: n
@@ -5025,6 +5694,7 @@ monkey:
   vietnamese: con khỉ
   spanish: mono
   chinese: 猴
+  example_english: They ate all the cakes, the monkeys.
 hundred:
   english: hundred
   pos: m
@@ -5033,6 +5703,7 @@ hundred:
   vietnamese: trăm
   spanish: ciento
   chinese: 百
+  example_english: We've driven a/one hundred miles in the last two hours.
 fix:
   english: fix
   pos: v
@@ -5041,6 +5712,7 @@ fix:
   vietnamese: sửa chữa
   spanish: arreglar
   chinese: 使固定
+  example_english: They couldn't fix my old computer, so I bought a new one.
 entire:
   english: entire
   pos: j
@@ -5049,6 +5721,7 @@ entire:
   vietnamese: toàn bộ
   spanish: completo
   chinese: 全部的
+  example_english: Between them they ate an entire cake.
 expect:
   english: expect
   pos: v
@@ -5057,6 +5730,7 @@ expect:
   vietnamese: chờ đợi
   spanish: suponer
   chinese: 预计
+  example_english: We are expecting a lot of applicants for the job.
 million:
   english: million
   pos: m
@@ -5065,6 +5739,7 @@ million:
   vietnamese: triệu
   spanish: millón
   chinese: 百万
+  example_english: The city has a population of almost a/one million.
 allow:
   english: allow
   pos: v
@@ -5073,6 +5748,8 @@ allow:
   vietnamese: cho phép
   spanish: permitir
   chinese: 允许
+  example_english: "[ + to infinitive ] Do you think Dad will allow you to go to Jamie's
+    party?"
 forever:
   english: forever
   pos: r
@@ -5081,6 +5758,7 @@ forever:
   vietnamese: mãi mãi
   spanish: Siempre
   chinese: 永远
+  example_english: I like the house but I don't imagine I'll live there forever.
 ugh:
   english: ugh
   pos: u
@@ -5089,6 +5767,7 @@ ugh:
   vietnamese: ugh
   spanish: puaj
   chinese: 啊
+  example_english: Ugh, I think I stepped in something really gross.
 hide:
   english: hide
   pos: v
@@ -5097,6 +5776,7 @@ hide:
   vietnamese: ẩn giấu
   spanish: ocultar
   chinese: 隐藏
+  example_english: She used to hide her diary under her pillow.
 huge:
   english: huge
   pos: j
@@ -5105,6 +5785,7 @@ huge:
   vietnamese: to lớn
   spanish: enorme
   chinese: 巨大的
+  example_english: They live in a huge house.
 interesting:
   english: interesting
   pos: j
@@ -5113,6 +5794,7 @@ interesting:
   vietnamese: thú vị
   spanish: interesante
   chinese: 有趣的
+  example_english: She's quite an interesting woman.
 roll:
   english: roll
   pos: v
@@ -5121,6 +5803,7 @@ roll:
   vietnamese: cuộn
   spanish: rodar
   chinese: 卷
+  example_english: The vase rolled off the edge of the table and smashed.
 clothes:
   english: clothes
   pos: n
@@ -5129,6 +5812,7 @@ clothes:
   vietnamese: quần áo
   spanish: ropa
   chinese: 衣服
+  example_english: She usually wears smart/casual clothes.
 fast:
   english: fast
   pos: r
@@ -5137,6 +5821,7 @@ fast:
   vietnamese: Nhanh
   spanish: rápido
   chinese: 快速地
+  example_english: fast cars
 grab:
   english: grab
   pos: v
@@ -5145,6 +5830,7 @@ grab:
   vietnamese: vồ lấy
   spanish: tomar
   chinese: 抓住
+  example_english: A mugger grabbed her handbag as she was walking across the park.
 teacher:
   english: teacher
   pos: n
@@ -5153,6 +5839,7 @@ teacher:
   vietnamese: giáo viên
   spanish: profesor
   chinese: 老师
+  example_english: an English/math/kindergarten teacher
 crap:
   english: crap
   pos: u
@@ -5161,6 +5848,7 @@ crap:
   vietnamese: tào lao
   spanish: tonterías
   chinese: 废话
+  example_english: I stepped in a pile of crap.
 animal:
   english: animal
   pos: n
@@ -5169,6 +5857,7 @@ animal:
   vietnamese: động vật
   spanish: animal
   chinese: 动物
+  example_english: wild/domestic animals
 burn:
   english: burn
   pos: v
@@ -5177,6 +5866,7 @@ burn:
   vietnamese: đốt cháy
   spanish: quemar
   chinese: 烧伤
+  example_english: He was badly burned in the blaze.
 tough:
   english: tough
   pos: j
@@ -5185,6 +5875,7 @@ tough:
   vietnamese: khó
   spanish: pese
   chinese: 艰难的
+  example_english: These toys are made from tough plastic.
 restaurant:
   english: restaurant
   pos: n
@@ -5193,6 +5884,7 @@ restaurant:
   vietnamese: quán ăn
   spanish: restaurante
   chinese: 餐厅
+  example_english: We went to a little Italian restaurant and shared a pizza.
 sort:
   english: sort
   pos: n
@@ -5201,6 +5893,7 @@ sort:
   vietnamese: loại
   spanish: clasificar
   chinese: 种类
+  example_english: We both like the same sort of music.
 tooth:
   english: tooth
   pos: n
@@ -5209,6 +5902,7 @@ tooth:
   vietnamese: răng
   spanish: diente
   chinese: 齿
+  example_english: a broken/missing tooth
 marriage:
   english: marriage
   pos: n
@@ -5217,6 +5911,7 @@ marriage:
   vietnamese: hôn nhân
   spanish: matrimonio
   chinese: 婚姻
+  example_english: They had a long and happy marriage.
 proud:
   english: proud
   pos: j
@@ -5225,6 +5920,7 @@ proud:
   vietnamese: hãnh diện
   spanish: orgulloso
   chinese: 自豪的
+  example_english: You must be very proud of your son.
 uncle:
   english: uncle
   pos: n
@@ -5233,6 +5929,7 @@ uncle:
   vietnamese: Chú
   spanish: tío
   chinese: 叔叔
+  example_english: I have lots of uncles and aunts.
 push:
   english: push
   pos: v
@@ -5241,6 +5938,7 @@ push:
   vietnamese: đẩy
   spanish: empujar
   chinese: 推
+  example_english: Can you help me move this table? You push and I'll pull.
 butt:
   english: butt
   pos: n
@@ -5249,6 +5947,7 @@ butt:
   vietnamese: mông
   spanish: extremo
   chinese: 屁股
+  example_english: She told him to get off his butt and do something useful.
 offer:
   english: offer
   pos: v
@@ -5257,6 +5956,8 @@ offer:
   vietnamese: lời đề nghị
   spanish: oferta
   chinese: 提供
+  example_english: "[ + two objects ] I feel bad that I didn't offer them any food/offer
+    any food to them."
 lord:
   english: lord
   pos: n
@@ -5265,6 +5966,7 @@ lord:
   vietnamese: Chúa tể
   spanish: caballero
   chinese: 主
+  example_english: Several alleged drug lords are to be put on trial.
 unless:
   english: unless
   pos: fw
@@ -5273,6 +5975,8 @@ unless:
   vietnamese: trừ khi
   spanish: a no ser que
   chinese: 除非
+  example_english: You can't get a job unless you have experience (= you can only
+    get a job if you have experience).
 feeling:
   english: feeling
   pos: n
@@ -5281,6 +5985,7 @@ feeling:
   vietnamese: cảm giác
   spanish: sentimiento
   chinese: 感觉
+  example_english: I had a tingling feeling in my fingers.
 suit:
   english: suit
   pos: n
@@ -5289,6 +5994,7 @@ suit:
   vietnamese: bộ đồ
   spanish: traje
   chinese: 套装
+  example_english: All the businessmen were wearing pinstripe suits.
 uh-huh:
   english: uh-huh
   pos: u
@@ -5305,6 +6011,7 @@ floor:
   vietnamese: sàn nhà
   spanish: piso
   chinese: 地面
+  example_english: The floor was partly covered with a dirty old rug.
 cream:
   english: cream
   pos: n
@@ -5313,6 +6020,7 @@ cream:
   vietnamese: kem
   spanish: crema
   chinese: 奶油
+  example_english: strawberries and cream
 favorite:
   english: favorite
   pos: j
@@ -5321,6 +6029,7 @@ favorite:
   vietnamese: yêu thích
   spanish: favorito
   chinese: 最喜欢的
+  example_english: This is one of my favorite restaurants.
 naked:
   english: naked
   pos: j
@@ -5329,6 +6038,7 @@ naked:
   vietnamese: khỏa thân
   spanish: desnudo
   chinese: 裸
+  example_english: a naked man
 list:
   english: list
   pos: n
@@ -5337,6 +6047,7 @@ list:
   vietnamese: danh sách
   spanish: lista
   chinese: 列表
+  example_english: a shopping list
 ring:
   english: ring
   pos: n
@@ -5345,6 +6056,7 @@ ring:
   vietnamese: vòng
   spanish: anillo
   chinese: 戒指
+  example_english: The game involved throwing metal rings over a stick.
 clean:
   english: clean
   pos: j
@@ -5353,6 +6065,7 @@ clean:
   vietnamese: lau dọn
   spanish: limpio
   chinese: 干净的
+  example_english: a clean white shirt
 apologize:
   english: apologize
   pos: v
@@ -5361,6 +6074,7 @@ apologize:
   vietnamese: xin lỗi
   spanish: disculparse
   chinese: 道歉
+  example_english: I must apologize to Isobel for my lateness.
 clear:
   english: clear
   pos: j
@@ -5369,6 +6083,7 @@ clear:
   vietnamese: xa lạ
   spanish: claro
   chinese: 清除
+  example_english: clear instructions/directions
 Earth:
   english: Earth
   pos: K
@@ -5377,6 +6092,7 @@ Earth:
   vietnamese: Trái đất
   spanish: Tierra
   chinese: 地球
+  example_english: The earth takes approximately 3651/4 days to go round the sun.
 share:
   english: share
   pos: v
@@ -5385,6 +6101,7 @@ share:
   vietnamese: đăng lại
   spanish: Cuota
   chinese: 分享
+  example_english: She's very possessive about her toys and finds it hard to share.
 fill:
   english: fill
   pos: v
@@ -5393,6 +6110,7 @@ fill:
   vietnamese: lấp đầy
   spanish: llenar
   chinese: 充满
+  example_english: I filled the bucket with water.
 pizza:
   english: pizza
   pos: n
@@ -5401,6 +6119,7 @@ pizza:
   vietnamese: pizza
   spanish: pizza
   chinese: 比萨
+  example_english: a slice of pizza
 ridiculous:
   english: ridiculous
   pos: j
@@ -5409,6 +6128,7 @@ ridiculous:
   vietnamese: lố bịch
   spanish: ridículo
   chinese: 荒谬的
+  example_english: Do I look ridiculous in this hat?
 alive:
   english: alive
   pos: j
@@ -5417,6 +6137,7 @@ alive:
   vietnamese: còn sống
   spanish: viva
   chinese: 活
+  example_english: He must be 90 if he's still alive.
 pretend:
   english: pretend
   pos: v
@@ -5425,6 +6146,8 @@ pretend:
   vietnamese: giả vờ
   spanish: fingir
   chinese: 假装
+  example_english: "[ + (that) ] He pretended (that) he didn't mind, but I knew that
+    he did."
 hospital:
   english: hospital
   pos: n
@@ -5433,6 +6156,7 @@ hospital:
   vietnamese: bệnh viện
   spanish: hospital
   chinese: 医院
+  example_english: a general/children's/maternity hospital
 sad:
   english: sad
   pos: j
@@ -5441,6 +6165,7 @@ sad:
   vietnamese: buồn
   spanish: triste
   chinese: 伤心
+  example_english: I've just received some very sad news.
 bunch:
   english: bunch
   pos: n
@@ -5449,6 +6174,7 @@ bunch:
   vietnamese: bó lại
   spanish: racimo
   chinese: 束
+  example_english: a bunch of flowers/grapes/bananas/keys
 half:
   english: half
   pos: m
@@ -5457,6 +6183,7 @@ half:
   vietnamese: một nửa
   spanish: mitad
   chinese: 一半
+  example_english: '"What''s half of 96?" "48."'
 police:
   english: police
   pos: n
@@ -5465,6 +6192,7 @@ police:
   vietnamese: cảnh sát viên
   spanish: policía
   chinese: 警察
+  example_english: I think you should call the police.
 fish:
   english: fish
   pos: n
@@ -5473,6 +6201,7 @@ fish:
   vietnamese: cá
   spanish: pez
   chinese: 鱼
+  example_english: Several large fish live in the pond.
 window:
   english: window
   pos: n
@@ -5481,6 +6210,7 @@ window:
   vietnamese: cửa sổ
   spanish: ventana
   chinese: 窗户
+  example_english: Is it all right if I open/close the window?
 busy:
   english: busy
   pos: j
@@ -5489,6 +6219,7 @@ busy:
   vietnamese: bận
   spanish: ocupado
   chinese: 忙碌的
+  example_english: Mum was busy in the kitchen.
 pie:
   english: pie
   pos: n
@@ -5497,6 +6228,7 @@ pie:
   vietnamese: bánh
   spanish: tarta
   chinese: 馅饼
+  example_english: Would you like some more steak pie?
 raise:
   english: raise
   pos: v
@@ -5505,6 +6237,7 @@ raise:
   vietnamese: nuôi
   spanish: elevar
   chinese: 增加
+  example_english: Would all those in favour please raise their hands?
 somewhere:
   english: somewhere
   pos: r
@@ -5513,6 +6246,7 @@ somewhere:
   vietnamese: một vài nơi
   spanish: en algún lugar
   chinese: 某处
+  example_english: He was last heard of living somewhere on the south coast of France.
 sandwich:
   english: sandwich
   pos: n
@@ -5521,6 +6255,7 @@ sandwich:
   vietnamese: bánh mì sandwich
   spanish: emparedado
   chinese: 三明治
+  example_english: a tuna/ham sandwich
 thirty:
   english: thirty
   pos: m
@@ -5529,6 +6264,7 @@ thirty:
   vietnamese: ba mươi
   spanish: treinta
   chinese: 三十
+  example_english: twenty-nine, thirty, thirty-one
 sale:
   english: sale
   pos: n
@@ -5537,6 +6273,7 @@ sale:
   vietnamese: doanh thu
   spanish: rebaja
   chinese: 销售
+  example_english: The sale of cigarettes/alcohol is forbidden.
 choose:
   english: choose
   pos: v
@@ -5545,6 +6282,7 @@ choose:
   vietnamese: chọn
   spanish: elegir
   chinese: 选择
+  example_english: She had to choose between the two men in her life.
 definitely:
   english: definitely
   pos: r
@@ -5553,6 +6291,7 @@ definitely:
   vietnamese: chắc chắn
   spanish: definitivamente
   chinese: 确实
+  example_english: Have you definitely decided to go to Costa Rica?
 swear:
   english: swear
   pos: v
@@ -5561,6 +6300,7 @@ swear:
   vietnamese: thề
   spanish: jurar
   chinese: 发誓
+  example_english: It was a real shock, the first time I heard my mother swear.
 boat:
   english: boat
   pos: n
@@ -5569,6 +6309,7 @@ boat:
   vietnamese: con thuyền
   spanish: barco
   chinese: 船
+  example_english: a rowing/sailing boat
 tired:
   english: tired
   pos: j
@@ -5577,6 +6318,8 @@ tired:
   vietnamese: mệt mỏi
   spanish: cansado
   chinese: 疲劳的
+  example_english: I was so tired when I got home from work last night that I had
+    a quick nap.
 ho:
   english: ho
   pos: u
@@ -5585,6 +6328,7 @@ ho:
   vietnamese: ho
   spanish: Ho
   chinese: 豪
+  example_english: He used to rap about "Money, Cash, Hoes" without apology or excuse.
 upset:
   english: upset
   pos: j
@@ -5593,6 +6337,7 @@ upset:
   vietnamese: khó chịu
   spanish: decepcionado
   chinese: 沮丧的
+  example_english: It still upsets him when he thinks about the accident.
 less:
   english: less
   pos: fw
@@ -5601,6 +6346,7 @@ less:
   vietnamese: ít hơn
   spanish: menos
   chinese: 较少的
+  example_english: We must try to spend less money.
 nine:
   english: nine
   pos: m
@@ -5609,6 +6355,7 @@ nine:
   vietnamese: chín
   spanish: nueve
   chinese: 九
+  example_english: The children go to bed at nine (o'clock).
 thousand:
   english: thousand
   pos: m
@@ -5617,6 +6364,7 @@ thousand:
   vietnamese: ngàn
   spanish: mil
   chinese: 千
+  example_english: They had driven over a/one thousand miles.
 smoke:
   english: smoke
   pos: v
@@ -5625,6 +6373,7 @@ smoke:
   vietnamese: Khói
   spanish: fumar
   chinese: 抽烟
+  example_english: cigarette smoke
 embarrass:
   english: embarrass
   pos: v
@@ -5633,6 +6382,7 @@ embarrass:
   vietnamese: lúng túng
   spanish: avergonzar
   chinese: 尴尬
+  example_english: You're embarrassing him with your compliments!
 band:
   english: band
   pos: n
@@ -5641,6 +6391,7 @@ band:
   vietnamese: ban nhạc
   spanish: banda
   chinese: 乐队
+  example_english: a jazz/rock band
 bear:
   english: bear
   pos: n
@@ -5649,6 +6400,7 @@ bear:
   vietnamese: con gấu
   spanish: llevar
   chinese: 熊
+  example_english: The strain must have been enormous but she bore it well.
 none:
   english: none
   pos: fw
@@ -5657,6 +6409,7 @@ none:
   vietnamese: không ai
   spanish: ninguna
   chinese: 没有任何
+  example_english: None of my children has/have blonde hair.
 Santa:
   english: Santa
   pos: K
@@ -5665,6 +6418,7 @@ Santa:
   vietnamese: Ông già noel
   spanish: Papa Noel
   chinese: 圣诞老人
+  example_english: Go to sleep quickly or Santa Claus won't come!
 strong:
   english: strong
   pos: j
@@ -5673,6 +6427,7 @@ strong:
   vietnamese: mạnh
   spanish: fuerte
   chinese: 强的
+  example_english: She must be very strong to carry such a weight on her back.
 law:
   english: law
   pos: n
@@ -5681,6 +6436,7 @@ law:
   vietnamese: pháp luật
   spanish: ley
   chinese: 法律
+  example_english: There are laws against drinking in the street.
 toilet:
   english: toilet
   pos: n
@@ -5689,6 +6445,7 @@ toilet:
   vietnamese: phòng vệ sinh
   spanish: inodoro
   chinese: 洗手间
+  example_english: I was on (= using) the toilet when the phone rang.
 jump:
   english: jump
   pos: v
@@ -5697,6 +6454,7 @@ jump:
   vietnamese: nhảy
   spanish: salto
   chinese: 跳
+  example_english: The children were jumping up and down with excitement.
 count:
   english: count
   pos: v
@@ -5705,6 +6463,7 @@ count:
   vietnamese: đếm
   spanish: contar
   chinese: 数数
+  example_english: Let's count out loud (= speak the words) from one to ten.
 egg:
   english: egg
   pos: n
@@ -5713,6 +6472,7 @@ egg:
   vietnamese: trứng
   spanish: huevo
   chinese: 蛋
+  example_english: a hard-boiled/soft-boiled egg
 Saturday:
   english: Saturday
   pos: K
@@ -5721,6 +6481,7 @@ Saturday:
   vietnamese: Thứ bảy
   spanish: sábado
   chinese: 周六
+  example_english: He's leaving on Saturday.
 blue:
   english: blue
   pos: j
@@ -5729,6 +6490,7 @@ blue:
   vietnamese: màu xanh da trời
   spanish: azul
   chinese: 蓝色的
+  example_english: a faded blue shirt
 horrible:
   english: horrible
   pos: j
@@ -5737,6 +6499,7 @@ horrible:
   vietnamese: tệ hại
   spanish: horrible
   chinese: 可怕
+  example_english: He's got a horrible cold.
 shit:
   english: shit
   pos: n
@@ -5745,6 +6508,7 @@ shit:
   vietnamese: Chết tiệt
   spanish: mierda
   chinese: 拉屎
+  example_english: There's so much dog shit on the pavement.
 favor:
   english: favor
   pos: n
@@ -5753,6 +6517,8 @@ favor:
   vietnamese: ủng hộ
   spanish: favor
   chinese: 青睐
+  example_english: In applying for this job, Tiffany has a lot in her favor (= to
+    her advantage).
 handle:
   english: handle
   pos: v
@@ -5761,6 +6527,7 @@ handle:
   vietnamese: xử lý
   spanish: resolver
   chinese: 处理
+  example_english: a door handle
 wall:
   english: wall
   pos: n
@@ -5769,6 +6536,8 @@ wall:
   vietnamese: Tường
   spanish: pared
   chinese: 墙
+  example_english: The walls in this apartment are so thin you can hear just about
+    every word the neighbours say.
 art:
   english: art
   pos: n
@@ -5777,6 +6546,7 @@ art:
   vietnamese: Mỹ thuật
   spanish: Arte
   chinese: 艺术
+  example_english: Can television and pop music really be considered art?
 cover:
   english: cover
   pos: v
@@ -5785,6 +6555,7 @@ cover:
   vietnamese: trải ra
   spanish: cubrir
   chinese: 覆盖
+  example_english: The light was so bright that I had to cover my eyes.
 arm:
   english: arm
   pos: n
@@ -5793,6 +6564,7 @@ arm:
   vietnamese: cánh tay
   spanish: brazo
   chinese: 手臂
+  example_english: My arms ache from carrying this bag.
 perhaps:
   english: perhaps
   pos: r
@@ -5801,6 +6573,7 @@ perhaps:
   vietnamese: có lẽ
   spanish: quizás
   chinese: 也许
+  example_english: He hasn't written to me recently - perhaps he's lost my address.
 simple:
   english: simple
   pos: j
@@ -5809,6 +6582,7 @@ simple:
   vietnamese: giản dị
   spanish: simple
   chinese: 简单的
+  example_english: The instructions were written in simple English.
 bus:
   english: bus
   pos: n
@@ -5817,6 +6591,8 @@ bus:
   vietnamese: xe buýt
   spanish: autobús
   chinese: 公共汽车
+  example_english: You should take the bus/go by bus (= travel by bus) if you want
+    to see the sights.
 appreciate:
   english: appreciate
   pos: v
@@ -5825,6 +6601,8 @@ appreciate:
   vietnamese: đánh giá cao
   spanish: valorar
   chinese: 欣赏
+  example_english: There's no point buying him expensive wines - he doesn't appreciate
+    them.
 himself:
   english: himself
   pos: fw
@@ -5833,6 +6611,7 @@ himself:
   vietnamese: bản thân anh ấy
   spanish: él mismo
   chinese: 自己
+  example_english: He'd cut himself shaving.
 surprise:
   english: surprise
   pos: n
@@ -5841,6 +6620,8 @@ surprise:
   vietnamese: bất ngờ
   spanish: sorpresa
   chinese: 惊喜
+  example_english: Don't tell Anne we've arranged a party for her - I want it to be
+    a surprise.
 candy:
   english: candy
   pos: n
@@ -5849,6 +6630,7 @@ candy:
   vietnamese: cục kẹo
   spanish: dulce
   chinese: 糖果
+  example_english: a candy bar
 finger:
   english: finger
   pos: n
@@ -5857,6 +6639,7 @@ finger:
   vietnamese: ngón tay
   spanish: dedo
   chinese: 手指
+  example_english: He noticed her long delicate fingers.
 worth:
   english: worth
   pos: j
@@ -5865,6 +6648,7 @@ worth:
   vietnamese: đáng giá
   spanish: valor
   chinese: 值得
+  example_english: Our house is worth £200,000.
 state:
   english: state
   pos: n
@@ -5873,6 +6657,7 @@ state:
   vietnamese: tiểu bang
   spanish: estado
   chinese: 状态
+  example_english: The building was in a state of disrepair.
 possible:
   english: possible
   pos: j
@@ -5881,6 +6666,7 @@ possible:
   vietnamese: khả thi
   spanish: posible
   chinese: 可能的
+  example_english: I can't get it all done by Friday - it's just not possible.
 rich:
   english: rich
   pos: j
@@ -5889,6 +6675,7 @@ rich:
   vietnamese: giàu có
   spanish: rico
   chinese: 富有的
+  example_english: He's the third richest man in the country.
 short:
   english: short
   pos: j
@@ -5897,6 +6684,7 @@ short:
   vietnamese: ngắn
   spanish: corto
   chinese: 短的
+  example_english: a short skirt
 king:
   english: king
   pos: n
@@ -5905,6 +6693,7 @@ king:
   vietnamese: nhà vua
   spanish: rey
   chinese: 王
+  example_english: King Richard II
 knock:
   english: knock
   pos: v
@@ -5913,6 +6702,7 @@ knock:
   vietnamese: cú đánh
   spanish: golpear
   chinese: 敲
+  example_english: She knocked on the window to attract his attention.
 cookie:
   english: cookie
   pos: n
@@ -5921,6 +6711,7 @@ cookie:
   vietnamese: bánh quy
   spanish: Galleta
   chinese: 曲奇饼
+  example_english: chocolate-chip cookies
 penis:
   english: penis
   pos: n
@@ -5929,6 +6720,7 @@ penis:
   vietnamese: dương vật
   spanish: pene
   chinese: 阴茎
+  example_english: ''
 history:
   english: history
   pos: n
@@ -5937,6 +6729,7 @@ history:
   vietnamese: lịch sử
   spanish: historia
   chinese: 历史
+  example_english: I studied modern European history at college.
 imagine:
   english: imagine
   pos: v
@@ -5945,6 +6738,8 @@ imagine:
   vietnamese: tưởng tượng
   spanish: imaginar
   chinese: 想象
+  example_english: Imagine Robert Redford when he was young - that's what John looks
+    like.
 third:
   english: third
   pos: m
@@ -5953,6 +6748,7 @@ third:
   vietnamese: ngày thứ ba
   spanish: tercera
   chinese: 第三
+  example_english: the third road on the right
 blood:
   english: blood
   pos: n
@@ -5961,6 +6757,7 @@ blood:
   vietnamese: máu
   spanish: sangre
   chinese: 血液
+  example_english: He lost a lot of blood in the accident.
 drug:
   english: drug
   pos: n
@@ -5969,6 +6766,7 @@ drug:
   vietnamese: thuốc
   spanish: droga
   chinese: 药品
+  example_english: anti-cancer/fertility/pain-killing drugs
 future:
   english: future
   pos: n
@@ -5977,6 +6775,7 @@ future:
   vietnamese: Tương lai
   spanish: futuro
   chinese: 未来
+  example_english: Sometimes I worry about the future.
 prove:
   english: prove
   pos: v
@@ -5985,6 +6784,7 @@ prove:
   vietnamese: chứng tỏ
   spanish: demostrar
   chinese: 证明
+  example_english: The operation proved a complete success.
 alright:
   english: alright
   pos: r
@@ -5993,6 +6793,7 @@ alright:
   vietnamese: được rồi
   spanish: está bien
   chinese: 好吧
+  example_english: ''
 captain:
   english: captain
   pos: n
@@ -6001,6 +6802,8 @@ captain:
   vietnamese: đội trưởng
   spanish: capitán
   chinese: 队长
+  example_english: It's unusual to have a goalkeeper as (the) captain of a football
+    team.
 evening:
   english: evening
   pos: n
@@ -6009,6 +6812,7 @@ evening:
   vietnamese: tối
   spanish: tardecita
   chinese: 晚上
+  example_english: a chilly evening
 congratulations:
   english: congratulations
   pos: u
@@ -6017,6 +6821,7 @@ congratulations:
   vietnamese: Xin chúc mừng
   spanish: Felicidades
   chinese: 祝贺
+  example_english: '"I got the job." "Did you? Congratulations!"'
 system:
   english: system
   pos: n
@@ -6025,6 +6830,7 @@ system:
   vietnamese: hệ thống
   spanish: sistema
   chinese: 系统
+  example_english: a central heating system
 record:
   english: record
   pos: n
@@ -6033,6 +6839,8 @@ record:
   vietnamese: ghi lại
   spanish: registro
   chinese: 记录
+  example_english: Cliff Richard has recorded more number one hit songs than any other
+    British pop star.
 age:
   english: age
   pos: n
@@ -6041,6 +6849,7 @@ age:
   vietnamese: tuổi tác
   spanish: años
   chinese: 年龄
+  example_english: Do you know the age of that building?
 deserve:
   english: deserve
   pos: v
@@ -6049,6 +6858,7 @@ deserve:
   vietnamese: xứng đáng
   spanish: merecer
   chinese: 应得
+  example_english: After all that hard work, you deserve a holiday.
 normal:
   english: normal
   pos: j
@@ -6057,6 +6867,7 @@ normal:
   vietnamese: thông thường
   spanish: normal
   chinese: 普通的
+  example_english: a normal working day
 yesterday:
   english: yesterday
   pos: n
@@ -6065,6 +6876,7 @@ yesterday:
   vietnamese: hôm qua
   spanish: el dia de ayer
   chinese: 昨天
+  example_english: He called yesterday while you were out.
 jerk:
   english: jerk
   pos: n
@@ -6073,6 +6885,7 @@ jerk:
   vietnamese: cà trớn
   spanish: imbécil
   chinese: 混蛋
+  example_english: The car made a strange noise and then jerked to a halt.
 yay:
   english: yay
   pos: u
@@ -6081,6 +6894,7 @@ yay:
   vietnamese: yay
   spanish: Hurra
   chinese: 耶
+  example_english: '"We won." "Yay!"'
 bird:
   english: bird
   pos: n
@@ -6089,6 +6903,7 @@ bird:
   vietnamese: chim
   spanish: pájaro
   chinese: 鸟
+  example_english: caged/wild birds
 nose:
   english: nose
   pos: n
@@ -6097,6 +6912,7 @@ nose:
   vietnamese: mũi
   spanish: nariz
   chinese: 鼻子
+  example_english: a large/long/pointed nose
 bother:
   english: bother
   pos: v
@@ -6105,6 +6921,7 @@ bother:
   vietnamese: làm phiền
   spanish: molestar
   chinese: 打扰
+  example_english: "[ + to infinitive ] He hasn't even bothered to write."
 fan:
   english: fan
   pos: n
@@ -6113,6 +6930,7 @@ fan:
   vietnamese: quạt
   spanish: admirador
   chinese: 扇子
+  example_english: More than 15,000 Liverpool fans attended Saturday's game.
 letter:
   english: letter
   pos: n
@@ -6121,6 +6939,7 @@ letter:
   vietnamese: bức thư
   spanish: carta
   chinese: 信
+  example_english: I got a letter from the bank this morning.
 rather:
   english: rather
   pos: r
@@ -6129,6 +6948,7 @@ rather:
   vietnamese: hơn là
   spanish: bastante
   chinese: 相当
+  example_english: It's rather cold today, isn't it?
 interested:
   english: interested
   pos: j
@@ -6137,6 +6957,7 @@ interested:
   vietnamese: quan tâm đến
   spanish: interesado
   chinese: 感兴趣的
+  example_english: He didn't seem very interested in what I was saying.
 owe:
   english: owe
   pos: v
@@ -6145,6 +6966,7 @@ owe:
   vietnamese: nợ
   spanish: deber
   chinese: 欠
+  example_english: "[ + two objects ] I owe Janet $50."
 pregnant:
   english: pregnant
   pos: j
@@ -6153,6 +6975,7 @@ pregnant:
   vietnamese: có thai
   spanish: embarazada
   chinese: 孕
+  example_english: She's five and a half months pregnant.
 destroy:
   english: destroy
   pos: v
@@ -6161,6 +6984,8 @@ destroy:
   vietnamese: hủy hoại
   spanish: destruir
   chinese: 破坏
+  example_english: Most of the old part of the city was destroyed by bombs during
+    the war.
 evil:
   english: evil
   pos: j
@@ -6169,6 +6994,7 @@ evil:
   vietnamese: độc ác
   spanish: demonio
   chinese: 邪恶的
+  example_english: an evil dictator
 milk:
   english: milk
   pos: n
@@ -6177,6 +7003,7 @@ milk:
   vietnamese: Sữa
   spanish: Leche
   chinese: 牛奶
+  example_english: a glass/carton of milk
 sport:
   english: sport
   pos: n
@@ -6185,6 +7012,7 @@ sport:
   vietnamese: thể thao
   spanish: deporte
   chinese: 运动
+  example_english: Football, basketball, and hockey are all team sports.
 admit:
   english: admit
   pos: v
@@ -6193,6 +7021,7 @@ admit:
   vietnamese: thừa nhận
   spanish: admitir
   chinese: 承认
+  example_english: He admitted his guilt/mistake.
 apparently:
   english: apparently
   pos: r
@@ -6201,6 +7030,7 @@ apparently:
   vietnamese: rõ ràng
   spanish: aparentemente
   chinese: 显然
+  example_english: Apparently it's going to rain today.
 conversation:
   english: conversation
   pos: n
@@ -6209,6 +7039,7 @@ conversation:
   vietnamese: cuộc hội thoại
   spanish: conversación
   chinese: 对话
+  example_english: She had a strange conversation with the man who moved in upstairs.
 obviously:
   english: obviously
   pos: r
@@ -6217,6 +7048,7 @@ obviously:
   vietnamese: rõ ràng
   spanish: obviamente
   chinese: 明显地
+  example_english: He was in tears and obviously very upset.
 jacket:
   english: jacket
   pos: n
@@ -6225,6 +7057,7 @@ jacket:
   vietnamese: Áo khoác
   spanish: chaqueta
   chinese: 夹克
+  example_english: a leather/denim/tweed jacket
 during:
   english: during
   pos: fw
@@ -6233,6 +7066,7 @@ during:
   vietnamese: suốt trong
   spanish: durante
   chinese: 期间
+  example_english: They work during the night and sleep by day.
 accept:
   english: accept
   pos: v
@@ -6241,6 +7075,7 @@ accept:
   vietnamese: Chấp nhận
   spanish: aceptar
   chinese: 接受
+  example_english: Do you accept credit cards?
 dumb:
   english: dumb
   pos: j
@@ -6249,6 +7084,7 @@ dumb:
   vietnamese: câm
   spanish: mudo
   chinese: 哑的
+  example_english: Children like this used to be described as "deaf and dumb".
 bit:
   english: bit
   pos: n
@@ -6257,6 +7093,7 @@ bit:
   vietnamese: chút
   spanish: un poco
   chinese: 少量
+  example_english: Would you like a bit of chocolate?
 consider:
   english: consider
   pos: v
@@ -6265,6 +7102,7 @@ consider:
   vietnamese: xem xét
   spanish: considerar
   chinese: 考虑
+  example_english: Don't make any decisions before you've considered the situation.
 mention:
   english: mention
   pos: v
@@ -6273,6 +7111,7 @@ mention:
   vietnamese: đề cập đến
   spanish: mencion
   chinese: 提到
+  example_english: I'll mention your ideas to Jacinta.
 step:
   english: step
   pos: n
@@ -6281,6 +7120,7 @@ step:
   vietnamese: bươc
   spanish: paso
   chinese: 步
+  example_english: She stepped backwards and fell over a chair.
 hungry:
   english: hungry
   pos: j
@@ -6289,6 +7129,7 @@ hungry:
   vietnamese: đói bụng
   spanish: hambriento
   chinese: 饥饿的
+  example_english: By four o'clock I felt/was really hungry.
 situation:
   english: situation
   pos: n
@@ -6297,6 +7138,7 @@ situation:
   vietnamese: tình hình
   spanish: situación
   chinese: 情况
+  example_english: the economic/political situation
 lead:
   english: lead
   pos: v
@@ -6305,6 +7147,7 @@ lead:
   vietnamese: chỉ huy
   spanish: Plomo
   chinese: 带领
+  example_english: I think we've chosen the right person to lead the expedition.
 twelve:
   english: twelve
   pos: m
@@ -6313,6 +7156,7 @@ twelve:
   vietnamese: mười hai
   spanish: doce
   chinese: 十二
+  example_english: The cafeteria opens for lunch at twelve (o'clock).
 fantastic:
   english: fantastic
   pos: j
@@ -6321,6 +7165,7 @@ fantastic:
   vietnamese: tuyệt vời
   spanish: fantástico
   chinese: 极好的
+  example_english: You look fantastic in that dress.
 hole:
   english: hole
   pos: n
@@ -6329,6 +7174,7 @@ hole:
   vietnamese: hố
   spanish: agujero
   chinese: 洞
+  example_english: We dug a hole and planted the tree.
 plus:
   english: plus
   pos: fw
@@ -6337,6 +7183,7 @@ plus:
   vietnamese: thêm
   spanish: más
   chinese: 加
+  example_english: What is six plus four?
 note:
   english: note
   pos: n
@@ -6345,6 +7192,7 @@ note:
   vietnamese: Ghi chú
   spanish: Nota
   chinese: 笔记
+  example_english: He left a note to say he would be home late.
 test:
   english: test
   pos: n
@@ -6353,6 +7201,7 @@ test:
   vietnamese: kiểm tra
   spanish: prueba
   chinese: 测试
+  example_english: The class are doing/having a spelling test today.
 honest:
   english: honest
   pos: j
@@ -6361,6 +7210,7 @@ honest:
   vietnamese: thật thà
   spanish: honesto
   chinese: 诚实的
+  example_english: She's completely honest.
 character:
   english: character
   pos: n
@@ -6369,6 +7219,7 @@ character:
   vietnamese: tính cách
   spanish: personaje
   chinese: 特点
+  example_english: Politeness is traditionally part of the British character.
 holy:
   english: holy
   pos: j
@@ -6377,6 +7228,7 @@ holy:
   vietnamese: thánh thiện
   spanish: santo
   chinese: 圣
+  example_english: holy scriptures/rites
 manager:
   english: manager
   pos: n
@@ -6385,6 +7237,7 @@ manager:
   vietnamese: người quản lý
   spanish: gerente
   chinese: 经理
+  example_english: a bank manager
 lesson:
   english: lesson
   pos: n
@@ -6393,6 +7246,7 @@ lesson:
   vietnamese: bài học
   spanish: lección
   chinese: 课
+  example_english: How can we make science lessons more interesting?
 soul:
   english: soul
   pos: n
@@ -6401,6 +7255,8 @@ soul:
   vietnamese: Linh hồn
   spanish: alma
   chinese: 灵魂
+  example_english: She suffered greatly while she was alive, so let us hope her soul
+    is now at peace.
 nope:
   english: nope
   pos: r
@@ -6409,6 +7265,7 @@ nope:
   vietnamese: không
   spanish: 'no'
   chinese: 不
+  example_english: '"Are you going out tonight?" "Nope."'
 dark:
   english: dark
   pos: j
@@ -6417,6 +7274,7 @@ dark:
   vietnamese: tối
   spanish: oscuro
   chinese: 黑暗的
+  example_english: It was too dark to see much.
 difference:
   english: difference
   pos: n
@@ -6425,6 +7283,7 @@ difference:
   vietnamese: Sự khác biệt
   spanish: diferencia
   chinese: 区别
+  example_english: What's the difference between an ape and a monkey?
 wine:
   english: wine
   pos: n
@@ -6433,6 +7292,7 @@ wine:
   vietnamese: rượu
   spanish: vino
   chinese: 葡萄酒
+  example_english: a wine cellar/connoisseur/cooler/glass
 road:
   english: road
   pos: n
@@ -6441,6 +7301,7 @@ road:
   vietnamese: đường bộ
   spanish: la carretera
   chinese: 路
+  example_english: We live on a busy/quiet road.
 calm:
   english: calm
   pos: v
@@ -6449,6 +7310,7 @@ calm:
   vietnamese: trấn tĩnh
   spanish: calma
   chinese: 冷静的
+  example_english: He has a very calm manner.
 personal:
   english: personal
   pos: j
@@ -6457,6 +7319,8 @@ personal:
   vietnamese: riêng tư
   spanish: personal
   chinese: 个人的
+  example_english: My personal opinion/view is that the students should be doing more
+    work outside the classroom.
 clown:
   english: clown
   pos: n
@@ -6465,6 +7329,8 @@ clown:
   vietnamese: thằng hề
   spanish: payaso
   chinese: 小丑
+  example_english: Left alone, the class threw books, pulled faces, and generally
+    clowned around.
 computer:
   english: computer
   pos: n
@@ -6473,6 +7339,7 @@ computer:
   vietnamese: máy tính
   spanish: computadora
   chinese: 计算机
+  example_english: a personal/home computer
 horse:
   english: horse
   pos: n
@@ -6481,6 +7348,7 @@ horse:
   vietnamese: ngựa
   spanish: caballo
   chinese: 马
+  example_english: to ride a horse
 gosh:
   english: gosh
   pos: u
@@ -6489,6 +7357,7 @@ gosh:
   vietnamese: gosh
   spanish: Dios mio
   chinese: 天哪
+  example_english: Gosh, I didn't expect to see you here!
 mayor:
   english: mayor
   pos: n
@@ -6497,6 +7366,7 @@ mayor:
   vietnamese: thị trưởng
   spanish: alcalde
   chinese: 市长
+  example_english: The mayor announced a reorganization of the police department.
 inside:
   english: inside
   pos: r
@@ -6505,6 +7375,7 @@ inside:
   vietnamese: nội bộ
   spanish: en el interior
   chinese: 里面
+  example_english: Did you clean the inside of the car?
 sexy:
   english: sexy
   pos: j
@@ -6513,6 +7384,7 @@ sexy:
   vietnamese: sexy
   spanish: sexy
   chinese: 性感的
+  example_english: He's very sexy.
 dirty:
   english: dirty
   pos: j
@@ -6521,6 +7393,7 @@ dirty:
   vietnamese: bẩn thỉu
   spanish: sucio
   chinese: 肮脏的
+  example_english: Her face was dirty and tear-stained.
 carry:
   english: carry
   pos: v
@@ -6529,6 +7402,7 @@ carry:
   vietnamese: mang
   spanish: llevar
   chinese: 携带
+  example_english: Would you like me to carry your bag for you?
 professor:
   english: professor
   pos: n
@@ -6537,6 +7411,7 @@ professor:
   vietnamese: giáo sư
   spanish: profesor
   chinese: 教授
+  example_english: Professor Stephen Hawking
 usually:
   english: usually
   pos: r
@@ -6545,6 +7420,7 @@ usually:
   vietnamese: thường xuyên
   spanish: normalmente
   chinese: 通常
+  example_english: He usually gets home about six o'clock.
 bottle:
   english: bottle
   pos: n
@@ -6553,6 +7429,7 @@ bottle:
   vietnamese: chai
   spanish: botella
   chinese: 瓶子
+  example_english: a milk bottle
 cheese:
   english: cheese
   pos: n
@@ -6561,6 +7438,7 @@ cheese:
   vietnamese: phô mai
   spanish: queso
   chinese: 起司
+  example_english: Would you like a slice/piece of cheese with your bread?
 summer:
   english: summer
   pos: n
@@ -6569,6 +7447,7 @@ summer:
   vietnamese: mùa hè
   spanish: el verano
   chinese: 夏天
+  example_english: We have breakfast on the balcony in (the) summer.
 remind:
   english: remind
   pos: v
@@ -6577,6 +7456,7 @@ remind:
   vietnamese: nhắc lại
   spanish: recordar
   chinese: 提醒
+  example_english: Could you remind Paul about dinner on Saturday?
 afternoon:
   english: afternoon
   pos: n
@@ -6585,6 +7465,7 @@ afternoon:
   vietnamese: buổi chiều
   spanish: tarde
   chinese: 下午
+  example_english: It was a sunny afternoon.
 pee:
   english: pee
   pos: v
@@ -6593,6 +7474,7 @@ pee:
   vietnamese: tiểu
   spanish: pipí
   chinese: 撒尿
+  example_english: to go for/have a pee.
 across:
   english: across
   pos: fw
@@ -6601,6 +7483,7 @@ across:
   vietnamese: băng qua
   spanish: a través de
   chinese: 穿过
+  example_english: She walked across the field/road.
 angry:
   english: angry
   pos: j
@@ -6609,6 +7492,7 @@ angry:
   vietnamese: tức giận
   spanish: enfadado
   chinese: 生气的
+  example_english: He's really angry at/with me for upsetting Sophie.
 fella:
   english: fella
   pos: n
@@ -6617,6 +7501,7 @@ fella:
   vietnamese: anh bạn
   spanish: amigo
   chinese: 小伙子
+  example_english: There were a couple of fellas leaning up by the bar.
 film:
   english: film
   pos: n
@@ -6625,6 +7510,7 @@ film:
   vietnamese: phim ảnh
   spanish: película
   chinese: 电影
+  example_english: What's your favourite film?
 reach:
   english: reach
   pos: v
@@ -6633,6 +7519,7 @@ reach:
   vietnamese: với tới
   spanish: alcanzar
   chinese: 抵达
+  example_english: We won't reach Miami until five or six o'clock.
 shower:
   english: shower
   pos: n
@@ -6641,6 +7528,7 @@ shower:
   vietnamese: vòi hoa sen
   spanish: ducha
   chinese: 淋浴
+  example_english: The shower is broken - you'll have to have a bath.
 cup:
   english: cup
   pos: n
@@ -6649,6 +7537,7 @@ cup:
   vietnamese: tách
   spanish: taza
   chinese: 杯子
+  example_english: a cup and saucer
 lawyer:
   english: lawyer
   pos: n
@@ -6657,6 +7546,7 @@ lawyer:
   vietnamese: luật sư
   spanish: abogado
   chinese: 律师
+  example_english: I want to see my lawyer before I say anything.
 camera:
   english: camera
   pos: n
@@ -6665,6 +7555,8 @@ camera:
   vietnamese: Máy ảnh
   spanish: cámara
   chinese: 相机
+  example_english: I forgot to take my camera with me to Portugal, so I couldn't take
+    any photos.
 pain:
   english: pain
   pos: n
@@ -6673,6 +7565,7 @@ pain:
   vietnamese: đau đớn
   spanish: dolor
   chinese: 疼痛
+  example_english: Her symptoms included abdominal pain and vomiting.
 hurry:
   english: hurry
   pos: v
@@ -6681,6 +7574,7 @@ hurry:
   vietnamese: vội vàng
   spanish: apuro
   chinese: 匆忙
+  example_english: Hurry or you'll be late.
 desk:
   english: desk
   pos: n
@@ -6689,6 +7583,7 @@ desk:
   vietnamese: bàn
   spanish: escritorio
   chinese: 桌子
+  example_english: an office/school desk
 monster:
   english: monster
   pos: n
@@ -6697,6 +7592,7 @@ monster:
   vietnamese: quái vật
   spanish: monstruo
   chinese: 怪物
+  example_english: a sea monster
 certainly:
   english: certainly
   pos: r
@@ -6705,6 +7601,8 @@ certainly:
   vietnamese: chắc chắn
   spanish: seguramente
   chinese: 当然
+  example_english: She certainly had a friend called Mark, but I don't know whether
+    he was her boyfriend.
 cop:
   english: cop
   pos: n
@@ -6713,6 +7611,7 @@ cop:
   vietnamese: cảnh sát
   spanish: policía
   chinese: 警察
+  example_english: Quick, run - there's a cop coming!
 credit:
   english: credit
   pos: n
@@ -6721,6 +7620,7 @@ credit:
   vietnamese: tín dụng
   spanish: crédito
   chinese: 信用
+  example_english: She got no credit for solving the problem.
 prepare:
   english: prepare
   pos: v
@@ -6729,6 +7629,7 @@ prepare:
   vietnamese: chuẩn bị các
   spanish: preparar
   chinese: 准备
+  example_english: Have you prepared for your interview?
 anywhere:
   english: anywhere
   pos: r
@@ -6737,6 +7638,7 @@ anywhere:
   vietnamese: bất cứ nơi nào
   spanish: en cualquier sitio
   chinese: 任何地方
+  example_english: You won't find a better plumber anywhere in England.
 breakfast:
   english: breakfast
   pos: n
@@ -6745,6 +7647,7 @@ breakfast:
   vietnamese: bữa ăn sáng
   spanish: desayuno
   chinese: 早餐
+  example_english: What do you want for breakfast?
 bastard:
   english: bastard
   pos: n
@@ -6753,6 +7656,7 @@ bastard:
   vietnamese: đồ khốn
   spanish: bastardo
   chinese: 混蛋
+  example_english: He was a bastard to his wife.
 church:
   english: church
   pos: n
@@ -6761,6 +7665,7 @@ church:
   vietnamese: nhà thờ
   spanish: iglesia
   chinese: 教会
+  example_english: The town has four churches.
 hire:
   english: hire
   pos: v
@@ -6769,6 +7674,7 @@ hire:
   vietnamese: Thuê
   spanish: contratar
   chinese: 聘请
+  example_english: How much would it cost to hire a car for the weekend?
 decision:
   english: decision
   pos: n
@@ -6777,6 +7683,7 @@ decision:
   vietnamese: quyết định
   spanish: decisión
   chinese: 决定
+  example_english: She has had to make some very difficult decisions.
 Miss:
   english: Miss
   pos: n
@@ -6785,6 +7692,7 @@ Miss:
   vietnamese: bỏ lỡ
   spanish: señorita
   chinese: 错过
+  example_english: I missed the start of the class because my bus was late.
 pig:
   english: pig
   pos: n
@@ -6793,6 +7701,7 @@ pig:
   vietnamese: lợn
   spanish: cerdo
   chinese: 猪
+  example_english: The meat produced from a pig is called pork, bacon, or ham.
 loser:
   english: loser
   pos: n
@@ -6801,6 +7710,7 @@ loser:
   vietnamese: kẻ thua cuộc
   spanish: perdedor
   chinese: 失败者
+  example_english: The losers of both games will play each other for third place.
 robot:
   english: robot
   pos: n
@@ -6809,6 +7719,7 @@ robot:
   vietnamese: người máy
   spanish: robot
   chinese: 机器人
+  example_english: The surgery can be carried out by robots.
 deep:
   english: deep
   pos: j
@@ -6817,6 +7728,7 @@ deep:
   vietnamese: sâu
   spanish: profundo
   chinese: 深的
+  example_english: a deep well/mine
 park:
   english: park
   pos: n
@@ -6825,6 +7737,7 @@ park:
   vietnamese: công viên
   spanish: parque
   chinese: 公园
+  example_english: Central Park
 chocolate:
   english: chocolate
   pos: n
@@ -6833,6 +7746,7 @@ chocolate:
   vietnamese: sô cô la
   spanish: chocolate
   chinese: 巧克力
+  example_english: a bar of chocolate
 service:
   english: service
   pos: n
@@ -6841,6 +7755,7 @@ service:
   vietnamese: Dịch vụ
   spanish: Servicio
   chinese: 服务
+  example_english: the postal service
 Jew:
   english: Jew
   pos: K
@@ -6849,6 +7764,8 @@ Jew:
   vietnamese: Người do thái
   spanish: judío
   chinese: 犹
+  example_english: Although my family is Jewish, we're not practising Jews (= actively
+    involved in the religion).
 tape:
   english: tape
   pos: n
@@ -6857,6 +7774,7 @@ tape:
   vietnamese: băng
   spanish: cinta
   chinese: 胶带
+  example_english: magnetic tape
 kitchen:
   english: kitchen
   pos: n
@@ -6865,6 +7783,7 @@ kitchen:
   vietnamese: phòng bếp
   spanish: cocina
   chinese: 厨房
+  example_english: We usually eat breakfast in the kitchen.
 rid:
   english: rid
   pos: v
@@ -6873,6 +7792,8 @@ rid:
   vietnamese: thoát khỏi
   spanish: librar
   chinese: 摆脱
+  example_english: I didn't enjoy marking those papers and I was glad to be rid of
+    them.
 grandpa:
   english: grandpa
   pos: n
@@ -6881,6 +7802,7 @@ grandpa:
   vietnamese: ông nội
   spanish: abuelo
   chinese: 爷爷
+  example_english: "[ as form of address ] I love you, Grandpa."
 hero:
   english: hero
   pos: n
@@ -6889,6 +7811,7 @@ hero:
   vietnamese: anh hùng
   spanish: héroe
   chinese: 英雄
+  example_english: a war hero
 shot:
   english: shot
   pos: n
@@ -6897,6 +7820,7 @@ shot:
   vietnamese: bắn
   spanish: Disparo
   chinese: 射击
+  example_english: And that was a great shot by Márquez!
 spot:
   english: spot
   pos: n
@@ -6905,6 +7829,7 @@ spot:
   vietnamese: điểm
   spanish: lugar
   chinese: 点
+  example_english: He had a spot of grease on his tie.
 folks:
   english: folks
   pos: n
@@ -6913,6 +7838,7 @@ folks:
   vietnamese: folks
   spanish: amigos
   chinese: 伙计们
+  example_english: Some folks have been waiting over an hour to buy tickets.
 yell:
   english: yell
   pos: v
@@ -6921,6 +7847,7 @@ yell:
   vietnamese: la lên
   spanish: gritar
   chinese: 叫喊
+  example_english: Our neighbours were yelling (obscenities) at each other this morning.
 awful:
   english: awful
   pos: j
@@ -6929,6 +7856,7 @@ awful:
   vietnamese: kinh khủng
   spanish: horrible
   chinese: 可怕
+  example_english: He suffered awful injuries in the crash.
 scene:
   english: scene
   pos: n
@@ -6937,6 +7865,7 @@ scene:
   vietnamese: sân khấu
   spanish: escena
   chinese: 场景
+  example_english: the funeral/wedding scene
 trick:
   english: trick
   pos: n
@@ -6945,6 +7874,8 @@ trick:
   vietnamese: bí quyết, Thuật, mẹo
   spanish: truco
   chinese: 诡计
+  example_english: She played a really nasty trick on me - she put syrup in my shampoo
+    bottle!
 asshole:
   english: asshole
   pos: n
@@ -6953,6 +7884,7 @@ asshole:
   vietnamese: lỗ đít
   spanish: Estúpido
   chinese: 混蛋
+  example_english: Some asshole had parked so I couldn't get out.
 issue:
   english: issue
   pos: n
@@ -6961,6 +7893,7 @@ issue:
   vietnamese: vấn đề
   spanish: tema
   chinese: 问题
+  example_english: environmental/ethical/personal issues
 lovely:
   english: lovely
   pos: j
@@ -6969,6 +7902,7 @@ lovely:
   vietnamese: đáng yêu
   spanish: hermoso
   chinese: 迷人的
+  example_english: a lovely meal/evening
 visit:
   english: visit
   pos: v
@@ -6977,6 +7911,7 @@ visit:
   vietnamese: chuyến thăm
   spanish: visitar
   chinese: 访问
+  example_english: We visited a few galleries while we were in Prague.
 honor:
   english: honor
   pos: n
@@ -6985,6 +7920,7 @@ honor:
   vietnamese: tôn kính
   spanish: honor
   chinese: 荣誉
+  example_english: It is an honor to meet you.
 chick:
   english: chick
   pos: n
@@ -6993,6 +7929,7 @@ chick:
   vietnamese: gà con
   spanish: polluelo
   chinese: 小鸡
+  example_english: ''
 costume:
   english: costume
   pos: n
@@ -7001,6 +7938,8 @@ costume:
   vietnamese: trang phục
   spanish: disfraz
   chinese: 戏服
+  example_english: Singers performing Mozart's operas often dress in/wear historical
+    costume.
 Friday:
   english: Friday
   pos: K
@@ -7009,6 +7948,7 @@ Friday:
   vietnamese: Thứ sáu
   spanish: Viernes
   chinese: 星期五
+  example_english: Shall we go to the theatre on Friday?
 hall:
   english: hall
   pos: n
@@ -7017,6 +7957,7 @@ hall:
   vietnamese: đại sảnh
   spanish: salón
   chinese: 大厅
+  example_english: I left my bags in the hall.
 Ms:
   english: Ms
   pos: n
@@ -7025,6 +7966,7 @@ Ms:
   vietnamese: Bệnh đa xơ cứng
   spanish: Milisegundo
   chinese: 小姐
+  example_english: Ms Hill/Ms Paula Hill
 fake:
   english: fake
   pos: j
@@ -7033,6 +7975,7 @@ fake:
   vietnamese: giả mạo
   spanish: falso
   chinese: 伪造的
+  example_english: Experts revealed that the painting was a fake.
 forgive:
   english: forgive
   pos: v
@@ -7041,6 +7984,8 @@ forgive:
   vietnamese: tha lỗi
   spanish: perdonar
   chinese: 原谅
+  example_english: I don't think she's ever quite forgiven me for getting her name
+    wrong that time.
 grade:
   english: grade
   pos: n
@@ -7049,6 +7994,8 @@ grade:
   vietnamese: lớp
   spanish: calificación
   chinese: 年级
+  example_english: He's suffering from some kind of low-grade (= slight) infection,
+    which he can't seem to get rid of.
 fifteen:
   english: fifteen
   pos: m
@@ -7057,6 +8004,7 @@ fifteen:
   vietnamese: mười lăm
   spanish: quince
   chinese: 十五
+  example_english: They live about fifteen miles away.
 ought:
   english: ought
   pos: v
@@ -7065,6 +8013,7 @@ ought:
   vietnamese: phải
   spanish: debería
   chinese: 应该
+  example_english: We ought to clean up before we go home.
 cheat:
   english: cheat
   pos: v
@@ -7073,6 +8022,8 @@ cheat:
   vietnamese: lừa đảo
   spanish: hacer trampa
   chinese: 欺骗
+  example_english: Anyone caught cheating will be immediately disqualified from the
+    exam.
 Chinese:
   english: Chinese
   pos: K
@@ -7081,6 +8032,7 @@ Chinese:
   vietnamese: người Trung Quốc
   spanish: Chino
   chinese: 中国人
+  example_english: ''
 create:
   english: create
   pos: v
@@ -7089,6 +8041,7 @@ create:
   vietnamese: tạo ra
   spanish: crear
   chinese: 创造
+  example_english: Charles Schulz created the characters "Snoopy" and "Charlie Brown".
 comfortable:
   english: comfortable
   pos: j
@@ -7097,6 +8050,7 @@ comfortable:
   vietnamese: Thoải mái
   spanish: cómodo
   chinese: 舒服的
+  example_english: a comfortable bed/sofa
 hotel:
   english: hotel
   pos: n
@@ -7105,6 +8059,7 @@ hotel:
   vietnamese: khách sạn
   spanish: hotel
   chinese: 酒店
+  example_english: a four-star hotel
 magazine:
   english: magazine
   pos: n
@@ -7113,6 +8068,7 @@ magazine:
   vietnamese: tạp chí
   spanish: revista
   chinese: 杂志
+  example_english: She has written articles for several women's magazines.
 settle:
   english: settle
   pos: v
@@ -7121,6 +8077,8 @@ settle:
   vietnamese: ổn định
   spanish: asentarse
   chinese: 定居
+  example_english: Good, that's all settled - you send out the invitations for the
+    party, and I'll organize the food.
 accident:
   english: accident
   pos: n
@@ -7129,6 +8087,7 @@ accident:
   vietnamese: Tai nạn
   spanish: accidente
   chinese: 事故
+  example_english: Josh had an accident and spilled water all over his work.
 boob:
   english: boob
   pos: n
@@ -7137,6 +8096,7 @@ boob:
   vietnamese: boob
   spanish: teta
   chinese: 布布
+  example_english: You know her - blonde hair and big boobs.
 excellent:
   english: excellent
   pos: j
@@ -7145,6 +8105,7 @@ excellent:
   vietnamese: Xuất sắc
   spanish: excelente
   chinese: 出色的
+  example_english: The food was excellent.
 neighbor:
   english: neighbor
   pos: n
@@ -7153,6 +8114,7 @@ neighbor:
   vietnamese: láng giềng
   spanish: Vecino
   chinese: 邻居
+  example_english: Elie is my next-door neighbor.
 train:
   english: train
   pos: n
@@ -7161,6 +8123,7 @@ train:
   vietnamese: xe lửa
   spanish: tren
   chinese: 火车
+  example_english: a goods/freight/passenger train
 board:
   english: board
   pos: n
@@ -7169,6 +8132,7 @@ board:
   vietnamese: Cái bảng
   spanish: junta
   chinese: 木板
+  example_english: Cheeses were laid out on a board.
 pop:
   english: pop
   pos: v
@@ -7177,6 +8141,7 @@ pop:
   vietnamese: nhạc pop
   spanish: estallido
   chinese: 流行音乐
+  example_english: pop music
 spirit:
   english: spirit
   pos: n
@@ -7185,6 +8150,7 @@ spirit:
   vietnamese: tinh thần
   spanish: espíritu
   chinese: 精神
+  example_english: The players have a very strong team spirit (= loyalty to each other).
 cow:
   english: cow
   pos: n
@@ -7193,6 +8159,7 @@ cow:
   vietnamese: con bò
   spanish: vaca
   chinese: 奶牛
+  example_english: a dairy cow
 building:
   english: building
   pos: n
@@ -7201,6 +8168,7 @@ building:
   vietnamese: Tòa nhà
   spanish: edificio
   chinese: 建造
+  example_english: The once-empty site was now covered with buildings.
 ear:
   english: ear
   pos: n
@@ -7209,6 +8177,7 @@ ear:
   vietnamese: tai
   spanish: oído
   chinese: 耳朵
+  example_english: The hearing in my left ear's not so good.
 giant:
   english: giant
   pos: j
@@ -7217,6 +8186,7 @@ giant:
   vietnamese: người khổng lồ
   spanish: gigante
   chinese: 巨大的
+  example_english: He was one of the intellectual/political giants of this century.
 ugly:
   english: ugly
   pos: j
@@ -7225,6 +8195,7 @@ ugly:
   vietnamese: xấu xí
   spanish: feo
   chinese: 丑陋的
+  example_english: I think a lot of modern architecture is very ugly.
 toy:
   english: toy
   pos: n
@@ -7233,6 +8204,7 @@ toy:
   vietnamese: đồ chơi
   spanish: juguete
   chinese: 玩具
+  example_english: a clockwork/wind-up toy
 cancel:
   english: cancel
   pos: v
@@ -7241,6 +8213,7 @@ cancel:
   vietnamese: sự hủy bỏ
   spanish: cancelar
   chinese: 取消
+  example_english: They had to cancel tomorrow's game because of the bad weather.
 Internet:
   english: Internet
   pos: K
@@ -7249,6 +8222,7 @@ Internet:
   vietnamese: Internet
   spanish: Internet
   chinese: 互联网
+  example_english: Use your phone to connect to the internet.
 strange:
   english: strange
   pos: j
@@ -7257,6 +8231,7 @@ strange:
   vietnamese: lạ lùng
   spanish: extraño
   chinese: 奇怪的
+  example_english: He has some very strange ideas about women!
 aunt:
   english: aunt
   pos: n
@@ -7265,6 +8240,7 @@ aunt:
   vietnamese: dì
   spanish: tía
   chinese: 姨
+  example_english: I have an aunt in Australia.
 island:
   english: island
   pos: n
@@ -7273,6 +8249,7 @@ island:
   vietnamese: Đảo
   spanish: isla
   chinese: 岛
+  example_english: a desert island
 extra:
   english: extra
   pos: j
@@ -7281,6 +8258,7 @@ extra:
   vietnamese: thêm
   spanish: extra
   chinese: 额外的
+  example_english: If you need any extra help, just call me.
 fit:
   english: fit
   pos: v
@@ -7289,6 +8267,7 @@ fit:
   vietnamese: Phù hợp
   spanish: adaptar
   chinese: 合身
+  example_english: That jacket fits you perfectly.
 rock:
   english: rock
   pos: n
@@ -7297,6 +8276,7 @@ rock:
   vietnamese: đá
   spanish: roca
   chinese: 岩石
+  example_english: Mountains and cliffs are formed from rock.
 action:
   english: action
   pos: n
@@ -7305,6 +8285,7 @@ action:
   vietnamese: hoạt động
   spanish: acción
   chinese: 行动
+  example_english: This problem calls for swift/prompt action from the government.
 bill:
   english: bill
   pos: n
@@ -7313,6 +8294,7 @@ bill:
   vietnamese: hóa đơn
   spanish: factura
   chinese: 账单
+  example_english: an electricity/gas/phone bill
 field:
   english: field
   pos: n
@@ -7321,6 +8303,7 @@ field:
   vietnamese: đồng ruộng
   spanish: campo
   chinese: 场地
+  example_english: We drove past fields of ripening wheat.
 fresh:
   english: fresh
   pos: j
@@ -7329,6 +8312,7 @@ fresh:
   vietnamese: mới
   spanish: nuevo
   chinese: 新鲜的
+  example_english: The original orders were cancelled and I was given fresh instructions.
 level:
   english: level
   pos: n
@@ -7337,6 +8321,7 @@ level:
   vietnamese: mức độ
   spanish: nivel
   chinese: 等级
+  example_english: The water level in the lake is much higher after heavy rain.
 cost:
   english: cost
   pos: v
@@ -7345,6 +8330,8 @@ cost:
   vietnamese: Giá cả
   spanish: costo
   chinese: 成本
+  example_english: When you buy a new computer, you usually get software included
+    at no extra cost (= for no additional money).
 size:
   english: size
   pos: n
@@ -7353,6 +8340,7 @@ size:
   vietnamese: kích thước
   spanish: Talla
   chinese: 尺寸
+  example_english: We are concerned about the size of our debt.
 cell:
   english: cell
   pos: n
@@ -7361,6 +8349,7 @@ cell:
   vietnamese: tế bào
   spanish: célula
   chinese: 细胞
+  example_english: Call me on my cell.
 serve:
   english: serve
   pos: v
@@ -7369,6 +8358,7 @@ serve:
   vietnamese: phục vụ
   spanish: atender
   chinese: 服务
+  example_english: Do they serve meals in the bar?
 shake:
   english: shake
   pos: v
@@ -7377,6 +8367,8 @@ shake:
   vietnamese: rung chuyển
   spanish: sacudir
   chinese: 摇
+  example_english: A young boy climbed into the apple tree and shook the branches
+    so that the fruit fell down.
 neck:
   english: neck
   pos: n
@@ -7385,6 +8377,7 @@ neck:
   vietnamese: cái cổ
   spanish: cuello
   chinese: 脖子
+  example_english: He had the thickest neck I'd ever seen.
 bowl:
   english: bowl
   pos: n
@@ -7393,6 +8386,7 @@ bowl:
   vietnamese: bát
   spanish: cuenco
   chinese: 碗
+  example_english: a soup/cereal/salad/sugar bowl
 control:
   english: control
   pos: n
@@ -7401,6 +8395,7 @@ control:
   vietnamese: điều khiển
   spanish: control
   chinese: 控制
+  example_english: If you can't control your dog, put it on a lead!
 loud:
   english: loud
   pos: j
@@ -7409,6 +8404,7 @@ loud:
   vietnamese: ồn ào
   spanish: alto
   chinese: 响亮的
+  example_english: a loud explosion/noise/voice
 bedroom:
   english: bedroom
   pos: n
@@ -7417,6 +8413,7 @@ bedroom:
   vietnamese: phòng ngủ
   spanish: dormitorio
   chinese: 卧室
+  example_english: Our home has three bedrooms.
 heaven:
   english: heaven
   pos: n
@@ -7425,6 +8422,7 @@ heaven:
   vietnamese: thiên đường
   spanish: cielo
   chinese: 天堂
+  example_english: I just lay in the sun for a week and did nothing - it was heaven.
 commercial:
   english: commercial
   pos: n
@@ -7433,6 +8431,7 @@ commercial:
   vietnamese: Quảng cáo
   spanish: comercial
   chinese: 商业的
+  example_english: a commercial organization/venture/success
 draw:
   english: draw
   pos: v
@@ -7441,6 +8440,7 @@ draw:
   vietnamese: vẽ tranh
   spanish: dibujar
   chinese: 画
+  example_english: Jonathan can draw very well.
 guest:
   english: guest
   pos: n
@@ -7449,6 +8449,7 @@ guest:
   vietnamese: khách mời
   spanish: invitado
   chinese: 来宾
+  example_english: 150 guests were invited to the wedding.
 insane:
   english: insane
   pos: j
@@ -7457,6 +8458,7 @@ insane:
   vietnamese: điên cuồng
   spanish: loco
   chinese: 疯狂的
+  example_english: For the last ten years of his life he was clinically insane.
 fail:
   english: fail
   pos: v
@@ -7465,6 +8467,8 @@ fail:
   vietnamese: Thất bại
   spanish: fallar
   chinese: 失败
+  example_english: She moved to London in the hope of finding work as a model, but
+    failed.
 cook:
   english: cook
   pos: v
@@ -7473,6 +8477,7 @@ cook:
   vietnamese: đầu bếp
   spanish: cocinero
   chinese: 厨师
+  example_english: I don't cook meat very often.
 pleasure:
   english: pleasure
   pos: n
@@ -7481,6 +8486,7 @@ pleasure:
   vietnamese: vui lòng
   spanish: Placer
   chinese: 乐趣
+  example_english: His visits gave his grandparents such pleasure.
 truck:
   english: truck
   pos: n
@@ -7489,6 +8495,7 @@ truck:
   vietnamese: xe tải
   spanish: camión
   chinese: 卡车
+  example_english: The road was completely blocked by an overturned truck.
 science:
   english: science
   pos: n
@@ -7497,6 +8504,7 @@ science:
   vietnamese: khoa học
   spanish: Ciencias
   chinese: 科学
+  example_english: pure/applied science
 careful:
   english: careful
   pos: j
@@ -7505,6 +8513,7 @@ careful:
   vietnamese: cẩn thận
   spanish: Cuidado
   chinese: 小心
+  example_english: Be careful with the glasses.
 nervous:
   english: nervous
   pos: j
@@ -7513,6 +8522,7 @@ nervous:
   vietnamese: thần kinh
   spanish: nervioso
   chinese: 紧张的
+  example_english: Do you feel/get nervous during exams?
 although:
   english: although
   pos: fw
@@ -7521,6 +8531,7 @@ although:
   vietnamese: Mặc du
   spanish: a pesar de que
   chinese: 虽然
+  example_english: She walked home by herself, although she knew that it was dangerous.
 gas:
   english: gas
   pos: n
@@ -7529,6 +8540,7 @@ gas:
   vietnamese: khí ga
   spanish: gas
   chinese: 气体
+  example_english: Oxygen, hydrogen, and nitrogen are all gases.
 partner:
   english: partner
   pos: n
@@ -7537,6 +8549,7 @@ partner:
   vietnamese: bạn đồng hành
   spanish: compañero
   chinese: 伙伴
+  example_english: He gave up his job as a police officer after his partner was killed.
 scream:
   english: scream
   pos: v
@@ -7545,6 +8558,7 @@ scream:
   vietnamese: la hét
   spanish: grito
   chinese: 尖叫
+  example_english: A spider landed on her pillow and she screamed.
 pool:
   english: pool
   pos: n
@@ -7553,6 +8567,7 @@ pool:
   vietnamese: hồ bơi
   spanish: piscina
   chinese: 水池
+  example_english: We looked for crabs in the rock pools along the seashore.
 appear:
   english: appear
   pos: v
@@ -7561,3 +8576,4 @@ appear:
   vietnamese: hiện ra
   spanish: Aparecer
   chinese: 出现
+  example_english: He suddenly appeared in the doorway.
