@@ -35,10 +35,10 @@ Giai đoạn này dành cho những người có một chút ít kĩ năng IT c�
 Giai đoạn này dành cho hầu hết mọi người, chúng tôi sẽ thay đổi phần mềm để nó chạy không cần root, hoạt động cho cả iPhone lẫn Android
 
 # Lộ trình nội dung
-## Giai đoạn 1
+## Giai đoạn 1 - giai đoạn hiện tại
 Nội dung được sinh ra bởi Google Dịch và từ điển cambridge
 
-## Giai đoạn 2
+## Giai đoạn 2 - chờ cao nhân tiếng Anh, tiếng Tây Ban Nha, tiếng Hoa xuất hiện
 Biên tập nội dung dựa vào cộng đồng những người sành sỏi các ngôn ngữ
 
 # Sơ đồ
