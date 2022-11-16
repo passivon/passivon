@@ -21,10 +21,12 @@ jobs:
           key: "translation-and-audio"
           path: |
             generators/cache
-      - run: echo '${{ secrets.GOOGLE_CREDENTIALS }}'
+      - run: echo "${DANGER}"
+        env:
+          $DANGER: ${{ secrets.GOOGLE_CREDENTIALS }}
       - uses: 'google-github-actions/auth@v1'
         with:
-          credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
+          credentials_json: ${{ secrets.GOOGLE_CREDENTIALS }}
           create_credentials_file: true
       - run: bundle exec ./generators/dictionary-update
       - run: bundle exec ./generators/audio-update
