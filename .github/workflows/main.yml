@@ -21,3 +21,6 @@ jobs:
           key: "translation-and-audio"
           path: |
             generators/cache
+      - run: bundle exec ./generators/dictionary-update
+      - run: bundle exec ./generators/audio-update
+      - run: bundle exec ./generators/audio-upload
