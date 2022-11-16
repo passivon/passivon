@@ -39,14 +39,14 @@ the:
   english: the
   pos: fw
   frequency: 176446
-  inflections: the banana, the apple
+  inflections: the
   vietnamese: cái
   spanish: la
   chinese: 这
-  example_english: I'll pick you up at the airport.
-  example_vietnamese: Tôi sẽ đón bạn tại sân bay.
-  example_spanish: Te recogeré en el aeropuerto.
-  example_chinese: 我去机场接你。
+  example_english: I will go to the airport.
+  example_vietnamese: Tôi sẽ đi đến sân bay.
+  example_spanish: Iré al aeropuerto.
+  example_chinese: 我会去机场。
 a:
   english: a
   pos: fw
