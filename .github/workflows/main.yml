@@ -16,3 +16,9 @@ jobs:
           ruby-version: 2.6.5
           # Flag if the Ruby installation is cached
           cache-available: true
+      - name: Cache translation and audio
+        uses: actions/cache@v3
+        with:
+          key: "translation-and-audio"
+          path: |
+            generators/cache
