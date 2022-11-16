@@ -30,5 +30,8 @@ jobs:
           credentials_json: ${{ secrets.GOOGLE_CREDENTIALS }}
           create_credentials_file: true
       - run: bundle exec ./generators/dictionary-update
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
       - run: bundle exec ./generators/audio-update
       - run: bundle exec ./generators/audio-upload
