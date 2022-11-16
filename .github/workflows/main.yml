@@ -24,6 +24,8 @@ jobs:
       - run: echo "${SAMPLE_SECRET}"
         env:
           SAMPLE_SECRET: ${{ secrets.SAMPLE_SECRET }}
+      - uses: lhotari/action-upterm@v1
+
       - uses: 'google-github-actions/auth@v1'
         with:
           credentials_json: ${{ secrets.GOOGLE_CREDENTIALS }}
