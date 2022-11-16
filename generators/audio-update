@@ -135,7 +135,7 @@ class AudioUpdator
       VoiceGenerator.new(label: word["example_english"], content: word["example_spanish"], locale: "es").perform,
       VoiceGenerator.new(label: word["example_english"], content: word["example_chinese"], locale: "zh-CN").perform,
     ].map do |name|
-      "https://storage.googleapis.com/passive-english/#{name}"
+      "https://storage.googleapis.com/passivon/#{name}"
     end
   end
 

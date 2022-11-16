@@ -1,8 +1,8 @@
 {
-  "name": "android-passive-english",
+  "name": "passivon",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:passive-english/passive-english.git",
+  "repository": "git@github.com:passivon/passivon.git",
   "author": "Phuong Nguyen <phuongnd08@gmail.com>",
   "license": "MIT",
   "dependencies": {

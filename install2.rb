@@ -61,7 +61,7 @@ class Installer
   end
 
   def download_loop_script
-    url = "https://raw.githubusercontent.com/passive-english/passive-english/main/broadcast-daily"
+    url = "https://raw.githubusercontent.com/passivon/passivon/main/broadcast-daily"
     system "wget -O bin-broadcast-daily #{url}"
     system "chmod u+x bin-broadcast-daily"
   end

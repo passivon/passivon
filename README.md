@@ -7,19 +7,19 @@ Mỗi buổi sáng, sẽ có 1 cái loa phát thanh nhắc đi nhắc lại 1 tr
 2. Đảm bảo rằng `abd shell` có thể chạy và kiểm soát thiết bị của bạn
 3. Download và cài termux
 ```
-curl -O -L https://github.com/passive-english/passive-english/raw/main/termux96.apk
+curl -O -L https://github.com/passivon/passivon/raw/main/termux96.apk
 adb install -r termux96.apk
 ```
 4. Bật termux
 5. Chạy lệnh sau trên termux:
 ```
-  wget -qO- https://raw.githubusercontent.com/passive-english/passive-english/main/install.sh | bash
+  wget -qO- https://raw.githubusercontent.com/passivon/passivon/main/install.sh | bash
 ```
 
 Nếu bạn đang dùng adb shell, bạn có thể chạy lệnh sau để từ máy tính gửi lệnh lên termux
 ```
 adb shell input text "wget%s-qO-%s"
-adb shell input text "https://raw.githubusercontent.com/passive-english/passive-english/main/install.sh"
+adb shell input text "https://raw.githubusercontent.com/passivon/passivon/main/install.sh"
 adb shell input text "%s\|%sbash"
 adb shell input keyevent 66
 
@@ -60,7 +60,7 @@ csv_file_on_google_cloud_storage --> android_script --> bluetooth_speaker --> yo
 1. Bạn mua 1 chiếc điện thoại có thể root được, ví dụ Note9
 2. Root chiếc điện thoại của bạn
 3. Cài đặt termux
-4. Chạy script để cài passive-english agent vào điện thoại của bạn
+4. Chạy script để cài passivon agent vào điện thoại của bạn
 5. Kết nối với load bluetooth để hàng ngày nó "tắm" bạn và gia đình với 1 từ tiếng Anh mới
 
 Hiện tại mã ứng dụng sẽ phát thanh vào 6:30 đến 7:30 hàng ngày. Bạn có

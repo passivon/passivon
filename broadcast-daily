@@ -11,7 +11,7 @@ class AutoUpdater
   # TODO: Setup github build process and raise error when the file is changed without version bump
   BROADCAST_VERSION = 52
   AUTO_UPDATE_INTERVAL = RUBY_PLATFORM.include?("darwin") ? 3 : 300
-  URL = "https://raw.githubusercontent.com/passive-english/passive-english/main/broadcast-daily"
+  URL = "https://raw.githubusercontent.com/passivon/passivon/main/broadcast-daily"
 
   def perform_in_loop
     puts "AUTOUPDATER running in file #{__FILE__}. Current version: #{BROADCAST_VERSION}"
@@ -350,7 +350,7 @@ class MasterPlayer
     File.expand_path("./rnd-#{rand(10000)}.csv", cached_folder)
   end
 
-  INDEX_URL = "https://storage.googleapis.com/passive-english/audio/index.csv?avoidCache=1"
+  INDEX_URL = "https://storage.googleapis.com/passivon/audio/index.csv?avoidCache=1"
 
   def index_url
     INDEX_URL
