@@ -35,18 +35,6 @@ you:
   example_vietnamese: bạn có thể đi
   example_spanish: tú puedes ir
   example_chinese: 你可以走了
-to:
-  english: to
-  pos: fw
-  frequency: 151270
-  inflections: to
-  vietnamese: đến
-  spanish: a
-  chinese: 至
-  example_english: to the moon
-  example_vietnamese: đến mặt trăng
-  example_spanish: a la Luna
-  example_chinese: 到月球
 it:
   english: it
   pos: fw
@@ -95,18 +83,6 @@ and:
   example_vietnamese: Ann và Jim
   example_spanish: ana y jim
   example_chinese: 安和吉姆
-of:
-  english: of
-  pos: fw
-  frequency: 70505
-  inflections: of
-  vietnamese: của
-  spanish: de
-  chinese: 的
-  example_english: both of us
-  example_vietnamese: cả hai chúng ta
-  example_spanish: nosotros dos
-  example_chinese: 我们俩
 do:
   english: do
   pos: v
@@ -155,18 +131,6 @@ we:
   example_vietnamese: Chúng ta sống trên hành tinh trái đất.
   example_spanish: Vivimos en el planeta tierra.
   example_chinese: 我们生活在地球上。
-in:
-  english: in
-  pos: fw
-  frequency: 58486
-  inflections: in
-  vietnamese: Trong
-  spanish: en
-  chinese: 在
-  example_english: Get in the car.
-  example_vietnamese: Lên xe đi.
-  example_spanish: Entrar en el coche.
-  example_chinese: 上车。
 get:
   english: get
   pos: v
@@ -251,30 +215,6 @@ can:
   example_vietnamese: Câu trả lời là không.
   example_spanish: La respuesta es no.
   example_chinese: 答案是不。
-'on':
-  english: 'on'
-  pos: fw
-  frequency: 43007
-  inflections: 'on'
-  vietnamese: trên
-  spanish: en
-  chinese: 上
-  example_english: Lunch is on me.
-  example_vietnamese: Bửa trưa của tôi.
-  example_spanish: Yo invito el almuerzo.
-  example_chinese: 午餐由我来。
-for:
-  english: for
-  pos: fw
-  frequency: 42850
-  inflections: for
-  vietnamese: vì
-  spanish: por
-  chinese: 为了
-  example_english: Who's for  tennis?
-  example_vietnamese: Ai cho quần vợt?
-  example_spanish: "¿Quién está para el tenis?"
-  example_chinese: 谁适合打网球？
 know:
   english: know
   pos: v
@@ -323,30 +263,6 @@ all:
   example_vietnamese: tất cotton
   example_spanish: calcetines de algodón
   example_chinese: 全棉袜
-so:
-  english: so
-  pos: r
-  frequency: 35491
-  inflections: so
-  vietnamese: vì thế
-  spanish: asi que
-  chinese: 所以
-  example_english: You worry so!
-  example_vietnamese: Anh lo quá!
-  example_spanish: "¡Te preocupas tanto!"
-  example_chinese: 你这么担心！
-with:
-  english: with
-  pos: fw
-  frequency: 34115
-  inflections: with
-  vietnamese: với
-  spanish: con
-  chinese: 和
-  example_english: Away with you!
-  example_vietnamese: Đi với bạn!
-  example_spanish: "¡Lejos contigo!"
-  example_chinese: 离开你！
 he:
   english: he
   pos: fw
@@ -419,18 +335,6 @@ want:
   example_vietnamese: Mong muốn của chúng tôi rất ít.
   example_spanish: Nuestros deseos son pocos.
   example_chinese: 我们的需求很少。
-out:
-  english: out
-  pos: r
-  frequency: 24533
-  inflections: out
-  vietnamese: ngoài
-  spanish: afuera
-  chinese: 出去
-  example_english: Get out!
-  example_vietnamese: Ra khỏi!
-  example_spanish: "¡Salir!"
-  example_chinese: 出去！
 about:
   english: about
   pos: fw
@@ -467,18 +371,6 @@ come:
   example_vietnamese: Đây là Adam.
   example_spanish: Aquí viene Adán.
   example_chinese: 亚当来了。
-up:
-  english: up
-  pos: r
-  frequency: 22171
-  inflections: up
-  vietnamese: lên
-  spanish: arriba
-  chinese: 向上
-  example_english: an up stroke
-  example_vietnamese: một đột quỵ lên
-  example_spanish: un golpe hacia arriba
-  example_chinese: 向上冲程
 say:
   english: say
   pos: v
@@ -503,18 +395,6 @@ now:
   example_vietnamese: Đó là tất cả cho bây giờ.
   example_spanish: Eso es todo por ahora .
   example_chinese: 目前为止就这样了 。
-at:
-  english: at
-  pos: fw
-  frequency: 21243
-  inflections: at
-  vietnamese: tại
-  spanish: a
-  chinese: 在
-  example_english: children at play
-  example_vietnamese: trẻ em chơi
-  example_spanish: niños jugando
-  example_chinese: 孩子们在玩耍
 one:
   english: one
   pos: m
@@ -527,18 +407,6 @@ one:
   example_vietnamese: Ăn từng cái một.
   example_spanish: Cómelos uno a la vez.
   example_chinese: 一次吃一个。
-hey:
-  english: hey
-  pos: u
-  frequency: 21166
-  inflections: hey
-  vietnamese: này
-  spanish: Oye
-  chinese: 嘿
-  example_english: Hey, you!
-  example_vietnamese: Này bạn!
-  example_spanish: "¡Eh, tú!"
-  example_chinese: 嘿，你！
 they:
   english: they
   pos: fw

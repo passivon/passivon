@@ -2,17 +2,14 @@ LEMMA|POS	LEMMA	POS	FREQUENCY	INFLECTIONS
 be|v	be	v	318018	be, am, are, been, being, is, was, were
 I|fw	I	fw	267578	I
 you|fw	you	fw	248266	you
-to|fw	to	fw	151270	to
 it|fw	it	fw	117091	it
 not|fw	not	fw	109143	not
 that|fw	that	fw	95271	that, those
 and|fw	and	fw	90049	and
-of|fw	of	fw	70505	of
 do|v	do	v	67643	do, did, does, doing, done
 have|v	have	v	62828	have, had, has, having
 what|fw	what	fw	62015	what
 we|fw	we	fw	61381	we
-in|fw	in	fw	58486	in
 get|v	get	v	56906	get, gets, getting, got, gotten
 this|fw	this	fw	56116	this, these
 my|fw	my	fw	53316	my, mine
@@ -20,30 +17,21 @@ me|fw	me	fw	51927	me
 go|v	go	v	51445	go, goes, going, gone, went
 can|v	can	v	46947	can, could, cannot
 no|fw	no	fw	43447	no
-on|fw	on	fw	43007	on
-for|fw	for	fw	42850	for
 know|v	know	v	40007	know, knew, knowing, known, knows
 just|r	just	r	39366	just
 your|fw	your	fw	39164	your
 all|fw	all	fw	35728	all
-so|r	so	r	35491	so
-with|fw	with	fw	34115	with
 he|fw	he	fw	33653	he
 but|fw	but	fw	30070	but
 well|r	well	r	28025	well
 think|v	think	v	25894	think, thinking, thinks, thought
 here|r	here	r	25170	here
 want|v	want	v	24829	want, wanted, wanting, wants
-out|r	out	r	24533	out
-about|fw	about	fw	23244	about
 good|j	good	j	22907	good, better, best
 come|v	come	v	22535	come, came, comes, coming
-up|r	up	r	22171	up
 say|v	say	v	21603	say, said, saying, says
 now|r	now	r	21312	now
-at|fw	at	fw	21243	at
 one|m	one	m	21176	one, ones
-hey|u	hey	u	21166	hey
 they|fw	they	fw	21051	they
 see|v	see	v	20925	see, saw, seeing, seen, sees
 if|fw	if	fw	19770	if
@@ -97,7 +85,6 @@ way|n	way	n	8759	way, ways
 never|r	never	r	8620	never
 call|v	call	v	8413	call, called, calling, calls
 too|r	too	r	8300	too
-by|fw	by	fw	8133	by
 sorry|j	sorry	j	8050	sorry
 over|fw	over	fw	8041	over
 love|v	love	v	8010	love, loved, loves, loving
@@ -109,7 +96,6 @@ two|m	two	m	7221	two, twos
 people|n	people	n	7104	people
 God|u	God	u	7062	God
 very|r	very	r	6974	very
-off|fw	off	fw	6967	off
 work|v	work	v	6741	work, worked, working, works
 thank|v	thank	v	6716	thank, thanked, thanking, thanks
 big|j	big	j	6674	big, bigger, biggest
