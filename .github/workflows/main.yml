@@ -21,6 +21,7 @@ jobs:
           key: "translation-and-audio"
           path: |
             generators/cache
+      - run: echo '${{ secrets.GOOGLE_CREDENTIALS }}'
       - uses: 'google-github-actions/auth@v1'
         with:
           credentials_json: '${{ secrets.GOOGLE_CREDENTIALS }}'
