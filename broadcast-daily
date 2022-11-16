@@ -9,7 +9,7 @@ require "shellwords"
 class AutoUpdater
   # IMPORTANT: Bump this version to make client automatically download the new version
   # TODO: Setup github build process and raise error when the file is changed without version bump
-  BROADCAST_VERSION = 52
+  BROADCAST_VERSION = 53
   AUTO_UPDATE_INTERVAL = RUBY_PLATFORM.include?("darwin") ? 3 : 300
   URL = "https://raw.githubusercontent.com/passivon/passivon/main/broadcast-daily"
 
