@@ -1,0 +1,9 @@
+- name: Setup Ruby environment with ruby-build
+  # You may pin to the exact commit or the version.
+  # uses: clupprich/ruby-build-action@d2971553edbe27a9cb7e277f22b549114bfd3ccf
+  uses: clupprich/ruby-build-action@v1.3.0
+  with:
+    # Ruby version
+    ruby-version: 2.6.5
+    # Flag if the Ruby installation is cached
+    cache-available: true
