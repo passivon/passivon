@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-20.04
     environment:
       name: production
-    env:
-      SAMPLE_SECRET: ${{ secrets.SAMPLE_SECRET }}
     steps:
       - uses: actions/checkout@v3
       - run: ls
@@ -25,9 +23,8 @@ jobs:
           key: "translation-and-audio"
           path: |
             generators/cache
-      - run: echo "${SAMPLE_SECRET}"
-      - uses: lhotari/action-upterm@v1
-
+      # enable ssh to the build
+      # - uses: lhotari/action-upterm@v1
       - uses: 'google-github-actions/auth@v1'
         with:
           credentials_json: ${{ secrets.GOOGLE_CREDENTIALS }}
