@@ -29,36 +29,12 @@ you:
   frequency: 248266
   inflections: you
   vietnamese: bạn
-  spanish: te
+  spanish: tú
   chinese: 你
-  example_english: I love you.
-  example_vietnamese: Tôi yêu bạn.
-  example_spanish: yo te amo.
-  example_chinese: 我爱你。
-the:
-  english: the
-  pos: fw
-  frequency: 176446
-  inflections: the
-  vietnamese: cái
-  spanish: la
-  chinese: 这
-  example_english: I will go to the airport.
-  example_vietnamese: Tôi sẽ đi đến sân bay.
-  example_spanish: Iré al aeropuerto.
-  example_chinese: 我会去机场。
-a:
-  english: a
-  pos: fw
-  frequency: 152598
-  inflections: a, an
-  vietnamese: một
-  spanish: a
-  chinese: 一个
-  example_english: a dozen
-  example_vietnamese: một tá
-  example_spanish: una docena
-  example_chinese: 一打
+  example_english: you can go
+  example_vietnamese: bạn có thể đi
+  example_spanish: tú puedes ir
+  example_chinese: 你可以走了
 to:
   english: to
   pos: fw
@@ -67,22 +43,22 @@ to:
   vietnamese: đến
   spanish: a
   chinese: 至
-  example_english: I want to go now.
-  example_vietnamese: Tôi muốn đi ngay bây giờ.
-  example_spanish: Quiero ir ahora.
-  example_chinese: 现在我要走了。
+  example_english: to the moon
+  example_vietnamese: đến mặt trăng
+  example_spanish: a la Luna
+  example_chinese: 到月球
 it:
   english: it
   pos: fw
   frequency: 117091
   inflections: it
   vietnamese: nó
-  spanish: eso
+  spanish: la
   chinese: 它
-  example_english: What time is it?
-  example_vietnamese: Mấy giờ rồi?
-  example_spanish: "¿Qué hora es?"
-  example_chinese: 现在是几奌？
+  example_english: it's on the table
+  example_vietnamese: nó ở trên bàn
+  example_spanish: está en la mesa
+  example_chinese: 它在桌子上
 not:
   english: not
   pos: fw
@@ -90,7 +66,7 @@ not:
   inflections: not
   vietnamese: không phải
   spanish: 'no'
-  chinese: 不是
+  chinese: 不
   example_english: I cannot go
   example_vietnamese: Tôi không thể đi
   example_spanish: No puedo ir

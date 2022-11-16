@@ -2,13 +2,17 @@
 be:
   vietnamese: là
 you:
-  spanish: te
-  example_spanish: yo te amo.
-the:
-  vietnamese: cái
-  inflections: the
-  example_english: I will go to the airport.
+  spanish: tú
+  example_english: you can go
+  example_spanish: tú puedes ir
+to:
+  example_english: to the moon
+it:
+  spanish: la
+  example_english: it's on the table
+  example_spanish: está en la mesa
 not:
+  chinese: 不
   example_english: "I cannot go"
 penis:
   example_english: "Every man has a penis"
