@@ -7,6 +7,8 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
+      - name: List files
+        run: ls
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
