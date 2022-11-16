@@ -15,7 +15,7 @@ jobs:
           ruby-version: 2.7
           # runs 'bundle install' and caches installed gems automatically
           bundler-cache: true
-      - run: rspec spec
+      - run: bundle exec rspec spec
       - uses: actions/cache@v3
         with:
           key: "translation-and-audio"
