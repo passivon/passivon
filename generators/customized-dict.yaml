@@ -1,6 +1,9 @@
 ---
 be:
   vietnamese: là
+you:
+  spanish: te
+  example_spanish: yo te amo.
 the:
   vietnamese: cái
   inflections: the banana, the apple

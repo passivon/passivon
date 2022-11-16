@@ -211,9 +211,9 @@ class DictionaryUpdator
       "spanish" => customized_or_else(lemma, "spanish") { Translator.new(lemma).spanish },
       "chinese" => customized_or_else(lemma, "chinese") { Translator.new(lemma).chinese },
       "example_english" =>  example_english,
-      "example_vietnamese" => Translator.new(example_english).vietnamese,
-      "example_chinese" => Translator.new(example_english).chinese,
-      "example_spanish" => Translator.new(example_english).spanish
+      "example_vietnamese" => customized_or_else(lemma, "example_vietnamese") { Translator.new(example_english).vietnamese },
+      "example_spanish" => customized_or_else(lemma, "example_spanish") { Translator.new(example_english).spanish },
+      "example_chinese" => customized_or_else(lemma, "example_chinese") { Translator.new(example_english).chinese },
     }
   end
 
