@@ -29,7 +29,7 @@ class VoiceGenerator
     # GOOGLE_APPLICATION_CREDENTIALS
     # the google application need to have cloud speech api enabled
     puts "GENERATING VOICE FOR #{content}"
-    system "echo #{Shellwords.escape(content)} | tts #{Shellwords.escape(filename)} --language #{gcp_language} --service gcp --voice #{gcp_profile}"
+    system "echo #{Shellwords.escape(content)} | yarn run tts #{Shellwords.escape(filename)} --language #{gcp_language} --service gcp --voice #{gcp_profile}"
   end
 
   def perform
