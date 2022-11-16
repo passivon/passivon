@@ -6,6 +6,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-20.04
+    environment:
+      name: production
     env:
       SAMPLE_SECRET: ${{ secrets.SAMPLE_SECRET }}
     steps:
