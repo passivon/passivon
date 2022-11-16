@@ -7,19 +7,16 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
-      - name: List files
-        run: ls
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@v1
+      - run: ls
+      - uses: ruby/setup-ruby@v1
         with:
           # Not needed with a .ruby-version file
           ruby-version: 2.7
           # runs 'bundle install' and caches installed gems automatically
           bundler-cache: true
-      - name: Run rspec
-        run: rspec spec
-      - name: Cache translation and audio
-        uses: actions/cache@v3
+      - run: rspec spec
+      - uses: actions/cache@v3
         with:
           key: "translation-and-audio"
           path: |
