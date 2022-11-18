@@ -13,6 +13,7 @@ it:
   example_spanish: está en la mesa
 not:
   chinese: 不
+  vietnamese: "không"
   example_english: "I cannot go"
 penis:
   example_english: "Every man has a penis"
