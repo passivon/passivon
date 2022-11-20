@@ -36,16 +36,24 @@ csv_file_on_google_cloud_storage --> android_script --> bluetooth_speaker --> yo
    theo hướng dẫn trên mạng
 
 ## 2. Cài đặt
+
 2.1. Chuẩn bị 1 thiết bị android đã được root, cắm cáp nối với máy tính
+
 2.2. Cài đặt adb - tham khảo hướng dẫn trên google
+
 2.3. Đảm bảo rằng `abd shell` có thể chạy và kiểm soát thiết bị của bạn
+
 2.4. Download và cài termux
+
 ```
 curl -O -L https://github.com/passivon/passivon/raw/main/termux96.apk
 adb install -r termux96.apk
 ```
+
 2.5. Bật ứng dụng termux trên màn hình android
+
 2.6. Chạy lệnh sau trên termux:
+
 ```
   wget -qO- https://raw.githubusercontent.com/passivon/passivon/main/install.sh | bash
 ```
