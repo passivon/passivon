@@ -1,11 +1,11 @@
 # Ý tưởng lớn
-Để học giỏi tiếng Anh và các ngôn ngữ tiếng nước ngoài, bạn phải kết hợp nhiều phương pháp khác nhau. Nghiên cứu chỉ ra rằng phương pháp nghe thụ động hàng ngày có tác dụng kích thích não bộ của con người một cách hiệu quả, từ đó giúp bạn dễ dàng học được các ngôn ngữ. Passivon là một công cụ được xây dựng để "tắm" cả gia đình bạn với hơn 1000 từ, trong cả 4 ngôn ngữ tiếng Việt, tiếng Anh, tiếng Tây Ban Nha và tiếng Hoa phổ thông hàng ngày, giúp tạo tiền đề tốt để bạn dễ dàng học các ngôn ngữ này về sau. Khi được cài vào 1 chiếc điện thoại Android đã được root (chi phí đầu tư khoảng 2tr), kết nối với loa Bluetooth (chi phí đầu tư khoảng 500k), mỗi buổi sáng, ứng dụng sẽ hoạt động như 1 cái loa phát thanh nhắc đi nhắc lại 1 trong số 1000 từ thông dụng nhất trong cả 4 thứ tiếng kèm các câu ví dụ trong khoảng 1 giờ đồng hồ, khi bạn và các bạn nhỏ đang chuẩn bị cho ngày mới. Hoặc có thể là vào buổi tối. Phần mềm sẽ tự động chạy không cần con người phải can thiệp, do đó bạn chỉ cần cài đặt 1 lần duy nhất và cứ thế nhận lợi ích từ việc học ngôn ngữ thụ động hàng ngày.
+Để học giỏi tiếng Anh và các ngôn ngữ tiếng nước ngoài, cần phải kết hợp nhiều phương pháp khác nhau. Nghiên cứu chỉ ra rằng phương pháp nghe thụ động hàng ngày có tác dụng kích thích não bộ của trẻ em một cách hiệu quả, từ đó giúp các em dễ dàng học được các ngôn ngữ. Passivon là một công cụ được xây dựng để "tắm" các em với hơn 1000 từ, trong cả 4 ngôn ngữ tiếng Việt, tiếng Anh, tiếng Tây Ban Nha và tiếng Hoa phổ thông hàng ngày, giúp tạo tiền đề tốt để các em dễ dàng học các ngôn ngữ này về sau. Khi được cài vào 1 chiếc điện thoại Android đã được root (chi phí đầu tư khoảng 2tr), kết nối với loa Bluetooth (chi phí đầu tư khoảng 500k), mỗi buổi sáng, ứng dụng sẽ hoạt động như 1 cái loa phát thanh nhắc đi nhắc lại 1 trong số 1000 từ thông dụng nhất trong cả 4 thứ tiếng kèm các câu ví dụ trong khoảng 1 giờ đồng hồ từ 6:30 - 7:30, khi bạn và các bạn nhỏ đang chuẩn bị cho ngày mới. Phần mềm sẽ tự động chạy không cần con người phải can thiệp, do đó bạn chỉ cần cài đặt 1 lần duy nhất và cứ thế nhận lợi ích từ việc học ngôn ngữ thụ động hàng ngày.
 
 # Lộ trình kĩ thuật
 ## Giai đoạn 1 - giai đoạn hiện tại
 Giai đoạn này bạn cần phải sử dụng một chiếc Android đã được root (có thể mua Note9 rồi nhờ cửa hàng điện thoại root giùm), sau đó kết nối thêm với loa Bluetooth để cho âm thanh đủ to. Chú ý bạn phải cắm điện liên tục cho điện thoại và loa.
 
-## Giai đoạn 2 - dự kiến bắt đầu vào Q2 2023
+## Giai đoạn 2 - dự kiến bắt đầu vào Q4 2025
 Giai đoạn này chúng tôi sẽ thay đổi phần mềm để nó chạy không cần root, hoạt động cho cả iPhone lẫn Android
 
 # Lộ trình nội dung
