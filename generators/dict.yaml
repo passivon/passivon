@@ -91,10 +91,10 @@ do:
   vietnamese: làm
   spanish: hacer
   chinese: 做
-  example_english: to do a puzzle
-  example_vietnamese: để làm một câu đố
-  example_spanish: hacer un rompecabezas
-  example_chinese: 做拼图
+  example_english: What can I do for you?
+  example_vietnamese: Tôi có thể làm gì cho bạn?
+  example_spanish: "¿Qué puedo hacer por ti?"
+  example_chinese: 我能为你做什么？
 have:
   english: have
   pos: v
