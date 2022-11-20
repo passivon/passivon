@@ -31,6 +31,7 @@ csv_file_on_google_cloud_storage --> android_script --> bluetooth_speaker --> yo
    [suachuaphanmem.vn](https://suachuaphanmem.vn/shop/dich-vu-up-rom-android/)
    để được tư vấn hoặc tìm kiếm trên google với từ khoá "chuyên root
    android"
+
 1.2. Root chiếc điện thoại của bạn - nhờ cửa hàng điện thoại hoặc tự làm
    theo hướng dẫn trên mạng
 
