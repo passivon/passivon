@@ -115,10 +115,10 @@ what:
   vietnamese: Gì
   spanish: qué
   chinese: 什么
-  example_english: What nonsense!
-  example_vietnamese: Thật là vớ vẩn!
-  example_spanish: "¡Qué absurdo!"
-  example_chinese: 胡说些什么！
+  example_english: What is it?
+  example_vietnamese: Nó là gì?
+  example_spanish: "¿Qué es?"
+  example_chinese: 它是什么？
 we:
   english: we
   pos: fw
@@ -129,7 +129,7 @@ we:
   chinese: 我们
   example_english: We live on planet earth.
   example_vietnamese: Chúng ta sống trên hành tinh trái đất.
-  example_spanish: Vivimos en el planeta tierra.
+  example_spanish: Nosotros vivimos en el planeta tierra
   example_chinese: 我们生活在地球上。
 get:
   english: get

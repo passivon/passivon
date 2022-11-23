@@ -5,7 +5,7 @@ class AudioUploader
     Dir.chdir(__dir__) do
       system "gcloud alpha storage cp -n -r audio gs://passivon"
       system "gcloud alpha storage cp audio/index.csv gs://passivon/audio/"
-      system %{gsutil setmeta -h "Cache-Control:public, max-age=300" gs://passivon/audio/index.csv}
+      system %{gsutil setmeta -h "Cache-Control:public, max-age=60" gs://passivon/audio/index.csv}
     end
   end
 end
