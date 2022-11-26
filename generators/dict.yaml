@@ -149,12 +149,12 @@ this:
   frequency: 56116
   inflections: this, these
   vietnamese: đây
-  spanish: este
-  chinese: 这个
-  example_english: Harry, this is Joan.
-  example_vietnamese: Harry, đây là Joan.
-  example_spanish: Harry, esta es Joan.
-  example_chinese: 哈利，这是琼。
+  spanish: esta
+  chinese: 这
+  example_english: This is Joan
+  example_vietnamese: Đây là Joan
+  example_spanish: esta es joan
+  example_chinese: 这是琼
 my:
   english: my
   pos: fw

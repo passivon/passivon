@@ -29,3 +29,7 @@ what:
   example_english: "What is it?"
 we:
   example_spanish: Nosotros vivimos en el planeta tierra
+this:
+  spanish: esta
+  example_english: This is Joan
+  chinese: 这
