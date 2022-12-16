@@ -9,7 +9,7 @@ require "shellwords"
 class AutoUpdater
   # IMPORTANT: Bump this version to make client automatically download the new version
   # TODO: Setup github build process and raise error when the file is changed without version bump
-  BROADCAST_VERSION = 53
+  BROADCAST_VERSION = 60
   AUTO_UPDATE_INTERVAL = RUBY_PLATFORM.include?("darwin") ? 3 : 300
   URL = "https://raw.githubusercontent.com/passivon/passivon/main/broadcast-daily"
 
@@ -350,7 +350,7 @@ class MasterPlayer
     File.expand_path("./rnd-#{rand(10000)}.csv", cached_folder)
   end
 
-  INDEX_URL = "https://storage.googleapis.com/passivon/audio/index.csv?avoidCache=1"
+  INDEX_URL = "https://storage.googleapis.com/passivon/audio/vocabulary_index.csv"
 
   def index_url
     INDEX_URL
