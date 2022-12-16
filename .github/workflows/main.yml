@@ -32,12 +32,12 @@ jobs:
         with:
           credentials_json: ${{ secrets.GOOGLE_CREDENTIALS }}
           create_credentials_file: true
-      - run: bundle exec ./generators/dictionary-update
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: 'yarn'
-      - run: yarn install --frozen-lockfile
-      - uses: FedericoCarboni/setup-ffmpeg@v1
-      - run: bundle exec ./generators/audio-update
-      - run: bundle exec ./generators/audio-upload
+      # - run: bundle exec ./generators/dictionary-update
+      # - uses: actions/setup-node@v3
+      #   with:
+      #     node-version: 16
+      #     cache: 'yarn'
+      # - run: yarn install --frozen-lockfile
+      # - uses: FedericoCarboni/setup-ffmpeg@v1
+      # - run: bundle exec ./generators/audio-update
+      # - run: bundle exec ./generators/audio-upload
