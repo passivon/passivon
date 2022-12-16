@@ -335,18 +335,6 @@ want:
   example_vietnamese: Mong muốn của chúng tôi rất ít.
   example_spanish: Nuestros deseos son pocos.
   example_chinese: 我们的需求很少。
-about:
-  english: about
-  pos: fw
-  frequency: 23244
-  inflections: about
-  vietnamese: Về
-  spanish: sobre
-  chinese: 关于
-  example_english: Is John about ?
-  example_vietnamese: John có về không?
-  example_spanish: "¿Está Juan cerca?"
-  example_chinese: 约翰在吗？
 good:
   english: good
   pos: j
@@ -1007,18 +995,6 @@ too:
   example_vietnamese: Tôi quá mập.
   example_spanish: Estoy demasiado gordo.
   example_chinese: 我太胖了。
-by:
-  english: by
-  pos: fw
-  frequency: 8133
-  inflections: by
-  vietnamese: qua
-  spanish: por
-  chinese: 经过
-  example_english: The years flew by.
-  example_vietnamese: Năm tháng trôi qua.
-  example_spanish: Los años pasaron volando.
-  example_chinese: 岁月飞逝。
 sorry:
   english: sorry
   pos: u
@@ -1151,18 +1127,6 @@ very:
   example_vietnamese: Cảm ơn rất nhiều.
   example_spanish: Muchísimas gracias.
   example_chinese: 非常感谢。
-'off':
-  english: 'off'
-  pos: fw
-  frequency: 6967
-  inflections: 'off'
-  vietnamese: tắt
-  spanish: apagado
-  chinese: 离开
-  example_english: Get off me!
-  example_vietnamese: Bỏ tôi ra!
-  example_spanish: "¡Quítate de encima de mí!"
-  example_chinese: 放开我！
 work:
   english: work
   pos: n
@@ -6542,6 +6506,18 @@ join:
   example_vietnamese: Tôi đã quyết định tham gia một phòng tập thể dục.
   example_spanish: He decidido apuntarme a un gimnasio.
   example_chinese: 我决定加入健身房。
+goodbye:
+  english: goodbye
+  pos: u
+  frequency: 806
+  inflections: goodbye
+  vietnamese: Tạm biệt
+  spanish: adiós
+  chinese: 再见
+  example_english: We said our goodbyes, and left.
+  example_vietnamese: Chúng tôi nói lời tạm biệt và rời đi.
+  example_spanish: Nos despedimos y nos fuimos.
+  example_chinese: 我们说了再见，就离开了。
 ruin:
   english: ruin
   pos: v
@@ -11081,27 +11057,3 @@ appear:
   example_vietnamese: Có vẻ như có một số nhầm lẫn.
   example_spanish: Parece que hay algún error.
   example_chinese: 似乎有什么错误。
-ha:
-  english: ha
-  pos: u
-  frequency: 1401
-  inflections: ha, hah
-  vietnamese: ha
-  spanish: decir ah
-  chinese: 哈
-  example_english: Ha! So I am right after all!
-  example_vietnamese: Ha! Vì vậy, tôi đúng sau tất cả!
-  example_spanish: "¡Decir ah! ¡Así que tengo razón después de todo!"
-  example_chinese: 哈！所以我终究是对的！
-goodbye:
-  english: goodbye
-  pos: u
-  frequency: 806
-  inflections: goodbye
-  vietnamese: Tạm biệt
-  spanish: adiós
-  chinese: 再见
-  example_english: We said our goodbyes, and left.
-  example_vietnamese: Chúng tôi nói lời tạm biệt và rời đi.
-  example_spanish: Nos despedimos y nos fuimos.
-  example_chinese: 我们说了再见，就离开了。

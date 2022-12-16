@@ -146,19 +146,11 @@ end
 
 class DictionaryUpdator
   def dict
-    @dict ||= load_dict
+    @dict ||= {}
   end
 
   def dict_filename
     File.expand_path("./dict.yaml", __dir__)
-  end
-
-  def load_dict
-    if File.exists?(dict_filename)
-      File.open(dict_filename, "r") { |f| YAML::load f }
-    else
-      {}
-    end
   end
 
   def top1000_filename
