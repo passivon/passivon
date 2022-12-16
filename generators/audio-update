@@ -140,7 +140,7 @@ class AudioUpdator
   end
 
   def audio_csv_filename
-    File.expand_path("audio/index.csv", __dir__)
+    File.expand_path("audio/vocabulary_index.csv", __dir__)
   end
 end
 
